@@ -26,7 +26,6 @@ export default defineAppConfig({
       key: 1,
       name: '青少年模式弹窗',
       quickFind: true,
-      matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
       rules: [
@@ -59,6 +58,22 @@ export default defineAppConfig({
           matches:
             '[id="cn.soulapp.android:id/score_message"] +3 [id="cn.soulapp.android:id/cancel"]',
           snapshotUrls: 'https://i.gkd.li/import/13425057',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: '版本更新',
+      quickFind: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      activityIds: ['cn.soulapp.android.component.startup.main.MainActivity'],
+      rules: [
+        {
+          matches:
+            '@[id="cn.soulapp.android:id/img_close"] -2 RelativeLayout > [text="升级到最新版本"]',
+          snapshotUrls: 'https://i.gkd.li/import/13693361',
         },
       ],
     },

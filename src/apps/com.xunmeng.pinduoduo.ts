@@ -5,13 +5,6 @@ export default defineAppConfig({
   name: '拼多多',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      activityIds: ['com.xunmeng.pinduoduo.ui.activity.MainFrameActivity'],
-      rules: ['RelativeLayout > TextView[id!=null][text^="跳过"]'],
-      snapshotUrls: ['https://i.gkd.li/import/12799632'],
-    },
-    {
       key: 1,
       name: '更新弹窗',
       rules: [
@@ -33,22 +26,30 @@ export default defineAppConfig({
     {
       key: 2,
       name: '首页优惠弹窗',
-      activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
-      matchLauncher: true,
       rules: [
         {
           key: 0,
           name: '首页优惠弹窗1',
+          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches:
-            'FrameLayout > FrameLayout > RelativeLayout > @ImageView[id="com.xunmeng.pinduoduo:id/pdd"][text=null][clickable=true] + ImageView[id="com.xunmeng.pinduoduo:id/pdd"][text=null][clickable=true]',
+            'FrameLayout > FrameLayout > RelativeLayout[childCount=2] > @ImageView[id!=null][clickable=true][visibleToUser=true] + ImageView',
           snapshotUrls: 'https://i.gkd.li/import/12642015',
         },
         {
           key: 1,
           name: '首页优惠弹窗2',
+          activityIds: [], // 暂时用[]，后续补充activityIds
           matches:
             'View[id=null] > TextView + View > View +(4) View[clickable=true] > Image[id=null]',
           snapshotUrls: 'https://i.gkd.li/import/12642019',
+        },
+        {
+          key: 2,
+          name: '首页优惠弹窗3',
+          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
+          matches:
+            '@ImageView < ViewGroup[clickable=true][visibleToUser=true] < ViewGroup + ViewGroup >n [text="开心收下"]',
+          snapshotUrls: 'https://i.gkd.li/import/13761182',
         },
       ],
     },
@@ -134,8 +135,12 @@ export default defineAppConfig({
       activityIds: ['com.xunmeng.pinduoduo.ui.activity.HomeActivity'],
       rules: [
         '@ImageView[id=null] < ViewGroup < ViewGroup +(2) ViewGroup >(n) [text^="每日签到"]',
+        'ViewGroup[childCount=5] > @ViewGroup[index=0][clickable=true] +3 ViewGroup >2 [text="分享现金红包至拼小圈"]',
       ],
-      snapshotUrls: ['https://i.gkd.li/import/12700615'],
+      snapshotUrls: [
+        'https://i.gkd.li/import/12700615',
+        'https://i.gkd.li/import/13804657', //规则2
+      ],
     },
     {
       enable: false,
@@ -152,7 +157,7 @@ export default defineAppConfig({
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
-      matchLauncher: true,
+
       activityIds: ['com.xunmeng.pinduoduo.ui.activity.HomeActivity'],
       rules: [
         {
@@ -181,12 +186,21 @@ export default defineAppConfig({
       name: '多多视频-划到广告自动跳过',
       desc: '点击返回自动刷新，从而跳过广告',
       quickFind: true,
+      activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
       rules: [
         {
-          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
-          matches:
-            '@ImageView[desc="返回"] -3 ViewPager >19 TextView[text="正在直播"]',
+          matches: [
+            'TextView[text="正在直播"]',
+            '@ImageView[desc="返回"] <4 ViewGroup <<3 FrameLayout[id="android:id/content"]',
+          ],
           snapshotUrls: 'https://i.gkd.li/import/13446291',
+        },
+        {
+          matches: [
+            'TextView[text="查看更多低价商品"]',
+            '@ImageView[desc="返回"] <4 ViewGroup <<3 FrameLayout[id="android:id/content"]',
+          ],
+          snapshotUrls: 'https://i.gkd.li/import/13791119',
         },
       ],
     },

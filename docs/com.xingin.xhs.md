@@ -1,11 +1,6 @@
 # 小红书
 
-存在 4 规则组 - [com.xingin.xhs](/src/apps/com.xingin.xhs.ts)
-
-## 开屏广告
-
-- [快照-0](https://i.gkd.li/import/12739065)
-- [快照-1](https://i.gkd.li/import/13197784)
+存在 3 规则组 - [com.xingin.xhs](/src/apps/com.xingin.xhs.ts)
 
 ## 通知权限弹窗
 
@@ -22,6 +17,7 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13246890)
+- [快照-1](https://i.gkd.li/import/13741680)
 
 ## 信息流广告
 

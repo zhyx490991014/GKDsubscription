@@ -11,14 +11,18 @@ export default defineAppConfig({
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
+      actionCdKey: 0,
+      actionMaximumKey: 0,
       excludeActivityIds: [
-        'com.coolapk.market.view.search.',
-        'com.coolapk.market.view.feed.',
+        'com.coolapk.market.view.search.', // 在搜索页面禁用
+        'com.coolapk.market.view.feed.', // 在动态页面禁用
       ],
       rules: [
         {
+          quickFind: true,
           key: 0,
-          matches: '[id$="tt_splash_skip_btn"]',
+          matches:
+            '[id$="tt_splash_skip_btn"] <<n [id="com.coolapk.market:id/ad_container"]',
           snapshotUrls: [
             'https://i.gkd.li/import/12503773',
             'https://i.gkd.li/import/13247610',
@@ -36,6 +40,16 @@ export default defineAppConfig({
             'https://i.gkd.li/import/13247733', // 误触
             'https://i.gkd.li/import/13247782', // 可能误触
             'https://i.gkd.li/import/13296816', // snapshot of excludeMatches
+          ],
+        },
+        {
+          key: 2,
+          quickFind: true,
+          matches:
+            '@View[clickable=true] <(2,3) FrameLayout <2 FrameLayout <<n FrameLayout[id="com.coolapk.market:id/ad_container"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/13826359',
+            'https://i.gkd.li/import/13827095',
           ],
         },
       ],
@@ -82,14 +96,13 @@ export default defineAppConfig({
           preKeys: [1, 2],
           key: 3,
           name: '选择关闭原因-点击不感兴趣',
-          matches: [
-            '@LinearLayout[clickable=true] > TextView[text="不感兴趣"][id$="id/tt_item_tv"]',
-          ],
+          matches: ['@LinearLayout > TextView[text="不感兴趣"]'],
           snapshotUrls: [
             'https://i.gkd.li/import/12472633',
             'https://i.gkd.li/import/12655713',
             'https://i.gkd.li/import/12660759',
             'https://i.gkd.li/import/12706437',
+            'https://i.gkd.li/import/13786886', // 没有id
           ],
         },
       ],

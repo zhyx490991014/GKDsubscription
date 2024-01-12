@@ -5,23 +5,6 @@ export default defineAppConfig({
   name: '大学搜题酱',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      excludeActivityIds:
-        'com.zmzx.college.search.activity.login.activity.LoginActivity',
-      rules: ['TextView[text^="跳过"][text.length<=3]'],
-      snapshotUrls: [
-        'https://i.gkd.li/import/12867875',
-        'https://i.gkd.li/import/12867970',
-        'https://i.gkd.li/import/12881929',
-        'https://i.gkd.li/import/13561976', //登录误触
-      ],
-    },
-    {
       enable: false,
       key: 1,
       name: '首页-推送通知',
@@ -38,7 +21,7 @@ export default defineAppConfig({
       key: 2,
       name: '弹窗广告',
       desc: '会出现在搜题页面与我的页面',
-      matchLauncher: true,
+
       activityIds: [
         'com.zmzx.college.search.activity.main.activity.MainActivity',
         'com.zmzx.college.search.activity.questionsearch.camera.activity.PicSearchResultActivity',
@@ -52,7 +35,7 @@ export default defineAppConfig({
           snapshotUrls: [
             'https://i.gkd.li/import/12867751',
             'https://i.gkd.li/import/12894813',
-            'https://i.gkd.li/import/13345633', // matchLauncher: true,
+            'https://i.gkd.li/import/13345633', //
           ],
         },
         {
@@ -105,14 +88,14 @@ export default defineAppConfig({
       key: 4,
       name: '教材-底部广告',
       quickFind: true,
-      matchLauncher: true,
+
       activityIds: [
         'com.zmzx.college.search.activity.booksearch.result.activity.SearchScanCodeResultDxActivity',
       ],
       rules: '[id="com.zmzx.college.search:id/close"]',
       snapshotUrls: [
         'https://i.gkd.li/import/13063381',
-        'https://i.gkd.li/import/13346621', // matchLauncher: true,
+        'https://i.gkd.li/import/13346621', //
       ],
     },
     {

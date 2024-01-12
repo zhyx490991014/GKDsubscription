@@ -3,22 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.douban.frodo',
   name: '豆瓣',
-  deprecatedKeys: [7],
+  deprecatedKeys: [0, 7],
   groups: [
-    {
-      key: 0,
-      name: '开屏广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: '[text*="跳过"][text.length<=10]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12505151',
-        'https://i.gkd.li/import/12505152',
-        'https://i.gkd.li/import/12506164',
-      ],
-    },
     {
       enable: false,
       key: 1,
@@ -119,7 +105,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      cd: 10000,
+      actionCd: 10000,
       name: '卡片广告',
       desc: '书影音-卡片广告-点击卡片右下角"广告"文字',
       // 豆瓣在屏幕之外渲染了大量节点, 在节点肉眼不可见但是无障碍可见的情况下, 仍然会触发大量点击
@@ -156,7 +142,8 @@ export default defineAppConfig({
     },
     {
       key: 8,
-      name: '帖子内容与评论区中间的卡片式广告',
+      name: '搜索页/帖子内容与评论区中间的卡片式广告',
+      desc: '部分有二次弹窗',
       actionMaximum: 1,
       resetMatch: 'activity',
       rules: [
@@ -184,12 +171,14 @@ export default defineAppConfig({
             'com.douban.frodo.subject.activity.ForumTopicActivity',
             'com.douban.frodo.group.activity.GroupTopicActivity',
             'com.douban.frodo.activity.SplashActivity',
+            'com.douban.frodo.search.activity.NewSearchActivity', // 搜索页
           ],
           snapshotUrls: [
             'https://i.gkd.li/import/12548064',
             'https://i.gkd.li/import/12548450',
             'https://i.gkd.li/import/12723751',
             'https://i.gkd.li/import/13062693',
+            'https://i.gkd.li/import/13692895', // activityIds: 'com.douban.frodo.search.activity.NewSearchActivity'
           ],
         },
         {
@@ -219,7 +208,7 @@ export default defineAppConfig({
       key: 10, // 已包含key13内容
       name: '弹窗广告',
       desc: '浏览详情时弹窗广告,点击右上角x',
-      matchLauncher: true,
+
       rules: [
         {
           key: 0,

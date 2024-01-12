@@ -17,8 +17,14 @@ export default defineAppConfig({
           snapshotUrls: ['https://i.gkd.li/import/12673680'],
         },
         {
+          quickFind: true,
+          matches:
+            '@View <3 FrameLayout <2 FrameLayout < FrameLayout < [vid="fl_third_ad"]',
+          snapshotUrls: 'https://i.gkd.li/import/13826577',
+        },
+        {
           // 无法使用 quickFind
-          matches: '[id="com.byted.pangle.m:id/tt_splash_skip_btn"]',
+          matches: '[id$="tt_splash_skip_btn"]',
           snapshotUrls: 'https://i.gkd.li/import/13224627',
         },
       ],

@@ -12,6 +12,8 @@
 - [快照-5](https://i.gkd.li/import/13247733)
 - [快照-6](https://i.gkd.li/import/13247782)
 - [快照-7](https://i.gkd.li/import/13296816)
+- [快照-8](https://i.gkd.li/import/13826359)
+- [快照-9](https://i.gkd.li/import/13827095)
 
 ## 卡片广告
 
@@ -30,6 +32,7 @@
 - [快照-10](https://i.gkd.li/import/12655713)
 - [快照-11](https://i.gkd.li/import/12660759)
 - [快照-12](https://i.gkd.li/import/12706437)
+- [快照-13](https://i.gkd.li/import/13786886)
 
 ## 关闭升级弹窗
 

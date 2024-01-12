@@ -5,14 +5,16 @@ export default defineAppConfig({
   name: '财联社',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
+      key: 1,
+      name: '首页-弹窗广告',
       matchTime: 10000,
-      quickFind: true,
-      resetMatch: 'app',
       actionMaximum: 1,
-      rules: '[id="com.lanjinger.choiassociatedpress:id/iv_skip"]',
-      snapshotUrls: 'https://i.gkd.li/import/13627807',
+      resetMatch: 'app',
+      enable: false,
+      quickFind: true,
+      activityIds: 'com.lanjinger.choiassociatedpress.main.OperateActivity',
+      rules: '@ImageView[id$="iv_back"][clickable=true]',
+      snapshotUrls: 'https://i.gkd.li/import/13749206',
     },
   ],
 });

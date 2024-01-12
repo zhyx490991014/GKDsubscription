@@ -1,26 +1,9 @@
-import { machine } from 'os';
 import { defineAppConfig } from '../types';
 
 export default defineAppConfig({
   id: 'io.iftech.android.box',
   name: '小组件盒子',
   groups: [
-    {
-      key: 0,
-      name: '开屏广告',
-      activityIds: 'io.iftech.android.box.main.SplashActivity',
-      rules: [
-        {
-          matches:
-            '[id="io.iftech.android.box:id/anythink_myoffer_splash_skip"]',
-          snapshotUrls: 'https://i.gkd.li/import/12706213',
-        },
-        {
-          matches: '@[text="跳过"] +(5) ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/12706219',
-        },
-      ],
-    },
     {
       key: 1,
       name: '更新弹窗',

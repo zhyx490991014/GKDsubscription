@@ -2,10 +2,6 @@
 
 存在 7 规则组 - [com.ss.android.auto](/src/apps/com.ss.android.auto.ts)
 
-## 开屏广告
-
-- [快照-0](https://i.gkd.li/import/12605327)
-
 ## 首页推荐卡片广告
 
 默认禁用 - 需二次点击关闭原因
@@ -48,3 +44,9 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12840664)
+
+## 选车页卡片广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13686928)

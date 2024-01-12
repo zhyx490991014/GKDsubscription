@@ -5,13 +5,6 @@ export default defineAppConfig({
   name: 'tita搜索',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      activityIds: 'so.tita.view.activity.GActivity',
-      rules: '@[text^="跳过"] < LinearLayout +n ImageView',
-      snapshotUrls: 'https://i.gkd.li/import/12800319',
-    },
-    {
       key: 1,
       name: '应用内第三方 SDK 广告',
       rules: [
@@ -33,7 +26,7 @@ export default defineAppConfig({
             '[id="so.tita:id/flyt_native"] >n LinearLayout > FrameLayout + LinearLayout + FrameLayout[visibleToUser=true]',
             '[id="so.tita:id/flyt_native"] >n FrameLayout > ImageView +n FrameLayout > ImageView[visibleToUser=true]',
           ],
-          delay: 1000,
+          actionDelay: 1000,
           snapshotUrls: [
             'https://i.gkd.li/import/12800504', // so.tita.view.activity.HomeActivity
             'https://i.gkd.li/import/12800437', // so.tita.view.activity.EpisodeActivity

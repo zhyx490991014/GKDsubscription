@@ -3,23 +3,13 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.cmbchina.ccd.pluto.cmbActivity',
   name: '掌上生活',
+  deprecatedKeys: [0],
   groups: [
-    {
-      key: 0,
-      name: '开屏广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules:
-        '[id="com.cmbchina.ccd.pluto.cmbActivity:id/tv_skip_timer"][text^="跳过"]',
-      snapshotUrls: ['https://i.gkd.li/import/12647186'],
-    },
     {
       key: 1,
       name: '版本更新',
       quickFind: true,
-      matchLauncher: true,
+
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -32,7 +22,7 @@ export default defineAppConfig({
       snapshotUrls: [
         'https://i.gkd.li/import/12647025',
         'https://i.gkd.li/import/12727203',
-        'https://i.gkd.li/import/13345771', // matchLauncher: true,
+        'https://i.gkd.li/import/13345771', //
       ],
     },
     {

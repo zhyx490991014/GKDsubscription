@@ -1,10 +1,6 @@
 # 翼支付
 
-存在 5 规则组 - [com.chinatelecom.bestpayclient](/src/apps/com.chinatelecom.bestpayclient.ts)
-
-## 开屏广告
-
-- [快照-0](https://i.gkd.li/import/13197640)
+存在 4 规则组 - [com.chinatelecom.bestpayclient](/src/apps/com.chinatelecom.bestpayclient.ts)
 
 ## 版本更新
 
@@ -12,7 +8,7 @@
 
 - [快照-0](https://i.gkd.li/import/13391544)
 
-## 广告弹窗
+## 弹窗广告
 
 默认禁用
 
@@ -20,6 +16,8 @@
 - [快照-1](https://i.gkd.li/import/13455790)
 - [快照-2](https://i.gkd.li/import/13626324)
 - [快照-3](https://i.gkd.li/import/13455929)
+- [快照-4](https://i.gkd.li/import/13696322)
+- [快照-5](https://i.gkd.li/import/13696323)
 
 ## 悬浮窗小广告
 

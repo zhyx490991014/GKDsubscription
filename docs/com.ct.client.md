@@ -1,11 +1,6 @@
 # 中国电信
 
-存在 6 规则组 - [com.ct.client](/src/apps/com.ct.client.ts)
-
-## 开屏广告
-
-- [快照-0](https://i.gkd.li/import/12508958)
-- [快照-1](https://i.gkd.li/import/12819736)
+存在 5 规则组 - [com.ct.client](/src/apps/com.ct.client.ts)
 
 ## 用户引导
 
@@ -13,12 +8,13 @@
 
 - [快照-0](https://i.gkd.li/import/12508971)
 
-## 首页-取消升级
+## 更新弹窗
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12819594)
 - [快照-1](https://i.gkd.li/import/13316168)
+- [快照-2](https://i.gkd.li/import/13695096)
 
 ## 浮窗广告
 

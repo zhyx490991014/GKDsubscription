@@ -5,13 +5,6 @@ export default defineAppConfig({
   name: 'i茅台',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      activityIds: 'com.moutai.mall.module.splash.SplashActivity',
-      rules: '[id="com.moutai.mall:id/tvSkip"]',
-      snapshotUrls: 'https://i.gkd.li/import/12745150',
-    },
-    {
       key: 1,
       name: '首页广告弹窗',
       activityIds: [

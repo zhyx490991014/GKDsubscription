@@ -7,7 +7,9 @@ export default defineAppConfig({
     {
       key: 1,
       name: '开屏广告',
-      activityIds: ['com.zgnet.eClass.ui.SplashActivity'],
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
       rules: [
         {
           matches: 'TextView[id$="tv_close_time"&&text^="关闭"]',

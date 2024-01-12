@@ -3,29 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.ct.client',
   name: '中国电信',
+  deprecatedKeys: [0],
   groups: [
-    {
-      key: 0,
-      name: '开屏广告',
-      matchLauncher: true,
-      quickFind: true,
-      activityIds: [
-        'com.ct.client.activity.MainActivity',
-        'com.ct.client.activity.SplashActivity',
-      ],
-      rules: [
-        {
-          matches: '[id="com.ct.client:id/tvSkip"]',
-        },
-        {
-          matches: '[id="com.ct.client:id/btSkip"]',
-          snapshotUrls: [
-            'https://i.gkd.li/import/12508958',
-            'https://i.gkd.li/import/12819736',
-          ],
-        },
-      ],
-    },
     {
       key: 1,
       name: '用户引导',
@@ -37,18 +16,15 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页-取消升级',
-      enable: false,
+      name: '更新弹窗',
+      actionMaximum: 1,
+      resetMatch: 'app',
       quickFind: true,
-      activityIds: [
-        'com.ct.client.activity.MainActivity',
-        'com.ct.client.common.ConfirmDialogActivity',
-        'com.ct.client.activity.SplashActivity',
-      ],
-      rules: 'LinearLayout > TextView[text="取消升级"]',
+      rules: 'LinearLayout > [text="取消升级"]',
       snapshotUrls: [
         'https://i.gkd.li/import/12819594',
         'https://i.gkd.li/import/13316168',
+        'https://i.gkd.li/import/13695096',
       ],
     },
     {

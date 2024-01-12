@@ -5,19 +5,6 @@ export default defineAppConfig({
   name: '游民星空',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: '[text^="跳过"][text.length<=10]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12848922',
-        'https://i.gkd.li/import/13038181',
-      ],
-    },
-    {
       key: 1,
       name: '卡片式广告',
       rules: [
@@ -44,8 +31,18 @@ export default defineAppConfig({
           key: 2,
           activityIds:
             'com.gamersky.common.activity.LibDetailContentDetailActivity',
-          matches: 'View[childCount=2] > [text="广告"] + View',
+          matches: 'View[childCount=2] > [text="广告"] + View[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/import/13635579',
+        },
+        {
+          key: 3,
+          name: '评论区卡片广告',
+          activityIds:
+            'com.gamersky.common.activity.LibDetailContentDetailActivity',
+          quickFind: true,
+          matches:
+            '@[id="com.gamersky:id/close"][clickable=true][visibleToUser=true] - * > [id="com.gamersky:id/badge"]',
+          snapshotUrls: 'https://i.gkd.li/import/13759484',
         },
       ],
     },

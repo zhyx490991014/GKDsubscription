@@ -5,26 +5,6 @@ export default defineAppConfig({
   name: '今日头条',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: [
-        {
-          matches: '[text*="跳过"][text.length<=10]',
-          snapshotUrls: [
-            'https://i.gkd.li/import/12684954',
-            'https://i.gkd.li/import/12754759',
-            'https://i.gkd.li/import/12840189',
-            'https://i.gkd.li/import/13174224',
-            'https://i.gkd.li/import/13402688',
-          ],
-        },
-      ],
-    },
-    {
       key: 1,
       name: '更新弹窗',
       actionMaximum: 1,
@@ -39,18 +19,22 @@ export default defineAppConfig({
     {
       key: 2,
       name: '浮窗广告',
-      quickFind: true,
-      activityIds: ['com.ss.android.article.news.activity.MainActivity'],
       rules: [
         {
+          key: 0,
+          name: '首页-浮窗广告',
+          activityIds: 'com.ss.android.article.news.activity.MainActivity',
           matches:
-            '@ImageView < FrameLayout[childCount=2] < FrameLayout < FrameLayout <2 FrameLayout <4 [id="android:id/tabhost"]',
-          snapshotUrls: ['https://i.gkd.li/import/13262675'],
+            'FrameLayout > FrameLayout > FrameLayout[childCount=2] > @ImageView + ImageView[clickable=true][visibleToUser=true]',
+          snapshotUrls: 'https://i.gkd.li/import/13762123',
         },
         {
+          key: 1,
+          name: '视频页-浮窗广告',
+          activityIds: 'com.ss.android.ugc.detail.activity.TikTokActivity',
           matches:
-            '@ImageView <2 FrameLayout < FrameLayout  < FrameLayout  <5 RelativeLayout < LinearLayout <2 ViewPager <2 FrameLayout < FrameLayout <3 [id="android:id/tabhost"]',
-          snapshotUrls: ['https://i.gkd.li/import/13274622'],
+            'FrameLayout > FrameLayout > FrameLayout[childCount=2] > ImageView + ImageView[clickable=true][visibleToUser=true]',
+          snapshotUrls: 'https://i.gkd.li/import/13761236',
         },
       ],
     },
@@ -127,16 +111,15 @@ export default defineAppConfig({
       key: 12,
       name: '信息流广告',
       desc: '点击右上角x按钮,点击不感兴趣',
-      activityIds: [
-        'com.bytedance.ugc.innerfeed.impl.PostInnerFeedActivity',
-        'com.ss.android.article.news.activity.MainActivity',
-      ],
       rules: [
         {
           name: '点击右上角x按钮',
           key: 0,
-          matches:
-            '[text^="广告"|| text$="广告" ||text^="来自"] <n FrameLayout > UIView[text^="不感兴趣"]',
+          activityIds: [
+            'com.ss.android.article.news.activity.MainActivity',
+            'com.bytedance.ugc.innerfeed.impl.PostInnerFeedActivity',
+          ],
+          matches: 'UIView[text^="不感兴趣"][visibleToUser=true]',
           action: 'clickCenter',
           snapshotUrls: [
             'https://i.gkd.li/import/12733098',
@@ -144,6 +127,7 @@ export default defineAppConfig({
             'https://i.gkd.li/import/12836272',
             'https://i.gkd.li/import/12840162',
             'https://i.gkd.li/import/13093576',
+            'https://i.gkd.li/import/12733098',
           ],
           exampleUrls: [
             'https://user-images.githubusercontent.com/44717382/273436460-cf007525-81ce-418b-ac05-3bfd75a627fe.gif', //这是 https://i.gkd.li/import/12840162
@@ -152,6 +136,11 @@ export default defineAppConfig({
         {
           name: '点击不感兴趣',
           preKeys: 0,
+          key: 1,
+          activityIds: [
+            'com.ss.android.article.news.activity.MainActivity',
+            'com.bytedance.ugc.innerfeed.impl.PostInnerFeedActivity',
+          ],
           matches:
             '@ViewGroup[clickable=true] > ImageView + TextView[text="不感兴趣"]',
           action: 'clickCenter',

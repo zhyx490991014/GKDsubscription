@@ -3,19 +3,14 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import type PkgT from '../package.json';
 import { parseSelector } from './selector';
-import type {
-  AppConfig,
-  GroupConfig,
-  IArray,
-  SubscriptionConfig,
-} from './types';
+import type { RawApp, RawAppGroup, IArray, RawSubscription } from './types';
 import JSON5 from 'json5';
 
 const iArrayToArray = <T>(array: IArray<T> = []): T[] => {
   return Array<T>().concat(array);
 };
 
-const sortKeys: (keyof SubscriptionConfig)[] = [
+const sortKeys: (keyof RawSubscription)[] = [
   'id',
   'name',
   'version',
@@ -23,6 +18,8 @@ const sortKeys: (keyof SubscriptionConfig)[] = [
   'supportUri',
   'updateUrl',
   'checkUpdateUrl',
+  'globalGroups',
+  'categories',
   'apps',
 ];
 
@@ -61,14 +58,13 @@ const pkg: typeof PkgT = JSON.parse(
 );
 const pkgKeys = Object.keys(pkg);
 
-export const writeConfig = async (config: SubscriptionConfig) => {
-  const gkdFp = process.cwd() + '/dist/gkd.json5';
-  const versionFp = process.cwd() + '/dist/gkd.version.json';
-  const oldConfig: SubscriptionConfig = JSON5.parse(
-    await fs.readFile(gkdFp, 'utf-8').catch(() => '{}'),
-  );
-
-  const newConfig: SubscriptionConfig = {
+const gkdFp = process.cwd() + '/dist/gkd.json5';
+const versionFp = process.cwd() + '/dist/gkd.version.json';
+const oldConfig: RawSubscription = JSON5.parse(
+  await fs.readFile(gkdFp, 'utf-8').catch(() => '{}'),
+);
+export const writeConfig = async (config: RawSubscription) => {
+  const newConfig: RawSubscription = {
     ...config,
     version: oldConfig.version || 0,
   };
@@ -137,12 +133,85 @@ export const validSnapshotUrl = (s: string) => {
   return u.pathname.startsWith('/import/');
 };
 
-export const checkConfig = (newConfig: SubscriptionConfig) => {
+export const checkConfig = (newConfig: RawSubscription) => {
+  const categories = newConfig.categories || [];
+  categories.forEach((c) => {
+    if (
+      categories.some(
+        (c2) => (c2.key == c.key || c2.name == c.name) && c2 !== c,
+      )
+    ) {
+      console.error({
+        configName: newConfig.name,
+        categoryName: c.name,
+        categoryKey: c.key,
+      });
+      throw new Error('invalid duplicated category');
+    }
+  });
+
+  const globalGroups = newConfig.globalGroups || [];
+  globalGroups.forEach((g) => {
+    if (globalGroups.some((g2) => g2.key == g.key && g2 !== g)) {
+      console.error({
+        configName: newConfig.name,
+        groupName: g.name,
+        groupKey: g.key,
+      });
+      throw new Error('invalid deprecated global group key');
+    }
+    // check rules selector syntax
+    g.rules.forEach((r) => {
+      [r.matches, r.excludeMatches]
+        .map((m) => iArrayToArray(m))
+        .flat()
+        .forEach((selector) => {
+          try {
+            parseSelector(selector);
+          } catch (e) {
+            console.error({
+              message: 'invalid selector syntax',
+              groupKey: g.key,
+              selector,
+            });
+            throw e;
+          }
+        });
+    });
+  });
+
   // check duplicated group key
-  newConfig.apps?.forEach((app) => {
+  const apps = newConfig.apps || [];
+  apps.forEach((app) => {
     const deprecatedKeys = app.deprecatedKeys || [];
     const keys = new Set<number>();
+    const oldGroups = oldConfig.apps?.find((a) => a.id == app.id)?.groups || [];
     app.groups?.forEach((g) => {
+      const oldGroup = oldGroups.find((og) => og.key == g.key);
+      if (!oldGroup || !_.isEqual(oldGroup, g)) {
+        // 检查新增/变动的规则组是否能被分类
+        if (
+          !categories.some(
+            (c) => g.name == c.name || g.name.startsWith(c.name + '-'),
+          )
+        ) {
+          console.error({
+            configName: newConfig.name,
+            appId: app.id,
+            appName: app.name,
+            groupName: g.name,
+            groupKey: g.key,
+            categories: categories.map((c) => c.name),
+          });
+          throw new Error(
+            [
+              'invalid group name, it must equal any category name or startWith categoryName + "-".',
+              'example: "开屏广告" or "分段广告-朋友圈"',
+            ].join('\n'),
+          );
+        }
+      }
+
       if (deprecatedKeys.includes(g.key)) {
         console.error({
           configName: newConfig.name,
@@ -180,13 +249,8 @@ export const checkConfig = (newConfig: SubscriptionConfig) => {
           ruleKeys.add(r.key);
         }
       });
-    });
-  });
 
-  // check slector syntax
-  newConfig.apps?.forEach((app) => {
-    app.groups?.forEach((g) => {
-      if (!g.rules) return;
+      // check rules selector syntax
       const rules = iArrayToArray(g.rules).map((r) => {
         if (typeof r == 'string') {
           return { matches: r };
@@ -211,12 +275,8 @@ export const checkConfig = (newConfig: SubscriptionConfig) => {
             }
           });
       });
-    });
-  });
 
-  // check snapshotUrls
-  newConfig.apps?.forEach((app) => {
-    app.groups?.forEach((g) => {
+      // check snapshotUrls
       iArrayToArray(g.snapshotUrls).forEach((u) => {
         if (!validSnapshotUrl(u)) {
           console.error({
@@ -246,7 +306,8 @@ export const checkConfig = (newConfig: SubscriptionConfig) => {
       });
     });
   });
-  const newKeys = Object.keys(newConfig) as (keyof SubscriptionConfig)[];
+
+  const newKeys = Object.keys(newConfig) as (keyof RawSubscription)[];
   if (newKeys.some((s) => !sortKeys.includes(s))) {
     console.log({
       sortKeys,
@@ -256,7 +317,7 @@ export const checkConfig = (newConfig: SubscriptionConfig) => {
   }
 };
 
-export const updateAppMd = async (app: AppConfig) => {
+export const updateAppMd = async (app: RawApp) => {
   const appHeadMdText = [
     `# ${app.name}`,
     `存在 ${app.groups?.length || 0} 规则组 - [${app.id}](/src/apps/${
@@ -322,14 +383,14 @@ export const updateAppMd = async (app: AppConfig) => {
 };
 
 const getAppDiffLog = (
-  oldGroups: GroupConfig[] = [],
-  newGroups: GroupConfig[] = [],
+  oldGroups: RawAppGroup[] = [],
+  newGroups: RawAppGroup[] = [],
 ) => {
   const removeGroups = oldGroups.filter(
     (og) => !newGroups.find((ng) => ng.key == og.key),
   );
-  const addGroups: GroupConfig[] = [];
-  const changeGroups: GroupConfig[] = [];
+  const addGroups: RawAppGroup[] = [];
+  const changeGroups: RawAppGroup[] = [];
   newGroups.forEach((ng) => {
     const oldGroup = oldGroups.find((og) => og.key == ng.key);
     if (oldGroup) {
@@ -348,21 +409,21 @@ const getAppDiffLog = (
 };
 
 type AppDiff = {
-  app: AppConfig;
-  addGroups: GroupConfig[];
-  changeGroups: GroupConfig[];
-  removeGroups: GroupConfig[];
+  app: RawApp;
+  addGroups: RawAppGroup[];
+  changeGroups: RawAppGroup[];
+  removeGroups: RawAppGroup[];
 };
 
 export const updateReadMeMd = async (
-  newConfig: SubscriptionConfig,
-  oldConfig: SubscriptionConfig,
+  newConfig: RawSubscription,
+  oldConfig: RawSubscription,
 ) => {
   let changeCount = 0;
   const appDiffs: AppDiff[] = [];
   await Promise.all(
-    newConfig.apps.map(async (app) => {
-      const oldApp = oldConfig.apps.find((a) => a.id == app.id);
+    newConfig.apps!.map(async (app) => {
+      const oldApp = oldConfig.apps!.find((a) => a.id == app.id);
       if (!_.isEqual(oldApp, app)) {
         changeCount++;
         await updateAppMd(app);
@@ -418,34 +479,34 @@ export const updateReadMeMd = async (
     await fs.writeFile(process.cwd() + '/CHANGELOG.md', changeLogText);
   }
 
-  if (changeCount <= 0) return;
-  console.log('更新文档: ' + changeCount);
+  if (changeCount > 0) {
+    const appListText =
+      '| 名称 | ID | 规则组 |\n| - | - | - |\n' +
+      newConfig
+        .apps!.map((app) => {
+          const groups = app.groups || [];
+          return `| ${app.name} | [${app.id}](/docs/${app.id}.md) | ${groups.length} |`;
+        })
+        .join('\n');
+    const appListTemplateMd = await fs.readFile(
+      process.cwd() + '/AppListTemplate.md',
+      'utf-8',
+    );
+    await fs.writeFile(
+      process.cwd() + '/AppList.md',
+      appListTemplateMd.replaceAll('--APP_LIST--', appListText),
+    );
+  }
 
-  const appListText =
-    '| 名称 | ID | 规则组 |\n| - | - | - |\n' +
-    newConfig.apps
-      .map((app) => {
-        const groups = app.groups || [];
-        return `| ${app.name} | [${app.id}](/docs/${app.id}.md) | ${groups.length} |`;
-      })
-      .join('\n');
   const mdTemplate = await fs.readFile(process.cwd() + '/Template.md', 'utf-8');
   const readMeMdText = mdTemplate
-    .replaceAll('--APP_SIZE--', newConfig.apps.length.toString())
+    .replaceAll('--APP_SIZE--', newConfig.apps!.length.toString())
     .replaceAll(
       '--GROUP_SIZE--',
-      newConfig.apps
-        .reduce((p, c) => p + (c.groups?.length || 0), 0)
+      newConfig
+        .apps!.reduce((p, c) => p + (c.groups?.length || 0), 0)
         .toString(),
     )
     .replaceAll('--VERSION--', (newConfig.version || 0).toString());
   await fs.writeFile(process.cwd() + '/README.md', readMeMdText);
-  const appListTemplateMd = await fs.readFile(
-    process.cwd() + '/AppListTemplate.md',
-    'utf-8',
-  );
-  await fs.writeFile(
-    process.cwd() + '/AppList.md',
-    appListTemplateMd.replaceAll('--APP_LIST--', appListText),
-  );
 };

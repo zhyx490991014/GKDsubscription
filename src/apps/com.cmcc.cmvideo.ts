@@ -3,16 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.cmcc.cmvideo',
   name: '咪咕视频',
+  deprecatedKeys: [0],
   groups: [
-    {
-      key: 0,
-      name: '开屏广告',
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      quickFind: true,
-      rules: '[id=`com.cmcc.cmvideo:id/skip_button`]',
-    },
     {
       key: 1,
       name: '青少年模式弹窗',
@@ -26,7 +18,7 @@ export default defineAppConfig({
       key: 2,
       name: '右下角小广告',
       quickFind: true,
-      matchLauncher: true,
+
       activityIds: 'com.cmcc.cmvideo.main.application.CompatibleMainActivity',
       rules: '[id="com.cmcc.cmvideo:id/iv_right_bottom_close"]',
       snapshotUrls: 'https://i.gkd.li/import/12498315',
@@ -53,7 +45,7 @@ export default defineAppConfig({
       key: 5,
       name: '弹窗广告',
       activityIds: 'com.cmcc.cmvideo.main.application.CompatibleMainActivity',
-      matchLauncher: true,
+
       rules:
         '@[id="com.cmcc.cmvideo:id/iv_big_close"] + [id="com.cmcc.cmvideo:id/sdv_big_pic"]',
       snapshotUrls: [

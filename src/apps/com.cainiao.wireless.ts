@@ -3,41 +3,32 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.cainiao.wireless',
   name: '菜鸟',
+  deprecatedKeys: [0, 3],
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
+      key: 1,
+      name: '弹窗广告',
       rules: [
         {
           key: 0,
-          name: '开屏广告-1',
-          matches: '[text^="跳过"][text.length<=4]',
+          activityIds:
+            'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
+          quickFind: true,
+          matches: '[id="com.cainiao.wireless:id/draw_dialog_iv_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12901758',
-            'https://i.gkd.li/import/12724823',
+            'https://i.gkd.li/import/12914371',
+            'https://i.gkd.li/import/13692758',
           ],
         },
         {
           key: 1,
-          name: '开屏广告-2',
-          matches: '[id="com.cainiao.wireless:id/tt_splash_skip_btn"]',
-          snapshotUrls: 'https://i.gkd.li/import/13459538',
+          activityIds:
+            'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
+          matches:
+            'View[childCount=4] > Image + View + Image + View[text.length>0][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/import/13042279',
         },
       ],
-    },
-    {
-      key: 1,
-      name: '包裹页面-弹窗广告',
-      quickFind: true,
-      activityIds: [
-        'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
-      ],
-      rules: 'RelativeLayout > ImageView[desc="关闭"]',
-      snapshotUrls: ['https://i.gkd.li/import/12914371'],
     },
     {
       key: 2,
@@ -47,16 +38,6 @@ export default defineAppConfig({
       ],
       rules: 'View[desc="立即查看"] +2 ImageView[id=null]',
       snapshotUrls: ['https://i.gkd.li/import/12914450'],
-    },
-    {
-      key: 3,
-      name: '寄包裹-弹窗广告',
-      enable: false,
-      activityIds: [
-        'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
-      ],
-      rules: 'View + Image + View[text.length>0]',
-      snapshotUrls: ['https://i.gkd.li/import/13042279'],
     },
     {
       key: 4,
@@ -80,6 +61,13 @@ export default defineAppConfig({
       ],
       rules: '[id="com.cainiao.wireless:id/gg_dialog_base_close"]',
       snapshotUrls: ['https://i.gkd.li/import/13068573'],
+    },
+    {
+      key: 6,
+      name: '请求好评弹窗',
+      activityIds: 'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
+      rules: '@[text="取消"] + [text="好评"]',
+      snapshotUrls: 'https://i.gkd.li/import/13692761',
     },
   ],
 });

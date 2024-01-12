@@ -5,16 +5,6 @@ export default defineAppConfig({
   name: '懂车帝',
   groups: [
     {
-      key: 0,
-      name: '开屏广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: '@FrameLayout[clickable=true] > [text*="跳过"][text.length<=10]',
-      snapshotUrls: 'https://i.gkd.li/import/12605327',
-    },
-    {
       enable: false,
       key: 1,
       name: '首页推荐卡片广告',
@@ -51,7 +41,10 @@ export default defineAppConfig({
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
-      activityIds: 'com.ss.android.auto.activity.SplashActivity',
+      activityIds: [
+        'com.ss.android.auto.activity.SplashActivity',
+        'com.ss.android.auto.policy.AutoPrivacyActivity',
+      ],
       rules:
         '@TextView[text="以后再说"] - FrameLayout >2 TextView[text$="升级"]',
       snapshotUrls: 'https://i.gkd.li/import/13534445',
@@ -110,9 +103,21 @@ export default defineAppConfig({
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
-      activityIds: 'com.ss.android.auto.activity.SplashActivity',
+      activityIds: [
+        'com.ss.android.auto.activity.SplashActivity',
+        'com.ss.android.auto.policy.AutoPrivacyActivity',
+      ],
       rules: '@TextView[clickable=true] + [text^="打开推送通知"]',
       snapshotUrls: 'https://i.gkd.li/import/12840664',
+    },
+    {
+      key: 7,
+      name: '选车页卡片广告',
+      quickFind: true,
+      activityIds: 'com.ss.android.auto.activity.ConcernDetailActivity',
+      rules:
+        'TextView[text.length=1][id=null][clickable=false] < @FrameLayout[clickable=true][id!=null] -2 [text="广告"]',
+      snapshotUrls: 'https://i.gkd.li/import/13686928',
     },
   ],
 });
