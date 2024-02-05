@@ -4,9 +4,9 @@
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | APKPure                | [com.apkpure.aegon](/docs/com.apkpure.aegon.md)                                                                                                                   | 4      |
 | AcFun                  | [tv.acfundanmaku.video](/docs/tv.acfundanmaku.video.md)                                                                                                           | 1      |
-| AppShare               | [info.muge.appshare](/docs/info.muge.appshare.md)                                                                                                                 | 3      |
+| AppShare               | [info.muge.appshare](/docs/info.muge.appshare.md)                                                                                                                 | 4      |
 | BUFF                   | [com.netease.buff](/docs/com.netease.buff.md)                                                                                                                     | 1      |
-| Blued                  | [com.soft.blued](/docs/com.soft.blued.md)                                                                                                                         | 3      |
+| Blued                  | [com.soft.blued](/docs/com.soft.blued.md)                                                                                                                         | 4      |
 | CFMOTO                 | [com.lxt.cfmoto](/docs/com.lxt.cfmoto.md)                                                                                                                         | 1      |
 | CSDN                   | [net.csdn.csdnplus](/docs/net.csdn.csdnplus.md)                                                                                                                   | 6      |
 | CTM Buddy              | [com.ctm](/docs/com.ctm.md)                                                                                                                                       | 2      |
@@ -179,7 +179,7 @@
 | 动漫之家社区           | [com.dmzjsq.manhua](/docs/com.dmzjsq.manhua.md)                                                                                                                   | 1      |
 | 懂球帝                 | [com.dongqiudi.news](/docs/com.dongqiudi.news.md)                                                                                                                 | 6      |
 | 豆瓣                   | [com.douban.frodo](/docs/com.douban.frodo.md)                                                                                                                     | 9      |
-| 抖音                   | [com.ss.android.ugc.aweme](/docs/com.ss.android.ugc.aweme.md)                                                                                                     | 16     |
+| 抖音                   | [com.ss.android.ugc.aweme](/docs/com.ss.android.ugc.aweme.md)                                                                                                     | 17     |
 | 抖音                   | [com.ss.android.ugc.aweme.mobile](/docs/com.ss.android.ugc.aweme.mobile.md)                                                                                       | 1      |
 | 抖音极速版             | [com.ss.android.ugc.aweme.lite](/docs/com.ss.android.ugc.aweme.lite.md)                                                                                           | 4      |
 | 斗鱼                   | [air.tv.douyu.android](/docs/air.tv.douyu.android.md)                                                                                                             | 3      |
@@ -551,6 +551,7 @@
 | 稀土掘金               | [com.daimajia.gold](/docs/com.daimajia.gold.md)                                                                                                                   | 1      |
 | 秀动                   | [com.showstartfans.activity](/docs/com.showstartfans.activity.md)                                                                                                 | 1      |
 | 雪球                   | [com.xueqiu.android](/docs/com.xueqiu.android.md)                                                                                                                 | 2      |
+| 雪球基金               | [com.xueqiu.fund](/docs/com.xueqiu.fund.md)                                                                                                                       | 1      |
 | 学小易                 | [com.xuexiaoyi.xxy](/docs/com.xuexiaoyi.xxy.md)                                                                                                                   | 2      |
 | 学习强国               | [cn.xuexi.android](/docs/cn.xuexi.android.md)                                                                                                                     | 2      |
 | 学习通                 | [com.chaoxing.mobile](/docs/com.chaoxing.mobile.md)                                                                                                               | 1      |

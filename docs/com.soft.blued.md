@@ -1,6 +1,6 @@
 # Blued
 
-存在 3 规则组 - [com.soft.blued](/src/apps/com.soft.blued.ts)
+存在 4 规则组 - [com.soft.blued](/src/apps/com.soft.blued.ts)
 
 ## 局部广告-卡片式广告
 
@@ -23,3 +23,11 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/14039501)
+
+## 全屏广告-购买动态投放弹窗
+
+默认禁用 - 点击X
+
+- [示例-0](https://m.gkd.li/57941037/37ea59cf-9606-4cd6-a74a-84f353f07975)
+
+- [快照-0](https://i.gkd.li/import/14157519)

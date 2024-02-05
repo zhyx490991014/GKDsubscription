@@ -2,6 +2,8 @@
 
 存在 1 规则组 - [com.xueqiu.fund](/src/apps/com.xueqiu.fund.ts)
 
-## 开屏广告
+## 全屏广告-春节闲钱放哪里弹窗
 
-- [快照-0](https://i.gkd.li/import/12776572)
+默认禁用 - 有误触风险
+
+- [快照-0](https://i.gkd.li/import/14163901)
