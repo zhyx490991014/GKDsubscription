@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.tencent.mm',
   name: '微信',
-  deprecatedKeys: [13],
+  deprecatedKeys: [12,13,20],
   groups: [
     {
       enable: false,
@@ -23,12 +23,14 @@ export default defineAppConfig({
           key: 0,
           name: '点击广告卡片右上角',
           matches:
-            'ImageView - TextView[text="广告"][clickable=true][id!=null]',
+            'ImageView - TextView[text="广告" || text="Sponsored" || text="廣告"][clickable=true][id!=null]',
           snapshotUrls: [
             'https://i.gkd.li/import/12642588',
             'https://i.gkd.li/import/12888129', //ImageView - TextView[text="广告"][id!=null][index=0]这个规则无法匹配该广告，需要删除[index=0]
             'https://i.gkd.li/import/12907641',
             'https://i.gkd.li/import/13000395',
+            'https://i.gkd.li/import/12905837', //英文
+            'https://i.gkd.li/import/13791200', //繁体
           ],
         },
         // 以下是[确认关闭按钮]出现的情况
@@ -48,6 +50,21 @@ export default defineAppConfig({
           matches: '[text="关闭该广告的原因"] +(2) [text="直接关闭"]',
           snapshotUrls: ['https://i.gkd.li/import/12663984'],
         },
+        {
+          preKeys: 0,
+          key: 4,
+          name: 'Sponsored story-点击[Close the ad]',
+          matches:
+            '@LinearLayout[clickable=true][childCount=2] > TextView[text="Close the ad"]',
+          snapshotUrls: 'https://i.gkd.li/import/12905838',
+        },
+        {
+          preKeys: 4,
+          key: 5,
+          name: 'Reason for closing the ad - 点击[Close]',
+          matches: '[text="Reason for closing the ad"] +(2) [text="Close"]',
+          snapshotUrls: 'https://i.gkd.li/import/12905846',
+        },
         // 情况2 - 关闭该广告
         {
           preKeys: 0,
@@ -59,59 +76,9 @@ export default defineAppConfig({
             'https://i.gkd.li/import/13926578',
           ],
         },
-      ],
-    },
-    {
-      enable: false,
-      key: 12,
-      name: '分段广告-朋友圈广告[英文]',
-      desc: '点击广告卡片右上角[Sponsored],直接关闭/出现菜单点击[Close the ad],确认关闭',
-      activityIds: 'com.tencent.mm.plugin.sns.ui.SnsTimeLineUI',
-      quickFind: true,
-      rules: [
-        {
-          key: 0,
-          name: '点击广告卡片右上角[Sponsored]',
-          matches:
-            'ImageView - TextView[text="Sponsored"][clickable=true][id!=null]',
-          snapshotUrls: 'https://i.gkd.li/import/12905837',
-        },
-        // 以下是[确认关闭按钮]出现的情况
-        // 情况1 - 你觉得这条广告怎么样->直接关闭
         {
           preKeys: 0,
-          key: 1,
-          name: 'Sponsored story-点击[Close the ad]',
-          matches:
-            '@LinearLayout[clickable=true][childCount=2] > TextView[text="Close the ad"]',
-          snapshotUrls: 'https://i.gkd.li/import/12905838',
-        },
-        {
-          preKeys: 1,
-          key: 2,
-          name: 'Reason for closing the ad - 点击[Close]',
-          matches: '[text="Reason for closing the ad"] +(2) [text="Close"]',
-          snapshotUrls: 'https://i.gkd.li/import/12905846',
-        },
-      ],
-    },
-    {
-      key: 20,
-      name: '分段广告-朋友圈广告[繁体]',
-      desc: '点击广告卡片右上角[廣告],出现菜单点击[關閉此廣告],确认关闭',
-      activityIds: 'com.tencent.mm.plugin.sns.ui.SnsTimeLineUI',
-      quickFind: true,
-      rules: [
-        {
-          key: 0,
-          name: '点击广告卡片右上角[廣告]',
-          matches:
-            'ImageView - TextView[text="廣告"][clickable=true][id!=null]',
-          snapshotUrls: 'https://i.gkd.li/import/13791200',
-        },
-        {
-          preKeys: 0,
-          key: 1,
+          key: 6,
           name: '点击[關閉此廣告]',
           matches: 'RelativeLayout[childCount=6] > TextView[text="關閉此廣告"]',
           snapshotUrls: 'https://i.gkd.li/import/13791202',
