@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '卡片式广告',
+      name: '局部广告-卡片式广告',
       rules: [
         {
           key: 0,
@@ -39,7 +39,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '公告',
+      name: '消息提示-公告',
       activityIds: 'com.magicalstory.AppStore.main.MainActivity',
       quickFind: true,
       matchTime: 10000,
@@ -55,7 +55,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '更新弹窗',
+      name: '更新提示',
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -64,8 +64,18 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/import/13459373',
     },
     {
+      key: 5,
+      name: '功能类-签到页-自动签到',
+      desc: '签到页自动点击【签到】按钮',
+      quickFind: true,
+      actionMaximum: 1,
+      activityIds: 'com.magicalstory.AppStore.user.sign.signActivity',
+      rules: '[text="签到"][vid="button"]',
+      snapshotUrls: 'https://i.gkd.li/import/14168441',
+    },
+    {
       key: 6,
-      name: '搜索页-卡片广告',
+      name: '局部广告-搜索页-卡片广告',
       desc: '腾讯广告',
       actionMaximum: 1,
       activityIds: 'com.magicalstory.AppStore.search.searchActivity',
