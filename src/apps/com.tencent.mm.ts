@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.tencent.mm',
   name: '微信',
-  deprecatedKeys: [12,13,20],
+  deprecatedKeys: [12, 13, 20],
   groups: [
     {
       enable: false,
