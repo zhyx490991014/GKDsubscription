@@ -389,6 +389,7 @@
 | 荣耀亲选               | [cn.honor.qinxuan](/docs/cn.honor.qinxuan.md)                                                                                                                     | 1      |
 | 荣耀商城               | [com.hihonor.vmall](/docs/com.hihonor.vmall.md)                                                                                                                   | 1      |
 | 荣耀应用市场           | [com.hihonor.appmarket](/docs/com.hihonor.appmarket.md)                                                                                                           | 3      |
+| 荣耀音乐               | [com.hihonor.cloudmusic](/docs/com.hihonor.cloudmusic.md)                                                                                                         | 1      |
 | 荣耀运动健康           | [com.hihonor.health](/docs/com.hihonor.health.md)                                                                                                                 | 1      |
 | 荣耀智慧空间           | [com.hihonor.magichome](/docs/com.hihonor.magichome.md)                                                                                                           | 3      |
 | 软件包安装程序         | [com.samsung.android.packageinstaller](/docs/com.samsung.android.packageinstaller.md)                                                                             | 1      |
@@ -481,7 +482,7 @@
 | 维护大师               | [com.example.maintenancemaster](/docs/com.example.maintenancemaster.md)                                                                                           | 1      |
 | 微视                   | [com.tencent.weishi](/docs/com.tencent.weishi.md)                                                                                                                 | 1      |
 | 微拾                   | [com.pleasure.trace_wechat](/docs/com.pleasure.trace_wechat.md)                                                                                                   | 2      |
-| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 23     |
+| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 21     |
 | 微信读书               | [com.tencent.weread](/docs/com.tencent.weread.md)                                                                                                                 | 2      |
 | 微音乐                 | [com.zhouyu.music](/docs/com.zhouyu.music.md)                                                                                                                     | 2      |
 | 文件                   | [com.android.documentsui](/docs/com.android.documentsui.md)                                                                                                       | 2      |

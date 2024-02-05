@@ -1,5 +1,11 @@
 # @Adpro-Team/GKD_subscription
 
+## 通知
+
+因各方面因素影响，2024春节及之后更新速度将会放缓，速度大概是一周一更。
+
+---
+
 Adpro-Team维护的GKD订阅 仅启用 `开屏广告` 一类规则, 其它所有规则均需用户手动打开
 
 在 GKD 内添加以下链接即可使用此规则
@@ -8,9 +14,9 @@ Adpro-Team维护的GKD订阅 仅启用 `开屏广告` 一类规则, 其它所有
 https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 ```
 
-当前版本: v16
+当前版本: v17
 
-当前订阅文件已适配 636 个 APP, 共有 1448 规则组
+当前订阅文件已适配 637 个 APP, 共有 1447 规则组
 
 查看 [适配 APP 列表](./AppList.md)
 
@@ -22,19 +28,13 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 ---
 
-## 通知
-
-因各方面因素影响，2024春节及之后更新速度将会放缓，速度大概是一周一更。下方给出的项目更新速度会更快，规则也会更多。
-
-[AIsouler/subscription](https://github.com/AIsouler/subscription)
-
-## 感谢以下开发者的贡献
-
-![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=16)
-
 ## 感谢以下项目
 
 [gkd-kit/subscription](https://github.com/gkd-kit/subscription)
+
+## 感谢以下开发者的贡献
+
+![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=17)
 
 ## 开源协议
 
