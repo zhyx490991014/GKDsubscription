@@ -6,6 +6,8 @@
 
 ---
 
+## 说明
+
 Adpro-Team维护的GKD订阅 仅启用 `开屏广告` 一类规则, 其它所有规则均需用户手动打开
 
 在 GKD 内添加以下链接即可使用此规则
@@ -28,23 +30,17 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 ---
 
-## 感谢以下项目
+## 致谢
+
+### 感谢以下项目
 
 [gkd-kit/subscription](https://github.com/gkd-kit/subscription)
 
-## 感谢以下开发者的贡献
+### 感谢以下开发者的贡献
 
 ![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=--VERSION--)
 
-## Star History
-
-<a href="https://star-history.com/#Adpro-Team/GKD_subscription&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date" />
-  </picture>
-</a>
+---
 
 ## 开源协议
 
@@ -71,3 +67,9 @@ SATA 协议大意：
 4. 当然，你也可以只是在心里默默的感激，不用让全世界都知道
 
 当你改进了使用 SATA 开源协议的项目，你可以在许可证头部的版权部分添上你的大名，并且写上你改进后的项目地址。但是不要对别人的名字和项目地址进行删除或修改。
+
+---
+
+## Star History
+
+![img](https://star-history.com/#Adpro-Team/GKD_subscription&Date)
