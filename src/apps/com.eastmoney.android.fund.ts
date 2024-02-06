@@ -27,11 +27,19 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '更新弹窗',
+      name: '更新提示',
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '@FrameLayout[clickable=true] - * >2 [desc="立即升级"]',
       snapshotUrls: 'https://i.gkd.li/import/13546927',
+    },
+    {
+      key: 4,
+      name: '评价提示',
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: '[desc="五星好评"] - [desc="下次再说"]',
+      snapshotUrls: 'https://i.gkd.li/import/14179501',
     },
   ],
 });
