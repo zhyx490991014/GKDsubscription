@@ -188,7 +188,12 @@ export default defineAppConfig({
             'https://i.gkd.li/import/14178516', //activityId: com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity
           ],
         },
-        // 预留11~99
+        {
+          key: 11,
+          matches: 'TextView[text$="的广告"] +3 ImageView',
+          snapshotUrls: 'https://i.gkd.li/import/14178922',
+        },
+        // 预留12~99
         {
           preKeys: [10],
           key: 100,
