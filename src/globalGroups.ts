@@ -52,7 +52,11 @@ const diabledAppIds = [
 diabledAppIds.push(
   ...apps
     .filter((a) =>
-      a.groups.some((g) => (g.name.startsWith('开屏广告') || g.name.startsWith('更新提示')) && g.enable !== false),
+      a.groups.some(
+        (g) =>
+          (g.name.startsWith('开屏广告') || g.name.startsWith('更新提示')) &&
+          g.enable !== false,
+      ),
     )
     .map((a) => a.id),
 );

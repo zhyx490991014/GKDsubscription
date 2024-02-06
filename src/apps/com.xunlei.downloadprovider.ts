@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.xunlei.downloadprovider',
   name: '迅雷',
-  deprecatedKeys: [6,11],
+  deprecatedKeys: [6, 11],
   groups: [
     {
       key: 1,
