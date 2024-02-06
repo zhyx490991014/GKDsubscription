@@ -1,12 +1,6 @@
 # 智联招聘
 
-存在 4 规则组 - [com.zhaopin.social](/src/apps/com.zhaopin.social.ts)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12706186)
+存在 3 规则组 - [com.zhaopin.social](/src/apps/com.zhaopin.social.ts)
 
 ## 我的页面-banner广告
 

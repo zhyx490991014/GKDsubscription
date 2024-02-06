@@ -1,12 +1,6 @@
 # 学习强国
 
-存在 2 规则组 - [cn.xuexi.android](/src/apps/cn.xuexi.android.ts)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12715139)
+存在 1 规则组 - [cn.xuexi.android](/src/apps/cn.xuexi.android.ts)
 
 ## 请求开启通知权限提示信息
 

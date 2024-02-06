@@ -2,7 +2,7 @@
 
 存在 4 规则组 - [com.netease.newsreader.activity](/src/apps/com.netease.newsreader.activity.ts)
 
-## 版本更新提示
+## 更新提示
 
 默认禁用
 

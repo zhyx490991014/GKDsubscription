@@ -1,6 +1,6 @@
 # 向日葵远程控制
 
-存在 4 规则组 - [com.oray.sunlogin](/src/apps/com.oray.sunlogin.ts)
+存在 3 规则组 - [com.oray.sunlogin](/src/apps/com.oray.sunlogin.ts)
 
 ## 全屏广告-瓜子会员弹窗
 
@@ -11,12 +11,6 @@
 - [快照-0](https://i.gkd.li/import/13195950)
 - [快照-1](https://i.gkd.li/import/12910411)
 - [快照-2](https://i.gkd.li/import/13197454)
-
-## 更新提示-版本更新
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13195560)
 
 ## 功能类-设备列表-卡片广告
 

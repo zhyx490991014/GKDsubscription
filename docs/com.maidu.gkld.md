@@ -1,12 +1,6 @@
 # 公考雷达
 
-存在 3 规则组 - [com.maidu.gkld](/src/apps/com.maidu.gkld.ts)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12715215)
+存在 2 规则组 - [com.maidu.gkld](/src/apps/com.maidu.gkld.ts)
 
 ## 首页右侧悬浮广告
 

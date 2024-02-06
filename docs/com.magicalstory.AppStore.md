@@ -1,8 +1,8 @@
 # 奇妙应用
 
-存在 4 规则组 - [com.magicalstory.AppStore](/src/apps/com.magicalstory.AppStore.ts)
+存在 5 规则组 - [com.magicalstory.AppStore](/src/apps/com.magicalstory.AppStore.ts)
 
-## 卡片式广告
+## 局部广告-卡片式广告
 
 默认禁用
 
@@ -13,7 +13,7 @@
 - [快照-4](https://i.gkd.li/import/13759492)
 - [快照-5](https://i.gkd.li/import/13443417)
 
-## 公告
+## 通知提示-公告
 
 默认禁用
 
@@ -25,7 +25,13 @@
 
 - [快照-0](https://i.gkd.li/import/13459373)
 
-## 搜索页-卡片广告
+## 功能类-签到页-自动签到
+
+默认禁用 - 签到页自动点击【签到】按钮
+
+- [快照-0](https://i.gkd.li/import/14168441)
+
+## 局部广告-搜索页-卡片广告
 
 默认禁用 - 腾讯广告
 

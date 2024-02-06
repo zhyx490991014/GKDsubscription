@@ -1,6 +1,6 @@
 # 迅雷
 
-存在 7 规则组 - [com.xunlei.downloadprovider](/src/apps/com.xunlei.downloadprovider.ts)
+存在 6 规则组 - [com.xunlei.downloadprovider](/src/apps/com.xunlei.downloadprovider.ts)
 
 ## 视频详情页广告
 
@@ -62,12 +62,6 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12882892)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13228920)
 
 ## 会员续费广告
 

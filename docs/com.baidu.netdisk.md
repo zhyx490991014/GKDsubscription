@@ -1,6 +1,6 @@
 # 百度网盘
 
-存在 10 规则组 - [com.baidu.netdisk](/src/apps/com.baidu.netdisk.ts)
+存在 9 规则组 - [com.baidu.netdisk](/src/apps/com.baidu.netdisk.ts)
 
 ## 活动弹窗
 
@@ -32,12 +32,6 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12648987)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12863984)
 
 ## 续费横幅提示
 

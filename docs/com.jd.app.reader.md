@@ -1,12 +1,6 @@
 # 京东读书
 
-存在 3 规则组 - [com.jd.app.reader](/src/apps/com.jd.app.reader.ts)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12686632)
+存在 2 规则组 - [com.jd.app.reader](/src/apps/com.jd.app.reader.ts)
 
 ## 首页弹窗广告
 

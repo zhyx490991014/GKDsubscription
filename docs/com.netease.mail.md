@@ -1,6 +1,6 @@
 # 网易邮箱大师
 
-存在 4 规则组 - [com.netease.mail](/src/apps/com.netease.mail.ts)
+存在 3 规则组 - [com.netease.mail](/src/apps/com.netease.mail.ts)
 
 ## 开屏广告
 
@@ -12,12 +12,6 @@
 - [快照-5](https://i.gkd.li/import/13207736)
 - [快照-6](https://i.gkd.li/import/12999739)
 - [快照-7](https://i.gkd.li/import/14046124)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12664070)
 
 ## 全屏广告-邮件列表广告
 

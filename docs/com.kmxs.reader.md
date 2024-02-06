@@ -1,16 +1,10 @@
 # 七猫免费小说
 
-存在 10 规则组 - [com.kmxs.reader](/src/apps/com.kmxs.reader.ts)
+存在 9 规则组 - [com.kmxs.reader](/src/apps/com.kmxs.reader.ts)
 
 ## 青少年模式弹窗
 
 默认禁用
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12641338)
 
 ## 阅读页面底部广告
 
