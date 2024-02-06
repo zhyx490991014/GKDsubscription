@@ -32,6 +32,16 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 [gkd-kit/subscription](https://github.com/gkd-kit/subscription)
 
+## Star History
+
+<a href="https://star-history.com/#Adpro-Team/GKD_subscription&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date" />
+  </picture>
+</a>
+
 ## 感谢以下开发者的贡献
 
 ![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=17)

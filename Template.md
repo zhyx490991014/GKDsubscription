@@ -36,6 +36,16 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 ![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=--VERSION--)
 
+## Star History
+
+<a href="https://star-history.com/#Adpro-Team/GKD_subscription&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date" />
+  </picture>
+</a>
+
 ## 开源协议
 
 开源协议内容对Fork及使用了本项目的朋友生效。
