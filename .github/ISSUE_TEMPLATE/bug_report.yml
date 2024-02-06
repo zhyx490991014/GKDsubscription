@@ -1,5 +1,5 @@
-name: Bug report
-description: 提交一个 Bug
+name: 报告 Bug
+description: 报告 失效/误触 规则Bug
 body:
   - type: markdown
     attributes:
