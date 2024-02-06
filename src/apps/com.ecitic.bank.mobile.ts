@@ -3,18 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.ecitic.bank.mobile',
   name: '中信银行',
+  deprecatedKeys: [1],
   groups: [
-    {
-      key: 1,
-      name: '更新弹窗',
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: '@[text="暂不更新"] + [text="立即更新"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12701217',
-        'https://i.gkd.li/import/12701250', // activityId: 'com.miui.home.launcher.Launcher'
-      ],
-    },
     {
       key: 2,
       name: '广告弹窗',

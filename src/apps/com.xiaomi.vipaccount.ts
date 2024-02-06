@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '更新弹窗',
+      name: '更新提示',
       activityIds: 'miuix.appcompat.app.AlertDialog',
       rules:
         '@[text="稍后安装"] < LinearLayout - ScrollView >(4) [text="发现新版本"]',

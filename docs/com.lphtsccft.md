@@ -9,7 +9,7 @@
 - [快照-0](https://i.gkd.li/import/12646899)
 - [快照-1](https://i.gkd.li/import/12646925)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

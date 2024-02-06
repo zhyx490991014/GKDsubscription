@@ -56,7 +56,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '更新弹窗',
+      name: '更新提示',
       enable: false,
       activityIds: 'com.duowan.kiwi.homepage.Homepage',
       quickFind: true,

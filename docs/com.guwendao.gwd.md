@@ -2,7 +2,7 @@
 
 存在 2 规则组 - [com.guwendao.gwd](/src/apps/com.guwendao.gwd.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

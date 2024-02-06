@@ -3,14 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.maidu.gkld',
   name: '公考雷达',
+  deprecatedKeys: [1],
   groups: [
-    {
-      key: 1,
-      name: '更新弹窗',
-      activityIds: 'com.maidu.gkld.ui.main.MainActivity',
-      rules: '[id="com.maidu.gkld:id/tv_update_next"]',
-      snapshotUrls: 'https://i.gkd.li/import/12715215',
-    },
     {
       key: 2,
       name: '首页右侧悬浮广告',

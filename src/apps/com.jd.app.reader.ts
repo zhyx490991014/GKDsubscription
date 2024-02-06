@@ -3,18 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.jd.app.reader',
   name: '京东读书',
+  deprecatedKeys: [1],
   groups: [
-    {
-      key: 1,
-      name: '更新弹窗',
-      activityIds: ['com.jingdong.app.reader.logo.JdLogoActivity'],
-      rules: [
-        {
-          matches: '@[text="下次再说"] +(2) [text="立即更新"]',
-          snapshotUrls: ['https://i.gkd.li/import/12686632'],
-        },
-      ],
-    },
     {
       key: 2,
       name: '首页弹窗广告',

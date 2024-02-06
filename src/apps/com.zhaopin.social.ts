@@ -3,15 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.zhaopin.social',
   name: '智联招聘',
+  deprecatedKeys: [1],
   groups: [
-    {
-      key: 1,
-      name: '更新弹窗',
-      activityIds: 'com.zhaopin.social.my.setting.AboutUsActivity',
-      rules:
-        '[id="com.zhaopin.social:id/update"] + [id="com.zhaopin.social:id/ignore"]',
-      snapshotUrls: ['https://i.gkd.li/import/12706186'],
-    },
     {
       key: 2,
       name: '我的页面-banner广告',

@@ -2,7 +2,7 @@
 
 存在 4 规则组 - [com.chinamobile.mcloud](/src/apps/com.chinamobile.mcloud.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.tencent.qqlive',
   name: '腾讯视频',
-  deprecatedKeys: [5, 19],
+  deprecatedKeys: [2, 5, 19],
   groups: [
     {
       key: 0,
@@ -32,18 +32,6 @@ export default defineAppConfig({
       quickFind: true,
       rules: 'TextView[text*="青少年模式"] +n TextView[text="我知道了"]',
       snapshotUrls: 'https://i.gkd.li/import/12700145',
-    },
-    {
-      key: 2,
-      name: '更新弹窗',
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules:
-        '[text^="有新版本"] + FrameLayout + LinearLayout + [text="暂不升级"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12700486',
-        'https://i.gkd.li/import/13799951',
-      ],
     },
     {
       key: 3,

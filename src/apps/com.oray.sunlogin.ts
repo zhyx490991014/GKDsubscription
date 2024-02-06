@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.oray.sunlogin',
   name: '向日葵远程控制',
+  deprecatedKeys: [1],
   groups: [
     {
       key: 0,
@@ -18,19 +19,6 @@ export default defineAppConfig({
       ],
       exampleUrls:
         'https://github.com/gkd-kit/inspect/assets/38517192/61d335f0-a85a-4e26-80fe-6bc0d1742bc0',
-    },
-    {
-      matchTime: 30000,
-      key: 1,
-      name: '更新提示-版本更新',
-      quickFind: true,
-      rules: [
-        {
-          matches:
-            '[text="立即更新"] <2 * > [id="com.oray.sunlogin:id/button_cancel"][text="以后再说"]',
-          snapshotUrls: 'https://i.gkd.li/import/13195560',
-        },
-      ],
     },
     {
       key: 2,

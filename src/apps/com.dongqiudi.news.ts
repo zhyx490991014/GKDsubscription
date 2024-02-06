@@ -45,7 +45,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '更新弹窗',
+      name: '更新提示',
       activityIds: 'com.dongqiudi.news.DownloadActivity',
       quickFind: true,
       matchTime: 10000,

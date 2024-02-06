@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.dragon.read',
   name: '番茄免费小说',
-  deprecatedKeys: [-1, 11],
+  deprecatedKeys: [-1, 1, 11],
   groups: [
     {
       key: 0,
@@ -40,15 +40,6 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/import/13520314',
         },
       ],
-    },
-    {
-      key: 1,
-      name: '更新提示',
-      actionMaximum: 1,
-      resetMatch: 'app',
-      quickFind: true,
-      rules: '@[text="以后再说"] + [text="优先体验"]',
-      snapshotUrls: 'https://i.gkd.li/import/12716477',
     },
     {
       key: 2,

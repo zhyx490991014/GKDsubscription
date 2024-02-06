@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'bubei.tingshu',
   name: '懒人听书',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 2],
   groups: [
     {
       key: 1,
@@ -19,15 +19,6 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/import/13348489',
         },
       ],
-    },
-    {
-      key: 2,
-      name: '更新弹窗',
-      actionMaximum: 1,
-      resetMatch: 'app',
-      quickFind: true,
-      rules: '[text="发现新版本"] +2 * > [text="暂不升级"]',
-      snapshotUrls: 'https://i.gkd.li/import/13545953',
     },
   ],
 });

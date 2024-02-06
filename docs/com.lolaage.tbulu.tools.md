@@ -2,7 +2,7 @@
 
 存在 2 规则组 - [com.lolaage.tbulu.tools](/src/apps/com.lolaage.tbulu.tools.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

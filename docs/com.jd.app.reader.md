@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.jd.app.reader](/src/apps/com.jd.app.reader.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

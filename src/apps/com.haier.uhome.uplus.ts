@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '更新弹窗',
+      name: '更新提示',
       activityIds: [
         'com.haier.uhome.uplus.upgradeui.ui.UpgradeDialogActivity',
         'com.huawei.android.launcher.unihome.UniHomeLauncher',

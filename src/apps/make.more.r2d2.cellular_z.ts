@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'make.more.r2d2.cellular_z',
   name: 'Cellular-Z',
+  deprecatedKeys: [2],
   groups: [
     {
       key: 0,
@@ -32,23 +33,6 @@ export default defineAppConfig({
           name: '全局规则-2',
           matches:
             '[childCount=0][visibleToUser=true][(text.length<10&&(text*="跳过"||text*="跳過"||text*="skip"||text*="Skip")) || id$="tt_splash_skip_btn" || vid*="skip" || vid*="Skip" || (vid*="count" && vid*="down" && vid!*="download") || desc*="跳过" || desc*="skip"]',
-        },
-      ],
-    },
-    {
-      key: 2,
-      name: '更新提示',
-      resetMatch: 'app',
-      actionMaximum: 1,
-      matchTime: 10000,
-      quickFind: true,
-      rules: [
-        {
-          matches: [
-            '[id="make.more.r2d2.cellular_z:id/tv_alert_title"][text="发现新版本"]',
-            '[id="make.more.r2d2.cellular_z:id/btn_alert_left"][text="取消"]',
-          ], //防止误触其它取消按钮
-          snapshotUrls: 'https://i.gkd.li/import/13608563',
         },
       ],
     },

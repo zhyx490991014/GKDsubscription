@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [io.iftech.android.box](/src/apps/io.iftech.android.box.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

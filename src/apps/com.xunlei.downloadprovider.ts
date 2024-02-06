@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.xunlei.downloadprovider',
   name: '迅雷',
-  deprecatedKeys: [11],
+  deprecatedKeys: [6,11],
   groups: [
     {
       key: 1,
@@ -247,14 +247,6 @@ export default defineAppConfig({
         'com.xunlei.downloadprovider.search.ui.search.SearchOperateActivity',
       rules: '[id="com.xunlei.downloadprovider:id/search_banner_ad_close"]',
       snapshotUrls: 'https://i.gkd.li/import/12882892',
-    },
-    {
-      key: 6,
-      name: '更新弹窗',
-      quickFind: true,
-      activityIds: 'com.xunlei.upgrade.XUpgradeActivity',
-      rules: '[id="com.xunlei.downloadprovider:id/x_upgrade_cancel"]',
-      snapshotUrls: 'https://i.gkd.li/import/13228920',
     },
     {
       key: 10,

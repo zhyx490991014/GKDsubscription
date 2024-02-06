@@ -2,7 +2,7 @@
 
 存在 2 规则组 - [com.xmcy.hykb](/src/apps/com.xmcy.hykb.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.yitong.mbank.psbc](/src/apps/com.yitong.mbank.psbc.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

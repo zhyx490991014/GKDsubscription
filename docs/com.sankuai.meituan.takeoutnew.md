@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.sankuai.meituan.takeoutnew](/src/apps/com.sankuai.meituan.takeoutnew.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

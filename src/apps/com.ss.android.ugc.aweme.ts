@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.ss.android.ugc.aweme',
   name: '抖音',
+  deprecatedKeys: [3],
   groups: [
     {
       key: 0,
@@ -58,19 +59,6 @@ export default defineAppConfig({
       snapshotUrls: [
         'https://i.gkd.li/import/12525387',
         'https://i.gkd.li/import/12525389',
-      ],
-    },
-    {
-      key: 3,
-      name: '更新提示',
-      quickFind: true,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
-      rules: '@[text="以后再说"] +2 [text="立即升级"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12534016',
-        'https://i.gkd.li/import/13328599',
       ],
     },
     {

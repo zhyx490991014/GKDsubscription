@@ -2,7 +2,7 @@
 
 存在 9 规则组 - [com.qidian.QDReader](/src/apps/com.qidian.QDReader.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

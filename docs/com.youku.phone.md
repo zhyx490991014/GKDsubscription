@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.youku.phone](/src/apps/com.youku.phone.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用 - 占位，暂无作用
 

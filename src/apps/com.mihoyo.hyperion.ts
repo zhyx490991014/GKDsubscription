@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.mihoyo.hyperion',
   name: '米游社',
+  deprecatedKeys: [2],
   groups: [
     {
       key: 1,
@@ -18,13 +19,6 @@ export default defineAppConfig({
         'https://i.gkd.li/import/12675547',
         'https://i.gkd.li/import/12775850', // activityId: 'com.mihoyo.hyperion.splash.SplashActivity'
       ],
-    },
-    {
-      key: 2,
-      name: '版本更新提示',
-      desc: '关闭版本更新提示弹窗',
-      rules: 'TextView[id="com.mihoyo.hyperion:id/mUpgradeDialogCancel"]',
-      snapshotUrls: 'https://i.gkd.li/import/12675513',
     },
     {
       key: 3,

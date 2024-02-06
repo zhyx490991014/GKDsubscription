@@ -8,7 +8,7 @@
 - [快照-1](https://i.gkd.li/import/13826577)
 - [快照-2](https://i.gkd.li/import/13224627)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

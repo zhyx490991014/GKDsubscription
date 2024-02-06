@@ -2,7 +2,7 @@
 
 存在 6 规则组 - [com.greenpoint.android.mc10086.activity](/src/apps/com.greenpoint.android.mc10086.activity.ts)
 
-## 关闭更新弹窗
+## 关闭更新提示
 
 默认禁用
 

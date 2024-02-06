@@ -5,15 +5,6 @@ export default defineAppConfig({
   name: '优酷视频',
   groups: [
     {
-      enable: false,
-      key: 1,
-      name: '更新弹窗',
-      desc: '占位，暂无作用',
-      activityIds: 'com.youku.v2.HomePageEntry',
-      rules: [],
-      snapshotUrls: [],
-    },
-    {
       key: 2,
       name: '青少年模式弹窗',
       quickFind: true,

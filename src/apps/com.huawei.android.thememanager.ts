@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.huawei.android.thememanager',
   name: '华为主题',
+  deprecatedKeys: [8],
   groups: [
     {
       key: 0,
@@ -150,13 +151,6 @@ export default defineAppConfig({
           ],
         },
       ],
-    },
-    {
-      key: 8,
-      name: '更新提示',
-      activityIds: 'com.huawei.android.launcher.unihome.UniHomeLauncher',
-      rules: '@[text="以后再说"] + [text="立即更新"]',
-      snapshotUrls: 'https://i.gkd.li/import/12727318',
     },
     {
       key: 9,

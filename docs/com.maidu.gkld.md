@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.maidu.gkld](/src/apps/com.maidu.gkld.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

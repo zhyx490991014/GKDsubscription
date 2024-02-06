@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '更新弹窗',
+      name: '更新提示',
       activityIds: ['com.jin10.lgd.update.UpdateActivity'],
       rules: '@[id="com.jin10:id/update_cancel"] + [id="com.jin10:id/iv_pic"]',
       snapshotUrls: ['https://i.gkd.li/import/12706043'],

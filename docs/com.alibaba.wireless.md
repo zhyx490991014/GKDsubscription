@@ -2,7 +2,7 @@
 
 存在 2 规则组 - [com.alibaba.wireless](/src/apps/com.alibaba.wireless.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

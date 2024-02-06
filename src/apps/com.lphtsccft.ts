@@ -19,7 +19,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '更新弹窗',
+      name: '更新提示',
       activityIds: 'com.lphtsccft.zhangle.main.MainActivity',
       rules: '[text*="升级体验"] +2 LinearLayout > [text="取消"]',
       snapshotUrls: 'https://i.gkd.li/import/12699308',

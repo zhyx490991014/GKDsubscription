@@ -3,19 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.taobao.etao',
   name: '一淘',
+  deprecatedKeys: [1],
   groups: [
-    {
-      key: 1,
-      name: '更新弹窗',
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: '[text="更新提示"] <<2 * +2 * >2 [text="取消"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12684250',
-        'https://i.gkd.li/import/12727457',
-        'https://i.gkd.li/import/12684244',
-      ],
-    },
     {
       key: 2,
       name: '弹窗广告',

@@ -2,7 +2,7 @@
 
 存在 8 规则组 - [com.sankuai.meituan](/src/apps/com.sankuai.meituan.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

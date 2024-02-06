@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.taobao.etao](/src/apps/com.taobao.etao.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

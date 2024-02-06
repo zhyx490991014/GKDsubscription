@@ -2,7 +2,7 @@
 
 存在 5 规则组 - [cn.xiaochuankeji.tieba](/src/apps/cn.xiaochuankeji.tieba.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

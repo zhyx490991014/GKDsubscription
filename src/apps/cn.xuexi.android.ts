@@ -3,14 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'cn.xuexi.android',
   name: '学习强国',
+  deprecatedKeys: [1],
   groups: [
-    {
-      key: 1,
-      name: '更新弹窗',
-      activityIds: 'com.alibaba.android.rimet.biz.SplashActivity',
-      rules: '@[text="取消"] + [text="立即升级"]',
-      snapshotUrls: 'https://i.gkd.li/import/12715139',
-    },
     {
       enable: false,
       key: 10,

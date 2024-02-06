@@ -369,7 +369,7 @@ export default defineAppConfig({
     },
     {
       key: 17,
-      name: '更新弹窗',
+      name: '更新提示',
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '@[desc="关闭"] - ViewGroup > [text="立即体验"||text="立即升级"]',

@@ -2,7 +2,7 @@
 
 存在 1 规则组 - [com.xiaoe.client](/src/apps/com.xiaoe.client.ts)
 
-## 更新提示-版本更新弹窗
+## 更新提示-版本更新提示
 
 默认禁用 - 点击暂不更新
 

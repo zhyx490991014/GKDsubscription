@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '更新弹窗',
+      name: '更新提示',
       activityIds: ['com.seebaby.login.ui.activity.LauncherActivity'],
       rules: '@[id="com.seebaby:id/btn_later"] + [text$="新版本"]',
       snapshotUrls: ['https://i.gkd.li/import/12705351'],

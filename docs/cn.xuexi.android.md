@@ -2,7 +2,7 @@
 
 存在 2 规则组 - [cn.xuexi.android](/src/apps/cn.xuexi.android.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

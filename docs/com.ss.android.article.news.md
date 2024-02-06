@@ -2,7 +2,7 @@
 
 存在 9 规则组 - [com.ss.android.article.news](/src/apps/com.ss.android.article.news.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

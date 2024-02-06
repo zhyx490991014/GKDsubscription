@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '版本更新弹窗',
+      name: '更新提示',
       activityIds:
         'com.netease.newsreader.common.base.activity.SingleFragmentActivity',
       rules: '[text$="版本更新了"] +(2) RelativeLayout > [text="稍后再说"]',

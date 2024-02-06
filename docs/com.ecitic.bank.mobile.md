@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.ecitic.bank.mobile](/src/apps/com.ecitic.bank.mobile.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

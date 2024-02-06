@@ -102,7 +102,7 @@ export default defineAppConfig({
     // key = 5已弃用
     {
       key: 6,
-      name: '更新弹窗',
+      name: '更新提示',
       quickFind: true,
       actionMaximum: 1,
       matchDelay: 5000,

@@ -2,7 +2,7 @@
 
 存在 3 规则组 - [com.baidu.xin.aiqicha](/src/apps/com.baidu.xin.aiqicha.ts)
 
-## 更新弹窗
+## 更新提示
 
 默认禁用
 

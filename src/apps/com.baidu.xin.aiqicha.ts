@@ -3,21 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.baidu.xin.aiqicha',
   name: '爱企查',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 1],
   groups: [
-    {
-      key: 1,
-      name: '更新弹窗',
-      activityIds: [
-        'com.baidu.newbridge.fast.MainFastActivity',
-        'com.miui.home.launcher.Launcher',
-      ],
-      rules: '[id="com.baidu.xin.aiqicha:id/update_cancel"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12755738',
-        'https://i.gkd.li/import/12755762', // activityId: 'com.miui.home.launcher.Launcher'
-      ],
-    },
     {
       key: 10,
       name: '请求通知权限弹窗',
