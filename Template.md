@@ -72,4 +72,4 @@ SATA 协议大意：
 
 ## Star History
 
-![img](https://star-history.com/#Adpro-Team/GKD_subscription&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Adpro-Team/GKD_subscription&type=Date)](https://star-history.com/#Adpro-Team/GKD_subscription&Date)
