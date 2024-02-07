@@ -3,23 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.smile.gifmaker',
   name: '快手',
+  deprecatedKeys: [0],
   groups: [
-    {
-      key: 0,
-      name: '青少年模式',
-      activityIds: 'com.yxcorp.gifshow.HomeActivity',
-      rules: [
-        {
-          matches:
-            '@[id=`com.smile.gifmaker:id/positive`] + [id=`com.smile.gifmaker:id/set_teenage_mode`]',
-        },
-        {
-          matches:
-            '[id="com.smile.gifmaker:id/set_teenage_mode"] + [id="com.smile.gifmaker:id/positive"]',
-          snapshotUrls: 'https://i.gkd.li/import/12708609',
-        },
-      ],
-    },
     {
       enable: false,
       key: 10,

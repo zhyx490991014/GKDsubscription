@@ -3,24 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.youku.phone',
   name: '优酷视频',
+  deprecatedKeys: [2],
   groups: [
-    {
-      key: 2,
-      name: '青少年模式弹窗',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      activityIds: [
-        'com.youku.phone.designatemode.adolescent.HomePageTipDialog',
-        'com.youku.v2.HomePageEntry',
-      ],
-      rules: '[text="青少年模式"] +(3) [text="我知道了"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12701050',
-        'https://i.gkd.li/import/13498556',
-      ],
-    },
     {
       key: 3,
       name: '视频推荐弹窗',

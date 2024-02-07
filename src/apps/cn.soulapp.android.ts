@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'cn.soulapp.android',
   name: 'Soul',
+  deprecatedKeys: [1],
   groups: [
     {
       key: 0,
@@ -19,19 +20,6 @@ export default defineAppConfig({
             'https://i.gkd.li/import/12833280',
             'https://i.gkd.li/import/12850094',
           ],
-        },
-      ],
-    },
-    {
-      key: 1,
-      name: '青少年模式弹窗',
-      quickFind: true,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: [
-        {
-          matches: '[id="cn.soulapp.android:id/btn_sure"]',
-          snapshotUrls: 'https://i.gkd.li/import/12834093',
         },
       ],
     },

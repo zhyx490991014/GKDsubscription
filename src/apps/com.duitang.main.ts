@@ -3,20 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.duitang.main',
   name: '堆糖',
+  deprecatedKeys: [1],
   groups: [
-    {
-      name: '青少年模式',
-      desc: '关闭青少年模式提醒弹窗',
-      key: 1,
-      actionMaximum: 1,
-      activityIds: ['com.duitang.main.business.main.NAMainActivity'],
-      rules: [
-        {
-          matches: '[id="com.duitang.main:id/teenGuideKnown"]',
-          snapshotUrls: 'https://i.gkd.li/import/13202230',
-        },
-      ],
-    },
     {
       name: '首页-推荐浏览广告',
       desc: '关闭推荐浏览页面广告',

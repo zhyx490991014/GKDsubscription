@@ -3,21 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'air.tv.douyu.android',
   name: '斗鱼',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 1],
   groups: [
-    {
-      key: 1,
-      name: '青少年模式',
-      desc: '关闭青少年模式提醒弹窗',
-      activityIds: [
-        'com.douyu.module.young.view.YoungModeGuideDialog',
-        'com.douyu.module.home.pages.main.MainActivity',
-      ],
-      snapshotUrls: 'https://i.gkd.li/import/12472598',
-      rules: [
-        '[text="开启青少年模式"] + [text="我知道了"]', // 1686970236642
-      ],
-    },
     {
       key: 2,
       name: '新版本弹窗',

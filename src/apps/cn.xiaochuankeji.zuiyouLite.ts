@@ -3,22 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'cn.xiaochuankeji.zuiyouLite',
   name: '皮皮搞笑',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 1],
   groups: [
-    {
-      key: 1,
-      name: '青少年模式弹窗',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      activityIds: 'cn.xiaochuankeji.zuiyouLite.ui.main',
-      rules: '[id="cn.xiaochuankeji.zuiyouLite:id/young_close_btn"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12745083',
-        'https://i.gkd.li/import/13446652', //activityIds: 'cn.xiaochuankeji.zuiyouLite.ui.main.MainTest',
-      ],
-    },
     {
       enable: false,
       key: 2,

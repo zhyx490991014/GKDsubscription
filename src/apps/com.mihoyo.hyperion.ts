@@ -3,23 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.mihoyo.hyperion',
   name: '米游社',
-  deprecatedKeys: [2],
+  deprecatedKeys: [1, 2],
   groups: [
-    {
-      key: 1,
-      name: '青少年模式',
-      desc: '关闭青少年模式提醒弹窗',
-      activityIds: [
-        'com.mihoyo.hyperion.main.HyperionMainActivity',
-        'com.mihoyo.hyperion.splash.SplashActivity',
-      ],
-      rules:
-        'TextView[id="com.mihoyo.hyperion:id/tv_dialog_go_to_teenage_mode"] + TextView[id="com.mihoyo.hyperion:id/tv_dialog_i_know"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12675547',
-        'https://i.gkd.li/import/12775850', // activityId: 'com.mihoyo.hyperion.splash.SplashActivity'
-      ],
-    },
     {
       key: 3,
       name: '自动打卡',

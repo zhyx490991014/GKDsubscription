@@ -3,18 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.hunantv.imgo.activity',
   name: '芒果TV',
+  deprecatedKeys: [0],
   groups: [
-    {
-      key: 0,
-      name: '青少年模式弹窗',
-      activityIds: [
-        'com.hunantv.imgo.activity.MainActivity',
-        'miuix.appcompat.app.m',
-      ],
-      rules:
-        '[id="com.hunantv.imgo.activity:id/llSetAgeMode"] + [id="com.hunantv.imgo.activity:id/btnIknow"]',
-      snapshotUrls: 'https://i.gkd.li/import/12832447',
-    },
     {
       key: 1,
       name: '首页推荐流-卡片广告',

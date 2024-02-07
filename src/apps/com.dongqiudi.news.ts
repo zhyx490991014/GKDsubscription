@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.dongqiudi.news',
   name: '懂球帝',
+  deprecatedKeys: [1],
   groups: [
     {
       key: 0,
@@ -31,17 +32,6 @@ export default defineAppConfig({
           ],
         },
       ],
-    },
-    {
-      key: 1,
-      name: '青少年模式弹窗',
-      activityIds: 'com.dongqiudi.news.MainActivity',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: '[text*="青少年模式"] + [id="com.dongqiudi.news:id/tv_know"]',
-      snapshotUrls: 'https://i.gkd.li/import/12621980',
     },
     {
       key: 2,

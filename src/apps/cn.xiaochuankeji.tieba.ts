@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'cn.xiaochuankeji.tieba',
   name: '最右',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 2],
   groups: [
     {
       key: 1,
@@ -14,17 +14,6 @@ export default defineAppConfig({
           matches:
             '[id="cn.xiaochuankeji.tieba:id/btn_ok"][text^="马上升级"] + [id="cn.xiaochuankeji.tieba:id/btn_cancel"][text="取消"]',
           snapshotUrls: ['https://i.gkd.li/import/12660882'],
-        },
-      ],
-    },
-    {
-      key: 2,
-      name: '青少年模式弹窗',
-      activityIds: 'cn.xiaochuankeji.tieba.ui.home.page.PageMainActivity',
-      rules: [
-        {
-          matches: '[text$="青少年模式"] + [text$="知道了"]',
-          snapshotUrls: ['https://i.gkd.li/import/12660929'],
         },
       ],
     },

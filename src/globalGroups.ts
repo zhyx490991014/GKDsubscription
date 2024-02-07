@@ -1,6 +1,6 @@
 import apps from './rawApps';
 import type { RawGlobalGroup } from './types';
-import { OPEN_AD_ORDER, UPDATE_ORDER } from './utils';
+import * as utils from './utils';
 
 const diabledAppIds = [
   'com.android.systemui', // 通知栏界面/下拉开关/控制中心
@@ -54,7 +54,7 @@ diabledAppIds.push(
     .filter((a) =>
       a.groups.some(
         (g) =>
-          (g.name.startsWith('开屏广告') || g.name.startsWith('更新提示')) &&
+          (g.name.startsWith('开屏广告') || g.name.startsWith('更新提示') || g.name.startsWith('青少年模式')) &&
           g.enable !== false,
       ),
     )
@@ -65,7 +65,7 @@ const globalGroups: RawGlobalGroup[] = [
   {
     key: 0,
     name: '开屏广告',
-    order: OPEN_AD_ORDER,
+    order: utils.OPEN_AD_ORDER,
     actionMaximum: 2,
     matchTime: 10000,
     resetMatch: 'app',
@@ -88,7 +88,7 @@ const globalGroups: RawGlobalGroup[] = [
   {
     key: 1,
     name: '更新提示',
-    order: UPDATE_ORDER,
+    order: utils.UPDATE_ORDER,
     actionMaximum: 1,
     matchTime: 10000,
     resetMatch: 'app',
@@ -100,6 +100,21 @@ const globalGroups: RawGlobalGroup[] = [
       },
     ],
     apps: diabledAppIds.map((id) => ({ id, enable: false })),
+  },
+  {
+    key: 2,
+    name: '青少年模式',
+    order: utils.YOUNG_ORDER,
+    actionMaximum: 1,
+    matchTime: 10000,
+    resetMatch: 'app',
+    rules: [
+      {
+        key: 0,
+        matches:
+          '[((text*="青少年" || text*="未成年") && text*="模式") || ((desc*="青少年" || desc*="未成年") && desc*="模式")] +n [text*="知道了" || text*="关闭" || desc*="知道了" || desc*="关闭"]',
+      },
+    ],
   },
 ];
 export default globalGroups;
