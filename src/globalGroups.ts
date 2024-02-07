@@ -54,7 +54,9 @@ diabledAppIds.push(
     .filter((a) =>
       a.groups.some(
         (g) =>
-          (g.name.startsWith('开屏广告') || g.name.startsWith('更新提示') || g.name.startsWith('青少年模式')) &&
+          (g.name.startsWith('开屏广告') ||
+            g.name.startsWith('更新提示') ||
+            g.name.startsWith('青少年模式')) &&
           g.enable !== false,
       ),
     )
