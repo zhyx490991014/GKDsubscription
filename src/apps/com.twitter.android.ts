@@ -167,5 +167,21 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 6,
+      name: '功能类-自动翻译帖子',
+      quickFind: true,
+      activityIds: 'com.twitter.tweetdetail.TweetDetailActivity',
+      rules: '[vid="translation_link"]',
+      snapshotUrls: 'https://i.gkd.li/import/14189895',
+    },
+    {
+      key: 7,
+      name: '功能类-自动显示更多帖子',
+      quickFind: true,
+      activityIds: 'com.twitter.app.main.MainActivity',
+      rules: '[vid="gap_text"][text="显示更多帖子"]',
+      snapshotUrls: 'https://i.gkd.li/import/14189897',
+    },
   ],
 });
