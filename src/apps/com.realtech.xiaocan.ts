@@ -53,5 +53,20 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 2,
+      name: '权限提示-通知权限',
+      resetMatch: 'app',
+      activityIds: 'com.realtech.xiaocan.MainActivity',
+      rules: '[desc="开启提醒"] - ImageView[clickable=true]',
+      snapshotUrls: 'https://i.gkd.li/import/14196198',
+    },
+    {
+      key: 3,
+      name: '全屏广告-优惠券弹窗',
+      activityIds: 'com.realtech.xiaocan.MainActivity',
+      rules: '[desc*="今日最新红包已更新"] > ImageView[index=4]',
+      snapshotUrls: 'https://i.gkd.li/import/14196232',
+    },
   ],
 });
