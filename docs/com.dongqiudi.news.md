@@ -1,6 +1,6 @@
 # 懂球帝
 
-存在 6 规则组 - [com.dongqiudi.news](/src/apps/com.dongqiudi.news.ts)
+存在 5 规则组 - [com.dongqiudi.news](/src/apps/com.dongqiudi.news.ts)
 
 ## 开屏广告
 
@@ -9,12 +9,6 @@
 - [快照-2](https://i.gkd.li/import/12621997)
 - [快照-3](https://i.gkd.li/import/12620583)
 - [快照-4](https://i.gkd.li/import/12621953)
-
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12621980)
 
 ## 更新提示
 

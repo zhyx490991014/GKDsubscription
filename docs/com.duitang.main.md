@@ -1,12 +1,6 @@
 # 堆糖
 
-存在 3 规则组 - [com.duitang.main](/src/apps/com.duitang.main.ts)
-
-## 青少年模式
-
-默认禁用 - 关闭青少年模式提醒弹窗
-
-- [快照-0](https://i.gkd.li/import/13202230)
+存在 2 规则组 - [com.duitang.main](/src/apps/com.duitang.main.ts)
 
 ## 首页-推荐浏览广告
 

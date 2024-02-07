@@ -1,13 +1,6 @@
 # 米游社
 
-存在 2 规则组 - [com.mihoyo.hyperion](/src/apps/com.mihoyo.hyperion.ts)
-
-## 青少年模式
-
-默认禁用 - 关闭青少年模式提醒弹窗
-
-- [快照-0](https://i.gkd.li/import/12675547)
-- [快照-1](https://i.gkd.li/import/12775850)
+存在 1 规则组 - [com.mihoyo.hyperion](/src/apps/com.mihoyo.hyperion.ts)
 
 ## 自动打卡
 

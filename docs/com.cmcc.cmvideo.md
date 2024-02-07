@@ -1,12 +1,6 @@
 # 咪咕视频
 
-存在 5 规则组 - [com.cmcc.cmvideo](/src/apps/com.cmcc.cmvideo.ts)
-
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12498307)
+存在 4 规则组 - [com.cmcc.cmvideo](/src/apps/com.cmcc.cmvideo.ts)
 
 ## 右下角小广告
 

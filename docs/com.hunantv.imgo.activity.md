@@ -1,12 +1,6 @@
 # 芒果TV
 
-存在 4 规则组 - [com.hunantv.imgo.activity](/src/apps/com.hunantv.imgo.activity.ts)
-
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12832447)
+存在 3 规则组 - [com.hunantv.imgo.activity](/src/apps/com.hunantv.imgo.activity.ts)
 
 ## 首页推荐流-卡片广告
 

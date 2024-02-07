@@ -1,6 +1,6 @@
 # 哔哩哔哩
 
-存在 11 规则组 - [tv.danmaku.bili](/src/apps/tv.danmaku.bili.ts)
+存在 10 规则组 - [tv.danmaku.bili](/src/apps/tv.danmaku.bili.ts)
 
 ## 开屏广告
 
@@ -14,12 +14,6 @@
 
 - [快照-0](https://i.gkd.li/import/12785461)
 - [快照-1](https://i.gkd.li/import/12775156)
-
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13746766)
 
 ## 动态推荐广告卡片
 

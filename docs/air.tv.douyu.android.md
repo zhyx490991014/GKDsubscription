@@ -1,12 +1,6 @@
 # 斗鱼
 
-存在 3 规则组 - [air.tv.douyu.android](/src/apps/air.tv.douyu.android.ts)
-
-## 青少年模式
-
-默认禁用 - 关闭青少年模式提醒弹窗
-
-- [快照-0](https://i.gkd.li/import/12472598)
+存在 2 规则组 - [air.tv.douyu.android](/src/apps/air.tv.douyu.android.ts)
 
 ## 新版本弹窗
 

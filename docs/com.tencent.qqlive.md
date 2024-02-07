@@ -1,6 +1,6 @@
 # 腾讯视频
 
-存在 6 规则组 - [com.tencent.qqlive](/src/apps/com.tencent.qqlive.ts)
+存在 5 规则组 - [com.tencent.qqlive](/src/apps/com.tencent.qqlive.ts)
 
 ## 开屏广告
 
@@ -8,12 +8,6 @@
 - [快照-1](https://i.gkd.li/import/12700122)
 - [快照-2](https://i.gkd.li/import/12700541)
 - [快照-3](https://i.gkd.li/import/12910953)
-
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12700145)
 
 ## 卡片式广告
 

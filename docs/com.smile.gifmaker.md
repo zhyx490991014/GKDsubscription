@@ -1,12 +1,6 @@
 # 快手
 
-存在 4 规则组 - [com.smile.gifmaker](/src/apps/com.smile.gifmaker.ts)
-
-## 青少年模式
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12708609)
+存在 3 规则组 - [com.smile.gifmaker](/src/apps/com.smile.gifmaker.ts)
 
 ## 全屏广告-首页-红包弹窗
 

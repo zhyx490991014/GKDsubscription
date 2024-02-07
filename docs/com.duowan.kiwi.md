@@ -1,12 +1,6 @@
 # 虎牙直播
 
-存在 5 规则组 - [com.duowan.kiwi](/src/apps/com.duowan.kiwi.ts)
-
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12908790)
+存在 4 规则组 - [com.duowan.kiwi](/src/apps/com.duowan.kiwi.ts)
 
 ## 直播间悬浮广告
 
