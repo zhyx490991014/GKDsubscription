@@ -110,11 +110,17 @@ const globalGroups: RawGlobalGroup[] = [
     actionMaximum: 1,
     matchTime: 10000,
     resetMatch: 'app',
+    actionCdKey: 0,
     rules: [
       {
         key: 0,
         matches:
           '[((text*="青少年" || text*="未成年") && text*="模式") || ((desc*="青少年" || desc*="未成年") && desc*="模式")] +n [text*="知道了" || text*="关闭" || desc*="知道了" || desc*="关闭"]',
+      },
+      {
+        key: 1,
+        matches:
+          '[((text*="青少年" || text*="未成年") && text*="模式") || ((desc*="青少年" || desc*="未成年") && desc*="模式")] +n * > [text*="知道了" || text*="关闭" || desc*="知道了" || desc*="关闭"]',
       },
     ],
   },
