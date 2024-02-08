@@ -439,8 +439,7 @@ export default defineAppConfig({
     {
       key: 21,
       name: '全屏广告-广告弹窗',
-      activityIds:
-        'com.tencent.mobileqq.activity.QPublicTransFragmentActivity',
+      activityIds: 'com.tencent.mobileqq.activity.QPublicTransFragmentActivity',
       rules: [
         {
           key: 0,
