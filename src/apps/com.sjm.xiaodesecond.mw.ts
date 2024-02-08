@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '全屏广告',
+      name: '全屏广告-开屏二次弹窗',
       desc: '点击左上角x和跳过',
       quickFind: true,
       activityIds: 'com.sjm.xiaodesecond.mw.MainActivity',
