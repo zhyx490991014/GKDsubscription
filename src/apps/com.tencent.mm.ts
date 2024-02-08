@@ -53,10 +53,13 @@ export default defineAppConfig({
         {
           preKeys: 0,
           key: 4,
-          name: 'Sponsored story-点击[Close the ad]',
+          name: 'Sponsored-点击[Close the ad]',
           matches:
-            '@LinearLayout[clickable=true][childCount=2] > TextView[text="Close the ad"]',
-          snapshotUrls: 'https://i.gkd.li/import/12905838',
+            'TextView[text="Close the ad"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/12905838',
+            'https://i.gkd.li/import/14207505',
+          ],
         },
         {
           preKeys: 4,
