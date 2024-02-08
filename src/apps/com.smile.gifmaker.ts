@@ -66,11 +66,9 @@ export default defineAppConfig({
           key: 1,
           actionCdKey: 0,
           quickFind: true,
-          matches: [
-            '[text="你可能感兴趣的人"][vid="label"]',
-            '[text="隐藏"][vid="more"]',
-          ],
-          snapshotUrls: 'https://i.gkd.li/import/13977295',
+          matches:
+            'ViewGroup[childCount=3] > [text="隐藏"][visibleToUser=true]',
+          snapshotUrls: 'https://i.gkd.li/import/14001536',
         },
       ],
     },
