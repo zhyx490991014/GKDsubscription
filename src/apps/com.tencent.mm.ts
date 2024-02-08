@@ -374,11 +374,11 @@ export default defineAppConfig({
       key: 14,
       name: '分段广告-小程序-内部广告',
       activityIds: ['com.tencent.mm.plugin.appbrand.ui.AppBrandUI'],
-      quickFind: true,
       rules: [
         {
           key: 0,
           name: '【广告】0',
+          quickFind: true,
           matches:
             'FrameLayout[childCount=3] >n FrameLayout > FrameLayout > [text="广告"][visibleToUser=true]',
           excludeMatches:
