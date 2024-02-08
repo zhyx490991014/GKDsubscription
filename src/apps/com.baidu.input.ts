@@ -21,5 +21,13 @@ export default defineAppConfig({
       rules: '[desc="开会员，全部皮肤免费用"] +5 View[clickable=true]',
       snapshotUrls: 'https://i.gkd.li/import/14179107',
     },
+    {
+      key: 3,
+      name: '局部广告-皮肤试用页-卡片广告',
+      quickFind: true,
+      activityIds: 'com.baidu.input.ImeSkinTryActivity',
+      rules: '[vid="close_btn"]',
+      snapshotUrls: 'https://i.gkd.li/import/14205945',
+    },
   ],
 });
