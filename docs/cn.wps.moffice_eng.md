@@ -1,4 +1,4 @@
-# WPS
+# WPS Office
 
 存在 6 规则组 - [cn.wps.moffice_eng](/src/apps/cn.wps.moffice_eng.ts)
 
@@ -35,7 +35,7 @@
 - [快照-2](https://i.gkd.li/import/12882678)
 - [快照-3](https://i.gkd.li/import/12882554)
 
-## 文档末尾广告
+## 局部广告-文档末尾广告
 
 默认禁用
 

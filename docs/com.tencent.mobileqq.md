@@ -162,11 +162,14 @@
 - [快照-0](https://i.gkd.li/import/13695087)
 - [快照-1](https://i.gkd.li/import/13699701)
 
-## 首页广告弹窗
+## 全屏广告-广告弹窗
 
 默认禁用
 
+- [示例-0](https://m.gkd.li/57941037/a9fe74db-07b4-47e6-beed-80983f61d2e3)
+
 - [快照-0](https://i.gkd.li/import/13797876)
+- [快照-1](https://i.gkd.li/import/14207286)
 
 ## 分段广告-天气页卡片广告
 
