@@ -1,6 +1,6 @@
 # 小蚕霸王餐
 
-存在 2 规则组 - [com.realtech.xiaocan](/src/apps/com.realtech.xiaocan.ts)
+存在 4 规则组 - [com.realtech.xiaocan](/src/apps/com.realtech.xiaocan.ts)
 
 ## 开屏广告
 
@@ -16,3 +16,15 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13694864)
+
+## 权限提示-通知权限
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/14196198)
+
+## 全屏广告-优惠券弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/14196232)

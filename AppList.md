@@ -309,6 +309,7 @@
 | 萌妹                   | [com.jc.avatar.mm](/docs/com.jc.avatar.mm.md)                                                                                                                     | 1      |
 | 喵次元                 | [com.sjm.zhuanzhuan.mcy](/docs/com.sjm.zhuanzhuan.mcy.md)                                                                                                         | 1      |
 | 喵趣漫画               | [com.paokeji.yiqu](/docs/com.paokeji.yiqu.md)                                                                                                                     | 2      |
+| 喵物次元               | [com.sjm.xiaodesecond.mw](/docs/com.sjm.xiaodesecond.mw.md)                                                                                                       | 1      |
 | 咪咕快游               | [cn.emagsoftware.gamehall](/docs/cn.emagsoftware.gamehall.md)                                                                                                     | 1      |
 | 咪咕视频               | [com.cmcc.cmvideo](/docs/com.cmcc.cmvideo.md)                                                                                                                     | 4      |
 | 咪咕音乐               | [cmccwm.mobilemusic](/docs/cmccwm.mobilemusic.md)                                                                                                                 | 1      |
@@ -476,7 +477,7 @@
 | 闲鱼                   | [com.taobao.idlefish](/docs/com.taobao.idlefish.md)                                                                                                               | 2      |
 | 小爱音箱               | [com.xiaomi.mico](/docs/com.xiaomi.mico.md)                                                                                                                       | 1      |
 | 小步点                 | [run.xbud.android](/docs/run.xbud.android.md)                                                                                                                     | 1      |
-| 小蚕霸王餐             | [com.realtech.xiaocan](/docs/com.realtech.xiaocan.md)                                                                                                             | 2      |
+| 小蚕霸王餐             | [com.realtech.xiaocan](/docs/com.realtech.xiaocan.md)                                                                                                             | 4      |
 | 小恩爱                 | [com.xiaoenai.app](/docs/com.xiaoenai.app.md)                                                                                                                     | 3      |
 | 小飞机网盘             | [com.xiaofeiji.app.disk](/docs/com.xiaofeiji.app.disk.md)                                                                                                         | 1      |
 | 小黑盒                 | [com.max.xiaoheihe](/docs/com.max.xiaoheihe.md)                                                                                                                   | 1      |
