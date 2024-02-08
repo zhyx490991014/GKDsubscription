@@ -7,9 +7,8 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '版本更新',
+      name: '更新提示',
       quickFind: true,
-
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -27,7 +26,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页弹窗',
+      name: '全屏广告-首页弹窗广告',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -42,7 +41,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '右侧悬浮广告',
+      name: '局部广告-右侧悬浮广告',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 2, // 目前只有2个界面会分别弹悬浮窗
@@ -66,10 +65,14 @@ export default defineAppConfig({
           activityIds: [
             'com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2',
             'com.cmbchina.ccd.pluto.cmbActivity.repaymentBillv3.billRepay',
+            'com.cmbchina.ccd.pluto.cmbActivity.repaymentBillv3.billDetail.view',
           ],
           matches:
-            '[id="com.cmbchina.ccd.pluto.cmbActivity:id/img_cmb_drag_pendant_bg"] - [id="com.cmbchina.ccd.pluto.cmbActivity:id/img_cmb_drag_pendant_close"]',
-          snapshotUrls: ['https://i.gkd.li/import/12647127'],
+            '@[vid="img_cmb_drag_pendant_close"] + [vid="img_cmb_drag_pendant_bg"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/12647127',
+            'https://i.gkd.li/import/14209121',
+          ],
         },
         {
           name: '发现页',
@@ -83,15 +86,25 @@ export default defineAppConfig({
     {
       enable: false,
       key: 4,
-      name: '消息页面-通知开关',
+      name: '通知提示-消息页面通知开关',
       desc: '点击x按钮，不开启系统通知',
       quickFind: true,
+      matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
       activityIds: ['com.cmbchina.ccd.pluto.cmbActivity.messagebox'],
       rules:
         '[id="com.cmbchina.ccd.pluto.cmbActivity:id/btn_open_notify"] + [id="com.cmbchina.ccd.pluto.cmbActivity:id/iv_delete"]',
       snapshotUrls: ['https://i.gkd.li/import/12647068'],
+    },
+    {
+      key: 5,
+      name: '定位提示-请求开启定位权限弹窗',
+      quickFind: true,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: '[text="定位服务"] +n * > [text="取消"]',
+      snapshotUrls: 'https://i.gkd.li/import/14209071',
     },
   ],
 });
