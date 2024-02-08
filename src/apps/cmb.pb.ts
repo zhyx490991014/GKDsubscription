@@ -6,6 +6,14 @@ export default defineAppConfig({
   deprecatedKeys: [0],
   groups: [
     {
+      key: 1,
+      name: '局部广告-首页活动悬浮广告',
+      quickFind: true,
+      activityIds: 'cmb.pb.app.mainframe.container.PBMainActivity',
+      rules: '[vid="float_window"] > [vid="ivCancle"][clickable=true]',
+      snapshotUrls: 'https://i.gkd.li/import/14208669',
+    },
+    {
       key: 10,
       name: '朝朝宝-广告弹窗',
       activityIds:
