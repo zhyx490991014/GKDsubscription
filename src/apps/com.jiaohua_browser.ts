@@ -21,10 +21,16 @@ export default defineAppConfig({
       key: 1,
       name: '局部广告-首页底部广告',
       activityIds: 'com.jiaohua_browser.MainActivity',
-      rules: '@ViewGroup > [text=""][visibleToUser=true]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/14141810',
-        'https://i.gkd.li/import/14142408', //不加visibleToUser误触快照
+      rules: [
+        {
+          matches: '@ViewGroup > [text=""][visibleToUser=true]',
+          excludeMatches: '[text="搜尋紀錄"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/14141810',
+            'https://i.gkd.li/import/14142408', //不加visibleToUser误触快照
+            'https://i.gkd.li/import/14205165', //不加excludeMatches误触快照
+          ],
+        },
       ],
     },
     {
@@ -40,8 +46,11 @@ export default defineAppConfig({
       name: '功能类-签到活动',
       quickFind: true,
       activityIds: 'com.jiaohua_browser.MainActivity',
-      rules: '@ViewGroup > [text="立即簽到"]',
-      snapshotUrls: 'https://i.gkd.li/import/14141807',
+      rules: '@ViewGroup > [text="立即簽到"][visibleToUser=true]',
+      snapshotUrls: [
+        'https://i.gkd.li/import/14141807',
+        'https://i.gkd.li/import/14205170', //限定visibleToUser
+      ],
     },
   ],
 });
