@@ -15,7 +15,7 @@ export default defineAppConfig({
           key: 0,
           name: '全屏广告-1',
           matches:
-            '@TextView[text="跳过"] <<n  ViewGroup >n TextView[text="广告"]',
+            'TextView[text="跳过"] <4 @ViewGroup <<n ViewGroup >n TextView[text="广告"]',
           snapshotUrls: [
             'https://i.gkd.li/import/14203319',
             'https://i.gkd.li/import/14203087',
@@ -25,7 +25,7 @@ export default defineAppConfig({
           key: 1,
           name: '全屏广告-2',
           matches:
-            '@ImageView <<2 ViewGroup +2 ViewGroup > TextView[text="广告"]',
+            '@ViewGroup < ViewGroup +2 ViewGroup > TextView[text="广告"]',
           snapshotUrls: [
             'https://i.gkd.li/import/14203327',
             'https://i.gkd.li/import/14203600',
