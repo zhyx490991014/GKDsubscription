@@ -31,5 +31,14 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 2,
+      name: '定位提示',
+      quickFind: true,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: '[text="允许获取位置信息"] +n * > [text="取消"]',
+      snapshotUrls: 'https://i.gkd.li/import/14208572',
+    },
   ],
 });
