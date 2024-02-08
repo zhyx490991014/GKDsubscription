@@ -2,7 +2,7 @@ import { defineAppConfig } from '../types';
 
 export default defineAppConfig({
   id: 'cn.wps.moffice_eng',
-  name: 'WPS',
+  name: 'WPS Office',
   deprecatedKeys: [0],
   groups: [
     {
@@ -89,7 +89,8 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '文档末尾广告',
+      name: '局部广告-文档末尾广告',
+      quickFind: true,
       activityIds: [
         'cn.wps.moffice.writer.multiactivity.Writer', //Writer1,Writer2...
       ],
