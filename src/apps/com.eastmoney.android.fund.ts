@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '自选页面广告',
+      name: '局部广告-自选页面广告',
       activityIds:
         'com.eastmoney.android.fund.centralis.activity.FundRootActivity',
       rules: [
@@ -17,7 +17,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 2,
-      name: '自选页面缩写提示信息',
+      name: '功能类-自选页面缩写提示信息',
       activityIds:
         'com.eastmoney.android.fund.centralis.activity.FundRootActivity',
       rules: [
@@ -40,6 +40,24 @@ export default defineAppConfig({
       resetMatch: 'app',
       rules: '[desc="五星好评"] - [desc="下次再说"]',
       snapshotUrls: 'https://i.gkd.li/import/14179501',
+    },
+    {
+      key: 5,
+      name: '全屏广告-广告弹窗',
+      desc: '点击关闭',
+      quickFind: true,
+      activityIds:
+        'com.eastmoney.android.fund.centralis.activity.FundRootActivity',
+      rules: [
+        {
+          key: 0,
+          matches:
+            '@ImageView[visibleToUser=true] < FrameLayout <2 FrameLayout[childCount=2] <<n [id="com.eastmoney.android.fund:id/container"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/21743bbb-010a-410c-8ce1-57710d37722d',
+          snapshotUrls: 'https://i.gkd.li/import/14149452',
+        },
+      ],
     },
   ],
 });
