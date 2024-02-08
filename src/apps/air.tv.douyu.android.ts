@@ -3,20 +3,11 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'air.tv.douyu.android',
   name: '斗鱼',
-  deprecatedKeys: [0, 1],
+  deprecatedKeys: [0, 1, 2],
   groups: [
     {
-      key: 2,
-      name: '新版本弹窗',
-      activityIds: [
-        'com.douyu.module.update.view.UpdateDialog',
-        'com.douyu.module.home.pages.main.MainActivity',
-      ],
-      rules: '[text="立即升级"] - [text="忽略"][clickable=true]',
-    },
-    {
       key: 3,
-      name: '直播间广告',
+      name: '局部广告-直播间广告',
       activityIds: 'tv.douyu.view.activity.PlayerActivity',
       rules: [
         {
