@@ -27,10 +27,15 @@ export default defineAppConfig({
       key: 13,
       name: '通知提示',
       activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
-      rules: 'ViewGroup[vid="pdd"] >n @ImageView[clickable=true]',
-      exampleUrls:
-        'https://m.gkd.li/101449500/ec8e953e-06d3-4883-9c9a-11410f1b1336',
-      snapshotUrls: 'https://i.gkd.li/import/14109435',
+      rules: [
+        {
+          matches: 'ViewGroup[vid="pdd"] >n @ImageView[clickable=true]',
+          excludeMatches: '[text="最近搜索"]',
+          exampleUrls:
+            'https://m.gkd.li/101449500/ec8e953e-06d3-4883-9c9a-11410f1b1336',
+          snapshotUrls: 'https://i.gkd.li/import/14109435',
+        },
+      ],
     },
     {
       key: 2,
