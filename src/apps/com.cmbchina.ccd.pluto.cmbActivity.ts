@@ -3,27 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.cmbchina.ccd.pluto.cmbActivity',
   name: '掌上生活',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 1],
   groups: [
-    {
-      key: 1,
-      name: '更新提示',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      activityIds: [
-        'com.cmbchina.ccd.pluto.cmbActivity.CMBRootActivityV2',
-        'com.cmbchina.ccd.pluto.cmbActivity.secplugin',
-      ],
-      rules:
-        '[id="com.cmbchina.ccd.pluto.cmbActivity:id/bt_sure_tips"] - [id="com.cmbchina.ccd.pluto.cmbActivity:id/bt_cancel_tips"]',
-      snapshotUrls: [
-        'https://i.gkd.li/import/12647025',
-        'https://i.gkd.li/import/12727203',
-        'https://i.gkd.li/import/13345771', //
-      ],
-    },
     {
       key: 2,
       name: '全屏广告-首页弹窗广告',
