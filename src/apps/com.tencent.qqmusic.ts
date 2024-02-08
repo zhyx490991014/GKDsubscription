@@ -7,6 +7,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '局部广告-广告卡片',
+      quickFind: true,
       rules: [
         {
           key: 1,
@@ -18,7 +19,7 @@ export default defineAppConfig({
         {
           key: 2,
           activityIds: 'com.tencent.qqmusic.activity.AppStarterActivity',
-          matches: '[text="广告"] +n [desc="关闭"]',
+          matches: '@[desc="关闭"] -(1,2) [text="广告"]',
           snapshotUrls: [
             'https://i.gkd.li/import/13206534', //歌单页
             'https://i.gkd.li/import/13797001', //我的页
@@ -28,7 +29,7 @@ export default defineAppConfig({
           key: 3,
           activityIds: 'com.tencent.qqmusic.activity.AppStarterActivity',
           matches:
-            '@ImageView - ImageView - RelativeLayout >n [text="听歌入会赢绿钻"||text="摇动点击广告跳转"]',
+            '@ImageView - ImageView - RelativeLayout >3 [text="听歌入会赢绿钻"||text="摇动点击广告跳转"]',
           snapshotUrls: [
             'https://i.gkd.li/import/13206982',
             'https://i.gkd.li/import/13218134',
