@@ -30,8 +30,11 @@ export default defineAppConfig({
         },
         {
           key: 1,
-          matches: 'ViewPager + @View + ImageView + View',
-          snapshotUrls: 'https://i.gkd.li/import/12892825',
+          matches: 'ViewPager[childCount=3] + @View + ImageView + View',
+          snapshotUrls: [
+            'https://i.gkd.li/import/12892825',
+            'https://i.gkd.li/import/14208369', //不限定childCount=3误触
+          ],
         },
         {
           key: 2,
