@@ -54,8 +54,7 @@ export default defineAppConfig({
           preKeys: 0,
           key: 4,
           name: 'Sponsored-点击[Close the ad]',
-          matches:
-            'TextView[text="Close the ad"]',
+          matches: 'TextView[text="Close the ad"]',
           snapshotUrls: [
             'https://i.gkd.li/import/12905838',
             'https://i.gkd.li/import/14207505',
