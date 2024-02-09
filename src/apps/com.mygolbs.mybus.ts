@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '广告卡片',
+      name: '局部广告-广告卡片',
       activityIds: [
         'com.mygolbs.mybus.RTimeActivity',
         'com.mygolbs.mybus.NewHomePageActivity',
@@ -74,20 +74,26 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '广告弹窗',
-      activityIds: ['com.mygolbs.mybus.mapsearch.poisearch.PoiSearchActivity'],
+      name: '全屏广告-广告弹窗',
+      activityIds: [
+        'com.mygolbs.mybus.mapsearch.poisearch.PoiSearchActivity',
+        'com.mygolbs.mybus.NewHomePageActivity',
+      ],
       rules: [
         {
           name: '点击右上角x关闭图标',
           matches:
-            '[id="android:id/content"] >3 FrameLayout[childCount=6][index=0] > FrameLayout[childCount=1][index=1] > ImageView[id=null]',
-          snapshotUrls: 'https://i.gkd.li/import/12790762',
+            '[id="android:id/content"] >(3,4) FrameLayout[childCount<=6][index=0] > FrameLayout[childCount=1][index=1] > ImageView[id=null]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/12790762',
+            'https://i.gkd.li/import/14222978',
+          ],
         },
       ],
     },
     {
       key: 3,
-      name: '顶栏小广告',
+      name: '局部广告-顶栏小广告',
       activityIds: ['com.mygolbs.mybus.RTimeActivity'],
       rules: [
         {
@@ -100,7 +106,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 10,
-      name: '请求通知权限弹窗',
+      name: '权限提示-通知权限',
       desc: '自动点击【取消】',
       activityIds: 'com.mygolbs.mybus.defines.CustomDialog',
       rules: [
@@ -116,7 +122,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 11,
-      name: '签到成功弹窗',
+      name: '功能类-签到成功弹窗',
       desc: '自动点击x按钮',
       activityIds: 'com.mygolbs.mybus.guligold.SignSuccessActivity',
       rules:
