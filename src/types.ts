@@ -286,12 +286,12 @@ type RawAppRuleProps = {
   /**
    * 如果应用版本代码包含在此列表中, 则匹配
    */
-  versionCodes?: IArray<Integer>;
+  versionCodes?: IArray<number>;
 
   /**
    * 如果应用版本代码包含在此列表中, 则排除匹配, 优先级高于 versionCodes
    */
-  excludeVersionCodes?: IArray<Integer>;
+  excludeVersionCodes?: IArray<number>;
 };
 
 // <--全局规则相关--
