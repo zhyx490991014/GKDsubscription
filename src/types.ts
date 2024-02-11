@@ -272,6 +272,26 @@ type RawAppRuleProps = {
    * 优先级高于 activityIds
    */
   excludeActivityIds?: IArray<string>;
+
+  /**
+   * 如果应用版本名称包含在此列表中, 则匹配
+   */
+  versionNames?: IArray<string>;
+
+  /**
+   * 如果应用版本名称包含在此列表中, 则排除匹配, 优先级高于 versionNames
+   */
+  excludeVersionNames?: IArray<string>;
+
+  /**
+   * 如果应用版本代码包含在此列表中, 则匹配
+   */
+  versionCodes?: IArray<Integer>;
+
+  /**
+   * 如果应用版本代码包含在此列表中, 则排除匹配, 优先级高于 versionCodes
+   */
+  excludeVersionCodes?: IArray<Integer>;
 };
 
 // <--全局规则相关--
