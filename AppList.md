@@ -26,6 +26,7 @@
 | Nico                   | [com.superrhino.rarering](/docs/com.superrhino.rarering.md)                                                                                                       | 1      |
 | OMOFUN                 | [com.ksf.yyx](/docs/com.ksf.yyx.md)                                                                                                                               | 3      |
 | OMOFUN                 | [com.cyl.musiccy.ou](/docs/com.cyl.musiccy.ou.md)                                                                                                                 | 3      |
+| OmoFun                 | [com.xifeng.fun](/docs/com.xifeng.fun.md)                                                                                                                         | 2      |
 | OnStream               | [com.maertsno.m](/docs/com.maertsno.m.md)                                                                                                                         | 1      |
 | OurPlay                | [com.excean.gspace](/docs/com.excean.gspace.md)                                                                                                                   | 1      |
 | PicACG                 | [com.picacomic.fregata](/docs/com.picacomic.fregata.md)                                                                                                           | 5      |
