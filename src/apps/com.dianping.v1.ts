@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '主页推荐关注弹窗',
+      name: '全屏广告-主页推荐关注弹窗',
       activityIds: ['com.dianping.main.guide.SplashActivity'],
       rules:
         'FrameLayout[id="android:id/content"] >2 FrameLayout > ImageView + FrameLayout[id=null][desc="关闭"][clickable=true]',
@@ -14,7 +14,10 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '消息页上方开启系统通知提醒',
+      name: '通知提示-消息页上方开启系统通知提醒',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
       activityIds: ['com.dianping.main.guide.SplashActivity'],
       rules: {
         matches:
@@ -25,7 +28,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '关闭[签到开红包]',
+      name: '局部广告-关闭[签到开红包]',
       desc: '点击右下角悬浮图片右上角的x图标',
       activityIds: ['com.dianping.v1.NovaMainActivity'],
       rules:
@@ -34,7 +37,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      name: '弹窗广告',
+      name: '全屏广告-弹窗广告',
       rules: [
         {
           key: 0,
@@ -47,15 +50,24 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '卡片式广告',
+      name: '分段广告-推荐页卡片式广告',
       rules: [
         {
           key: 0,
-          name: '推荐页卡片广告',
           activityIds: 'com.dianping.v1.NovaMainActivity',
           matches:
             '[desc="reculike_delete"][clickable=true][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/import/13759369',
+        },
+        {
+          preKeys: 0,
+          key: 1,
+          activityIds: 'com.dianping.v1.NovaMainActivity',
+          matches: '@[clickable=true] > [text="重复出现"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/14238381',
+            'https://i.gkd.li/import/14269115',
+          ],
         },
       ],
     },
