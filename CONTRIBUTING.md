@@ -116,7 +116,7 @@ Android>=11 的无障碍可以自己截屏, 所以如果你的设备不满足 An
 
 ## 编写订阅
 
-订阅规则各个属性作用可以查看 [types.ts](https://github.com/gkd-kit/subscription/blob/main/src/types.ts)
+订阅规则各个属性作用可以查看 [API文档](https://gkd.li/api/)
 
 打开浏览器设备连接页面-点击修改内存订阅, 输入如下内容, 然后点击确认
 
