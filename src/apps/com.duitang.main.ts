@@ -43,5 +43,18 @@ export default defineAppConfig({
       rules: '@[vid="dialogNegative"] +2 [text="打开通知"]',
       snapshotUrls: 'https://i.gkd.li/import/14273121',
     },
+    {
+      key: 5,
+      quickFind: true,
+      name: '全屏广告-图片页广告弹窗',
+      desc: '点击X',
+      rules: [
+        {
+          activityIds: 'com.duitang.main.business.display.ImageActivity',
+          matches: '[id="com.duitang.main:id/popUpbtnClose"]',
+          snapshotUrls: 'https://i.gkd.li/import/13997011',
+        },
+      ],
+    },
   ],
 });
