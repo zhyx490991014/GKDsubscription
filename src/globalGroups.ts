@@ -17,9 +17,9 @@ const diabledAppIds = [
   // 在一些常见的应用中禁用
   'com.tencent.mm', // 微信
   'li.songe.gkd',
-  
-'com.google.ar.core', // 谷歌AR服务 
-'com.google.android.syncadapters.calendar', // 谷歌日历同步
+
+  'com.google.ar.core', // 谷歌AR服务
+  'com.google.android.syncadapters.calendar', // 谷歌日历同步
 
   // 小米系
   'com.miui.aod', // miui 锁屏界面
