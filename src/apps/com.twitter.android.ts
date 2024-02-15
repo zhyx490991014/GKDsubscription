@@ -172,7 +172,7 @@ export default defineAppConfig({
       name: '功能类-自动翻译帖子',
       quickFind: true,
       activityIds: 'com.twitter.tweetdetail.TweetDetailActivity',
-      rules: '[vid="translation_link"]',
+      rules: '[text="翻译帖子"][vid="translation_link"]',
       snapshotUrls: 'https://i.gkd.li/import/14189895',
     },
     {
