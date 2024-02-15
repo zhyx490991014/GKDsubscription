@@ -68,14 +68,14 @@ export default defineAppConfig({
           matches: '[vid="skip_bottom_view"]',
           snapshotUrls: 'https://i.gkd.li/import/13931202',
         },
-        { 
-           key: 3, 
-           name: '首页-礼包弹窗', 
-           activityIds: 'com.youdao.dict.activity.MainActivity', 
-           quickFind: true, 
-           matches: '[vid="image"] + [vid="close"]', 
-           snapshotUrls: 'https://i.gkd.li/import/14296482', 
-         },
+        {
+          key: 3,
+          name: '首页-礼包弹窗',
+          activityIds: 'com.youdao.dict.activity.MainActivity',
+          quickFind: true,
+          matches: '[vid="image"] + [vid="close"]',
+          snapshotUrls: 'https://i.gkd.li/import/14296482',
+        },
       ],
     },
     {
