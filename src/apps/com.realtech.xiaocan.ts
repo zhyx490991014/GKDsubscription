@@ -68,14 +68,14 @@ export default defineAppConfig({
       rules: '[desc*="今日最新红包已更新"] > ImageView[index=4]',
       snapshotUrls: 'https://i.gkd.li/import/14196232',
     },
-    { 
-       key: 4, 
-       name: '功能类-签到成功弹窗', 
-       desc: '自动点击[关闭]按钮', 
-       activityIds: 'com.realtech.xiaocan.MainActivity', 
-       rules: 
-         'View[childCount=6][desc!=""] > View[index=4] + ImageView[index=5][clickable=true]', 
-       snapshotUrls: 'https://i.gkd.li/import/14290847', 
-     },
+    {
+      key: 4,
+      name: '功能类-签到成功弹窗',
+      desc: '自动点击[关闭]按钮',
+      activityIds: 'com.realtech.xiaocan.MainActivity',
+      rules:
+        'View[childCount=6][desc!=""] > View[index=4] + ImageView[index=5][clickable=true]',
+      snapshotUrls: 'https://i.gkd.li/import/14290847',
+    },
   ],
 });
