@@ -68,6 +68,14 @@ export default defineAppConfig({
           matches: '[vid="skip_bottom_view"]',
           snapshotUrls: 'https://i.gkd.li/import/13931202',
         },
+        { 
+           key: 3, 
+           name: '首页-礼包弹窗', 
+           activityIds: 'com.youdao.dict.activity.MainActivity', 
+           quickFind: true, 
+           matches: '[vid="image"] + [vid="close"]', 
+           snapshotUrls: 'https://i.gkd.li/import/14296482', 
+         },
       ],
     },
     {
@@ -109,7 +117,6 @@ export default defineAppConfig({
     {
       key: 8,
       name: '功能类-点击显示释义',
-      desc: '不建议开启。',
       activityIds:
         'com.youdao.dict_flutter_android_bridge.WordBookFlutterActivity',
       rules: '[desc="点击显示释义"] > View[index=3][visibleToUser=true]',
