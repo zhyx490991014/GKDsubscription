@@ -169,5 +169,12 @@ export default defineAppConfig({
         '[id="com.dragon.read:id/readFlowNonRoundEntranceLayout"] [id="com.dragon.read:id/relativeRight"]',
       snapshotUrls: 'https://i.gkd.li/import/13674556',
     },
+    { 
+       key: 15, 
+       name: '全屏广告-福利页面弹窗', 
+       activityIds: 'com.dragon.read.pages.main.MainFragmentActivity', 
+       rules: '@LynxFlattenUI[clickable=true] - [text="前往抽奖"]', 
+       snapshotUrls: 'https://i.gkd.li/import/14292475', 
+     },
   ],
 });
