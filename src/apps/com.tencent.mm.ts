@@ -266,6 +266,66 @@ export default defineAppConfig({
       ],
     },
     {
+      key: 25,
+      enable: false,
+      name: '分段广告-订阅号文章列表广告',
+      desc: 'GKD1.7.0可用，误触风险极高，不建议开启',
+      activityIds:
+        'com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity',
+      rules: [
+        {
+          key: 0,
+          name: '点击【广告】',
+          action: 'clickCenter',
+          position: {
+            right: 160,
+            top: 60,
+          },
+          matches: 'View[desc="广告"]',
+          snapshotUrls: 'https://i.gkd.li/import/14321927',
+        },
+        {
+          key: 1,
+          preKeys: 0,
+          name: '点击【不感兴趣】',
+          action: 'clickCenter',
+          actionDelay: 2000,
+          position: {
+            left: 400,
+            top: 280,
+          },
+          matches: '[desc="菜单"] + View',
+          snapshotUrls: 'https://i.gkd.li/import/14321928',
+        },
+        {
+          key: 2,
+          preKeys: 1,
+          name: '点击【与我无关】',
+          action: 'clickCenter',
+          actionDelay: 2000,
+          position: {
+            left: 140,
+            top: 290,
+          },
+          matches: '[desc="菜单"] + View',
+          snapshotUrls: 'https://i.gkd.li/import/14322060',
+        },
+        {
+          key: 3,
+          preKeys: 2,
+          name: '点击【确定】',
+          action: 'clickCenter',
+          actionDelay: 2000,
+          position: {
+            right: 110,
+            top: 100,
+          },
+          matches: '[desc="菜单"] + View',
+          snapshotUrls: 'https://i.gkd.li/import/14322063',
+        },
+      ],
+    },
+    {
       enable: false,
       key: 8,
       name: '分段广告-订阅号文章广告反馈',
