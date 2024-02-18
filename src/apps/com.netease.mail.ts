@@ -39,6 +39,17 @@ export default defineAppConfig({
             'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView',
           snapshotUrls: 'https://i.gkd.li/import/14046124',
         },
+        {
+          key: 3,
+          name: 'GKD1.7.0可用',
+          action: 'clickCenter',
+          position: {
+            right: 150,
+            top: 230,
+          },
+          matches: '[id="com.netease.mail:id/ad_placeholder"] >3 ImageView',
+          snapshotUrls: 'https://i.gkd.li/import/12547435',
+        },
       ],
     },
     {
