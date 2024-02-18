@@ -59,3 +59,14 @@ jobs:
           tag_name: v${{ steps.version.outputs.version }}
           release_name: Release ${{ steps.version.outputs.version }}
           body_path: ./CHANGELOG.md
+
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./dist/Adpro_gkd.json5
+          asset_name: Adpro_gkd_${{ steps.version.outputs.version }}.json5
+          asset_content_type: application/json
