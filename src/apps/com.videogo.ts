@@ -10,6 +10,7 @@ export default defineAppConfig({
       matchTime: 10000,
       resetMatch: 'app',
       actionMaximum: 1,
+      actionCdKey: 1,
       rules: [
         {
           key: 0,
