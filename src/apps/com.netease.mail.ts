@@ -44,8 +44,8 @@ export default defineAppConfig({
           name: 'GKD1.7.0可用',
           action: 'clickCenter',
           position: {
-            right: 150,
-            top: 230,
+            right: 'width*0.1014',
+            top: 'width*0.1598',
           },
           matches: '[id="com.netease.mail:id/ad_placeholder"] >3 ImageView',
           snapshotUrls: 'https://i.gkd.li/import/12547435',
