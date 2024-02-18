@@ -12,6 +12,7 @@
 - [快照-5](https://i.gkd.li/import/13207736)
 - [快照-6](https://i.gkd.li/import/12999739)
 - [快照-7](https://i.gkd.li/import/14046124)
+- [快照-8](https://i.gkd.li/import/12547435)
 
 ## 全屏广告-邮件列表广告
 

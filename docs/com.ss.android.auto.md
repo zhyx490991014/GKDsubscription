@@ -31,13 +31,14 @@
 
 - [快照-0](https://i.gkd.li/import/12811597)
 
-## 评论区信息流广告
+## 局部广告-评论区-信息流广告
 
 默认禁用 - 像正常内容的广告
 
 - [快照-0](https://i.gkd.li/import/12811459)
 - [快照-1](https://i.gkd.li/import/12825865)
 - [快照-2](https://i.gkd.li/import/12900666)
+- [快照-3](https://i.gkd.li/import/14321294)
 
 ## 请求推送通知弹窗
 

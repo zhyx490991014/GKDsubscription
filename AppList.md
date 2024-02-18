@@ -120,7 +120,7 @@
 | 百度地图               | [com.baidu.BaiduMap](/docs/com.baidu.BaiduMap.md)                                                                                                                 | 9      |
 | 百度输入法             | [com.baidu.input](/docs/com.baidu.input.md)                                                                                                                       | 3      |
 | 百度贴吧               | [com.baidu.tieba](/docs/com.baidu.tieba.md)                                                                                                                       | 10     |
-| 百度网盘               | [com.baidu.netdisk](/docs/com.baidu.netdisk.md)                                                                                                                   | 10     |
+| 百度网盘               | [com.baidu.netdisk](/docs/com.baidu.netdisk.md)                                                                                                                   | 11     |
 | 百度网盘-三星版本      | [com.baidu.netdisk.samsung](/docs/com.baidu.netdisk.samsung.md)                                                                                                   | 4      |
 | 百分网游戏盒子         | [com.byfen.market](/docs/com.byfen.market.md)                                                                                                                     | 3      |
 | 班级小管家             | [com.banjixiaoguanjia.app](/docs/com.banjixiaoguanjia.app.md)                                                                                                     | 1      |
@@ -366,6 +366,7 @@
 | 权限管理服务           | [com.lbe.security.miui](/docs/com.lbe.security.miui.md)                                                                                                           | 1      |
 | 曲奇云盘               | [com.quqi.quqioffice](/docs/com.quqi.quqioffice.md)                                                                                                               | 1      |
 | 趣智校园               | [com.klcxkj.zqxy](/docs/com.klcxkj.zqxy.md)                                                                                                                       | 2      |
+| realme社区             | [com.realmecomm.app](/docs/com.realmecomm.app.md)                                                                                                                 | 1      |
 | 热剧猫                 | [com.tuying.kuimg.rjm](/docs/com.tuying.kuimg.rjm.md)                                                                                                             | 1      |
 | 人民日报               | [com.facetech.konking](/docs/com.facetech.konking.md)                                                                                                             | 1      |
 | 人人视频               | [com.example.pptv](/docs/com.example.pptv.md)                                                                                                                     | 2      |
@@ -433,6 +434,7 @@
 | tita搜索               | [so.tita](/docs/so.tita.md)                                                                                                                                       | 2      |
 | 同程旅行               | [com.tongcheng.android](/docs/com.tongcheng.android.md)                                                                                                           | 1      |
 | 同花顺                 | [com.hexin.plat.android](/docs/com.hexin.plat.android.md)                                                                                                         | 2      |
+| 通讯录与拨号           | [com.android.contacts](/docs/com.android.contacts.md)                                                                                                             | 1      |
 | 头条搜索极速版         | [com.ss.android.article.lite](/docs/com.ss.android.article.lite.md)                                                                                               | 7      |
 | 途虎养车               | [cn.TuHu.android](/docs/cn.TuHu.android.md)                                                                                                                       | 2      |
 | 图凌                   | [com.chan.cwallpaper](/docs/com.chan.cwallpaper.md)                                                                                                               | 1      |
@@ -464,7 +466,7 @@
 | 微店                   | [com.koudai.weidian.buyer](/docs/com.koudai.weidian.buyer.md)                                                                                                     | 1      |
 | 维护大师               | [com.example.maintenancemaster](/docs/com.example.maintenancemaster.md)                                                                                           | 1      |
 | 微拾                   | [com.pleasure.trace_wechat](/docs/com.pleasure.trace_wechat.md)                                                                                                   | 2      |
-| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 21     |
+| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 22     |
 | 微信读书               | [com.tencent.weread](/docs/com.tencent.weread.md)                                                                                                                 | 2      |
 | 微音乐                 | [com.zhouyu.music](/docs/com.zhouyu.music.md)                                                                                                                     | 2      |
 | 微音乐                 | [com.wzsykj.wei](/docs/com.wzsykj.wei.md)                                                                                                                         | 1      |
@@ -560,7 +562,7 @@
 | 邮储银行               | [com.yitong.mbank.psbc](/docs/com.yitong.mbank.psbc.md)                                                                                                           | 2      |
 | 有道翻译官             | [com.youdao.translator](/docs/com.youdao.translator.md)                                                                                                           | 1      |
 | 有道云笔记             | [com.youdao.note](/docs/com.youdao.note.md)                                                                                                                       | 1      |
-| 优酷视频               | [com.youku.phone](/docs/com.youku.phone.md)                                                                                                                       | 1      |
+| 优酷视频               | [com.youku.phone](/docs/com.youku.phone.md)                                                                                                                       | 2      |
 | 游民星空               | [com.gamersky](/docs/com.gamersky.md)                                                                                                                             | 1      |
 | 优衣库                 | [com.yek.android.uniqlo](/docs/com.yek.android.uniqlo.md)                                                                                                         | 2      |
 | 阅读                   | [com.heytap.reader](/docs/com.heytap.reader.md)                                                                                                                   | 3      |
