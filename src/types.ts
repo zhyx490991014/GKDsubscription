@@ -1,5 +1,39 @@
 export type IArray<T> = T | T[];
 
+export type Position = {
+  /**
+   * 距离目标节点左边的距离
+   * 
+   * 方向: 边 -> 节点中心, 负数表示反方向(也可点击节点外部区域)
+   * 
+   * 支持两种值类型, 字符串和数字, 数字等价于相同内容的字符串, 如 2.5 等价于 '2.5'
+   * 
+   * 字符串类型支持来自快照属性面板上的 left/top/right/bottom/width/height 的数学计算表达式
+   * 
+   * @example
+   * 2.5 // ✅
+   * '2.5' // ✅
+   * '2.5 + 1 - 2 * 3 / 4 ^ 5 % 6' // ✅
+   * '(right + left) / 2' // ✅
+   */
+  left?: string | number;
+
+  /**
+   * 距离目标节点上边的距离
+   */
+  top?: string | number;
+
+  /**
+   * 距离目标节点右边的距离
+   */
+  right?: string | number;
+
+  /**
+   * 距离目标节点下边的距离
+   */
+  bottom?: string | number;
+};
+
 type RawCommonProps = {
   /**
    * 单位: 毫秒
@@ -209,6 +243,15 @@ type RawRuleProps = RawCommonProps & {
     | 'longClick'
     | 'longClickNode'
     | 'longClickCenter';
+
+  /**
+   * 在使用 clickCenter/longClickCenter 时的自定义点击位置
+   * 
+   * 默认坐标为节点中心
+   * 
+   * 如果计算出的坐标不在屏幕内部, 当作未匹配
+   */
+  position?: Position;
 
   /**
    * 一个或者多个合法的 GKD 选择器, 如果每个选择器都能匹配上节点, 那么点击最后一个选择器的目标节点
