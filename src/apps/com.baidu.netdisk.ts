@@ -88,6 +88,14 @@ export default defineAppConfig({
       snapshotUrls: ['https://i.gkd.li/import/12923936'],
     },
     {
+      key: 9,
+      name: '评价提示',
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: '[text="喜欢“百度网盘”吗？"] +n [text="以后再说"]',
+      snapshotUrls: 'https://i.gkd.li/import/14317054',
+    },
+    {
       enable: false,
       key: 10,
       name: '看视频免费享极速下载弹窗',
