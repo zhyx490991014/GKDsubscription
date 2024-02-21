@@ -7,7 +7,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '全屏广告-开屏二次弹窗',
-      desc: '点击左上角x和跳过',
+      desc: '点击x或跳过',
       quickFind: true,
       activityIds: 'com.sjm.xiaodesecond.mw.MainActivity',
       rules: [
@@ -29,6 +29,24 @@ export default defineAppConfig({
           snapshotUrls: [
             'https://i.gkd.li/import/14203327',
             'https://i.gkd.li/import/14203600',
+          ],
+        },
+        {
+          key: 2,
+          name: '全屏广告-3',
+          matches:
+            'ImageView - FrameLayout >3 ImageView < @FrameLayout[childCount=1] <n * +2 * >2 TextView[text="去逛逛"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/14345580',
+          ],
+        },
+        {
+          key: 3,
+          name: '全屏广告-4',
+          matches:
+            'ImageView - FrameLayout >2 ImageView < @FrameLayout[childCount=1] + * >2 TextView[text="进入小程序"]',
+          snapshotUrls: [
+            'https://i.gkd.li/import/14353263',
           ],
         },
       ],
