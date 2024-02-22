@@ -35,15 +35,11 @@ export default defineAppConfig({
           key: 2,
           name: '全屏广告-3',
           matches:
-            'ImageView - FrameLayout >3 ImageView < @FrameLayout[childCount=1] <n * +2 * >2 TextView[text="去逛逛"]',
-          snapshotUrls: ['https://i.gkd.li/import/14345580'],
-        },
-        {
-          key: 3,
-          name: '全屏广告-4',
-          matches:
-            'ImageView - FrameLayout >2 ImageView < @FrameLayout[childCount=1] + * >2 TextView[text="进入小程序"]',
-          snapshotUrls: ['https://i.gkd.li/import/14353263'],
+            '[id="android:id/content"] >(3,4) FrameLayout[childCount>3 && childCount!=5] >2 ImageView[visibleToUser=true]',
+          snapshotUrls: [
+              'https://i.gkd.li/import/14345580',
+              'https://i.gkd.li/import/14353263',
+           ],
         },
       ],
     },
