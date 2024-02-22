@@ -37,9 +37,9 @@ export default defineAppConfig({
           matches:
             '[id="android:id/content"] >(3,4) FrameLayout[childCount>3 && childCount!=5] >2 ImageView[visibleToUser=true]',
           snapshotUrls: [
-              'https://i.gkd.li/import/14345580',
-              'https://i.gkd.li/import/14353263',
-           ],
+            'https://i.gkd.li/import/14345580',
+            'https://i.gkd.li/import/14353263',
+          ],
         },
       ],
     },
