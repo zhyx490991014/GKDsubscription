@@ -25,6 +25,7 @@ const diabledAppIds = [
   'com.miui.aod', // miui 锁屏界面
   'miui.systemui.plugin', // miui 状态栏界面
   'com.miui.securityadd', // 系统服务组件
+  'com.miui.packageinstaller', // 应用包管理组件
 
   // 华为系
   'com.huawei.android.launcher', // 桌面
