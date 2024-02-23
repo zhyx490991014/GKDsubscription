@@ -322,7 +322,7 @@
 | miui主题壁纸           | [com.android.thememanager](/docs/com.android.thememanager.md)                                                                                                     | 2      |
 | 蜜雪冰城               | [com.mxbc.mxsa](/docs/com.mxbc.mxsa.md)                                                                                                                           | 1      |
 | 蜜雪冰城鸿蒙版         | [com.mxbc.ohsa](/docs/com.mxbc.ohsa.md)                                                                                                                           | 1      |
-| 米游社                 | [com.mihoyo.hyperion](/docs/com.mihoyo.hyperion.md)                                                                                                               | 1      |
+| 米游社                 | [com.mihoyo.hyperion](/docs/com.mihoyo.hyperion.md)                                                                                                               | 3      |
 | 蜜源                   | [com.jf.my](/docs/com.jf.my.md)                                                                                                                                   | 2      |
 | 摩点                   | [com.modian.app](/docs/com.modian.app.md)                                                                                                                         | 1      |
 | 摩托邦                 | [com.motoband](/docs/com.motoband.md)                                                                                                                             | 1      |
