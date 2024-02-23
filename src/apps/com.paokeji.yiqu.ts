@@ -46,37 +46,62 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          name: '穿山甲SDK',
+          name: '穿山甲SDK-1',
           actionDelay: 350, //防误触
-          matches: [
+          matches:
             '[id="com.byted.pangle.m:id/tt_reward_full_count_down_after"]',
-            '[text="反馈"] <<n View + View[childCount=1]',
-            '[text*="跳过" && text.length<=6] <2 @View -(3-n) View < View',
-            '[text="反馈"] -n @View[index<=1] > Image[text.length=0]',
-            '[text="反馈"] <<n View - View[childCount=1]',
-          ],
-          snapshotUrls: [
-            'https://i.gkd.li/i/13830798', //规则2
-            'https://i.gkd.li/i/13810767', //规则1
-            'https://i.gkd.li/i/13829749', //规则3
-            'https://i.gkd.li/i/13809737', //规则4 index=0
-            'https://i.gkd.li/i/13809578', //规则4 index=1
-            'https://i.gkd.li/i/13810150', //规则5
-          ],
+          snapshotUrls: 'https://i.gkd.li/i/13810767',
         },
         {
           key: 3,
-          name: '快手SDK',
-          matches: [
-            '[text*="跳过"] <n *[clickable=true]',
-            '[vid="ksad_auto_close_btn"]',
-            '[vid="ksad_video_container"] < * >n ViewGroup[index=1] >n @ViewGroup[clickable=true] > ImageView',
-          ],
+          name: '穿山甲SDK-2',
+          actionDelay: 350, //防误触
+          matches: '[text="反馈"] <<n View + View[childCount=1]',
+          snapshotUrls: 'https://i.gkd.li/i/13830798',
+        },
+        {
+          key: 4,
+          name: '穿山甲SDK-3',
+          actionDelay: 350, //防误触
+          matches:
+            '[text*="跳过" && text.length<=6] <2 @View -(3-n) View < View',
+          snapshotUrls: 'https://i.gkd.li/i/13829749',
+        },
+        {
+          key: 5,
+          name: '穿山甲SDK-4',
+          actionDelay: 350, //防误触
+          matches: '[text="反馈"] -n @View[index<=1] > Image[text.length=0]',
           snapshotUrls: [
-            'https://i.gkd.li/i/13809629', //规则1
-            'https://i.gkd.li/i/13829312', //规则3
-            'https://i.gkd.li/i/13837855', //规则2
+            'https://i.gkd.li/i/13809737', //index=0
+            'https://i.gkd.li/i/13809578', //index=1
           ],
+        },
+        {
+          key: 6,
+          name: '穿山甲SDK-5',
+          actionDelay: 350, //防误触
+          matches: '[text="反馈"] <<n View - View[childCount=1]',
+          snapshotUrls: 'https://i.gkd.li/i/13810150',
+        },
+        {
+          key: 7,
+          name: '快手SDK-1',
+          matches: '[text*="跳过"] <n *[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/13809629',
+        },
+        {
+          key: 8,
+          name: '快手SDK-2',
+          matches: '[vid="ksad_auto_close_btn"]',
+          snapshotUrls: 'https://i.gkd.li/i/13837855',
+        },
+        {
+          key: 9,
+          name: '快手SDK-3',
+          matches:
+            '[vid="ksad_video_container"] < * >n ViewGroup[index=1] >n @ViewGroup[clickable=true] > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/13829312',
         },
       ],
     },
