@@ -456,9 +456,11 @@ export default defineAppConfig({
           key: 1,
           name: '【广告】1',
           matches: 'View > * - [text="广告"]',
+          excludeMatches: '[text="接龙管家"]',
           snapshotUrls: [
             'https://i.gkd.li/i/13378208',
             'https://i.gkd.li/i/14123141',
+            'https://i.gkd.li/i/14385715', //在接龙管家误触，暂未想到办法修复
           ],
         },
         {
