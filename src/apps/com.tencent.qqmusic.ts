@@ -14,15 +14,15 @@ export default defineAppConfig({
           activityIds:
             'com.tencent.qqmusic.business.playernew.view.NewPlayerActivity',
           matches: '[text^="广告"] + [text="跳过"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13985169', // 播放界面
+          snapshotUrls: 'https://i.gkd.li/i/13985169', // 播放界面
         },
         {
           key: 2,
           activityIds: 'com.tencent.qqmusic.activity.AppStarterActivity',
           matches: '@[desc="关闭"] -(1,2) [text="广告"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13206534', //歌单页
-            'https://i.gkd.li/import/13797001', //我的页
+            'https://i.gkd.li/i/13206534', //歌单页
+            'https://i.gkd.li/i/13797001', //我的页
           ],
         },
         {
@@ -31,8 +31,8 @@ export default defineAppConfig({
           matches:
             '@ImageView - ImageView - RelativeLayout >3 [text="听歌入会赢绿钻"||text="摇动点击广告跳转"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13206982',
-            'https://i.gkd.li/import/13218134',
+            'https://i.gkd.li/i/13206982',
+            'https://i.gkd.li/i/13218134',
           ],
         },
       ],
@@ -43,7 +43,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.tencent.qqmusic.activity.TranslucentWebViewActivity',
       rules: 'View[id="js_close_btn"][desc="关闭"]',
-      snapshotUrls: 'https://i.gkd.li/import/13115121',
+      snapshotUrls: 'https://i.gkd.li/i/13115121',
     },
     {
       key: 3,
@@ -52,7 +52,7 @@ export default defineAppConfig({
       activityIds: 'com.tencent.qqmusic.activity.AppStarterActivity',
       quickFind: true,
       rules: '[text="抢先体验"] -2 [text="不再提醒"]',
-      snapshotUrls: 'https://i.gkd.li/import/13178485',
+      snapshotUrls: 'https://i.gkd.li/i/13178485',
     },
     {
       key: 4,
@@ -61,7 +61,7 @@ export default defineAppConfig({
       activityIds: 'com.tencent.qqmusic.activity.AppStarterActivity',
       quickFind: true,
       rules: '[text="流量够用"]',
-      snapshotUrls: 'https://i.gkd.li/import/13197868',
+      snapshotUrls: 'https://i.gkd.li/i/13197868',
     },
   ],
 });

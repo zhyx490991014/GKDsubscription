@@ -16,15 +16,15 @@ export default defineAppConfig({
           name: '全屏广告、局部广告-xadSDK',
           matches: '[vid="layout_ad_float"] >n [vid="xadsdk_pause_ad_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/14321469', //局部广告
-            'https://i.gkd.li/import/14321401', //全屏广告
+            'https://i.gkd.li/i/14321469', //局部广告
+            'https://i.gkd.li/i/14321401', //全屏广告
           ],
         },
         {
           key: 1,
           name: '局部广告-右下角-广告',
           matches: '[vid="ad_content"] +2 [vid="novelad_corner_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/14321461',
+          snapshotUrls: 'https://i.gkd.li/i/14321461',
         },
       ],
     },
@@ -34,7 +34,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.youku.vip.wrapper.VipHomeActivity',
       rules: '[id="com.youku.phone:id/closeView"][desc="关闭弹层"]',
-      snapshotUrls: 'https://i.gkd.li/import/12701029',
+      snapshotUrls: 'https://i.gkd.li/i/12701029',
     },
   ],
 });

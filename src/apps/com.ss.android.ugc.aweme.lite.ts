@@ -16,7 +16,7 @@ export default defineAppConfig({
             'com.ss.android.ugc.aweme.commerce.sdk.MallContainerActivity',
           matches:
             '[text="不再提示"] + @ECCustomUiImage[clickable=true] +n LynxFlattenUI[text^="立即体验"]',
-          snapshotUrls: 'https://i.gkd.li/import/13684791',
+          snapshotUrls: 'https://i.gkd.li/i/13684791',
         },
       ],
     },
@@ -29,7 +29,7 @@ export default defineAppConfig({
       activityIds: ['com.ss.android.ugc.aweme.main.MainActivity'],
       rules:
         '[text="朋友推荐"] +2 [id="com.ss.android.ugc.aweme.lite:id/close"][clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/13650523',
+      snapshotUrls: 'https://i.gkd.li/i/13650523',
     },
     {
       key: 9,
@@ -41,7 +41,7 @@ export default defineAppConfig({
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[id="com.ss.android.ugc.aweme.lite:id/gl7"] > [id="com.ss.android.ugc.aweme.lite:id/h5q"]',
-          snapshotUrls: 'https://i.gkd.li/import/13888485',
+          snapshotUrls: 'https://i.gkd.li/i/13888485',
         },
       ],
     },

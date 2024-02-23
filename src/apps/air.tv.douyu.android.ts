@@ -15,35 +15,35 @@ export default defineAppConfig({
           matches:
             'ImageView < ViewGroup + @ViewGroup[childCount=1] > ImageView', //添加childCount=1避免【全屏播放-设置】误触
           snapshotUrls: [
-            'https://i.gkd.li/import/12892825',
-            'https://i.gkd.li/import/13037239',
+            'https://i.gkd.li/i/12892825',
+            'https://i.gkd.li/i/13037239',
           ],
         },
         {
           key: 1,
           matches: 'ViewPager[childCount=3] + @View + ImageView + View',
           snapshotUrls: [
-            'https://i.gkd.li/import/12892825',
-            'https://i.gkd.li/import/14208369', //不限定childCount=3误触
+            'https://i.gkd.li/i/12892825',
+            'https://i.gkd.li/i/14208369', //不限定childCount=3误触
           ],
         },
         {
           key: 2,
           matches:
             'RelativeLayout[childCount=3] > ViewPager + @View + ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/13056107',
+          snapshotUrls: 'https://i.gkd.li/i/13056107',
         },
         {
           key: 3,
           matches:
             'ViewGroup[childCount=4] > View + ImageView + FrameLayout + ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/13056107',
+          snapshotUrls: 'https://i.gkd.li/i/13056107',
         },
         {
           key: 4,
           matches:
             'FrameLayout[childCount=2] > @ImageView - FrameLayout > RelativeLayout > WebView',
-          snapshotUrls: 'https://i.gkd.li/import/13056107',
+          snapshotUrls: 'https://i.gkd.li/i/13056107',
         },
       ],
     },

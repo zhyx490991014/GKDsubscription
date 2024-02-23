@@ -17,8 +17,8 @@ export default defineAppConfig({
           matches:
             'TextView[text="跳过"] <4 @ViewGroup <<n ViewGroup >n TextView[text="广告"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/14203319',
-            'https://i.gkd.li/import/14203087',
+            'https://i.gkd.li/i/14203319',
+            'https://i.gkd.li/i/14203087',
           ],
         },
         {
@@ -27,8 +27,8 @@ export default defineAppConfig({
           matches:
             '@ViewGroup < ViewGroup +2 ViewGroup > TextView[text="广告"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/14203327',
-            'https://i.gkd.li/import/14203600',
+            'https://i.gkd.li/i/14203327',
+            'https://i.gkd.li/i/14203600',
           ],
         },
         {
@@ -37,8 +37,8 @@ export default defineAppConfig({
           matches:
             '[id="android:id/content"] >(3,4) FrameLayout[childCount>3 && childCount!=5] >2 ImageView[visibleToUser=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/14345580',
-            'https://i.gkd.li/import/14353263',
+            'https://i.gkd.li/i/14345580',
+            'https://i.gkd.li/i/14353263',
           ],
         },
       ],

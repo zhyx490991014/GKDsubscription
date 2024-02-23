@@ -13,7 +13,7 @@ export default defineAppConfig({
       rules: '[vid="dsl_dialog_root"] >4 ImageView[index=1]',
       exampleUrls:
         'https://m.gkd.li/101449500/7471ea5e-df20-4340-971f-1acfccbe6fab',
-      snapshotUrls: 'https://i.gkd.li/import/14167946',
+      snapshotUrls: 'https://i.gkd.li/i/14167946',
     },
   ],
 });

@@ -6,7 +6,7 @@
 
 默认禁用 - 点击左上角x和跳过
 
-- [快照-0](https://i.gkd.li/import/14203319)
-- [快照-1](https://i.gkd.li/import/14203087)
-- [快照-2](https://i.gkd.li/import/14203327)
-- [快照-3](https://i.gkd.li/import/14203600)
+- [快照-0](https://i.gkd.li/i/14203319)
+- [快照-1](https://i.gkd.li/i/14203087)
+- [快照-2](https://i.gkd.li/i/14203327)
+- [快照-3](https://i.gkd.li/i/14203600)

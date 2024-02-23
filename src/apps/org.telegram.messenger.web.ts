@@ -16,7 +16,7 @@ export default defineAppConfig({
           matches: ['[text="更新 Telegram"]', '[text="请稍后提醒我"] - View'],
         },
       ],
-      snapshotUrls: 'https://i.gkd.li/import/13847837',
+      snapshotUrls: 'https://i.gkd.li/i/13847837',
     },
     {
       key: 2,
@@ -25,7 +25,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'org.telegram.ui.LaunchActivity',
       rules: '[text="打开通知"] +n [text="继续"]',
-      snapshotUrls: 'https://i.gkd.li/import/14048218',
+      snapshotUrls: 'https://i.gkd.li/i/14048218',
     },
   ],
 });

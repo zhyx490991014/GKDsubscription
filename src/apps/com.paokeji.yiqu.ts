@@ -12,7 +12,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       actionMaximum: 1,
       rules: '@View[clickable=true] <<n [vid="lyContainer"]',
-      snapshotUrls: 'https://i.gkd.li/import/14031922',
+      snapshotUrls: 'https://i.gkd.li/i/14031922',
     },
     {
       key: 1,
@@ -30,9 +30,9 @@ export default defineAppConfig({
           matches:
             '[id="android:id/content"] >(-n+4) FrameLayout > FrameLayout[childCount=1] > ImageView[index=0 && id!=null]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13830354',
-            'https://i.gkd.li/import/13842716',
-            'https://i.gkd.li/import/13842966',
+            'https://i.gkd.li/i/13830354',
+            'https://i.gkd.li/i/13842716',
+            'https://i.gkd.li/i/13842966',
           ],
         },
         {
@@ -40,8 +40,8 @@ export default defineAppConfig({
           name: '字节SDK',
           matches: 'FrameLayout[desc*="close"] > View',
           snapshotUrls: [
-            'https://i.gkd.li/import/13839432',
-            'https://i.gkd.li/import/13839519',
+            'https://i.gkd.li/i/13839432',
+            'https://i.gkd.li/i/13839519',
           ],
         },
         {
@@ -56,12 +56,12 @@ export default defineAppConfig({
             '[text="反馈"] <<n View - View[childCount=1]',
           ],
           snapshotUrls: [
-            'https://i.gkd.li/import/13830798', //规则2
-            'https://i.gkd.li/import/13810767', //规则1
-            'https://i.gkd.li/import/13829749', //规则3
-            'https://i.gkd.li/import/13809737', //规则4 index=0
-            'https://i.gkd.li/import/13809578', //规则4 index=1
-            'https://i.gkd.li/import/13810150', //规则5
+            'https://i.gkd.li/i/13830798', //规则2
+            'https://i.gkd.li/i/13810767', //规则1
+            'https://i.gkd.li/i/13829749', //规则3
+            'https://i.gkd.li/i/13809737', //规则4 index=0
+            'https://i.gkd.li/i/13809578', //规则4 index=1
+            'https://i.gkd.li/i/13810150', //规则5
           ],
         },
         {
@@ -73,9 +73,9 @@ export default defineAppConfig({
             '[vid="ksad_video_container"] < * >n ViewGroup[index=1] >n @ViewGroup[clickable=true] > ImageView',
           ],
           snapshotUrls: [
-            'https://i.gkd.li/import/13809629', //规则1
-            'https://i.gkd.li/import/13829312', //规则3
-            'https://i.gkd.li/import/13837855', //规则2
+            'https://i.gkd.li/i/13809629', //规则1
+            'https://i.gkd.li/i/13829312', //规则3
+            'https://i.gkd.li/i/13837855', //规则2
           ],
         },
       ],

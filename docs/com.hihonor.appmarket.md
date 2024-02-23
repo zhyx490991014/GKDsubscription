@@ -6,17 +6,17 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13063815)
-- [快照-1](https://i.gkd.li/import/13168440)
+- [快照-0](https://i.gkd.li/i/13063815)
+- [快照-1](https://i.gkd.li/i/13168440)
 
 ## 悬浮窗小广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13063928)
+- [快照-0](https://i.gkd.li/i/13063928)
 
 ## 推送通知
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13073319)
+- [快照-0](https://i.gkd.li/i/13073319)

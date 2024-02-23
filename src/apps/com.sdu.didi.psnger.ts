@@ -13,7 +13,7 @@ export default defineAppConfig({
           activityIds: 'com.didi.sdk.app.MainActivity',
           matches:
             'ImageView[id=`com.sdu.didi.psnger:id/second_entrance_img`] + @ImageView[id=`com.sdu.didi.psnger:id/left_close_img`]',
-          snapshotUrls: 'https://i.gkd.li/import/13760846',
+          snapshotUrls: 'https://i.gkd.li/i/13760846',
         },
       ],
     },
@@ -27,8 +27,8 @@ export default defineAppConfig({
       ],
       rules: '[vid="popClose"][desc="关闭弹窗"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/14047551',
-        'https://i.gkd.li/import/13947142', //activityId: com.didi.sdk.app.MainActivity
+        'https://i.gkd.li/i/14047551',
+        'https://i.gkd.li/i/13947142', //activityId: com.didi.sdk.app.MainActivity
       ],
     },
   ],

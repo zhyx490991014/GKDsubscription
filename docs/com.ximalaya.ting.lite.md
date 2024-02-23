@@ -10,22 +10,22 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13218286)
+- [快照-0](https://i.gkd.li/i/13218286)
 
 ## 小说推荐弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13229127)
+- [快照-0](https://i.gkd.li/i/13229127)
 
 ## 支付宝提现广告弹窗
 
 默认禁用 - 点击右上角圆形x
 
-- [快照-0](https://i.gkd.li/import/13256447)
+- [快照-0](https://i.gkd.li/i/13256447)
 
 ## 关闭开启通知弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13256505)
+- [快照-0](https://i.gkd.li/i/13256505)

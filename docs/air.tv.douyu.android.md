@@ -6,10 +6,10 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12892825)
-- [快照-1](https://i.gkd.li/import/13037239)
-- [快照-2](https://i.gkd.li/import/12892825)
-- [快照-3](https://i.gkd.li/import/14208369)
-- [快照-4](https://i.gkd.li/import/13056107)
-- [快照-5](https://i.gkd.li/import/13056107)
-- [快照-6](https://i.gkd.li/import/13056107)
+- [快照-0](https://i.gkd.li/i/12892825)
+- [快照-1](https://i.gkd.li/i/13037239)
+- [快照-2](https://i.gkd.li/i/12892825)
+- [快照-3](https://i.gkd.li/i/14208369)
+- [快照-4](https://i.gkd.li/i/13056107)
+- [快照-5](https://i.gkd.li/i/13056107)
+- [快照-6](https://i.gkd.li/i/13056107)

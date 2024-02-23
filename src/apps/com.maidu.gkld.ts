@@ -11,7 +11,7 @@ export default defineAppConfig({
       activityIds: 'com.maidu.gkld.ui.main.MainActivity',
       rules:
         '[id="com.maidu.gkld:id/fl_float"] + [id="com.maidu.gkld:id/close_image_view"]',
-      snapshotUrls: 'https://i.gkd.li/import/12715291',
+      snapshotUrls: 'https://i.gkd.li/i/12715291',
     },
     {
       enable: false,
@@ -20,7 +20,7 @@ export default defineAppConfig({
       activityIds: 'com.maidu.gkld.ui.main.MainActivity',
       rules:
         '[id="com.maidu.gkld:id/ll_open_app_notice"] + [id="com.maidu.gkld:id/iv_cancel"]',
-      snapshotUrls: 'https://i.gkd.li/import/12715250',
+      snapshotUrls: 'https://i.gkd.li/i/12715250',
     },
   ],
 });

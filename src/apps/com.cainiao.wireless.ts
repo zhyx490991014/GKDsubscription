@@ -16,8 +16,8 @@ export default defineAppConfig({
           quickFind: true,
           matches: '[id="com.cainiao.wireless:id/draw_dialog_iv_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12914371',
-            'https://i.gkd.li/import/13692758',
+            'https://i.gkd.li/i/12914371',
+            'https://i.gkd.li/i/13692758',
           ],
         },
         {
@@ -26,7 +26,7 @@ export default defineAppConfig({
             'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
           matches:
             'View[childCount=4] > Image + View + Image + View[text.length>0][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13042279',
+          snapshotUrls: 'https://i.gkd.li/i/13042279',
         },
       ],
     },
@@ -37,7 +37,7 @@ export default defineAppConfig({
         'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
       ],
       rules: 'View[desc="立即查看"] +2 ImageView[id=null]',
-      snapshotUrls: ['https://i.gkd.li/import/12914450'],
+      snapshotUrls: ['https://i.gkd.li/i/12914450'],
     },
     {
       key: 4,
@@ -48,7 +48,7 @@ export default defineAppConfig({
         'com.cainiao.wireless.homepage.view.activity.HomePageActivity',
       ],
       rules: '[text="确认"] - [text="取消"]',
-      snapshotUrls: ['https://i.gkd.li/import/13042207'],
+      snapshotUrls: ['https://i.gkd.li/i/13042207'],
     },
     {
       key: 5,
@@ -60,14 +60,14 @@ export default defineAppConfig({
         'com.cainiao.wireless.homepage.view.activity.HomePageActivity',
       ],
       rules: '[id="com.cainiao.wireless:id/gg_dialog_base_close"]',
-      snapshotUrls: ['https://i.gkd.li/import/13068573'],
+      snapshotUrls: ['https://i.gkd.li/i/13068573'],
     },
     {
       key: 6,
       name: '请求好评弹窗',
       activityIds: 'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
       rules: '@[text="取消"] + [text="好评"]',
-      snapshotUrls: 'https://i.gkd.li/import/13692761',
+      snapshotUrls: 'https://i.gkd.li/i/13692761',
     },
     {
       key: 7,
@@ -79,8 +79,8 @@ export default defineAppConfig({
       resetMatch: 'app',
       rules: '[vid="dialog_full_image_close"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/13842492',
-        'https://i.gkd.li/import/13936362',
+        'https://i.gkd.li/i/13842492',
+        'https://i.gkd.li/i/13936362',
       ],
     },
   ],

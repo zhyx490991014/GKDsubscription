@@ -13,9 +13,9 @@ export default defineAppConfig({
       activityIds: 'com.oray.sunlogin.application.Main',
       rules: '[id="com.oray.sunlogin:id/close"][text="关闭"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/13195950',
-        'https://i.gkd.li/import/12910411',
-        'https://i.gkd.li/import/13197454', //如果没有text条件则会和这一条误触
+        'https://i.gkd.li/i/13195950',
+        'https://i.gkd.li/i/12910411',
+        'https://i.gkd.li/i/13197454', //如果没有text条件则会和这一条误触
       ],
       exampleUrls:
         'https://github.com/gkd-kit/inspect/assets/38517192/61d335f0-a85a-4e26-80fe-6bc0d1742bc0',
@@ -26,7 +26,7 @@ export default defineAppConfig({
       activityIds: 'com.oray.sunlogin.application.Main',
       quickFind: true,
       rules: '[id="com.oray.sunlogin:id/fl_close_advertise"]',
-      snapshotUrls: 'https://i.gkd.li/import/13207785',
+      snapshotUrls: 'https://i.gkd.li/i/13207785',
       exampleUrls:
         'https://github.com/gkd-kit/inspect/assets/38517192/071e5512-e1aa-4a8c-8440-009d6f0f35ff',
     },
@@ -35,7 +35,7 @@ export default defineAppConfig({
       name: '功能类-退出app提示',
       quickFind: true,
       rules: '[text="是否确认退出向日葵？"] + LinearLayout > [vid="button_ok"]',
-      snapshotUrls: 'https://i.gkd.li/import/13927148',
+      snapshotUrls: 'https://i.gkd.li/i/13927148',
     },
   ],
 });

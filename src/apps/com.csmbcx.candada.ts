@@ -11,7 +11,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       actionMaximum: 1,
       rules: '[vid="flContainer"] >n View[clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/14079762',
+      snapshotUrls: 'https://i.gkd.li/i/14079762',
     },
   ],
 });

@@ -16,8 +16,8 @@ export default defineAppConfig({
       ],
       rules: 'View[id="com.hd.smartVillage:id/notificationSettingCloseBtn"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/13223669', //com.hd.smartVillage.modules.main.MainActivity
-        'https://i.gkd.li/import/13293000', //com.hd.smartVillage.modules.h5service.H5WebActivity
+        'https://i.gkd.li/i/13223669', //com.hd.smartVillage.modules.main.MainActivity
+        'https://i.gkd.li/i/13293000', //com.hd.smartVillage.modules.h5service.H5WebActivity
       ],
     },
   ],

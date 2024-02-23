@@ -15,7 +15,7 @@ export default defineAppConfig({
       activityIds: 'com.sohu.sohuvideo.ui.homepage.MainActivity',
       rules:
         '@[id="com.sohu.sohuvideo:id/ivClose"] + LinearLayout [text="新版本上线啦"]',
-      snapshotUrls: 'https://i.gkd.li/import/13435504',
+      snapshotUrls: 'https://i.gkd.li/i/13435504',
     },
   ],
 });

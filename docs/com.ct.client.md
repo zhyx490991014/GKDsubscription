@@ -6,27 +6,27 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12508971)
+- [快照-0](https://i.gkd.li/i/12508971)
 
 ## 浮窗广告
 
 默认禁用 - 会出现在首页、查询办理页面
 
-- [快照-0](https://i.gkd.li/import/12819676)
-- [快照-1](https://i.gkd.li/import/12913735)
-- [快照-2](https://i.gkd.li/import/13043345)
+- [快照-0](https://i.gkd.li/i/12819676)
+- [快照-1](https://i.gkd.li/i/12913735)
+- [快照-2](https://i.gkd.li/i/13043345)
 
 ## 业务办理-弹窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12913804)
+- [快照-0](https://i.gkd.li/i/12913804)
 
 ## 消息-开启消息通知
 
 默认禁用 - 自动点击关闭
 
-- [快照-0](https://i.gkd.li/import/13043522)
+- [快照-0](https://i.gkd.li/i/13043522)
 
 ## 功能类-领金豆
 
@@ -34,4 +34,4 @@
 
 - [示例-0](https://m.gkd.li/57941037/fe4862c7-44ce-4d2f-9f3f-1621a373b075)
 
-- [快照-0](https://i.gkd.li/import/14121382)
+- [快照-0](https://i.gkd.li/i/14121382)

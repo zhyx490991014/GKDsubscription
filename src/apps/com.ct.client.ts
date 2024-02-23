@@ -12,7 +12,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.ct.client.activity.UserGuideActivity',
       rules: '[id="com.ct.client:id/tvSkip"]',
-      snapshotUrls: ['https://i.gkd.li/import/12508971'],
+      snapshotUrls: ['https://i.gkd.li/i/12508971'],
     },
     {
       key: 3,
@@ -27,13 +27,13 @@ export default defineAppConfig({
         {
           matches: 'ImageView[id="com.ct.client:id/close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12819676',
-            'https://i.gkd.li/import/12913735',
+            'https://i.gkd.li/i/12819676',
+            'https://i.gkd.li/i/12913735',
           ],
         },
         {
           matches: 'ImageView[id="com.ct.client:id/ivFloatClose"]',
-          snapshotUrls: ['https://i.gkd.li/import/13043345'],
+          snapshotUrls: ['https://i.gkd.li/i/13043345'],
         },
       ],
     },
@@ -45,7 +45,7 @@ export default defineAppConfig({
         'com.ct.client.common.webview.OnlineBusinessWebkitActivity',
       ],
       rules: 'Image[text="tishi-close"]',
-      snapshotUrls: ['https://i.gkd.li/import/12913804'],
+      snapshotUrls: ['https://i.gkd.li/i/12913804'],
     },
     {
       key: 5,
@@ -54,7 +54,7 @@ export default defineAppConfig({
       // quickFind: true, 实机测试使用无法跳过
       activityIds: ['com.ct.client.activity.MainActivity'],
       rules: 'ImageView[id="com.ct.client:id/msg_close"]',
-      snapshotUrls: ['https://i.gkd.li/import/13043522'],
+      snapshotUrls: ['https://i.gkd.li/i/13043522'],
     },
     {
       key: 6,
@@ -65,7 +65,7 @@ export default defineAppConfig({
       rules: '[id="com.ct.client:id/ivSign"]',
       exampleUrls:
         'https://m.gkd.li/57941037/fe4862c7-44ce-4d2f-9f3f-1621a373b075',
-      snapshotUrls: 'https://i.gkd.li/import/14121382',
+      snapshotUrls: 'https://i.gkd.li/i/14121382',
     },
   ],
 });

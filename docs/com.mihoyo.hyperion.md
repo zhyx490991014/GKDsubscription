@@ -6,5 +6,5 @@
 
 默认禁用 - 点击[打卡],切换板块自动签到
 
-- [快照-0](https://i.gkd.li/import/13721772)
-- [快照-1](https://i.gkd.li/import/13721776)
+- [快照-0](https://i.gkd.li/i/13721772)
+- [快照-1](https://i.gkd.li/i/13721776)

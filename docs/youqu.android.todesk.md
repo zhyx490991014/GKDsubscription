@@ -6,7 +6,7 @@
 
 默认禁用 - 设备列表和连接界面中的广告卡片
 
-- [快照-0](https://i.gkd.li/import/13228546)
-- [快照-1](https://i.gkd.li/import/13256552)
-- [快照-2](https://i.gkd.li/import/13296380)
-- [快照-3](https://i.gkd.li/import/14175557)
+- [快照-0](https://i.gkd.li/i/13228546)
+- [快照-1](https://i.gkd.li/i/13256552)
+- [快照-2](https://i.gkd.li/i/13296380)
+- [快照-3](https://i.gkd.li/i/14175557)

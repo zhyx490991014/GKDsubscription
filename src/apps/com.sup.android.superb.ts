@@ -12,7 +12,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '[text="开启推送通知"] +2 * > [text="以后再说"]',
-      snapshotUrls: 'https://i.gkd.li/import/13691081',
+      snapshotUrls: 'https://i.gkd.li/i/13691081',
     },
     {
       key: 6,
@@ -23,7 +23,7 @@ export default defineAppConfig({
       activityIds: 'com.sup.android.base.MainActivity',
       rules:
         'FrameLayout > RelativeLayout > @ImageView[clickable=true] + ImageView',
-      snapshotUrls: 'https://i.gkd.li/import/13624220',
+      snapshotUrls: 'https://i.gkd.li/i/13624220',
     },
     {
       key: 7,
@@ -33,7 +33,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[text="发现新版本"] +2 * > [text="我再想想"]',
-          snapshotUrls: 'https://i.gkd.li/import/13858490',
+          snapshotUrls: 'https://i.gkd.li/i/13858490',
         },
       ],
     },

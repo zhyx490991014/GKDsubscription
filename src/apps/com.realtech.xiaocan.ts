@@ -16,9 +16,9 @@ export default defineAppConfig({
           quickFind: true,
           matches: '[text^="跳过"][text.length<=10]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12843368',
-            'https://i.gkd.li/import/13363222',
-            'https://i.gkd.li/import/13363246',
+            'https://i.gkd.li/i/12843368',
+            'https://i.gkd.li/i/13363222',
+            'https://i.gkd.li/i/13363246',
           ],
         },
         {
@@ -26,7 +26,7 @@ export default defineAppConfig({
           quickFind: true,
           matches:
             '@[id$="tt_splash_skip_btn"] <<n [id="com.realtech.xiaocan:id/splash_ad_container"]',
-          snapshotUrls: 'https://i.gkd.li/import/12854728',
+          snapshotUrls: 'https://i.gkd.li/i/12854728',
         },
         {
           key: 3,
@@ -34,8 +34,8 @@ export default defineAppConfig({
           matches:
             '@View[visibleToUser=true][clickable=true] <n FrameLayout[childCount=4||childCount=3] <<n [id="com.realtech.xiaocan:id/splash_ad_container"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13694858',
-            'https://i.gkd.li/import/13794403',
+            'https://i.gkd.li/i/13694858',
+            'https://i.gkd.li/i/13794403',
           ],
         },
       ],
@@ -49,7 +49,7 @@ export default defineAppConfig({
           activityIds: 'com.realtech.xiaocan.MainActivity',
           matches:
             'View[childCount=3] > View + ImageView + ImageView[clickable=true][childCount=0]',
-          snapshotUrls: 'https://i.gkd.li/import/13694864',
+          snapshotUrls: 'https://i.gkd.li/i/13694864',
         },
       ],
     },
@@ -59,14 +59,14 @@ export default defineAppConfig({
       resetMatch: 'app',
       activityIds: 'com.realtech.xiaocan.MainActivity',
       rules: '[desc="开启提醒"] - ImageView[clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/14196198',
+      snapshotUrls: 'https://i.gkd.li/i/14196198',
     },
     {
       key: 3,
       name: '全屏广告-优惠券弹窗',
       activityIds: 'com.realtech.xiaocan.MainActivity',
       rules: '[desc*="今日最新红包已更新"] > ImageView[index=4]',
-      snapshotUrls: 'https://i.gkd.li/import/14196232',
+      snapshotUrls: 'https://i.gkd.li/i/14196232',
     },
     {
       key: 4,
@@ -75,7 +75,7 @@ export default defineAppConfig({
       activityIds: 'com.realtech.xiaocan.MainActivity',
       rules:
         'View[childCount=6][desc!=""] > View[index=4] + ImageView[index=5][clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/14290847',
+      snapshotUrls: 'https://i.gkd.li/i/14290847',
     },
   ],
 });

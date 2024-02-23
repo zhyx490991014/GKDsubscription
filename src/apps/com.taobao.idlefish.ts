@@ -12,7 +12,7 @@ export default defineAppConfig({
       activityIds:
         'com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostTransparencyActivity',
       rules: '[desc^="开启系统通知"] > ImageView[clickable=true][desc=null]',
-      snapshotUrls: 'https://i.gkd.li/import/13538351',
+      snapshotUrls: 'https://i.gkd.li/i/13538351',
     },
     {
       key: 2,
@@ -21,7 +21,7 @@ export default defineAppConfig({
       activityIds: 'com.taobao.idlefish.maincontainer.activity.MainActivity',
       rules:
         '@Button[text="取消"] <<n FrameLayout >n TextView[text*="手机信息"]',
-      snapshotUrls: 'https://i.gkd.li/import/13620277',
+      snapshotUrls: 'https://i.gkd.li/i/13620277',
     },
   ],
 });

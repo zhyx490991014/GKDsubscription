@@ -16,7 +16,7 @@ export default defineAppConfig({
           key: 0,
           name: '穿山甲SDK',
           matches: '[vid="ad_content"] >n View[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/14076262',
+          snapshotUrls: 'https://i.gkd.li/i/14076262',
         },
         {
           key: 1,
@@ -41,12 +41,12 @@ export default defineAppConfig({
         {
           key: 0,
           matches: '[id="com.videogo:id/ad_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/13255684',
+          snapshotUrls: 'https://i.gkd.li/i/13255684',
         },
         {
           preKeys: 0,
           matches: '[id="com.videogo:id/ad_closead_nointerest"]',
-          snapshotUrls: 'https://i.gkd.li/import/13255697',
+          snapshotUrls: 'https://i.gkd.li/i/13255697',
         },
       ],
     },
@@ -57,7 +57,7 @@ export default defineAppConfig({
       activityIds: 'com.videogo.main.MainTabActivity',
       rules:
         '[text="了解并试用服务"] <<n ViewGroup[index=0][childCount=2] > ViewGroup[clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/14065785',
+      snapshotUrls: 'https://i.gkd.li/i/14065785',
     },
   ],
 });

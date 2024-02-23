@@ -18,9 +18,9 @@ export default defineAppConfig({
           matches:
             '[id="com.soft.blued:id/fl_main"] [id="com.soft.blued:id/img_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12777097',
-            'https://i.gkd.li/import/13694950',
-            'https://i.gkd.li/import/13699455', // activityIds: 'com.soft.blued.ui.home.HomeActivity',
+            'https://i.gkd.li/i/12777097',
+            'https://i.gkd.li/i/13694950',
+            'https://i.gkd.li/i/13699455', // activityIds: 'com.soft.blued.ui.home.HomeActivity',
           ],
         },
       ],
@@ -34,7 +34,7 @@ export default defineAppConfig({
       rules: '[vid="blued_ad_layout"] +n [vid="img_close"]',
       exampleUrls:
         'https://m.gkd.li/101449500/2a5e9e45-09c5-4b72-a6af-4d284c6532a2',
-      snapshotUrls: 'https://i.gkd.li/import/13989423',
+      snapshotUrls: 'https://i.gkd.li/i/13989423',
     },
     {
       key: 3,
@@ -45,7 +45,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       activityIds: 'com.soft.blued.ui.home.HomeActivity',
       rules: '[vid="fl_main"] > [vid="iv_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/14039501',
+      snapshotUrls: 'https://i.gkd.li/i/14039501',
     },
     {
       key: 4,
@@ -58,7 +58,7 @@ export default defineAppConfig({
           matches: '[id="com.soft.blued:id/iv_close"]',
           exampleUrls:
             'https://m.gkd.li/57941037/37ea59cf-9606-4cd6-a74a-84f353f07975',
-          snapshotUrls: 'https://i.gkd.li/import/14157519',
+          snapshotUrls: 'https://i.gkd.li/i/14157519',
         },
       ],
     },

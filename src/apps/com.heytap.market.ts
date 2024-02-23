@@ -15,7 +15,7 @@ export default defineAppConfig({
       rules: '[text*="跳过"][text.length<=5]',
       exampleUrls:
         'https://m.gkd.li/101449500/4c1e3df4-e0e8-49ec-a260-ed406b46168e',
-      snapshotUrls: 'https://i.gkd.li/import/14120100',
+      snapshotUrls: 'https://i.gkd.li/i/14120100',
     },
     {
       key: 1,
@@ -31,7 +31,7 @@ export default defineAppConfig({
           action: 'back',
           matches:
             '[id="com.heytap.market:id/tv_titile"][text="发现软件商店新版本"]',
-          snapshotUrls: 'https://i.gkd.li/import/13455965',
+          snapshotUrls: 'https://i.gkd.li/i/13455965',
         },
       ],
     },

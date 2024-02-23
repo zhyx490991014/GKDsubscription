@@ -12,7 +12,7 @@ export default defineAppConfig({
       quickFind: true,
       rules:
         '[text="发现新版本"] - * > [id="com.lenovo.browser.hd:id/fl_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13401982',
+      snapshotUrls: 'https://i.gkd.li/i/13401982',
     },
     {
       key: 2,
@@ -21,7 +21,7 @@ export default defineAppConfig({
       quickFind: true,
       rules:
         '[text="开启消息通知"] +n * > [id="com.lenovo.browser.hd:id/tv_cancle"]',
-      snapshotUrls: 'https://i.gkd.li/import/13401980',
+      snapshotUrls: 'https://i.gkd.li/i/13401980',
     },
   ],
 });

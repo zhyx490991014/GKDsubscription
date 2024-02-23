@@ -6,12 +6,12 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12739581)
-- [快照-1](https://i.gkd.li/import/13670025)
+- [快照-0](https://i.gkd.li/i/12739581)
+- [快照-1](https://i.gkd.li/i/13670025)
 
 ## 请求打开系统通知提示信息
 
 默认禁用 - 自动点击提示信息的x按钮
 
-- [快照-0](https://i.gkd.li/import/12684278)
-- [快照-1](https://i.gkd.li/import/12684351)
+- [快照-0](https://i.gkd.li/i/12684278)
+- [快照-1](https://i.gkd.li/i/12684351)

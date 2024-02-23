@@ -17,9 +17,9 @@ export default defineAppConfig({
           matches: '[text^="跳过"][text.length<=10]',
           action: 'clickCenter',
           snapshotUrls: [
-            'https://i.gkd.li/import/12657379',
-            'https://i.gkd.li/import/13069736',
-            'https://i.gkd.li/import/13762181',
+            'https://i.gkd.li/i/12657379',
+            'https://i.gkd.li/i/13069736',
+            'https://i.gkd.li/i/13762181',
           ],
         },
       ],
@@ -37,7 +37,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[id="com.huawei.android.thememanager:id/iv_vip_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/12647175',
+          snapshotUrls: 'https://i.gkd.li/i/12647175',
         },
       ],
     },
@@ -56,9 +56,9 @@ export default defineAppConfig({
           matches:
             '[id="com.huawei.hms.ads.uiengine:id/unlike_iv"||id="com.huawei.android.thememanager:id/download_pps_close"||id="com.huawei.android.thememanager:id/pps_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12647248',
-            'https://i.gkd.li/import/12647292',
-            'https://i.gkd.li/import/12647367',
+            'https://i.gkd.li/i/12647248',
+            'https://i.gkd.li/i/12647292',
+            'https://i.gkd.li/i/12647367',
           ],
         },
       ],
@@ -70,7 +70,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[text="直接关闭"]',
-          snapshotUrls: 'https://i.gkd.li/import/12647268',
+          snapshotUrls: 'https://i.gkd.li/i/12647268',
         },
       ],
     },
@@ -89,14 +89,14 @@ export default defineAppConfig({
           matches:
             '[id="com.huawei.android.thememanager:id/pps_lable_top"||id="com.huawei.android.thememanager:id/pps_img_video_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12647311',
-            'https://i.gkd.li/import/12647346',
+            'https://i.gkd.li/i/12647311',
+            'https://i.gkd.li/i/12647346',
           ],
         },
         {
           matches:
             '[id="com.huawei.android.thememanager:id/tv_btn_uninterested"]',
-          snapshotUrls: 'https://i.gkd.li/import/12647326',
+          snapshotUrls: 'https://i.gkd.li/i/12647326',
         },
       ],
     },
@@ -107,7 +107,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[id="com.huawei.android.thememanager:id/rl_ad_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/12647393',
+          snapshotUrls: 'https://i.gkd.li/i/12647393',
         },
       ],
     },
@@ -120,16 +120,16 @@ export default defineAppConfig({
           matches:
             '[id="com.huawei.android.thememanager:id/announce_ad_close_btn"||id="com.huawei.android.thememanager:id/pps_lable_top"||id="com.huawei.android.thememanager:id/pps_img_video_close"||id="com.huawei.android.thememanager:id/pps_label_ll"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12647614',
-            'https://i.gkd.li/import/12647653',
-            'https://i.gkd.li/import/12647650',
-            'https://i.gkd.li/import/12657822',
+            'https://i.gkd.li/i/12647614',
+            'https://i.gkd.li/i/12647653',
+            'https://i.gkd.li/i/12647650',
+            'https://i.gkd.li/i/12657822',
           ],
         },
         {
           matches:
             '[id="com.huawei.android.thememanager:id/tv_btn_uninterested"]',
-          snapshotUrls: 'https://i.gkd.li/import/12647655',
+          snapshotUrls: 'https://i.gkd.li/i/12647655',
         },
       ],
     },
@@ -146,8 +146,8 @@ export default defineAppConfig({
           matches:
             '[id="com.huawei.android.thememanager:id/campaign_dialog_close_image"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12657939',
-            'https://i.gkd.li/import/12667815',
+            'https://i.gkd.li/i/12657939',
+            'https://i.gkd.li/i/12667815',
           ],
         },
       ],
@@ -161,8 +161,8 @@ export default defineAppConfig({
       ],
       rules: '@[text="取消"] < * - * >n [text="开启消息通知"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/12918192',
-        'https://i.gkd.li/import/13959469',
+        'https://i.gkd.li/i/12918192',
+        'https://i.gkd.li/i/13959469',
       ],
     },
   ],

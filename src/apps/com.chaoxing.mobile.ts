@@ -13,7 +13,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.chaoxing.mobile.main.ui.MainTabActivity',
       rules: '[id="com.chaoxing.mobile:id/vNotificationItemClose"]',
-      snapshotUrls: 'https://i.gkd.li/import/13197374',
+      snapshotUrls: 'https://i.gkd.li/i/13197374',
     },
   ],
 });

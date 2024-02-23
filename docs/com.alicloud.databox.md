@@ -6,23 +6,23 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12929318)
-- [快照-1](https://i.gkd.li/import/13038304)
+- [快照-0](https://i.gkd.li/i/12929318)
+- [快照-1](https://i.gkd.li/i/13038304)
 
 ## 活动弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13228610)
+- [快照-0](https://i.gkd.li/i/13228610)
 
 ## 时光设备间-自动点击“开心收下”
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13596924)
+- [快照-0](https://i.gkd.li/i/13596924)
 
 ## 版本更新
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13806865)
+- [快照-0](https://i.gkd.li/i/13806865)

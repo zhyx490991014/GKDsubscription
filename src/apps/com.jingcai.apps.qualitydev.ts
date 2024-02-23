@@ -11,7 +11,7 @@ export default defineAppConfig({
       activityIds:
         'com.jingcai.apps.qualitydev.qualitync.activity_home.ActivityMainTab',
       rules: '[text="立即参与"][vid="tv_next"] -2 [text="关闭"][vid="tv_step"]',
-      snapshotUrls: 'https://i.gkd.li/import/14054117',
+      snapshotUrls: 'https://i.gkd.li/i/14054117',
     },
   ],
 });

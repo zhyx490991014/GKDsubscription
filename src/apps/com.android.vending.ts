@@ -14,7 +14,7 @@ export default defineAppConfig({
       activityIds: 'com.google.android.finsky.activities.MainActivity',
       rules:
         '[text="使用 Google Play Points 获得奖励"] +3 * > [text="以后再说"]',
-      snapshotUrls: 'https://i.gkd.li/import/14151219',
+      snapshotUrls: 'https://i.gkd.li/i/14151219',
     },
   ],
 });

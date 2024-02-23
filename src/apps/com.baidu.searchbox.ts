@@ -13,7 +13,7 @@ export default defineAppConfig({
         {
           activityIds: 'com.baidu.searchbox.MainActivity',
           matches: '[text^="看视频"] -2 ImageView[index=4]',
-          snapshotUrls: 'https://i.gkd.li/import/13806848',
+          snapshotUrls: 'https://i.gkd.li/i/13806848',
         },
       ],
     },

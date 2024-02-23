@@ -13,7 +13,7 @@ export default defineAppConfig({
           activityIds: 'com.app.main.entrance.MainActivity',
           matches:
             'TextView[text*="V"] +2 ImageView[id="com.yipiao:id/arg"][clickable=true][focusable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13947144',
+          snapshotUrls: 'https://i.gkd.li/i/13947144',
         },
       ],
     },
@@ -26,7 +26,7 @@ export default defineAppConfig({
           activityIds: 'com.app.main.entrance.MainActivity',
           matches:
             'TextView[text="去添加"] + ImageView[id="com.yipiao:id/arg"][clickable=true][focusable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13947145',
+          snapshotUrls: 'https://i.gkd.li/i/13947145',
         },
       ],
     },
@@ -39,7 +39,7 @@ export default defineAppConfig({
           activityIds: 'com.app.main.entrance.MainActivity',
           matches:
             'LinearLayout > ImageView[id="com.yipiao:id/arg"][clickable=true][focusable=true][width=53][height=53]',
-          snapshotUrls: 'https://i.gkd.li/import/13947145',
+          snapshotUrls: 'https://i.gkd.li/i/13947145',
         },
       ],
     },

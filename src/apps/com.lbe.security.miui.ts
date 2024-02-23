@@ -12,7 +12,7 @@ export default defineAppConfig({
         'com.android.packageinstaller.permission.ui.GrantPermissionsActivity',
       quickFind: true,
       rules: '[text="仅在使用中允许"]',
-      snapshotUrls: 'https://i.gkd.li/import/13761264',
+      snapshotUrls: 'https://i.gkd.li/i/13761264',
     },
   ],
 });

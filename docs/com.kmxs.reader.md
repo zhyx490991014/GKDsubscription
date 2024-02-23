@@ -6,51 +6,51 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12640296)
+- [快照-0](https://i.gkd.li/i/12640296)
 
 ## 阅读结束后显示的广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12640303)
-- [快照-1](https://i.gkd.li/import/13362269)
-- [快照-2](https://i.gkd.li/import/13362272)
+- [快照-0](https://i.gkd.li/i/12640303)
+- [快照-1](https://i.gkd.li/i/13362269)
+- [快照-2](https://i.gkd.li/i/13362272)
 
 ## 签到弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12640320)
+- [快照-0](https://i.gkd.li/i/12640320)
 
 ## 右侧悬浮红包
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12640287)
+- [快照-0](https://i.gkd.li/i/12640287)
 
 ## 书架顶部广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13489942)
+- [快照-0](https://i.gkd.li/i/13489942)
 
 ## 【字节】视频广告
 
 默认禁用 - 此规则有概率误触或失效，请谨慎选择开启。
 
-- [快照-0](https://i.gkd.li/import/13459157)
-- [快照-1](https://i.gkd.li/import/13459172)
-- [快照-2](https://i.gkd.li/import/13459174)
-- [快照-3](https://i.gkd.li/import/13459182)
+- [快照-0](https://i.gkd.li/i/13459157)
+- [快照-1](https://i.gkd.li/i/13459172)
+- [快照-2](https://i.gkd.li/i/13459174)
+- [快照-3](https://i.gkd.li/i/13459182)
 
 ## 【百度】全屏广告
 
 默认禁用 - 此规则有概率误触或失效，请谨慎选择开启。
 
-- [快照-0](https://i.gkd.li/import/13472957)
+- [快照-0](https://i.gkd.li/i/13472957)
 
 ## 【腾讯】全屏广告
 
 默认禁用 - 此规则有概率误触或失效，请谨慎选择开启。
 
-- [快照-0](https://i.gkd.li/import/13472955)
+- [快照-0](https://i.gkd.li/i/13472955)

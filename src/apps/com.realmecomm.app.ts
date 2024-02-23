@@ -13,7 +13,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       activityIds: 'com.android.realme2.home.view.MainActivity',
       rules: '[vid="tv_check_in"][text="签到"]',
-      snapshotUrls: 'https://i.gkd.li/import/14321155',
+      snapshotUrls: 'https://i.gkd.li/i/14321155',
     },
   ],
 });

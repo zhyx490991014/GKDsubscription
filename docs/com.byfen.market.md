@@ -4,18 +4,18 @@
 
 ## 开屏广告
 
-- [快照-0](https://i.gkd.li/import/13298944)
-- [快照-1](https://i.gkd.li/import/13800021)
+- [快照-0](https://i.gkd.li/i/13298944)
+- [快照-1](https://i.gkd.li/i/13800021)
 
 ## 弹窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13801613)
+- [快照-0](https://i.gkd.li/i/13801613)
 
 ## 分段广告-下载管理页广告卡片
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13771711)
-- [快照-1](https://i.gkd.li/import/13771773)
+- [快照-0](https://i.gkd.li/i/13771711)
+- [快照-1](https://i.gkd.li/i/13771773)

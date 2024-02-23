@@ -16,18 +16,18 @@ export default defineAppConfig({
           quickFind: true,
           matches: '[text*="跳过"][text.length<=10]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12775918',
-            'https://i.gkd.li/import/12775926',
-            'https://i.gkd.li/import/13063151',
-            'https://i.gkd.li/import/13063246',
-            'https://i.gkd.li/import/13071599',
+            'https://i.gkd.li/i/12775918',
+            'https://i.gkd.li/i/12775926',
+            'https://i.gkd.li/i/13063151',
+            'https://i.gkd.li/i/13063246',
+            'https://i.gkd.li/i/13071599',
           ],
         },
         {
           key: 1,
           matches:
             '[id="com.cyl.musiccy.ou:id/ksad_splash_root_container"] [childCount=3] > @ImageView[clickable=true] - [text="|"]',
-          snapshotUrls: ['https://i.gkd.li/import/12775919'],
+          snapshotUrls: ['https://i.gkd.li/i/12775919'],
         },
       ],
     },
@@ -41,7 +41,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[desc="我知道了"]',
-          snapshotUrls: 'https://i.gkd.li/import/13063206',
+          snapshotUrls: 'https://i.gkd.li/i/13063206',
         },
       ],
     },
@@ -60,8 +60,8 @@ export default defineAppConfig({
           matches:
             '[id$="ksad_container"] >n @ViewGroup[clickable=true] > [text="跳过"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12775922',
-            'https://i.gkd.li/import/13063222',
+            'https://i.gkd.li/i/12775922',
+            'https://i.gkd.li/i/13063222',
           ],
         },
         {
@@ -74,8 +74,8 @@ export default defineAppConfig({
           matches:
             '[text="广告"] <2 ViewGroup -2 ViewGroup > @ViewGroup[clickable=true] > ImageView',
           snapshotUrls: [
-            'https://i.gkd.li/import/12775923',
-            'https://i.gkd.li/import/13800051',
+            'https://i.gkd.li/i/12775923',
+            'https://i.gkd.li/i/13800051',
           ],
         },
         {
@@ -87,9 +87,9 @@ export default defineAppConfig({
           ],
           matches: '[id="ad_area"] [id="close_btn"][clickable=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13759345',
-            'https://i.gkd.li/import/12775925',
-            'https://i.gkd.li/import/12775924',
+            'https://i.gkd.li/i/13759345',
+            'https://i.gkd.li/i/12775925',
+            'https://i.gkd.li/i/12775924',
           ],
         },
         {
@@ -103,14 +103,14 @@ export default defineAppConfig({
           matches:
             'FrameLayout[childCount>1] > FrameLayout[childCount=1] > ImageView[width<90][height<90]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12775921',
-            'https://i.gkd.li/import/12776903',
-            'https://i.gkd.li/import/12789928',
-            'https://i.gkd.li/import/13215476',
-            'https://i.gkd.li/import/13071595',
-            'https://i.gkd.li/import/13063249',
-            'https://i.gkd.li/import/13422363',
-            'https://i.gkd.li/import/13936028',
+            'https://i.gkd.li/i/12775921',
+            'https://i.gkd.li/i/12776903',
+            'https://i.gkd.li/i/12789928',
+            'https://i.gkd.li/i/13215476',
+            'https://i.gkd.li/i/13071595',
+            'https://i.gkd.li/i/13063249',
+            'https://i.gkd.li/i/13422363',
+            'https://i.gkd.li/i/13936028',
           ],
         },
       ],

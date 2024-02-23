@@ -6,23 +6,23 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12774833)
+- [快照-0](https://i.gkd.li/i/12774833)
 
 ## 弹窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13627826)
-- [快照-1](https://i.gkd.li/import/13627832)
+- [快照-0](https://i.gkd.li/i/13627826)
+- [快照-1](https://i.gkd.li/i/13627832)
 
 ## 悬浮广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13627834)
+- [快照-0](https://i.gkd.li/i/13627834)
 
 ## 请求开启自动备份弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13627830)
+- [快照-0](https://i.gkd.li/i/13627830)

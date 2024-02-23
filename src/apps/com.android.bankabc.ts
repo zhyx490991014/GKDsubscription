@@ -15,7 +15,7 @@ export default defineAppConfig({
         {
           key: 0,
           matches: '[vid="iv_ad"] - [vid="close"]',
-          snapshotUrls: 'https://i.gkd.li/import/14179381',
+          snapshotUrls: 'https://i.gkd.li/i/14179381',
         },
         {
           key: 1,
@@ -38,7 +38,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '[text="允许获取位置信息"] +n * > [text="取消"]',
-      snapshotUrls: 'https://i.gkd.li/import/14208572',
+      snapshotUrls: 'https://i.gkd.li/i/14208572',
     },
     {
       key: 3,
@@ -47,7 +47,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '[vid="iv_notification_reminder_dialog_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/14208621',
+      snapshotUrls: 'https://i.gkd.li/i/14208621',
     },
   ],
 });

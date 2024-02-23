@@ -8,93 +8,93 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12642792)
-- [快照-1](https://i.gkd.li/import/13180826)
-- [快照-2](https://i.gkd.li/import/12648734)
-- [快照-3](https://i.gkd.li/import/12648746)
-- [快照-4](https://i.gkd.li/import/13198239)
-- [快照-5](https://i.gkd.li/import/13198052)
-- [快照-6](https://i.gkd.li/import/13249418)
+- [快照-0](https://i.gkd.li/i/12642792)
+- [快照-1](https://i.gkd.li/i/13180826)
+- [快照-2](https://i.gkd.li/i/12648734)
+- [快照-3](https://i.gkd.li/i/12648746)
+- [快照-4](https://i.gkd.li/i/13198239)
+- [快照-5](https://i.gkd.li/i/13198052)
+- [快照-6](https://i.gkd.li/i/13249418)
 
 ## 局部广告-消息页面-热门活动卡片
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12642795)
-- [快照-1](https://i.gkd.li/import/13197877)
+- [快照-0](https://i.gkd.li/i/12642795)
+- [快照-1](https://i.gkd.li/i/13197877)
 
 ## 局部广告-悬浮广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13521702)
+- [快照-0](https://i.gkd.li/i/13521702)
 
 ## 权限提示-通知权限
 
 默认禁用 - 自动点击关闭
 
-- [快照-0](https://i.gkd.li/import/13197594)
-- [快照-1](https://i.gkd.li/import/13222946)
-- [快照-2](https://i.gkd.li/import/13438404)
-- [快照-3](https://i.gkd.li/import/13446901)
-- [快照-4](https://i.gkd.li/import/13455424)
+- [快照-0](https://i.gkd.li/i/13197594)
+- [快照-1](https://i.gkd.li/i/13222946)
+- [快照-2](https://i.gkd.li/i/13438404)
+- [快照-3](https://i.gkd.li/i/13446901)
+- [快照-4](https://i.gkd.li/i/13455424)
 
 ## 功能类-各级页面-添加到首页弹窗
 
 默认禁用 - 自动点击退出
 
-- [快照-0](https://i.gkd.li/import/13197553)
-- [快照-1](https://i.gkd.li/import/13197546)
+- [快照-0](https://i.gkd.li/i/13197553)
+- [快照-1](https://i.gkd.li/i/13197546)
 
 ## 全屏广告-视频页面-活动弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12642813)
+- [快照-0](https://i.gkd.li/i/12642813)
 
 ## 功能类-视频页面-签到弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12642798)
+- [快照-0](https://i.gkd.li/i/12642798)
 
 ## 更新提示
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13336760)
-- [快照-1](https://i.gkd.li/import/13695520)
-- [快照-2](https://i.gkd.li/import/13965740)
+- [快照-0](https://i.gkd.li/i/13336760)
+- [快照-1](https://i.gkd.li/i/13695520)
+- [快照-2](https://i.gkd.li/i/13965740)
 
 ## 功能类-小额免密支付弹窗
 
 默认禁用 - 点击关闭
 
-- [快照-0](https://i.gkd.li/import/13438414)
+- [快照-0](https://i.gkd.li/i/13438414)
 
 ## 功能类-将小组件添加到手机桌面
 
 默认禁用 - 点击取消
 
-- [快照-0](https://i.gkd.li/import/13598578)
-- [快照-1](https://i.gkd.li/import/13853510)
+- [快照-0](https://i.gkd.li/i/13598578)
+- [快照-1](https://i.gkd.li/i/13853510)
 
 ## 权限提示-悬浮窗权限
 
 默认禁用 - 点击“否”
 
-- [快照-0](https://i.gkd.li/import/13588165)
+- [快照-0](https://i.gkd.li/i/13588165)
 
 ## 全屏广告-花呗升级报送征信
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13628020)
-- [快照-1](https://i.gkd.li/import/13691864)
-- [快照-2](https://i.gkd.li/import/13898735)
+- [快照-0](https://i.gkd.li/i/13628020)
+- [快照-1](https://i.gkd.li/i/13691864)
+- [快照-2](https://i.gkd.li/i/13898735)
 
 ## 功能类-搜索结果-自动点击反馈理由
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/14142196)
+- [快照-0](https://i.gkd.li/i/14142196)

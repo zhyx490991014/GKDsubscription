@@ -9,7 +9,7 @@ export default defineAppConfig({
       name: '全屏广告',
       quickFind: true,
       rules: '[vid="ivClose"]',
-      snapshotUrls: 'https://i.gkd.li/import/14099393',
+      snapshotUrls: 'https://i.gkd.li/i/14099393',
     },
   ],
 });

@@ -14,8 +14,8 @@ export default defineAppConfig({
       ],
       rules: '[text="点此去广告"] + ImageButton[clickable=true]',
       snapshotUrls: [
-        'https://i.gkd.li/import/12739767',
-        'https://i.gkd.li/import/12727705', // activityId: 'com.zhengnengliang.precepts.ui.dialog.DialogTwoButton'
+        'https://i.gkd.li/i/12739767',
+        'https://i.gkd.li/i/12727705', // activityId: 'com.zhengnengliang.precepts.ui.dialog.DialogTwoButton'
       ],
     },
   ],

@@ -15,7 +15,7 @@ export default defineAppConfig({
         'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView',
       exampleUrls:
         'https://m.gkd.li/57941037/74525817-4bc5-4a06-9bda-d5de97e2e91b',
-      snapshotUrls: 'https://i.gkd.li/import/14122524',
+      snapshotUrls: 'https://i.gkd.li/i/14122524',
     },
   ],
 });

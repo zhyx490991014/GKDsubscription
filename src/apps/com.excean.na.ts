@@ -13,7 +13,7 @@ export default defineAppConfig({
         {
           activityIds: 'com.excelliance.kxqp.ui.activity.GameLaunchActivity',
           matches: '[id="com.excean.na:id/iv_close_ad"]',
-          snapshotUrls: 'https://i.gkd.li/import/13931051',
+          snapshotUrls: 'https://i.gkd.li/i/13931051',
         },
       ],
     },
@@ -28,8 +28,8 @@ export default defineAppConfig({
           matches:
             'FrameLayout[childCount>1] > FrameLayout[childCount=1] > ImageView[width<90][height<90]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13930990',
-            'https://i.gkd.li/import/13932190',
+            'https://i.gkd.li/i/13930990',
+            'https://i.gkd.li/i/13932190',
           ],
         },
       ],

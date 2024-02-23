@@ -14,7 +14,7 @@ export default defineAppConfig({
         {
           matches:
             '[id="com.baidu.youavideo:id/tv_upgrade"] < LinearLayout +2 [id="com.baidu.youavideo:id/img_close"]',
-          snapshotUrls: ['https://i.gkd.li/import/12597916'],
+          snapshotUrls: ['https://i.gkd.li/i/12597916'],
         },
       ],
     },
@@ -27,7 +27,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[id="com.baidu.youavideo:id/img_operation_close"]',
-          snapshotUrls: ['https://i.gkd.li/import/12970088'],
+          snapshotUrls: ['https://i.gkd.li/i/12970088'],
         },
       ],
     },
@@ -40,7 +40,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[id="com.baidu.youavideo:id/tv_next_time"]',
-          snapshotUrls: ['https://i.gkd.li/import/12970094'],
+          snapshotUrls: ['https://i.gkd.li/i/12970094'],
         },
       ],
     },
@@ -54,7 +54,7 @@ export default defineAppConfig({
         {
           matches:
             '[id="com.baidu.youavideo:id/tv_confirm_pay"] -5 [id="com.baidu.youavideo:id/img_close_dialog"]',
-          snapshotUrls: ['https://i.gkd.li/import/12970094'],
+          snapshotUrls: ['https://i.gkd.li/i/12970094'],
         },
       ],
     },
@@ -68,7 +68,7 @@ export default defineAppConfig({
         {
           matches:
             '[id="com.baidu.youavideo:id/dialog_home_pop_close_button"] ',
-          snapshotUrls: ['https://i.gkd.li/import/13048700'],
+          snapshotUrls: ['https://i.gkd.li/i/13048700'],
         },
       ],
     },
@@ -79,7 +79,7 @@ export default defineAppConfig({
       quickFind: true,
       rules:
         '[id="com.baidu.youavideo:id/dialog_open_guide_notification_root"] > [id="com.baidu.youavideo:id/img_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13413819',
+      snapshotUrls: 'https://i.gkd.li/i/13413819',
     },
     {
       key: 8,
@@ -88,7 +88,7 @@ export default defineAppConfig({
       quickFind: true,
       rules:
         '[id="com.baidu.youavideo:id/cl_root"] + [id="com.baidu.youavideo:id/img_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13711475',
+      snapshotUrls: 'https://i.gkd.li/i/13711475',
     },
     {
       key: 9,
@@ -97,8 +97,8 @@ export default defineAppConfig({
       activityIds: 'com.baidu.youavideo.home.view.HomeActivity',
       rules: '[vid="iv_close"][visibleToUser=true]',
       snapshotUrls: [
-        'https://i.gkd.li/import/13874124',
-        'https://i.gkd.li/import/14038825', //误触快照
+        'https://i.gkd.li/i/13874124',
+        'https://i.gkd.li/i/14038825', //误触快照
       ],
     },
     {
@@ -108,7 +108,7 @@ export default defineAppConfig({
       quickFind: true,
       rules:
         '[text*="电池优化权限"] < * +n [vid="bottom_two_button_layout"] >n [vid="cancel"]',
-      snapshotUrls: 'https://i.gkd.li/import/14065510',
+      snapshotUrls: 'https://i.gkd.li/i/14065510',
     },
     {
       key: 11,
@@ -123,9 +123,9 @@ export default defineAppConfig({
           ],
           matches: '[text="广告"] -n [vid="iv_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/14107272',
-            'https://i.gkd.li/import/14038825', //[vid="iv_close"]在该页面误触
-            'https://i.gkd.li/import/14151128', //activityId: com.baidu.youavideo.preview.ui.hometimeline.TimelinePreviewActivity
+            'https://i.gkd.li/i/14107272',
+            'https://i.gkd.li/i/14038825', //[vid="iv_close"]在该页面误触
+            'https://i.gkd.li/i/14151128', //activityId: com.baidu.youavideo.preview.ui.hometimeline.TimelinePreviewActivity
           ],
         },
       ],
@@ -138,7 +138,7 @@ export default defineAppConfig({
       activityIds:
         'com.baidu.youavideo.story.ui.view.activity.CloudStorySetActivity',
       rules: '[text="在桌面展示精选回忆故事"] - [vid="iv_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/14138907',
+      snapshotUrls: 'https://i.gkd.li/i/14138907',
     },
   ],
 });

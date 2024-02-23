@@ -11,7 +11,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       activityIds: 'com.github.catvod.app.MainActivity',
       rules: '[desc*="本软件仅供学习"] + [desc="同意"]',
-      snapshotUrls: 'https://i.gkd.li/import/13938918',
+      snapshotUrls: 'https://i.gkd.li/i/13938918',
     },
   ],
 });

@@ -9,7 +9,7 @@ export default defineAppConfig({
       name: '更新提示',
       activityIds: 'ctrip.android.publicproduct.home.view.CtripHomeActivity',
       rules: '[text*="用户已升级"] < * + [desc="关闭"]',
-      snapshotUrls: 'https://i.gkd.li/import/13218347',
+      snapshotUrls: 'https://i.gkd.li/i/13218347',
     },
   ],
 });

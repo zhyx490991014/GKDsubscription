@@ -14,7 +14,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       activityIds: 'com.cheersedu.app.main.MainActivity',
       rules: '[id="com.cheersedu.app:id/iv_version_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13315712',
+      snapshotUrls: 'https://i.gkd.li/i/13315712',
     },
   ],
 });

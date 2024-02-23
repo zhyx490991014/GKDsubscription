@@ -11,7 +11,7 @@ export default defineAppConfig({
       desc: '自动点击【不允许】',
       activityIds: 'com.baidu.baike.component.push.NotificationEnableDialog',
       rules: '[text^="打开推送通知"] +2 [text="不允许"]',
-      snapshotUrls: 'https://i.gkd.li/import/12755717',
+      snapshotUrls: 'https://i.gkd.li/i/12755717',
     },
   ],
 });

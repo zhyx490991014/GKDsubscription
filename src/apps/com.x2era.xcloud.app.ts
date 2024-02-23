@@ -14,7 +14,7 @@ export default defineAppConfig({
         {
           activityIds: 'com.x2era.xcloud.app.MainActivity',
           matches: '[id$="com.x2era.xcloud.app:id/iv_cancel"]',
-          snapshotUrls: 'https://i.gkd.li/import/13420706',
+          snapshotUrls: 'https://i.gkd.li/i/13420706',
         },
       ],
     },

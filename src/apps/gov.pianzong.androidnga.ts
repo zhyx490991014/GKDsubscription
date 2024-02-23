@@ -18,12 +18,12 @@ export default defineAppConfig({
         '[vid="tv_tiaoguo"]',
       ],
       snapshotUrls: [
-        'https://i.gkd.li/import/12476484',
-        'https://i.gkd.li/import/12706127', // activityIds: 'com.miui.home.launcher.Launcher',
-        'https://i.gkd.li/import/12864707', // activityIds: 'gov.pianzong.androidnga.activity.LoadingActivity',
-        'https://i.gkd.li/import/12911882', // activityIds: 'gov.pianzong.androidnga.activity.WarmstartActivity'
-        'https://i.gkd.li/import/13798686', // id="gov.pianzong.androidnga:id/ksad_skip_view_skip"
-        'https://i.gkd.li/import/14155643', //vid=tv_tiaoguo
+        'https://i.gkd.li/i/12476484',
+        'https://i.gkd.li/i/12706127', // activityIds: 'com.miui.home.launcher.Launcher',
+        'https://i.gkd.li/i/12864707', // activityIds: 'gov.pianzong.androidnga.activity.LoadingActivity',
+        'https://i.gkd.li/i/12911882', // activityIds: 'gov.pianzong.androidnga.activity.WarmstartActivity'
+        'https://i.gkd.li/i/13798686', // id="gov.pianzong.androidnga:id/ksad_skip_view_skip"
+        'https://i.gkd.li/i/14155643', //vid=tv_tiaoguo
       ],
     },
     {
@@ -31,7 +31,7 @@ export default defineAppConfig({
       name: '首页-推荐-广告卡片',
       activityIds: 'com.donews.nga.activitys.MainActivity',
       rules: ['[id="gov.pianzong.androidnga:id/iv_close_ad"]'],
-      snapshotUrls: 'https://i.gkd.li/import/12482727',
+      snapshotUrls: 'https://i.gkd.li/i/12482727',
     },
     {
       key: 2,
@@ -45,17 +45,17 @@ export default defineAppConfig({
           matches:
             '[id="gov.pianzong.androidnga:id/rv_post_list"] > FrameLayout *[childCount=1 || childCount=3] > *[childCount<=4] > [text!="" && text!=null] +(1,2) *[childCount<=3 && childCount!=2] > [name*="Image" || name*="TextView"][text!=""][index=0 || index>1][visibleToUser=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12655805',
-            'https://i.gkd.li/import/12706140',
-            'https://i.gkd.li/import/14123759',
-            'https://i.gkd.li/import/14155652',
+            'https://i.gkd.li/i/12655805',
+            'https://i.gkd.li/i/12706140',
+            'https://i.gkd.li/i/14123759',
+            'https://i.gkd.li/i/14155652',
           ],
         },
         {
           key: 1,
           actionCdKey: 0,
           matches: '[id="gov.pianzong.androidnga:id/iv_information_ad_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/13303236',
+          snapshotUrls: 'https://i.gkd.li/i/13303236',
         },
       ],
     },
@@ -64,7 +64,7 @@ export default defineAppConfig({
       name: '社区-顶部广告',
       activityIds: 'com.donews.nga.activitys.MainActivity',
       rules: '[id="gov.pianzong.androidnga:id/iv_close_community_ad"]',
-      snapshotUrls: ['https://i.gkd.li/import/12706132'],
+      snapshotUrls: ['https://i.gkd.li/i/12706132'],
     },
     {
       key: 4,
@@ -77,7 +77,7 @@ export default defineAppConfig({
           matches: '[id="gov.pianzong.androidnga:id/iv_homedialog_close"]',
           exampleUrls:
             'https://m.gkd.li/57941037/346f4485-82a7-4cf3-aab3-1fe6c9bb23af',
-          snapshotUrls: 'https://i.gkd.li/import/14126934',
+          snapshotUrls: 'https://i.gkd.li/i/14126934',
         },
       ],
     },

@@ -13,13 +13,13 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
           matches:
             '[text*="新版本"] - ImageView < LinearLayout < LinearLayout + ImageButton[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/12642017',
+          snapshotUrls: 'https://i.gkd.li/i/12642017',
         },
         {
           key: 1,
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches: '@Image + Image +n [text="立即升级"]',
-          snapshotUrls: 'https://i.gkd.li/import/13195645',
+          snapshotUrls: 'https://i.gkd.li/i/13195645',
         },
       ],
     },
@@ -33,7 +33,7 @@ export default defineAppConfig({
           excludeMatches: '[text="最近搜索"]',
           exampleUrls:
             'https://m.gkd.li/101449500/ec8e953e-06d3-4883-9c9a-11410f1b1336',
-          snapshotUrls: 'https://i.gkd.li/import/14109435',
+          snapshotUrls: 'https://i.gkd.li/i/14109435',
         },
       ],
     },
@@ -47,7 +47,7 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches:
             'FrameLayout > FrameLayout > RelativeLayout[childCount=2] > @ImageView[id!=null][clickable=true][visibleToUser=true] + ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/12642015',
+          snapshotUrls: 'https://i.gkd.li/i/12642015',
         },
         {
           key: 1,
@@ -55,7 +55,7 @@ export default defineAppConfig({
           activityIds: [], // 暂时用[]，后续补充activityIds
           matches:
             'View[id=null] > TextView + View > View +(4) View[clickable=true] > Image[id=null]',
-          snapshotUrls: 'https://i.gkd.li/import/12642019',
+          snapshotUrls: 'https://i.gkd.li/i/12642019',
         },
         {
           key: 2,
@@ -63,7 +63,7 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches:
             '@ImageView < ViewGroup[clickable=true][visibleToUser=true] < ViewGroup + ViewGroup >n [text="开心收下"]',
-          snapshotUrls: 'https://i.gkd.li/import/13761182',
+          snapshotUrls: 'https://i.gkd.li/i/13761182',
         },
       ],
     },
@@ -77,7 +77,7 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
           matches:
             'TextView[text="免单特权"] < View < View +(5) View[clickable=true] > Image[id=null]',
-          snapshotUrls: 'https://i.gkd.li/import/12642032',
+          snapshotUrls: 'https://i.gkd.li/i/12642032',
         },
         {
           key: 1,
@@ -85,14 +85,14 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
           matches:
             'TextView[text$="抽免单"] -(2) Image[id=null][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/12642038',
+          snapshotUrls: 'https://i.gkd.li/i/12642038',
         },
         {
           key: 2,
           name: '下单后追加订单',
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches: '@[text="关闭弹窗"][clickable=true] + [text$="下单成功"]',
-          snapshotUrls: 'https://i.gkd.li/import/13308175',
+          snapshotUrls: 'https://i.gkd.li/i/13308175',
         },
       ],
     },
@@ -105,7 +105,7 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches:
             '@ImageView[id=null][clickable=true] < ViewGroup + ViewGroup > ImageView + ViewGroup > ImageView +(2) FrameLayout > TextView[text="专属现金红包"]',
-          snapshotUrls: 'https://i.gkd.li/import/12642023',
+          snapshotUrls: 'https://i.gkd.li/i/12642023',
         },
         {
           key: 1,
@@ -113,14 +113,14 @@ export default defineAppConfig({
           quickFind: true,
           matches:
             '@ImageView[clickable=true] < ViewGroup + ViewGroup >n [text="送你大额现金"]',
-          snapshotUrls: 'https://i.gkd.li/import/13625441',
+          snapshotUrls: 'https://i.gkd.li/i/13625441',
         },
         {
           key: 2,
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
           matches:
             '[text="百亿补贴"] > View > View > @View[clickable=true] +n [text^="立即领取"]',
-          snapshotUrls: 'https://i.gkd.li/import/13669963',
+          snapshotUrls: 'https://i.gkd.li/i/13669963',
         },
       ],
     },
@@ -131,8 +131,8 @@ export default defineAppConfig({
       activityIds: ['com.xunmeng.pinduoduo.activity.NewPageActivity'],
       rules: [
         'View[childCount=1] > Button[id=null][text="关闭弹窗"][clickable=true]',
-      ], //添加父节点条件。原规则会与退换货选择货物弹窗冲突。https://i.gkd.li/import/13830730
-      snapshotUrls: ['https://i.gkd.li/import/12642053'],
+      ], //添加父节点条件。原规则会与退换货选择货物弹窗冲突。https://i.gkd.li/i/13830730
+      snapshotUrls: ['https://i.gkd.li/i/12642053'],
     },
     {
       key: 6,
@@ -142,7 +142,7 @@ export default defineAppConfig({
         '@TextView[id=null][clickable=true] + Image[id=null][text="webp"]',
         '@TextView[id=null][clickable=true] + View > Image[text="webp"]',
       ],
-      snapshotUrls: ['https://i.gkd.li/import/12642058'],
+      snapshotUrls: ['https://i.gkd.li/i/12642058'],
     },
     {
       enable: false,
@@ -154,8 +154,8 @@ export default defineAppConfig({
         'ViewGroup[childCount=5] > @ViewGroup[index=0][clickable=true] +3 ViewGroup >2 [text="分享现金红包至拼小圈"]',
       ],
       snapshotUrls: [
-        'https://i.gkd.li/import/12700615',
-        'https://i.gkd.li/import/13804657', //规则2
+        'https://i.gkd.li/i/12700615',
+        'https://i.gkd.li/i/13804657', //规则2
       ],
     },
     {
@@ -164,7 +164,7 @@ export default defineAppConfig({
       name: '商品详情页视频讲解窗口',
       activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
       rules: '[id="com.xunmeng.pinduoduo:id/iv_float_window_close"] > TextView',
-      snapshotUrls: 'https://i.gkd.li/import/13178326',
+      snapshotUrls: 'https://i.gkd.li/i/13178326',
     },
     {
       enable: false,
@@ -182,8 +182,8 @@ export default defineAppConfig({
           action: 'clickCenter',
           matches: ['FrameLayout > TextView[text="领取今日现金"]'],
           snapshotUrls: [
-            'https://i.gkd.li/import/13201422', //com.xunmeng.pinduoduo.ui.activity.HomeActivity
-            'https://i.gkd.li/import/13372677', //com.bbk.launcher2.Launcher
+            'https://i.gkd.li/i/13201422', //com.xunmeng.pinduoduo.ui.activity.HomeActivity
+            'https://i.gkd.li/i/13372677', //com.bbk.launcher2.Launcher
           ],
         },
         {
@@ -192,7 +192,7 @@ export default defineAppConfig({
           name: '在签到后关闭弹窗',
           action: 'clickCenter',
           matches: ['FrameLayout > TextView[text="明日继续来领"]'],
-          snapshotUrls: 'https://i.gkd.li/import/13205634',
+          snapshotUrls: 'https://i.gkd.li/i/13205634',
         },
       ],
     },
@@ -210,7 +210,7 @@ export default defineAppConfig({
             'TextView[text="正在直播"]',
             '@ImageView[desc="返回"] <4 ViewGroup <<3 FrameLayout[id="android:id/content"]',
           ],
-          snapshotUrls: 'https://i.gkd.li/import/13446291',
+          snapshotUrls: 'https://i.gkd.li/i/13446291',
         },
         {
           key: 1,
@@ -219,7 +219,7 @@ export default defineAppConfig({
             'TextView[text="查看更多低价商品"]',
             '@ImageView[desc="返回"] <4 ViewGroup <<3 FrameLayout[id="android:id/content"]',
           ],
-          snapshotUrls: 'https://i.gkd.li/import/13791119',
+          snapshotUrls: 'https://i.gkd.li/i/13791119',
         },
         {
           key: 2,
@@ -228,7 +228,7 @@ export default defineAppConfig({
             'TextView[text^="必得"] < FrameLayout - FrameLayout > TextView[text="下单"]',
             '@ImageView[desc="返回"] <4 ViewGroup <<3 FrameLayout[id="android:id/content"]',
           ],
-          snapshotUrls: 'https://i.gkd.li/import/13852257',
+          snapshotUrls: 'https://i.gkd.li/i/13852257',
         },
       ],
     },
@@ -240,8 +240,8 @@ export default defineAppConfig({
       quickFind: true,
       rules: '@[text="原图"][checked=false] + [text="发送"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/13925378', // checked=false
-        'https://i.gkd.li/import/13925380', // checked=true
+        'https://i.gkd.li/i/13925378', // checked=false
+        'https://i.gkd.li/i/13925380', // checked=true
       ],
     },
     {
@@ -253,7 +253,7 @@ export default defineAppConfig({
         {
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageMaskActivity',
           matches: '[id="com.xunmeng.pinduoduo:id/pdd"] >7 [text="关闭弹窗"]',
-          snapshotUrls: 'https://i.gkd.li/import/13927594',
+          snapshotUrls: 'https://i.gkd.li/i/13927594',
         },
       ],
     },

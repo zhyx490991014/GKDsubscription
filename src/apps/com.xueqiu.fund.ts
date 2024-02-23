@@ -13,7 +13,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       activityIds: 'com.xueqiu.fund.commonlib.FundHomeActivityV2',
       rules: '[vid="image_cancel"]',
-      snapshotUrls: 'https://i.gkd.li/import/14163901',
+      snapshotUrls: 'https://i.gkd.li/i/14163901',
     },
   ],
 });

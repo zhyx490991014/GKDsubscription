@@ -18,10 +18,10 @@ export default defineAppConfig({
         '[vid="layoutMainBottomBanner"] > [vid="ivAdClose"]',
       ],
       snapshotUrls: [
-        'https://i.gkd.li/import/13228546',
-        'https://i.gkd.li/import/13256552', //新增快照
-        'https://i.gkd.li/import/13296380', //新增快照
-        'https://i.gkd.li/import/14175557',
+        'https://i.gkd.li/i/13228546',
+        'https://i.gkd.li/i/13256552', //新增快照
+        'https://i.gkd.li/i/13296380', //新增快照
+        'https://i.gkd.li/i/14175557',
       ],
     },
   ],

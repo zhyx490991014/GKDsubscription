@@ -4,30 +4,30 @@
 
 ## 开屏广告
 
-- [快照-0](https://i.gkd.li/import/12667766)
-- [快照-1](https://i.gkd.li/import/13215012)
-- [快照-2](https://i.gkd.li/import/13228290)
+- [快照-0](https://i.gkd.li/i/12667766)
+- [快照-1](https://i.gkd.li/i/13215012)
+- [快照-2](https://i.gkd.li/i/13228290)
 
 ## “我的”页会员广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12667814)
+- [快照-0](https://i.gkd.li/i/12667814)
 
 ## 弹窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13546292)
+- [快照-0](https://i.gkd.li/i/13546292)
 
 ## 请求开启个性化推荐弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13546292)
+- [快照-0](https://i.gkd.li/i/13546292)
 
 ## 底部横幅广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13587206)
+- [快照-0](https://i.gkd.li/i/13587206)

@@ -26,19 +26,19 @@ export default defineAppConfig({
             '[vid="adTagClose"]',
           ],
           snapshotUrls: [
-            'https://i.gkd.li/import/12829944',
-            'https://i.gkd.li/import/12723229',
-            'https://i.gkd.li/import/12829938',
-            'https://i.gkd.li/import/12829964',
-            'https://i.gkd.li/import/12829953',
-            'https://i.gkd.li/import/13859634', //vid="adTagClose"
+            'https://i.gkd.li/i/12829944',
+            'https://i.gkd.li/i/12723229',
+            'https://i.gkd.li/i/12829938',
+            'https://i.gkd.li/i/12829964',
+            'https://i.gkd.li/i/12829953',
+            'https://i.gkd.li/i/13859634', //vid="adTagClose"
           ],
         },
         {
           key: 1,
           activityIds: 'com.netease.cloudmusic.activity.MainActivity',
           matches: '[vid="tag_ad_banner"]',
-          snapshotUrls: 'https://i.gkd.li/import/13927753',
+          snapshotUrls: 'https://i.gkd.li/i/13927753',
         },
         {
           key: 2,
@@ -48,8 +48,8 @@ export default defineAppConfig({
           matches:
             '@ViewGroup[clickable=true][childCount=2] > ImageView - ViewGroup > TextView[text.length>0]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13526986',
-            'https://i.gkd.li/import/13526711',
+            'https://i.gkd.li/i/13526986',
+            'https://i.gkd.li/i/13526711',
           ],
         },
         {
@@ -62,9 +62,9 @@ export default defineAppConfig({
           ],
           matches: '[text="直接关闭"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12829967',
-            'https://i.gkd.li/import/13627047', //activityIds: 'com.netease.cloudmusic.music.biz.search.activity.SearchActivity',
-            'https://i.gkd.li/import/13859635', //activityIds: 'com.netease.cloudmusic.activity.MainActivity'
+            'https://i.gkd.li/i/12829967',
+            'https://i.gkd.li/i/13627047', //activityIds: 'com.netease.cloudmusic.music.biz.search.activity.SearchActivity',
+            'https://i.gkd.li/i/13859635', //activityIds: 'com.netease.cloudmusic.activity.MainActivity'
           ],
         },
         {
@@ -74,7 +74,7 @@ export default defineAppConfig({
             'com.netease.cloudmusic.music.biz.comment.activity.CommentActivity',
           matches:
             '@[id="com.netease.cloudmusic:id/artist_container"] > [text="不感兴趣"]',
-          snapshotUrls: 'https://i.gkd.li/import/13526712',
+          snapshotUrls: 'https://i.gkd.li/i/13526712',
         },
       ],
     },
@@ -85,7 +85,7 @@ export default defineAppConfig({
       activityIds: ['com.netease.cloudmusic.activity.MainActivity'],
       rules:
         '[id="com.netease.cloudmusic:id/auto_scroll_switcher"] + [id="com.netease.cloudmusic:id/close_btn"]',
-      snapshotUrls: ['https://i.gkd.li/import/12745666'],
+      snapshotUrls: ['https://i.gkd.li/i/12745666'],
     },
     {
       key: 3,
@@ -93,7 +93,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: ['com.netease.cloudmusic.activity.MainActivity'],
       rules: ['@ImageView + ViewGroup > TextView[text="VIP歌曲免费听30分钟"]'],
-      snapshotUrls: ['https://i.gkd.li/import/12843383'],
+      snapshotUrls: ['https://i.gkd.li/i/12843383'],
     },
     {
       key: 4,
@@ -104,19 +104,19 @@ export default defineAppConfig({
           key: 0,
           name: '音乐专辑售卖广告弹窗',
           matches: 'WebView >n View > TextView + TextView + TextView',
-          snapshotUrls: 'https://i.gkd.li/import/13188737',
+          snapshotUrls: 'https://i.gkd.li/i/13188737',
         },
         {
           key: 1,
           name: '京东双十一广告弹窗',
           matches: '[text="广告"] < ViewGroup + ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/13229016',
+          snapshotUrls: 'https://i.gkd.li/i/13229016',
         },
         {
           key: 2,
           matches:
             '[id="com.netease.cloudmusic:id/dsl_dialog_root"] >n ViewGroup[childCount=2] > ImageView + ImageView[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13684724',
+          snapshotUrls: 'https://i.gkd.li/i/13684724',
         },
       ],
     },
@@ -136,8 +136,8 @@ export default defineAppConfig({
           matches:
             'ImageView < @ViewGroup[clickable=true] <2 ViewGroup < ViewGroup + ScrollView [text="会员套餐"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13189055',
-            'https://i.gkd.li/import/13260416',
+            'https://i.gkd.li/i/13189055',
+            'https://i.gkd.li/i/13260416',
           ],
         },
         {
@@ -145,14 +145,14 @@ export default defineAppConfig({
           name: '专属优惠-VIP续费弹窗',
           activityIds: 'com.netease.cloudmusic.activity.MainActivity',
           matches: '@ImageView - ViewGroup > [text="解锁千万级会员曲库"]',
-          snapshotUrls: 'https://i.gkd.li/import/13228955',
+          snapshotUrls: 'https://i.gkd.li/i/13228955',
         },
         {
           key: 2,
           name: '解锁更高音质',
           activityIds: 'com.netease.cloudmusic.activity.PlayerActivity',
           matches: '@ImageView -2 ViewGroup [text="解锁更高音质"]',
-          snapshotUrls: 'https://i.gkd.li/import/13230603',
+          snapshotUrls: 'https://i.gkd.li/i/13230603',
         },
         {
           key: 3,
@@ -161,7 +161,7 @@ export default defineAppConfig({
             'com.netease.cloudmusic.music.biz.rn.activity.MainProcessLayerReactNativeActivity',
           matches:
             'ImageView < @ViewGroup -3 ViewGroup [text="您的黑胶VIP已过期"]',
-          snapshotUrls: 'https://i.gkd.li/import/13230605',
+          snapshotUrls: 'https://i.gkd.li/i/13230605',
         },
         {
           key: 4,
@@ -169,7 +169,7 @@ export default defineAppConfig({
           activityIds: 'com.netease.cloudmusic.activity.MainActivity',
           matches:
             '[text*="搭配会员音效"] + @ViewGroup[childCount=1] > ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/13391498',
+          snapshotUrls: 'https://i.gkd.li/i/13391498',
         },
       ],
     },
@@ -187,9 +187,9 @@ export default defineAppConfig({
           ],
           matches: '[id="com.netease.cloudmusic:id/md_dialog_cm_close_btn"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13233790',
-            'https://i.gkd.li/import/13197457',
-            'https://i.gkd.li/import/13228878',
+            'https://i.gkd.li/i/13233790',
+            'https://i.gkd.li/i/13197457',
+            'https://i.gkd.li/i/13228878',
           ],
         },
       ],
@@ -208,16 +208,16 @@ export default defineAppConfig({
           matches:
             'TextView[text!=null] + ImageView[id="com.netease.cloudmusic:id/close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13402634',
-            'https://i.gkd.li/import/13402635',
-            'https://i.gkd.li/import/13402636',
+            'https://i.gkd.li/i/13402634',
+            'https://i.gkd.li/i/13402635',
+            'https://i.gkd.li/i/13402636',
           ],
         },
         {
           key: 1,
           name: '巨幅卡片式广告',
           matches: '[text^="跳过广告"][text.length<=10]',
-          snapshotUrls: 'https://i.gkd.li/import/13527105',
+          snapshotUrls: 'https://i.gkd.li/i/13527105',
         },
       ],
     },
@@ -230,7 +230,7 @@ export default defineAppConfig({
         {
           activityIds: 'com.netease.cloudmusic.activity.MainActivity',
           matches: '[id="com.netease.cloudmusic:id/skipBannerAd"]',
-          snapshotUrls: 'https://i.gkd.li/import/13768367',
+          snapshotUrls: 'https://i.gkd.li/i/13768367',
         },
       ],
     },
@@ -242,7 +242,7 @@ export default defineAppConfig({
       activityIds: 'com.netease.cloudmusic.activity.MainActivity',
       matchTime: 10000,
       rules: '@ImageView + ViewGroup > [text="VIP歌曲免费听30分钟"]',
-      snapshotUrls: 'https://i.gkd.li/import/13804534',
+      snapshotUrls: 'https://i.gkd.li/i/13804534',
     },
     {
       key: 10,
@@ -253,7 +253,7 @@ export default defineAppConfig({
           name: '【我的】升级-下次再说',
           activityIds: 'com.netease.cloudmusic.activity.MainActivity',
           matches: '[text="下次再说"] < ViewGroup',
-          snapshotUrls: 'https://i.gkd.li/import/13804541',
+          snapshotUrls: 'https://i.gkd.li/i/13804541',
         },
         {
           key: 1,
@@ -261,7 +261,7 @@ export default defineAppConfig({
           activityIds:
             'com.netease.cloudmusic.music.biz.rn.activity.LayerReactNativeActivity',
           matches: '[text="社区广场全新升级"] + ViewGroup > ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/13804544',
+          snapshotUrls: 'https://i.gkd.li/i/13804544',
         },
       ],
     },
@@ -274,7 +274,7 @@ export default defineAppConfig({
         {
           activityIds: 'com.netease.cloudmusic.activity.PlayerActivity',
           matches: '@ImageView[clickable=true] +3 * > [text="立即支持"]',
-          snapshotUrls: 'https://i.gkd.li/import/13848913',
+          snapshotUrls: 'https://i.gkd.li/i/13848913',
         },
       ],
     },

@@ -6,21 +6,21 @@
 
 默认禁用 - 自动点击x按钮
 
-- [快照-0](https://i.gkd.li/import/12708649)
-- [快照-1](https://i.gkd.li/import/12708660)
-- [快照-2](https://i.gkd.li/import/12708681)
+- [快照-0](https://i.gkd.li/i/12708649)
+- [快照-1](https://i.gkd.li/i/12708660)
+- [快照-2](https://i.gkd.li/i/12708681)
 
 ## 功能类-首页-左侧红包悬浮控件
 
 默认禁用 - 自动点击x按钮
 
-- [快照-0](https://i.gkd.li/import/12708671)
-- [快照-1](https://i.gkd.li/import/12708676)
+- [快照-0](https://i.gkd.li/i/12708671)
+- [快照-1](https://i.gkd.li/i/12708676)
 
 ## 功能类-你可能感兴趣的人
 
 默认禁用 - 自动点击【关闭】
 
-- [快照-0](https://i.gkd.li/import/12708620)
-- [快照-1](https://i.gkd.li/import/12708707)
-- [快照-2](https://i.gkd.li/import/14001536)
+- [快照-0](https://i.gkd.li/i/12708620)
+- [快照-1](https://i.gkd.li/i/12708707)
+- [快照-2](https://i.gkd.li/i/14001536)

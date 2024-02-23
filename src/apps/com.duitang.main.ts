@@ -14,7 +14,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[id="com.duitang.main:id/adOptionEntry"]',
-          snapshotUrls: 'https://i.gkd.li/import/13202725',
+          snapshotUrls: 'https://i.gkd.li/i/13202725',
         },
       ],
     },
@@ -29,7 +29,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[vid="scoreDuitangCancel"]',
-          snapshotUrls: 'https://i.gkd.li/import/14273094',
+          snapshotUrls: 'https://i.gkd.li/i/14273094',
         },
       ],
     },
@@ -41,7 +41,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       quickFind: true,
       rules: '@[vid="dialogNegative"] +2 [text="打开通知"]',
-      snapshotUrls: 'https://i.gkd.li/import/14273121',
+      snapshotUrls: 'https://i.gkd.li/i/14273121',
     },
     {
       key: 5,
@@ -52,7 +52,7 @@ export default defineAppConfig({
         {
           activityIds: 'com.duitang.main.business.display.ImageActivity',
           matches: '[id="com.duitang.main:id/popUpbtnClose"]',
-          snapshotUrls: 'https://i.gkd.li/import/13997011',
+          snapshotUrls: 'https://i.gkd.li/i/13997011',
         },
       ],
     },

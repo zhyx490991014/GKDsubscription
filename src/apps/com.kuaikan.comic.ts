@@ -10,7 +10,7 @@ export default defineAppConfig({
       name: '漫画界面-底部广告弹窗',
       activityIds: 'com.kuaikan.comic.infinitecomic.view.ComicInfiniteActivity',
       rules: '[id="com.kuaikan.comic:id/adBannerClose"]',
-      snapshotUrls: 'https://i.gkd.li/import/12910268',
+      snapshotUrls: 'https://i.gkd.li/i/12910268',
     },
   ],
 });

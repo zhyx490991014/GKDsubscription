@@ -20,7 +20,7 @@ export default defineAppConfig({
           key: 0,
           quickFind: true,
           matches: '@ImageView[clickable=true] -n [text="广告"]',
-          snapshotUrls: 'https://i.gkd.li/import/13849671',
+          snapshotUrls: 'https://i.gkd.li/i/13849671',
         },
         {
           key: 1,
@@ -29,8 +29,8 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/57941037/f6498773-af55-4ba9-96fa-4c0597523d55',
           snapshotUrls: [
-            'https://i.gkd.li/import/12647525',
-            'https://i.gkd.li/import/14178516', //activityId: com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity
+            'https://i.gkd.li/i/12647525',
+            'https://i.gkd.li/i/14178516', //activityId: com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity
           ],
         },
         {
@@ -40,22 +40,22 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/57941037/65e9f31a-e80f-4996-9621-1b8fd92940d6',
           snapshotUrls: [
-            'https://i.gkd.li/import/13849442',
-            'https://i.gkd.li/import/14178979',
+            'https://i.gkd.li/i/13849442',
+            'https://i.gkd.li/i/14178979',
           ],
         },
         {
           key: 3,
           quickFind: true,
           matches: '@ViewGroup[clickable=true] <4 * -3 * >2 [text*="广告"]',
-          snapshotUrls: 'https://i.gkd.li/import/14192451',
+          snapshotUrls: 'https://i.gkd.li/i/14192451',
         },
         {
           key: 90,
           preKeys: [0, 1, 2, 3],
           quickFind: true,
           matches: '@[clickable=true] >3 [text="内容不感兴趣"]',
-          snapshotUrls: 'https://i.gkd.li/import/13849689',
+          snapshotUrls: 'https://i.gkd.li/i/13849689',
         },
       ],
     },
@@ -72,21 +72,21 @@ export default defineAppConfig({
           key: 1,
           matches:
             'TextView[text$=`的广告`] +n TextView[text=`×`][visibleToUser=true]',
-          snapshotUrls: 'https://i.gkd.li/import/12864109',
+          snapshotUrls: 'https://i.gkd.li/i/12864109',
         },
         {
           key: 10,
           matches:
             '@ImageView[id=null][clickable=true] -(2) ViewGroup > [text$="广告"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12647525',
-            'https://i.gkd.li/import/14178516', //activityId: com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity
+            'https://i.gkd.li/i/12647525',
+            'https://i.gkd.li/i/14178516', //activityId: com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity
           ],
         },
         {
           key: 11,
           matches: 'TextView[text$="的广告"] +3 ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/14178922',
+          snapshotUrls: 'https://i.gkd.li/i/14178922',
         },
         // 预留12~99
         {
@@ -95,7 +95,7 @@ export default defineAppConfig({
           name: '反馈弹窗-点击“不感兴趣”',
           matches:
             '[id="com.zhihu.android:id/recycler_view"] > FrameLayout >(3) [text$="不感兴趣"]',
-          snapshotUrls: ['https://i.gkd.li/import/12647541'],
+          snapshotUrls: ['https://i.gkd.li/i/12647541'],
         },
       ],
     },
@@ -107,7 +107,7 @@ export default defineAppConfig({
         '[id="com.zhihu.android:id/tv_ad_tag"] + [id="com.zhihu.android:id/img_close_focus"]', // 1686911063850
         '[vid="ad_container"] [vid="img_close_focus"]',
       ],
-      snapshotUrls: 'https://i.gkd.li/import/14156887', //规则2，规则1快照缺失
+      snapshotUrls: 'https://i.gkd.li/i/14156887', //规则2，规则1快照缺失
     },
     {
       enable: false,
@@ -124,7 +124,7 @@ export default defineAppConfig({
             '[id="com.zhihu.android:id/guide_title"] - [id="com.zhihu.android:id/guide_image_exit"][clickable=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/25cfef06-fe50-4250-bf45-1f6210f95063',
-          snapshotUrls: 'https://i.gkd.li/import/12647583',
+          snapshotUrls: 'https://i.gkd.li/i/12647583',
         },
       ],
     },
@@ -140,7 +140,7 @@ export default defineAppConfig({
             'RelativeLayout[childCount=2] > ImageView[index=1][clickable=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/335dee89-4b55-40f1-8316-b7b4f86a8ee6',
-          snapshotUrls: 'https://i.gkd.li/import/12647421',
+          snapshotUrls: 'https://i.gkd.li/i/12647421',
         },
       ],
     },
@@ -155,7 +155,7 @@ export default defineAppConfig({
             '[id="com.zhihu.android:id/image"] < RelativeLayout + [id="com.zhihu.android:id/dismiss"]',
           exampleUrls:
             'https://m.gkd.li/57941037/9eb78a95-c2dc-4a8b-9b86-f9d0fc0ed6fd',
-          snapshotUrls: 'https://i.gkd.li/import/12707676',
+          snapshotUrls: 'https://i.gkd.li/i/12707676',
         },
       ],
     },
@@ -165,7 +165,7 @@ export default defineAppConfig({
       desc: '点击右上角x',
       activityIds: 'com.zhihu.android.topic.TopicActivity',
       rules: '[vid="scene_container"] >n ViewGroup + ImageView',
-      snapshotUrls: 'https://i.gkd.li/import/14020339',
+      snapshotUrls: 'https://i.gkd.li/i/14020339',
     },
     {
       key: 14,
@@ -182,8 +182,8 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/57941037/0443d5cb-aa24-4447-afd7-58c5a09af835',
           snapshotUrls: [
-            'https://i.gkd.li/import/14178980',
-            'https://i.gkd.li/import/14206949',
+            'https://i.gkd.li/i/14178980',
+            'https://i.gkd.li/i/14206949',
           ],
         },
         {
@@ -193,7 +193,7 @@ export default defineAppConfig({
             '@ImageView[clickable=true][visibleToUser=true] + * > [text*="广告"]',
           exampleUrls:
             'https://m.gkd.li/45487685/c7d89c48-91d1-4658-b22e-d2626117be8b',
-          snapshotUrls: 'https://i.gkd.li/import/14206988',
+          snapshotUrls: 'https://i.gkd.li/i/14206988',
         },
       ],
     },
@@ -207,8 +207,8 @@ export default defineAppConfig({
         'ImageView[id="com.zhihu.android:id/iv_expand"] - TextView[id="com.zhihu.android:id/tv_expand"][text="展开"][visibleToUser=true]',
       ],
       snapshotUrls: [
-        'https://i.gkd.li/import/12647688',
-        'https://i.gkd.li/import/12707687', // 使用 [visibleToUser=true] 进行限定，防止在控件不可见时提前触发规则
+        'https://i.gkd.li/i/12647688',
+        'https://i.gkd.li/i/12707687', // 使用 [visibleToUser=true] 进行限定，防止在控件不可见时提前触发规则
       ],
     },
   ],

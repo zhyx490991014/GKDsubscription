@@ -21,15 +21,15 @@ export default defineAppConfig({
         {
           key: 1,
           matches: '@ImageView - LinearLayout TextView[text="广告"]',
-          snapshotUrls: 'https://i.gkd.li/import/12908734',
+          snapshotUrls: 'https://i.gkd.li/i/12908734',
         },
         {
           key: 2,
           matches:
             'FrameLayout > FrameLayout > ViewGroup[childCount=4] > @FrameLayout[clickable=true][visibleToUser=true] > ImageView',
           snapshotUrls: [
-            'https://i.gkd.li/import/12716444',
-            'https://i.gkd.li/import/13062909', // 误触
+            'https://i.gkd.li/i/12716444',
+            'https://i.gkd.li/i/13062909', // 误触
           ],
         },
         {
@@ -37,7 +37,7 @@ export default defineAppConfig({
           quickFind: true,
           matches:
             '[id="com.dragon.read:id/layout_banner_ad_bg"] > [id="com.dragon.read:id/close_button"]',
-          snapshotUrls: 'https://i.gkd.li/import/13520314',
+          snapshotUrls: 'https://i.gkd.li/i/13520314',
         },
       ],
     },
@@ -53,8 +53,8 @@ export default defineAppConfig({
           matches:
             '[id="android:id/content"] > FrameLayout[childCount=1] > RelativeLayout[childCount=1] >2 ImageView[id!=null][clickable=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12716506', //relativeLayout和ImageView之间是RelativeLayoutRelativeLayout
-            'https://i.gkd.li/import/13318796', //relativeLayout和ImageView之间是ViewGroup
+            'https://i.gkd.li/i/12716506', //relativeLayout和ImageView之间是RelativeLayoutRelativeLayout
+            'https://i.gkd.li/i/13318796', //relativeLayout和ImageView之间是ViewGroup
           ],
         },
       ],
@@ -70,7 +70,7 @@ export default defineAppConfig({
           quickFind: true,
           matches:
             '@LynxFlattenUI[id=null][text=""][clickable=true] - [text="去逛商城"] -4 [text$="电商惊喜券"]',
-          snapshotUrls: 'https://i.gkd.li/import/12910159',
+          snapshotUrls: 'https://i.gkd.li/i/12910159',
         },
         {
           key: 1,
@@ -79,7 +79,7 @@ export default defineAppConfig({
           activityIds: 'com.dragon.read.pages.main.MainFragmentActivity',
           matches:
             '@ImageView[clickable=true] <2 LinearLayout[childCount=2] < [id="android:id/content"][childCount=1]',
-          snapshotUrls: 'https://i.gkd.li/import/12878266',
+          snapshotUrls: 'https://i.gkd.li/i/12878266',
         },
       ],
     },
@@ -92,7 +92,7 @@ export default defineAppConfig({
           key: 0,
           activityIds: 'com.dragon.read.reader.ui.ReaderActivity',
           matches: '@ImageView +2 FrameLayout >3 [text="关注"]',
-          snapshotUrls: 'https://i.gkd.li/import/13399505',
+          snapshotUrls: 'https://i.gkd.li/i/13399505',
         },
       ],
     },
@@ -111,9 +111,9 @@ export default defineAppConfig({
             '[text="看视频免广告"] - [text="反馈"]',
           ],
           snapshotUrls: [
-            'https://i.gkd.li/import/13520160',
-            'https://i.gkd.li/import/13843155',
-            'https://i.gkd.li/import/13816453', //规则2
+            'https://i.gkd.li/i/13520160',
+            'https://i.gkd.li/i/13843155',
+            'https://i.gkd.li/i/13816453', //规则2
           ],
         },
         {
@@ -126,10 +126,10 @@ export default defineAppConfig({
             '[text="不感兴趣"][clickable=true]',
           ],
           snapshotUrls: [
-            'https://i.gkd.li/import/13520219',
-            'https://i.gkd.li/import/13674550',
-            'https://i.gkd.li/import/13816454',
-            'https://i.gkd.li/import/14093128', //[text="不感兴趣"][clickable=true]
+            'https://i.gkd.li/i/13520219',
+            'https://i.gkd.li/i/13674550',
+            'https://i.gkd.li/i/13816454',
+            'https://i.gkd.li/i/14093128', //[text="不感兴趣"][clickable=true]
           ],
         },
       ],
@@ -141,7 +141,7 @@ export default defineAppConfig({
       desc: '自动点击【取消】',
       activityIds: 'com.dragon.read.widget.ConfirmDialogBuilder',
       rules: '@[text="取消"] < * -2 * > [text="开启推送提醒"]',
-      snapshotUrls: 'https://i.gkd.li/import/12716592',
+      snapshotUrls: 'https://i.gkd.li/i/12716592',
     },
     {
       key: 12,
@@ -150,7 +150,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.dragon.read.reader.ui.ReaderActivity',
       rules: 'TextView[text="广告"] +2 Button[id="com.dragon.read:id/close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13191156',
+      snapshotUrls: 'https://i.gkd.li/i/13191156',
     },
     {
       key: 13,
@@ -159,7 +159,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       activityIds: 'com.dragon.read.pages.main.MainFragmentActivity',
       rules: '[vid="container"] > ImageView',
-      snapshotUrls: 'https://i.gkd.li/import/14031943',
+      snapshotUrls: 'https://i.gkd.li/i/14031943',
     },
     {
       key: 14,
@@ -167,14 +167,14 @@ export default defineAppConfig({
       activityIds: 'com.dragon.read.reader.ui.ReaderActivity',
       rules:
         '[id="com.dragon.read:id/readFlowNonRoundEntranceLayout"] [id="com.dragon.read:id/relativeRight"]',
-      snapshotUrls: 'https://i.gkd.li/import/13674556',
+      snapshotUrls: 'https://i.gkd.li/i/13674556',
     },
     {
       key: 15,
       name: '全屏广告-福利页面弹窗',
       activityIds: 'com.dragon.read.pages.main.MainFragmentActivity',
       rules: '@LynxFlattenUI[clickable=true] - [text="前往抽奖"]',
-      snapshotUrls: 'https://i.gkd.li/import/14292475',
+      snapshotUrls: 'https://i.gkd.li/i/14292475',
     },
   ],
 });

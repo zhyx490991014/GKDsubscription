@@ -18,7 +18,7 @@ export default defineAppConfig({
             '[text="体验一下"] + [text="关闭"][clickable=true][text.length=2]',
           exampleUrls:
             'https://m.gkd.li/57941037/d2b6ee77-ae06-4873-a106-db4ce2324777',
-          snapshotUrls: 'https://i.gkd.li/import/14321107',
+          snapshotUrls: 'https://i.gkd.li/i/14321107',
         },
       ],
     },
@@ -30,32 +30,32 @@ export default defineAppConfig({
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[id="com.ss.android.ugc.aweme:id/desc"][text="减少此类推荐"]',
-          snapshotUrls: 'https://i.gkd.li/import/12520962',
+          snapshotUrls: 'https://i.gkd.li/i/12520962',
         },
         {
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[text="换一个"] - FrameLayout[clickable=true] > ImageView[clickable=true]',
-          snapshotUrls: ['https://i.gkd.li/import/12520943'],
+          snapshotUrls: ['https://i.gkd.li/i/12520943'],
         },
 
         {
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[text="你可能感兴趣"] < LinearLayout + [text="隐藏"][clickable=true]',
-          snapshotUrls: ['https://i.gkd.li/import/12675396'],
+          snapshotUrls: ['https://i.gkd.li/i/12675396'],
         },
         {
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '[text="朋友推荐"] +(2) @FrameLayout > [desc="不感兴趣"]',
-          snapshotUrls: 'https://i.gkd.li/import/12675129',
+          snapshotUrls: 'https://i.gkd.li/i/12675129',
         },
         {
           activityIds:
             'com.ss.android.ugc.aweme.friends.ui.RawAddFriendsActivity',
           matches:
             '[text="朋友推荐"] < LinearLayout + FrameLayout > [desc="关闭"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/12675245',
+          snapshotUrls: 'https://i.gkd.li/i/12675245',
         },
       ],
     },
@@ -66,8 +66,8 @@ export default defineAppConfig({
       activityIds: ['com.ss.android.ugc.aweme.main.MainActivity'],
       rules: '[text="朋友推荐"] +2 [id="com.ss.android.ugc.aweme:id/close"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/12525387',
-        'https://i.gkd.li/import/12525389',
+        'https://i.gkd.li/i/12525387',
+        'https://i.gkd.li/i/12525389',
       ],
     },
     {
@@ -76,7 +76,7 @@ export default defineAppConfig({
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
       rules:
         'ViewGroup + FrameLayout[id=null] > FrameLayout[childCount=2][id!=null] > ImageView[desc="关闭"][clickable=true][id!=null]',
-      snapshotUrls: 'https://i.gkd.li/import/12749276',
+      snapshotUrls: 'https://i.gkd.li/i/12749276',
     },
     {
       key: 5,
@@ -84,7 +84,7 @@ export default defineAppConfig({
       quickFind: true,
       rules:
         '[id="android:id/content"] >2 RelativeLayout[childCount<=5] > @ImageView[clickable=true][id!=null] - TextView[text="广告"][id!=null]',
-      snapshotUrls: 'https://i.gkd.li/import/12769137',
+      snapshotUrls: 'https://i.gkd.li/i/12769137',
     },
     {
       key: 6,
@@ -95,7 +95,7 @@ export default defineAppConfig({
       desc: '点击[取消]',
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
       rules: '@[text="取消"] +2 [text="五星好评"]',
-      snapshotUrls: 'https://i.gkd.li/import/13053628',
+      snapshotUrls: 'https://i.gkd.li/i/13053628',
       exampleUrls:
         'https://github.com/gkd-kit/inspect/assets/38517192/4554c785-39e0-4eac-9cfb-f1b1c2976008',
     },
@@ -107,7 +107,7 @@ export default defineAppConfig({
       desc: '点击[拒绝]',
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
       rules: '@[text="拒绝"] + [text="去设置"]',
-      snapshotUrls: 'https://i.gkd.li/import/13256087',
+      snapshotUrls: 'https://i.gkd.li/i/13256087',
     },
     {
       enable: false,
@@ -123,12 +123,12 @@ export default defineAppConfig({
           name: '顶部卡片',
           matches:
             '@[text="暂不"][focusable=true] < LinearLayout - LinearLayout >(2) [text="开启朋友通知"]',
-          snapshotUrls: 'https://i.gkd.li/import/12675129',
+          snapshotUrls: 'https://i.gkd.li/i/12675129',
         },
         {
           name: '半幅弹窗',
           matches: '[text="及时获得消息提醒"] +2 [text="暂不开启"]',
-          snapshotUrls: 'https://i.gkd.li/import/13669790',
+          snapshotUrls: 'https://i.gkd.li/i/13669790',
         },
       ],
     },
@@ -142,8 +142,8 @@ export default defineAppConfig({
         'com.ss.android.ugc.aweme.im.sdk.media.choose.MediaChooseActivity',
       rules: '[text="原图"][desc="未选中/复选框 原图"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/12846036', // 未选中
-        'https://i.gkd.li/import/12846040', // 已选中
+        'https://i.gkd.li/i/12846036', // 未选中
+        'https://i.gkd.li/i/12846040', // 已选中
       ],
     },
     {
@@ -155,13 +155,13 @@ export default defineAppConfig({
         {
           matches: '[text="可进入使用管理助手更改设置"] -2 Button[text="取消"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13241564',
-            'https://i.gkd.li/import/13372604',
+            'https://i.gkd.li/i/13241564',
+            'https://i.gkd.li/i/13372604',
           ],
         },
         {
           matches: '[text="管理使用时间"] + Button[text="忽略提醒"]',
-          snapshotUrls: 'https://i.gkd.li/import/13372725',
+          snapshotUrls: 'https://i.gkd.li/i/13372725',
         },
       ],
     },
@@ -177,14 +177,14 @@ export default defineAppConfig({
             'com.ss.android.ugc.aweme.search.activity.SearchResultActivity',
           action: 'back',
           matches: 'ViewGroup[desc="添加搜索到桌面"]',
-          snapshotUrls: 'https://i.gkd.li/import/13338556',
+          snapshotUrls: 'https://i.gkd.li/i/13338556',
         },
         {
           name: '商城快捷方式',
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[text="添加抖音商城到桌面"] +2 LinearLayout > [text="不感兴趣"]',
-          snapshotUrls: 'https://i.gkd.li/import/13669682',
+          snapshotUrls: 'https://i.gkd.li/i/13669682',
         },
       ],
     },
@@ -193,14 +193,14 @@ export default defineAppConfig({
       name: '功能类-视频播放中途插入的打招呼界面',
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
       rules: 'FrameLayout > @[desc="关闭"] + ViewGroup > [text$="打个招呼"]',
-      snapshotUrls: 'https://i.gkd.li/import/13379307',
+      snapshotUrls: 'https://i.gkd.li/i/13379307',
     },
     {
       key: 15,
       name: '全屏广告-关闭商城推荐',
       desc: '点击【不感兴趣】',
       rules: '@[text="不感兴趣"][clickable=true] + [text="去商城搜索更多"]',
-      snapshotUrls: 'https://i.gkd.li/import/13800207',
+      snapshotUrls: 'https://i.gkd.li/i/13800207',
     },
     {
       key: 16,
@@ -214,7 +214,7 @@ export default defineAppConfig({
           activityIds:
             'com.ss.android.ugc.aweme.search.activity.SearchResultActivity',
           matches: '[text="开启搜索组件到桌面"] +2 [text="暂不开启"]',
-          snapshotUrls: 'https://i.gkd.li/import/14123300',
+          snapshotUrls: 'https://i.gkd.li/i/14123300',
         },
       ],
     },
@@ -230,12 +230,12 @@ export default defineAppConfig({
         {
           name: '弹窗',
           matches: '[text^="开启定位"] +3 LinearLayout > [text="暂不开启"]',
-          snapshotUrls: 'https://i.gkd.li/import/13974006',
+          snapshotUrls: 'https://i.gkd.li/i/13974006',
         },
         {
           name: '顶部横条',
           matches: '@ImageView[clickable=true] - [text^="开启定位"]',
-          snapshotUrls: 'https://i.gkd.li/import/13974007',
+          snapshotUrls: 'https://i.gkd.li/i/13974007',
         },
       ],
     },
@@ -245,7 +245,7 @@ export default defineAppConfig({
       desc: '点击【不感兴趣】',
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
       rules: '@[text="不感兴趣"][clickable=true] + [text="更多优惠商品"]',
-      snapshotUrls: 'https://i.gkd.li/import/14157498',
+      snapshotUrls: 'https://i.gkd.li/i/14157498',
     },
   ],
 });

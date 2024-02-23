@@ -6,12 +6,12 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12684422)
-- [快照-1](https://i.gkd.li/import/12684426)
+- [快照-0](https://i.gkd.li/i/12684422)
+- [快照-1](https://i.gkd.li/i/12684426)
 
 ## 首页-弹窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13683509)
-- [快照-1](https://i.gkd.li/import/13683510)
+- [快照-0](https://i.gkd.li/i/13683509)
+- [快照-1](https://i.gkd.li/i/13683510)

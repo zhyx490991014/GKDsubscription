@@ -17,15 +17,15 @@ export default defineAppConfig({
           matches:
             '@ImageView[id=null][clickable=true] + ViewGroup > [text!=null] + [text!=null]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12708649',
-            'https://i.gkd.li/import/12708660',
+            'https://i.gkd.li/i/12708649',
+            'https://i.gkd.li/i/12708660',
           ],
         },
         {
           name: '限时高额奖励弹窗',
           matches:
             '@ImageView[id=null][clickable=true] < ViewGroup + ViewGroup >2 [text="立即领取"]',
-          snapshotUrls: ['https://i.gkd.li/import/12708681'],
+          snapshotUrls: ['https://i.gkd.li/i/12708681'],
         },
       ],
     },
@@ -40,8 +40,8 @@ export default defineAppConfig({
           matches:
             '[id="com.smile.gifmaker:id/pendant_mask_bg"] + [id="com.smile.gifmaker:id/pendant_close"][visibleToUser=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12708671',
-            'https://i.gkd.li/import/12708676', // 执行规则后，控件隐藏，使用 visibleToUser=true 进行限定，防止反复触发规则
+            'https://i.gkd.li/i/12708671',
+            'https://i.gkd.li/i/12708676', // 执行规则后，控件隐藏，使用 visibleToUser=true 进行限定，防止反复触发规则
           ],
         },
       ],
@@ -58,8 +58,8 @@ export default defineAppConfig({
           actionCdKey: 0,
           matches: '[id="com.smile.gifmaker:id/close_pymk"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12708620',
-            'https://i.gkd.li/import/12708707',
+            'https://i.gkd.li/i/12708620',
+            'https://i.gkd.li/i/12708707',
           ],
         },
         {
@@ -68,7 +68,7 @@ export default defineAppConfig({
           quickFind: true,
           matches:
             'ViewGroup[childCount=3] > [text="隐藏"][visibleToUser=true]',
-          snapshotUrls: 'https://i.gkd.li/import/14001536',
+          snapshotUrls: 'https://i.gkd.li/i/14001536',
         },
       ],
     },

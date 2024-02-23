@@ -16,7 +16,7 @@ export default defineAppConfig({
           name: '穿山甲SDK',
           matches:
             'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView',
-          snapshotUrls: 'https://i.gkd.li/import/14095278',
+          snapshotUrls: 'https://i.gkd.li/i/14095278',
         },
       ],
     },

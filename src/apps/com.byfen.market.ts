@@ -14,12 +14,12 @@ export default defineAppConfig({
         {
           key: 0,
           matches: '[id="com.byted.pangle:id/tt_splash_skip_btn"]',
-          snapshotUrls: 'https://i.gkd.li/import/13298944',
+          snapshotUrls: 'https://i.gkd.li/i/13298944',
         },
         {
           key: 1,
           matches: '[id="com.byfen.market:id/ad_view"] >3 View[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13800021',
+          snapshotUrls: 'https://i.gkd.li/i/13800021',
         },
       ],
     },
@@ -28,7 +28,7 @@ export default defineAppConfig({
       name: '弹窗广告',
       quickFind: true,
       rules: '[id="com.byfen.market:id/idIvClose"]',
-      snapshotUrls: 'https://i.gkd.li/import/13801613',
+      snapshotUrls: 'https://i.gkd.li/i/13801613',
     },
     {
       key: 2,
@@ -40,7 +40,7 @@ export default defineAppConfig({
           key: 0,
           name: '穿山甲SDK-点击【反馈】',
           matches: '[id="com.byfen.market:id/idAd"] >n [text="反馈"]',
-          snapshotUrls: 'https://i.gkd.li/import/13771711',
+          snapshotUrls: 'https://i.gkd.li/i/13771711',
         },
         {
           key: 1,
@@ -48,7 +48,7 @@ export default defineAppConfig({
           name: '穿山甲SDK-点击【不感兴趣】',
           quickFind: true,
           matches: '@LinearLayout > [text="不感兴趣"]',
-          snapshotUrls: 'https://i.gkd.li/import/13771773',
+          snapshotUrls: 'https://i.gkd.li/i/13771773',
         },
       ],
     },

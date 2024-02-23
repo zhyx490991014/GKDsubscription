@@ -13,7 +13,7 @@ export default defineAppConfig({
       resetMatch: 'app',
 
       rules: '[text="立即升级"] +2 [text="以后再说"]',
-      snapshotUrls: 'https://i.gkd.li/import/13378992', // activityIds: 'com.huawei.android.launcher.unihome.UniHomeLauncher',
+      snapshotUrls: 'https://i.gkd.li/i/13378992', // activityIds: 'com.huawei.android.launcher.unihome.UniHomeLauncher',
     },
   ],
 });

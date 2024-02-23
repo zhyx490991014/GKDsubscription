@@ -12,7 +12,7 @@ export default defineAppConfig({
         'com.vmall.client.splash.fragment.SplashActivity',
       ],
       rules: '[id="com.hihonor.vmall:id/gift_close_iv"]',
-      snapshotUrls: 'https://i.gkd.li/import/13060881',
+      snapshotUrls: 'https://i.gkd.li/i/13060881',
     },
   ],
 });

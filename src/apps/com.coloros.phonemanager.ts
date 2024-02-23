@@ -14,7 +14,7 @@ export default defineAppConfig({
         {
           matches:
             '@[text="取消"] < [id="com.coloros.phonemanager:id/buttonPanel"] > [text="更新"]',
-          snapshotUrls: 'https://i.gkd.li/import/13194979',
+          snapshotUrls: 'https://i.gkd.li/i/13194979',
         },
       ],
     },

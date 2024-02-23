@@ -19,14 +19,14 @@ export default defineAppConfig({
           quickFind: true,
           name: '全局规则-1',
           matches: '[text*="跳过"][text.length<=10]',
-          snapshotUrls: 'https://i.gkd.li/import/13987038',
+          snapshotUrls: 'https://i.gkd.li/i/13987038',
         },
         {
           key: 1,
           name: '字节广告SDK',
           matches:
             'TextView - @View[clickable=true] <n FrameLayout <2 FrameLayout[childCount=2]', // 字节开屏通用规则
-          snapshotUrls: 'https://i.gkd.li/import/13978978',
+          snapshotUrls: 'https://i.gkd.li/i/13978978',
         },
         {
           key: 2,

@@ -13,7 +13,7 @@ export default defineAppConfig({
           key: 0,
           activityIds: 'com.android.packageinstaller.PackageInstallerActivity',
           matches: '[text="继续安装"]',
-          snapshotUrls: 'https://i.gkd.li/import/13206444',
+          snapshotUrls: 'https://i.gkd.li/i/13206444',
         },
         {
           key: 1,
@@ -23,10 +23,10 @@ export default defineAppConfig({
           ],
           matches: '[text="完成"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/14138123', //activityId: com.android.packageinstaller.InstallSuccess
-            'https://i.gkd.li/import/13206476',
-            'https://i.gkd.li/import/13766420',
-            'https://i.gkd.li/import/13962438',
+            'https://i.gkd.li/i/14138123', //activityId: com.android.packageinstaller.InstallSuccess
+            'https://i.gkd.li/i/13206476',
+            'https://i.gkd.li/i/13766420',
+            'https://i.gkd.li/i/13962438',
           ],
         },
       ],

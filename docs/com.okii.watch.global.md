@@ -6,10 +6,10 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13630943)
+- [快照-0](https://i.gkd.li/i/13630943)
 
 ## 手表安全守护弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13630944)
+- [快照-0](https://i.gkd.li/i/13630944)

@@ -13,8 +13,8 @@ export default defineAppConfig({
       actionMaximum: 1,
       rules: '@ViewGroup > [text=""][visibleToUser=true]',
       snapshotUrls: [
-        'https://i.gkd.li/import/14141773',
-        'https://i.gkd.li/import/14142408', //不加visibleToUser误触快照
+        'https://i.gkd.li/i/14141773',
+        'https://i.gkd.li/i/14142408', //不加visibleToUser误触快照
       ],
     },
     {
@@ -26,9 +26,9 @@ export default defineAppConfig({
           matches: '@ViewGroup > [text=""][visibleToUser=true]',
           excludeMatches: '[text="搜尋紀錄"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/14141810',
-            'https://i.gkd.li/import/14142408', //不加visibleToUser误触快照
-            'https://i.gkd.li/import/14205165', //不加excludeMatches误触快照
+            'https://i.gkd.li/i/14141810',
+            'https://i.gkd.li/i/14142408', //不加visibleToUser误触快照
+            'https://i.gkd.li/i/14205165', //不加excludeMatches误触快照
           ],
         },
       ],
@@ -39,7 +39,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.jiaohua_browser.MainActivity',
       rules: '[text*="滿18歲"]',
-      snapshotUrls: 'https://i.gkd.li/import/14141809',
+      snapshotUrls: 'https://i.gkd.li/i/14141809',
     },
     {
       key: 3,
@@ -48,8 +48,8 @@ export default defineAppConfig({
       activityIds: 'com.jiaohua_browser.MainActivity',
       rules: '@ViewGroup > [text="立即簽到"][visibleToUser=true]',
       snapshotUrls: [
-        'https://i.gkd.li/import/14141807',
-        'https://i.gkd.li/import/14205170', //限定visibleToUser
+        'https://i.gkd.li/i/14141807',
+        'https://i.gkd.li/i/14205170', //限定visibleToUser
       ],
     },
   ],

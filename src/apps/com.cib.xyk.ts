@@ -11,7 +11,7 @@ export default defineAppConfig({
       activityIds: 'com.cib.fintech.activity.MainActivity',
       rules:
         '[id="android:id/content"] >2 RelativeLayout[childCount=2] > RelativeLayout + ImageView[clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/14122970',
+      snapshotUrls: 'https://i.gkd.li/i/14122970',
     },
   ],
 });

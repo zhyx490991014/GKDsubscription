@@ -12,7 +12,7 @@ export default defineAppConfig({
           key: 0,
           name: '腾讯SDK',
           matches: '[vid="XK"] >n FrameLayout[childCount=1] > ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/14011298', //另一个x为假x
+          snapshotUrls: 'https://i.gkd.li/i/14011298', //另一个x为假x
         },
       ],
     },

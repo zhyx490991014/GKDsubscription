@@ -16,10 +16,10 @@ export default defineAppConfig({
         {
           matches: 'TextView[text*="跳过"][text.length<=10]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12700227',
-            'https://i.gkd.li/import/12700122',
-            'https://i.gkd.li/import/12700541',
-            'https://i.gkd.li/import/12910953',
+            'https://i.gkd.li/i/12700227',
+            'https://i.gkd.li/i/12700122',
+            'https://i.gkd.li/i/12700541',
+            'https://i.gkd.li/i/12910953',
           ],
         },
       ],
@@ -35,9 +35,9 @@ export default defineAppConfig({
           matches:
             'FrameLayout - RelativeLayout > RelativeLayout > FrameLayout + ImageView[clickable=true][childCount=0][visibleToUser=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12700299',
-            'https://i.gkd.li/import/12700302',
-            'https://i.gkd.li/import/13685929', // 限定 visibleToUser=true 防止误触
+            'https://i.gkd.li/i/12700299',
+            'https://i.gkd.li/i/12700302',
+            'https://i.gkd.li/i/13685929', // 限定 visibleToUser=true 防止误触
           ],
         },
         {
@@ -45,7 +45,7 @@ export default defineAppConfig({
           name: '首页顶部背景广告',
           activityIds: 'com.tencent.qqlive.ona.activity.SplashHomeActivity',
           matches: '[text="关闭广告"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/12700518',
+          snapshotUrls: 'https://i.gkd.li/i/12700518',
         },
         {
           key: 2,
@@ -57,8 +57,8 @@ export default defineAppConfig({
           matches:
             'ViewGroup > TextView + LinearLayout[childCount=2] + ImageView[clickable=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12700175',
-            'https://i.gkd.li/import/13759380',
+            'https://i.gkd.li/i/12700175',
+            'https://i.gkd.li/i/13759380',
           ],
         },
         {
@@ -67,7 +67,7 @@ export default defineAppConfig({
           activityIds: 'com.tencent.qqlive.ona.activity.SplashHomeActivity',
           matches:
             'RelativeLayout > FrameLayout + @ImageView[clickable=true] + ImageView + ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/12777344',
+          snapshotUrls: 'https://i.gkd.li/i/12777344',
         },
         {
           key: 4,
@@ -79,8 +79,8 @@ export default defineAppConfig({
           matches:
             'RelativeLayout[id=null] > @FrameLayout[clickable=true][id!=null] > ImageView[desc="the ad tag"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12737313',
-            'https://i.gkd.li/import/13685842',
+            'https://i.gkd.li/i/12737313',
+            'https://i.gkd.li/i/13685842',
           ],
         },
         {
@@ -88,7 +88,7 @@ export default defineAppConfig({
           name: '点击右下角关闭',
           matches:
             'ImageView[childCount=0] <<2 RelativeLayout + FrameLayout + RelativeLayout > RelativeLayout > RelativeLayout > ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/13426421',
+          snapshotUrls: 'https://i.gkd.li/i/13426421',
         },
         {
           key: 6,
@@ -96,7 +96,7 @@ export default defineAppConfig({
           matches: '[id="com.tencent.qqlive:id/feed_icon"][clickable=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/42013a93-fb12-4747-92e0-95f5028eb8e5',
-          snapshotUrls: 'https://i.gkd.li/import/14318802',
+          snapshotUrls: 'https://i.gkd.li/i/14318802',
         },
         // 以下是配合本规则组内其他key使用的规则，反馈界面的规则都是一样的
         {
@@ -107,14 +107,14 @@ export default defineAppConfig({
             '[id="com.tencent.qqlive:id/ad_feed_back_dislike"][clickable=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/8746fdc8-828e-42bb-9160-8e67b7af2dc7',
-          snapshotUrls: 'https://i.gkd.li/import/14318811',
+          snapshotUrls: 'https://i.gkd.li/i/14318811',
         },
         {
           key: 97,
           name: '广告反馈卡片-点击不感兴趣',
           activityIds: 'com.tencent.qqlive.ona.activity.SplashHomeActivity',
           matches: '@FrameLayout[clickable=true] >3 [text="不感兴趣"]',
-          snapshotUrls: 'https://i.gkd.li/import/13695084',
+          snapshotUrls: 'https://i.gkd.li/i/13695084',
         },
         {
           key: 98,
@@ -129,10 +129,10 @@ export default defineAppConfig({
           matches:
             '[text="关闭这条广告的原因"] +(2) RecyclerView > [text="不感兴趣"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12700303',
-            'https://i.gkd.li/import/12829866',
-            'https://i.gkd.li/import/13685871',
-            'https://i.gkd.li/import/13703219',
+            'https://i.gkd.li/i/12700303',
+            'https://i.gkd.li/i/12829866',
+            'https://i.gkd.li/i/13685871',
+            'https://i.gkd.li/i/13703219',
           ],
         },
         {
@@ -149,9 +149,9 @@ export default defineAppConfig({
           matches:
             '[text="关闭这条广告的原因"] + [text="确认"][clickable=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12700210',
-            'https://i.gkd.li/import/13685877',
-            'https://i.gkd.li/import/13703298',
+            'https://i.gkd.li/i/12700210',
+            'https://i.gkd.li/i/13685877',
+            'https://i.gkd.li/i/13703298',
           ],
         },
       ],
@@ -169,8 +169,8 @@ export default defineAppConfig({
           matches:
             '@[text$="跳过广告"][clickable=true] < LinearLayout > [text="VIP可关闭该广告"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12700407',
-            'https://i.gkd.li/import/12700433',
+            'https://i.gkd.li/i/12700407',
+            'https://i.gkd.li/i/12700433',
           ],
         },
         {
@@ -178,21 +178,21 @@ export default defineAppConfig({
           name: '左下角悬浮广告',
           matches:
             'FrameLayout[childCount=2] > FrameLayout > RelativeLayout > View[id!=null][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13043079',
+          snapshotUrls: 'https://i.gkd.li/i/13043079',
         },
         {
           key: 2,
           name: '全屏广告2',
           quickFind: true,
           matches: '@[text$="关闭广告"][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13526547',
+          snapshotUrls: 'https://i.gkd.li/i/13526547',
         },
         {
           key: 3,
           name: '居中广告',
           matches:
             'FrameLayout[childCount=4] > ImageView + FrameLayout + FrameLayout + ImageView[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13695067',
+          snapshotUrls: 'https://i.gkd.li/i/13695067',
         },
       ],
     },
@@ -205,7 +205,7 @@ export default defineAppConfig({
       activityIds: 'com.tencent.qqlive.redpacket.rain.OpenRedPacketActivity',
       rules:
         '@ImageView[clickable=true] < ViewGroup[childCount=5] < [id="android:id/content"]',
-      snapshotUrls: 'https://i.gkd.li/import/13842643',
+      snapshotUrls: 'https://i.gkd.li/i/13842643',
     },
     {
       enable: false,
@@ -218,13 +218,13 @@ export default defineAppConfig({
           actionMaximum: 1,
           quickFind: true,
           matches: 'LinearLayout > @[text="以后再说"] + [text="好的"]',
-          snapshotUrls: 'https://i.gkd.li/import/12700139',
+          snapshotUrls: 'https://i.gkd.li/i/12700139',
         },
         {
           key: 1,
           actionMaximumKey: 0,
           matches: '@ImageView + * > [text^="开启通知"]',
-          snapshotUrls: 'https://i.gkd.li/import/13670465',
+          snapshotUrls: 'https://i.gkd.li/i/13670465',
         },
       ],
     },

@@ -13,7 +13,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.shizhi.shihuoapp.module.main.ui.main.MainActivity',
       rules: '[text^="通知分类"] +n ImageView[id="com.hupu.shihuo:id/ivClose"]',
-      snapshotUrls: 'https://i.gkd.li/import/13704887',
+      snapshotUrls: 'https://i.gkd.li/i/13704887',
     },
     {
       key: 3,
@@ -23,7 +23,7 @@ export default defineAppConfig({
         'com.shizhuang.duapp.modules.rn.mini.MiniReactActivity$MiniUITranslucentReactActivity',
       rules:
         '[id="com.hupu.shihuo:id/fragment_container"] >11 @ViewGroup[clickable=true] > ImageView',
-      snapshotUrls: 'https://i.gkd.li/import/13115664',
+      snapshotUrls: 'https://i.gkd.li/i/13115664',
     },
   ],
 });

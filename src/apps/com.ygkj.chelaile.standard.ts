@@ -19,10 +19,10 @@ export default defineAppConfig({
           matches:
             'ImageView[id^="com.ygkj.chelaile.standard:id/cll_all_pic_close"][visibleToUser=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13062991',
-            'https://i.gkd.li/import/13062984',
-            'https://i.gkd.li/import/13464325',
-            'https://i.gkd.li/import/14065904', //activityId: dev.xesam.chelaile.app.module.line.gray.LineDetailActivity
+            'https://i.gkd.li/i/13062991',
+            'https://i.gkd.li/i/13062984',
+            'https://i.gkd.li/i/13464325',
+            'https://i.gkd.li/i/14065904', //activityId: dev.xesam.chelaile.app.module.line.gray.LineDetailActivity
           ],
         },
         {
@@ -34,8 +34,8 @@ export default defineAppConfig({
           matches:
             '[id="com.ygkj.chelaile.standard:id/cll_line_single_ad_close"][visibleToUser=true]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13625374',
-            'https://i.gkd.li/import/13947849',
+            'https://i.gkd.li/i/13625374',
+            'https://i.gkd.li/i/13947849',
           ],
         },
       ],
@@ -51,7 +51,7 @@ export default defineAppConfig({
             'dev.xesam.chelaile.app.module.line.gray.LineDetailActivity',
           matches:
             'FrameLayout[childCount>1] > FrameLayout[childCount=1] > ImageView[width<90][height<90]',
-          snapshotUrls: 'https://i.gkd.li/import/13947871',
+          snapshotUrls: 'https://i.gkd.li/i/13947871',
         },
       ],
     },

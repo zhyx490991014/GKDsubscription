@@ -4,16 +4,16 @@
 
 ## 开屏广告
 
-- [快照-0](https://i.gkd.li/import/14179381)
+- [快照-0](https://i.gkd.li/i/14179381)
 
 ## 定位提示
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/14208572)
+- [快照-0](https://i.gkd.li/i/14208572)
 
 ## 通知提示
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/14208621)
+- [快照-0](https://i.gkd.li/i/14208621)

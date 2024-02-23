@@ -6,10 +6,10 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13610321)
+- [快照-0](https://i.gkd.li/i/13610321)
 
 ## 右下角弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13759025)
+- [快照-0](https://i.gkd.li/i/13759025)

@@ -6,16 +6,16 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13328430)
+- [快照-0](https://i.gkd.li/i/13328430)
 
 ## 通知弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13456568)
+- [快照-0](https://i.gkd.li/i/13456568)
 
 ## 红包弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13620299)
+- [快照-0](https://i.gkd.li/i/13620299)

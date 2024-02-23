@@ -13,7 +13,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       quickFind: true,
       rules: '[id="tv.danmaku.bilibilihd:id/count_down"]',
-      snapshotUrls: 'https://i.gkd.li/import/13031261',
+      snapshotUrls: 'https://i.gkd.li/i/13031261',
     },
   ],
 });

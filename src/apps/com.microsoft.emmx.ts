@@ -13,7 +13,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'org.chromium.chrome.browser.ChromeTabbedActivity',
       rules: '[text="允许通知"] + [text="不，谢谢"]',
-      snapshotUrls: 'https://i.gkd.li/import/13646187',
+      snapshotUrls: 'https://i.gkd.li/i/13646187',
     },
   ],
 });

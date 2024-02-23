@@ -12,7 +12,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       quickFind: true,
       rules: '[text$="未成年人模式"] +2 @[clickable=true] > [text="我知道了"]',
-      snapshotUrls: 'https://i.gkd.li/import/12706097',
+      snapshotUrls: 'https://i.gkd.li/i/12706097',
     },
     {
       key: 2,
@@ -25,8 +25,8 @@ export default defineAppConfig({
           matches:
             '[id="com.gotokeep.keep:id/layoutLottie"] +(1,2) [id="com.gotokeep.keep:id/imgCloseHomePageDialog"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12706102',
-            'https://i.gkd.li/import/13761641',
+            'https://i.gkd.li/i/12706102',
+            'https://i.gkd.li/i/13761641',
           ],
         },
       ],
@@ -38,7 +38,7 @@ export default defineAppConfig({
         'com.gotokeep.keep.refactor.business.main.activity.MainActivity',
       rules:
         '[id="com.gotokeep.keep:id/textAdTag"] + [id="com.gotokeep.keep:id/imgClose"]',
-      snapshotUrls: 'https://i.gkd.li/import/12706115',
+      snapshotUrls: 'https://i.gkd.li/i/12706115',
     },
     {
       key: 4,
@@ -50,7 +50,7 @@ export default defineAppConfig({
             'com.gotokeep.keep.refactor.business.main.activity.MainActivity',
           matches:
             'ImageView + LinearLayout > ImageView[id=null][clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/12706111',
+          snapshotUrls: 'https://i.gkd.li/i/12706111',
         },
         {
           key: 1,
@@ -58,7 +58,7 @@ export default defineAppConfig({
             'com.gotokeep.keep.refactor.business.main.activity.MainActivity',
           matches:
             '[id="com.gotokeep.keep:id/contentContainer"] + [id="com.gotokeep.keep:id/closeImageView"]',
-          snapshotUrls: 'https://i.gkd.li/import/13766358',
+          snapshotUrls: 'https://i.gkd.li/i/13766358',
         },
       ],
     },
@@ -69,7 +69,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       quickFind: true,
       rules: '@[text="暂不开启"] +2 [text="开启通知权限"]',
-      snapshotUrls: 'https://i.gkd.li/import/13761671',
+      snapshotUrls: 'https://i.gkd.li/i/13761671',
     },
   ],
 });

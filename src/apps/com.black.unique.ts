@@ -13,7 +13,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '@ImageView[id="com.black.unique:id/iv_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/13499502',
+          snapshotUrls: 'https://i.gkd.li/i/13499502',
         },
       ],
     },

@@ -12,7 +12,7 @@ export default defineAppConfig({
       quickFind: true,
       rules:
         '[id="com.redfinger.app:id/btn_update"] + [id="com.redfinger.app:id/iv_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13761821',
+      snapshotUrls: 'https://i.gkd.li/i/13761821',
     },
     {
       key: 2,
@@ -23,7 +23,7 @@ export default defineAppConfig({
           activityIds: 'com.redfinger.app.activity.MainActivity',
           quickFind: true,
           matches: '[id="com.redfinger.app:id/rl_screen_ad_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/13761825',
+          snapshotUrls: 'https://i.gkd.li/i/13761825',
         },
       ],
     },

@@ -6,12 +6,12 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/14321469)
-- [快照-1](https://i.gkd.li/import/14321401)
-- [快照-2](https://i.gkd.li/import/14321461)
+- [快照-0](https://i.gkd.li/i/14321469)
+- [快照-1](https://i.gkd.li/i/14321401)
+- [快照-2](https://i.gkd.li/i/14321461)
 
 ## 全屏广告-视频推荐弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12701029)
+- [快照-0](https://i.gkd.li/i/12701029)

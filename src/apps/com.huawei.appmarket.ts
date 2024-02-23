@@ -13,7 +13,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       rules:
         '[text="儿童模式"] <<n [id="android:id/topPanel"] +2 [id="android:id/buttonPanel"] >2 [text="知道了"]',
-      snapshotUrls: 'https://i.gkd.li/import/14222901',
+      snapshotUrls: 'https://i.gkd.li/i/14222901',
     },
   ],
 });

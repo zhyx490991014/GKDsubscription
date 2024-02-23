@@ -14,8 +14,8 @@ export default defineAppConfig({
       ],
       rules: '[id="com.cnki.view:id/update_undo"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/12755689', // activityId: 'com.cnki.view.core.navigator.main.HomeActivity'
-        'https://i.gkd.li/import/12755700', // activityId: 'com.cnki.view.core.tramp.main.SplashActivity'
+        'https://i.gkd.li/i/12755689', // activityId: 'com.cnki.view.core.navigator.main.HomeActivity'
+        'https://i.gkd.li/i/12755700', // activityId: 'com.cnki.view.core.tramp.main.SplashActivity'
       ],
     },
   ],

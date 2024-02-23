@@ -13,7 +13,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       activityIds: 'com.speed.shadowsocks.ui.main.MainActivity',
       rules: '[vid="iv_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13998233',
+      snapshotUrls: 'https://i.gkd.li/i/13998233',
     },
   ],
 });

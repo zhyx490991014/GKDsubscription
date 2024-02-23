@@ -12,7 +12,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '@[desc="关闭"] - LinearLayout > [text="立即升级"]',
-      snapshotUrls: 'https://i.gkd.li/import/13328430',
+      snapshotUrls: 'https://i.gkd.li/i/13328430',
     },
     {
       key: 2,
@@ -22,7 +22,7 @@ export default defineAppConfig({
       resetMatch: 'activity',
       rules:
         '@TextView[id="com.ss.android.article.video:id/sj"][text="暂不开启"]',
-      snapshotUrls: 'https://i.gkd.li/import/13456568',
+      snapshotUrls: 'https://i.gkd.li/i/13456568',
     },
     {
       key: 6,
@@ -33,7 +33,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       activityIds: 'com.ss.android.article.video.activity.SplashActivity',
       rules: '@FlattenUIImage[clickable=true] -2 [text="开心收下"]',
-      snapshotUrls: 'https://i.gkd.li/import/13620299',
+      snapshotUrls: 'https://i.gkd.li/i/13620299',
     },
   ],
 });

@@ -8,36 +8,36 @@
 
 - [示例-0](https://m.gkd.li/57941037/d2b6ee77-ae06-4873-a106-db4ce2324777)
 
-- [快照-0](https://i.gkd.li/import/14321107)
+- [快照-0](https://i.gkd.li/i/14321107)
 
 ## 功能类-关闭用户推荐
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12520962)
-- [快照-1](https://i.gkd.li/import/12520943)
-- [快照-2](https://i.gkd.li/import/12675396)
-- [快照-3](https://i.gkd.li/import/12675129)
-- [快照-4](https://i.gkd.li/import/12675245)
+- [快照-0](https://i.gkd.li/i/12520962)
+- [快照-1](https://i.gkd.li/i/12520943)
+- [快照-2](https://i.gkd.li/i/12675396)
+- [快照-3](https://i.gkd.li/i/12675129)
+- [快照-4](https://i.gkd.li/i/12675245)
 
 ## 功能类-关闭朋友推荐弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12525387)
-- [快照-1](https://i.gkd.li/import/12525389)
+- [快照-0](https://i.gkd.li/i/12525387)
+- [快照-1](https://i.gkd.li/i/12525389)
 
 ## 局部广告-首页左上角广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12749276)
+- [快照-0](https://i.gkd.li/i/12749276)
 
 ## 全屏广告-广告弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12769137)
+- [快照-0](https://i.gkd.li/i/12769137)
 
 ## 评价提示
 
@@ -45,70 +45,70 @@
 
 - [示例-0](https://github.com/gkd-kit/inspect/assets/38517192/4554c785-39e0-4eac-9cfb-f1b1c2976008)
 
-- [快照-0](https://i.gkd.li/import/13053628)
+- [快照-0](https://i.gkd.li/i/13053628)
 
 ## 功能类-设置无声进入抖音
 
 默认禁用 - 点击[拒绝]
 
-- [快照-0](https://i.gkd.li/import/13256087)
+- [快照-0](https://i.gkd.li/i/13256087)
 
 ## 权限提示-通知权限
 
 默认禁用 - 自动点击“暂不”
 
-- [快照-0](https://i.gkd.li/import/12675129)
-- [快照-1](https://i.gkd.li/import/13669790)
+- [快照-0](https://i.gkd.li/i/12675129)
+- [快照-1](https://i.gkd.li/i/13669790)
 
 ## 功能类-自动勾选原图
 
 默认禁用 - 聊天发送图片时自动勾选原图
 
-- [快照-0](https://i.gkd.li/import/12846036)
-- [快照-1](https://i.gkd.li/import/12846040)
+- [快照-0](https://i.gkd.li/i/12846036)
+- [快照-1](https://i.gkd.li/i/12846040)
 
 ## 功能类-休息提醒
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13241564)
-- [快照-1](https://i.gkd.li/import/13372604)
-- [快照-2](https://i.gkd.li/import/13372725)
+- [快照-0](https://i.gkd.li/i/13241564)
+- [快照-1](https://i.gkd.li/i/13372604)
+- [快照-2](https://i.gkd.li/i/13372725)
 
 ## 功能类-添加快捷方式到桌面
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13338556)
-- [快照-1](https://i.gkd.li/import/13669682)
+- [快照-0](https://i.gkd.li/i/13338556)
+- [快照-1](https://i.gkd.li/i/13669682)
 
 ## 功能类-视频播放中途插入的打招呼界面
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13379307)
+- [快照-0](https://i.gkd.li/i/13379307)
 
 ## 全屏广告-关闭商城推荐
 
 默认禁用 - 点击【不感兴趣】
 
-- [快照-0](https://i.gkd.li/import/13800207)
+- [快照-0](https://i.gkd.li/i/13800207)
 
 ## 功能类-申请开启小组件弹窗
 
 默认禁用 - 点击【暂不开启】
 
-- [快照-0](https://i.gkd.li/import/14123300)
+- [快照-0](https://i.gkd.li/i/14123300)
 
 ## 定位提示
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13974006)
-- [快照-1](https://i.gkd.li/import/13974007)
+- [快照-0](https://i.gkd.li/i/13974006)
+- [快照-1](https://i.gkd.li/i/13974007)
 
 ## 全屏广告-老用户福利
 
 默认禁用 - 点击【不感兴趣】
 
-- [快照-0](https://i.gkd.li/import/14157498)
+- [快照-0](https://i.gkd.li/i/14157498)

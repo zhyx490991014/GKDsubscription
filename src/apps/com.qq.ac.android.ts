@@ -11,7 +11,7 @@ export default defineAppConfig({
       activityIds: 'com.qq.ac.android.reader.comic.ComicReaderActivity',
       rules:
         '[id="com.qq.ac.android:id/operation_ad_view"] > [id="com.qq.ac.android:id/btn_close"]',
-      snapshotUrls: ['https://i.gkd.li/import/12707756'],
+      snapshotUrls: ['https://i.gkd.li/i/12707756'],
     },
   ],
 });

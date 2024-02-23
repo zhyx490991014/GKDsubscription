@@ -10,7 +10,7 @@ export default defineAppConfig({
       name: '我的页面-banner广告',
       activityIds: 'com.zhaopin.social.homepage.ZSC_MainTabActivity',
       rules: '[id="com.zhaopin.social:id/rl_banner_close"][clickable=true]',
-      snapshotUrls: ['https://i.gkd.li/import/12706181'],
+      snapshotUrls: ['https://i.gkd.li/i/12706181'],
     },
     {
       key: 3,
@@ -28,7 +28,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: ['com.zhaopin.social.homepage.ZSC_MainTabActivity'],
       rules: '[id="com.zhaopin.social:id/message_pushlayout_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13063427',
+      snapshotUrls: 'https://i.gkd.li/i/13063427',
     },
   ],
 });

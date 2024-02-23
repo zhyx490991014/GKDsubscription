@@ -13,7 +13,7 @@ export default defineAppConfig({
           key: 0,
           name: '自动签到',
           matches: ['[id="com.alicloud.databox:id/tvTaskAction"][text="领取"]'],
-          snapshotUrls: 'https://i.gkd.li/import/12929318',
+          snapshotUrls: 'https://i.gkd.li/i/12929318',
           quickFind: true,
         },
         {
@@ -21,7 +21,7 @@ export default defineAppConfig({
           preKeys: [0],
           name: '在签到后，关闭弹窗',
           matches: ['[id="com.alicloud.databox:id/ivClose"]'],
-          snapshotUrls: 'https://i.gkd.li/import/13038304',
+          snapshotUrls: 'https://i.gkd.li/i/13038304',
           quickFind: true,
         },
       ],
@@ -31,7 +31,7 @@ export default defineAppConfig({
       name: '活动弹窗',
       activityIds: 'com.alicloud.databox.MainActivity',
       rules: '[text^="好运盲盒"] >n View > Image + TextView[clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/13228610',
+      snapshotUrls: 'https://i.gkd.li/i/13228610',
     },
     {
       key: 2,
@@ -42,7 +42,7 @@ export default defineAppConfig({
       resetMatch: 'activity',
       matchTime: 10000,
       rules: 'View[childCount=9] > @Image -2 View[childCount=5]',
-      snapshotUrls: 'https://i.gkd.li/import/13596924',
+      snapshotUrls: 'https://i.gkd.li/i/13596924',
     },
     {
       key: 3,
@@ -55,7 +55,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: '[text^="立即了解"] -3 View[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13806865',
+          snapshotUrls: 'https://i.gkd.li/i/13806865',
         },
       ],
     },

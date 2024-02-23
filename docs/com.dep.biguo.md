@@ -6,10 +6,10 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12708756)
+- [快照-0](https://i.gkd.li/i/12708756)
 
 ## 请求定位权限弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12708770)
+- [快照-0](https://i.gkd.li/i/12708770)

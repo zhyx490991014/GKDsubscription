@@ -17,8 +17,8 @@ export default defineAppConfig({
           action: 'clickCenter', // 在极少数情况下, 即使节点是 clickable 的, APP 也不会响应节点点击事件, 此时需要手动设置 `clickCenter`
           matches: '[id="cn.soulapp.android:id/c_ad_skip_view_btn"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12833280',
-            'https://i.gkd.li/import/12850094',
+            'https://i.gkd.li/i/12833280',
+            'https://i.gkd.li/i/12850094',
           ],
         },
       ],
@@ -32,7 +32,7 @@ export default defineAppConfig({
         {
           matches:
             '[id="cn.soulapp.android:id/sl_ad_root"] >n [id="cn.soulapp.android:id/fl_tag_container"]',
-          snapshotUrls: 'https://i.gkd.li/import/12838000',
+          snapshotUrls: 'https://i.gkd.li/i/12838000',
         },
       ],
     },
@@ -45,7 +45,7 @@ export default defineAppConfig({
         {
           matches:
             '[id="cn.soulapp.android:id/score_message"] +3 [id="cn.soulapp.android:id/cancel"]',
-          snapshotUrls: 'https://i.gkd.li/import/13425057',
+          snapshotUrls: 'https://i.gkd.li/i/13425057',
         },
       ],
     },
@@ -61,7 +61,7 @@ export default defineAppConfig({
         {
           matches:
             '@[id="cn.soulapp.android:id/img_close"] -2 RelativeLayout > [text="升级到最新版本"]',
-          snapshotUrls: 'https://i.gkd.li/import/13693361',
+          snapshotUrls: 'https://i.gkd.li/i/13693361',
         },
       ],
     },

@@ -17,7 +17,7 @@ export default defineAppConfig({
             '[id="com.fenbi.android.solar:id/text_upgrade"]',
             '[id="com.fenbi.android.solar:id/img_close"]',
           ],
-          snapshotUrls: 'https://i.gkd.li/import/13246056',
+          snapshotUrls: 'https://i.gkd.li/i/13246056',
         },
       ],
     },

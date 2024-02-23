@@ -13,7 +13,7 @@ export default defineAppConfig({
       activityIds: 'com.baidu.netdisk.ui.MainActivity',
       rules:
         '[id="com.baidu.netdisk.samsung:id/cl_root"] > [id="com.baidu.netdisk.samsung:id/iv_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/12738331',
+      snapshotUrls: 'https://i.gkd.li/i/12738331',
     },
     {
       key: 2,
@@ -21,7 +21,7 @@ export default defineAppConfig({
       activityIds: 'com.baidu.netdisk.ui.MainActivity',
       rules:
         '[id="com.baidu.netdisk.samsung:id/buy_product_root"] > [id="com.baidu.netdisk.samsung:id/iv_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/12738388',
+      snapshotUrls: 'https://i.gkd.li/i/12738388',
     },
     {
       key: 3,
@@ -29,7 +29,7 @@ export default defineAppConfig({
       activityIds: 'com.baidu.netdisk.ui.MainActivity',
       rules:
         'View[childCount=2] > @TextView[text=""][clickable=true] + TextView[text="专属福利"][clickable=false]',
-      snapshotUrls: 'https://i.gkd.li/import/12738404',
+      snapshotUrls: 'https://i.gkd.li/i/12738404',
     },
     {
       key: 4,
@@ -38,7 +38,7 @@ export default defineAppConfig({
       activityIds: 'com.baidu.netdisk.ui.MainActivity',
       rules:
         '@TextView[text=""][clickable=true] - TextView[text="去使用"][clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/import/12738449',
+      snapshotUrls: 'https://i.gkd.li/i/12738449',
     },
   ],
 });

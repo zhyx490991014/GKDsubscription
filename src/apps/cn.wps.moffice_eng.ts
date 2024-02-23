@@ -21,16 +21,16 @@ export default defineAppConfig({
           key: 0,
           matches: '[id$="/nativeclose"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12505350',
-            'https://i.gkd.li/import/12505286',
+            'https://i.gkd.li/i/12505350',
+            'https://i.gkd.li/i/12505286',
           ],
         },
         {
           preKeys: 0,
           matches: '[text="关闭当前广告"||text="不喜欢此广告"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12505365',
-            'https://i.gkd.li/import/13259090',
+            'https://i.gkd.li/i/12505365',
+            'https://i.gkd.li/i/13259090',
           ],
         },
       ],
@@ -45,8 +45,8 @@ export default defineAppConfig({
       ],
       rules: '[id="cn.wps.moffice_eng:id/afterlogin_cancel"]',
       snapshotUrls: [
-        'https://i.gkd.li/import/13259097',
-        'https://i.gkd.li/import/12882712',
+        'https://i.gkd.li/i/13259097',
+        'https://i.gkd.li/i/12882712',
       ],
     },
     {
@@ -59,7 +59,7 @@ export default defineAppConfig({
       ],
       rules:
         '[id="cn.wps.moffice_eng:id/close_new_func_guide_dialog_imageView"]',
-      snapshotUrls: 'https://i.gkd.li/import/12882371',
+      snapshotUrls: 'https://i.gkd.li/i/12882371',
     },
     {
       enable: false,
@@ -76,14 +76,14 @@ export default defineAppConfig({
           matches:
             '[id="cn.wps.moffice_eng:id/cloud_protocol_dialog_not_start_btn"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/12882536',
-            'https://i.gkd.li/import/12882610',
-            'https://i.gkd.li/import/12882678',
+            'https://i.gkd.li/i/12882536',
+            'https://i.gkd.li/i/12882610',
+            'https://i.gkd.li/i/12882678',
           ],
         },
         {
           matches: '[id="cn.wps.moffice_eng:id/dialog_button_positive"]',
-          snapshotUrls: 'https://i.gkd.li/import/12882554',
+          snapshotUrls: 'https://i.gkd.li/i/12882554',
         },
       ],
     },
@@ -99,13 +99,13 @@ export default defineAppConfig({
           key: 1,
           matches:
             '[id="cn.wps.moffice_eng:id/doc_end_ad_container_main"] >2 [id="cn.wps.moffice_eng:id/btn_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/13513911',
+          snapshotUrls: 'https://i.gkd.li/i/13513911',
         },
         {
           preKeys: 1,
           key: 2,
           matches: '[text="关闭当前广告"]',
-          snapshotUrls: 'https://i.gkd.li/import/13513914',
+          snapshotUrls: 'https://i.gkd.li/i/13513914',
         },
       ],
     },
@@ -115,7 +115,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'cn.wps.moffice.main.local.HomeRootActivity',
       rules: '[id="cn.wps.moffice_eng:id/home_banner_ad_spread_close"]',
-      snapshotUrls: 'https://i.gkd.li/import/13804525',
+      snapshotUrls: 'https://i.gkd.li/i/13804525',
     },
   ],
 });

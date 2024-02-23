@@ -6,16 +6,16 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13691081)
+- [快照-0](https://i.gkd.li/i/13691081)
 
 ## 右上角红包悬浮窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13624220)
+- [快照-0](https://i.gkd.li/i/13624220)
 
 ## 更新提示
 
 默认禁用 - 点击我再想想
 
-- [快照-0](https://i.gkd.li/import/13858490)
+- [快照-0](https://i.gkd.li/i/13858490)

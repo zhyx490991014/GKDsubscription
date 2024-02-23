@@ -19,7 +19,7 @@ export default defineAppConfig({
         {
           key: 0,
           matches: 'View[childCount=3] > @Image - View[text="花呗服务升级"]',
-          snapshotUrls: 'https://i.gkd.li/import/12737055', //com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main
+          snapshotUrls: 'https://i.gkd.li/i/12737055', //com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main
         },
         {
           quickFind: true,
@@ -28,21 +28,21 @@ export default defineAppConfig({
             'FrameLayout > FrameLayout  > FrameLayout > [text="关闭"]',
           ],
           snapshotUrls: [
-            'https://i.gkd.li/import/13183946', //com.alipay.android.msp.ui.views.MspContainerActivity
-            'https://i.gkd.li/import/12826077', //com.alipay.android.msp.ui.views.MspUniRenderActivity
-            'https://i.gkd.li/import/12915864',
+            'https://i.gkd.li/i/13183946', //com.alipay.android.msp.ui.views.MspContainerActivity
+            'https://i.gkd.li/i/12826077', //com.alipay.android.msp.ui.views.MspUniRenderActivity
+            'https://i.gkd.li/i/12915864',
           ],
         },
         {
           quickFind: true,
           matches:
             '[text="花呗服务未升级，将影响后续使用"] <<n FrameLayout @FrameLayout[clickable=true] [text="暂不升级，继续付款"]',
-          snapshotUrls: 'https://i.gkd.li/import/13631362',
+          snapshotUrls: 'https://i.gkd.li/i/13631362',
         },
         {
           matches:
             '[id="com.alipay.android.app:id/flybird_userinfo"] + * >8 FrameLayout[clickable=true][index=1]',
-          snapshotUrls: 'https://i.gkd.li/import/13857535',
+          snapshotUrls: 'https://i.gkd.li/i/13857535',
         },
       ],
     },
@@ -54,7 +54,7 @@ export default defineAppConfig({
       activityIds: 'com.eg.android.AlipayGphone.AlipayLogin',
       rules:
         '@[id="com.alipay.mobile.antui:id/closeButton"] - [id="com.alipay.mobile.antui:id/textAndButtonLayout"] [id="com.alipay.mobile.antui:id/tipTextView"][text^="开启定位权限"]',
-      snapshotUrls: 'https://i.gkd.li/import/12792688',
+      snapshotUrls: 'https://i.gkd.li/i/12792688',
     },
     {
       key: 2,
@@ -69,7 +69,7 @@ export default defineAppConfig({
           activityIds: 'com.eg.android.AlipayGphone.AlipayLogin',
           matches:
             '@[desc="关闭"] - * >n [id="com.alipay.mobile.antui:id/tipTextView"][text^="开启通知权限"]',
-          snapshotUrls: 'https://i.gkd.li/import/13194955',
+          snapshotUrls: 'https://i.gkd.li/i/13194955',
         },
         {
           key: 1,
@@ -78,7 +78,7 @@ export default defineAppConfig({
             'com.alipay.mobile.rome.pushservice.integration.PushOpenGuideActivity',
           matches:
             '[text="选择通知接收范围"] <2 RelativeLayout [text="暂时不用"]',
-          snapshotUrls: 'https://i.gkd.li/import/13669620',
+          snapshotUrls: 'https://i.gkd.li/i/13669620',
         },
       ],
     },
@@ -99,22 +99,22 @@ export default defineAppConfig({
           name: '弹窗-【稍后再说】',
           matches:
             'TextView[id="com.alipay.mobile.accountauthbiz:id/update_cancel_tv"]',
-          snapshotUrls: 'https://i.gkd.li/import/13327095',
+          snapshotUrls: 'https://i.gkd.li/i/13327095',
         },
         {
           name: '弹窗-【x】',
           matches:
             '[text="版本更新"||text^="Version"] - [id="com.alipay.mobile.antui:id/btn_close"]',
           snapshotUrls: [
-            'https://i.gkd.li/import/13490805',
-            'https://i.gkd.li/import/13580594',
+            'https://i.gkd.li/i/13490805',
+            'https://i.gkd.li/i/13580594',
           ],
         },
         {
           name: '卡片-【x】',
           matches:
             '[text="立即升级最新版支付宝客户端"] < LinearLayout + [id="com.alipay.mobile.advertisement:id/announcementview_righticon"]',
-          snapshotUrls: 'https://i.gkd.li/import/13490797',
+          snapshotUrls: 'https://i.gkd.li/i/13490797',
         },
       ],
     },
@@ -130,7 +130,7 @@ export default defineAppConfig({
           matches:
             '@TextView[text="关闭"] < * <3 * < * + * >3 TextView[text="设置支付宝小组件"]',
           action: 'clickCenter',
-          snapshotUrls: 'https://i.gkd.li/import/13327349',
+          snapshotUrls: 'https://i.gkd.li/i/13327349',
         },
       ],
     },
@@ -144,7 +144,7 @@ export default defineAppConfig({
           matches:
             '[desc="推荐广告"] > [desc="展开更多选项"][visibleToUser=true]',
           action: 'clickCenter',
-          snapshotUrls: 'https://i.gkd.li/import/13763314',
+          snapshotUrls: 'https://i.gkd.li/i/13763314',
         },
         {
           preKeys: 0,
@@ -152,7 +152,7 @@ export default defineAppConfig({
           quickFind: true,
           matches: '[text="对该内容不感兴趣"]',
           action: 'clickCenter',
-          snapshotUrls: 'https://i.gkd.li/import/13763315',
+          snapshotUrls: 'https://i.gkd.li/i/13763315',
         },
       ],
     },
@@ -166,7 +166,7 @@ export default defineAppConfig({
             'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
           matches:
             '[text="同意协议并刷脸验证"] < * -4 * >2 Image[visibleToUser=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13915022',
+          snapshotUrls: 'https://i.gkd.li/i/13915022',
         },
       ],
     },
@@ -176,7 +176,7 @@ export default defineAppConfig({
       activityIds:
         'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity',
       rules: '[desc="全屏广告"] >2 [desc="关闭"]',
-      snapshotUrls: 'https://i.gkd.li/import/14112225',
+      snapshotUrls: 'https://i.gkd.li/i/14112225',
     },
     {
       key: 13,
@@ -185,8 +185,8 @@ export default defineAppConfig({
       rules:
         '[id="com.alipay.mobile.nebula:id/h5_pc_container"] >n View[childCount=1] > View[childCount=2] > View + Image[text=""]',
       snapshotUrls: [
-        'https://i.gkd.li/import/14112224',
-        'https://i.gkd.li/import/14176001', //不加text=""误触
+        'https://i.gkd.li/i/14112224',
+        'https://i.gkd.li/i/14176001', //不加text=""误触
       ],
     },
     {
@@ -194,7 +194,7 @@ export default defineAppConfig({
       name: '局部广告-拼多多先买后付广告',
       rules:
         '[text="拼多多 推荐你"] <n FrameLayout +2 FrameLayout > [text="关闭"]',
-      snapshotUrls: 'https://i.gkd.li/import/13832300',
+      snapshotUrls: 'https://i.gkd.li/i/13832300',
     },
   ],
 });

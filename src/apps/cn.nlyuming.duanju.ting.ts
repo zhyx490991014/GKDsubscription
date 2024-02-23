@@ -12,7 +12,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       activityIds: 'cn.nlyuming.duanju.ting.MainActivity',
       rules: '[desc="了解更多"] - [desc="我知道了"]',
-      snapshotUrls: 'https://i.gkd.li/import/14151009',
+      snapshotUrls: 'https://i.gkd.li/i/14151009',
     },
   ],
 });
