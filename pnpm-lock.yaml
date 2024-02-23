@@ -506,8 +506,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@gkd-kit/selector@0.0.18:
-    resolution: {integrity: sha512-5aDHh45pkRLd82d+TLE5vbaz64PkcYZABOuqCXhsEQW8PtNMT05sTTW6WQeM+RH/IjGvULz/p9Hl8vpVm2bPCg==}
+  /@gkd-kit/selector@0.0.20:
+    resolution: {integrity: sha512-dnuEF8r0GmlC7G3AKYwQp8su0QbStjz2M2j7E/rvZ5IGr+txXxkBe69jezmZeCflRX6S0P3eWJMrZLoJNHNb3g==}
     dev: true
 
   /@humanwhocodes/config-array@0.11.13:
