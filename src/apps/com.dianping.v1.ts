@@ -56,12 +56,15 @@ export default defineAppConfig({
           key: 0,
           activityIds: 'com.dianping.v1.NovaMainActivity',
           matches:
-            '[desc="reculike_delete"][clickable=true][visibleToUser=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13759369',
+            '@[desc="reculike_delete"][clickable=true][visibleToUser=true] +3 [childCount=2]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13759369',
+            'https://i.gkd.li/i/14332054', //限定+3 [childCount=2]防止误触
+          ],
         },
         {
-          preKeys: 0,
           key: 1,
+          action: 'clickCenter',
           activityIds: 'com.dianping.v1.NovaMainActivity',
           matches: '@[clickable=true] > [text="重复出现"]',
           snapshotUrls: [
