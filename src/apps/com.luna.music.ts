@@ -70,14 +70,16 @@ export default defineAppConfig({
       key: 8,
       name: '功能类-看广告获取听歌时长',
       desc: '点击领取成功-点击坚持退出',
-      quickFind: true,
       rules: [
         {
           key: 0,
           action: 'clickCenter',
           matches:
-            '[id="com.luna.music:id/exciting_video_fragment_container"] >3 FrameLayout > [text="领取成功，关闭，按钮"]',
-          snapshotUrls: 'https://i.gkd.li/i/13945430',
+            '[id="com.luna.music:id/exciting_video_fragment_container"] >3 FrameLayout > LynxFlattenUI[text*="领取成功"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13945430',
+            'https://i.gkd.li/i/14391733',
+          ],
         },
         {
           preKeys: 0,
