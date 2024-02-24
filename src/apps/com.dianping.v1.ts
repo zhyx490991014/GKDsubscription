@@ -64,12 +64,14 @@ export default defineAppConfig({
         },
         {
           key: 1,
+          quickFind: true,
           action: 'clickCenter',
           activityIds: 'com.dianping.v1.NovaMainActivity',
-          matches: '@[clickable=true] > [text="重复出现"]',
+          matches: '[text*="重复出现"]',
           snapshotUrls: [
             'https://i.gkd.li/i/14238381',
             'https://i.gkd.li/i/14269115',
+            'https://i.gkd.li/i/14393253', //一个emoji引起的血案
           ],
         },
       ],
