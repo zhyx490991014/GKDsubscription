@@ -16,6 +16,7 @@ const diabledAppIds = [
 
   // 在一些常见的应用中禁用
   'com.tencent.mm', // 微信
+  'com.eg.android.AlipayGphone', // 支付宝
   'li.songe.gkd',
 
   'com.google.ar.core', // 谷歌AR服务
