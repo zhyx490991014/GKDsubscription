@@ -60,6 +60,7 @@
 | 10000社区              | [dxwt.questionnaire.ui](/docs/dxwt.questionnaire.ui.md)                                                                                                           | 1      |
 | 123云盘                | [com.mfcloudcalculate.networkdisk](/docs/com.mfcloudcalculate.networkdisk.md)                                                                                     | 2      |
 | 1号会员店              | [com.thestore.main](/docs/com.thestore.main.md)                                                                                                                   | 1      |
+| 2345天气王             | [com.tianqi2345](/docs/com.tianqi2345.md)                                                                                                                         | 2      |
 | 360家庭防火墙          | [com.qihoo.srouter.n300](/docs/com.qihoo.srouter.n300.md)                                                                                                         | 1      |
 | 360摄像机              | [com.qihoo.camera](/docs/com.qihoo.camera.md)                                                                                                                     | 1      |
 | 365时政                | [cn.net.shizheng.study](/docs/cn.net.shizheng.study.md)                                                                                                           | 1      |
@@ -526,6 +527,7 @@
 | 心动日常               | [com.youloft.icloser](/docs/com.youloft.icloser.md)                                                                                                               | 2      |
 | 星空视频壁纸           | [yyc.xk](/docs/yyc.xk.md)                                                                                                                                         | 1      |
 | 醒图                   | [com.xt.retouch](/docs/com.xt.retouch.md)                                                                                                                         | 1      |
+| 星芽免费短剧           | [com.jz.xydj](/docs/com.jz.xydj.md)                                                                                                                               | 1      |
 | 兴业生活               | [com.cib.xyk](/docs/com.cib.xyk.md)                                                                                                                               | 1      |
 | 星影视频               | [com.xsj.app](/docs/com.xsj.app.md)                                                                                                                               | 2      |
 | 星影视频               | [cn.nlyuming.duanju.ting](/docs/cn.nlyuming.duanju.ting.md)                                                                                                       | 1      |
