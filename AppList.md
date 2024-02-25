@@ -187,7 +187,7 @@
 | 饿了么                 | [me.ele](/docs/me.ele.md)                                                                                                                                         | 8      |
 | 二柄                   | [com.diershoubing.erbing](/docs/com.diershoubing.erbing.md)                                                                                                       | 2      |
 | 返利                   | [com.fanli.android.apps](/docs/com.fanli.android.apps.md)                                                                                                         | 1      |
-| 番茄免费小说           | [com.dragon.read](/docs/com.dragon.read.md)                                                                                                                       | 10     |
+| 番茄免费小说           | [com.dragon.read](/docs/com.dragon.read.md)                                                                                                                       | 11     |
 | 飞常准业内版           | [com.feeyo.vz.pro.cdm](/docs/com.feeyo.vz.pro.cdm.md)                                                                                                             | 1      |
 | 翡翠视频               | [com.feicui.vdhelper](/docs/com.feicui.vdhelper.md)                                                                                                               | 1      |
 | 飞客                   | [com.ideal.flyerteacafes](/docs/com.ideal.flyerteacafes.md)                                                                                                       | 1      |
