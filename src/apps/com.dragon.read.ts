@@ -181,6 +181,7 @@ export default defineAppConfig({
       name: '评价提示',
       quickFind: true,
       resetMatch: 'app',
+      actionMaximum: 1,
       rules: '@ImageView[clickable=true] +3 * > [text="五星好评"]',
       snapshotUrls: 'https://i.gkd.li/i/14395088',
     },
