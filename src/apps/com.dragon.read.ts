@@ -176,5 +176,13 @@ export default defineAppConfig({
       rules: '@LynxFlattenUI[clickable=true] - [text="前往抽奖"]',
       snapshotUrls: 'https://i.gkd.li/i/14292475',
     },
+    {
+      key: 16,
+      name: '评价提示',
+      quickFind: true,
+      resetMatch: 'app',
+      rules: '@ImageView[clickable=true] +3 * > [text="五星好评"]',
+      snapshotUrls: 'https://i.gkd.li/i/14395088',
+    },
   ],
 });
