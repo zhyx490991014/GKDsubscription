@@ -19,7 +19,7 @@ export default defineAppConfig({
     },
     {
       key: 1,
-      name: '版本更新',
+      name: '更新提示',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -34,6 +34,15 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/i/13455965',
         },
       ],
+    },
+    {
+      key: 2,
+      name: '局部广告-首页-右下角浮窗',
+      quickFind: true,
+      activityIds:
+        'com.heytap.cdo.client.cards.page.main.maintab.MainTabActivity',
+      rules: '@[desc="关闭"][clickable=true] <2 [vid="view_id_float_ad"]',
+      snapshotUrls: 'https://i.gkd.li/i/14469932',
     },
   ],
 });
