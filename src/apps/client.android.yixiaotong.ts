@@ -3,11 +3,11 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'client.android.yixiaotong',
   name: '乐校通',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 3],
   groups: [
     {
       key: 1,
-      name: '弹窗广告',
+      name: '全屏广告-弹窗广告',
       rules: [
         {
           key: 0,
@@ -41,20 +41,26 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '卡片式广告',
+      name: '局部广告-卡片式广告',
       rules: [
         {
           key: 0,
           name: '腾讯广告',
-          activityIds:
+          activityIds: [
             'client.android.yixiaotong.v3.ui.appcontrol.bath.BathDetailActivity',
+            'client.android.yixiaotong.v3.ui.appcontrol.bath.BathControlActivity',
+          ],
           matches:
-            'ImageView - FrameLayout - FrameLayout[childCount=1] > ImageView[childCount=0]',
-          snapshotUrls: 'https://i.gkd.li/i/13451010',
+            'ImageView + * + FrameLayout[childCount=1] > ImageView[childCount=0]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13451010',
+            'https://i.gkd.li/i/14469739',
+          ],
         },
         {
           key: 1,
           name: '快手广告',
+
           activityIds:
             'client.android.yixiaotong.v3.ui.appcontrol.bath.BathDetailActivity',
           matches:
@@ -62,19 +68,6 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/i/13450887',
         },
       ],
-    },
-    {
-      key: 3,
-      name: '底部卡片广告',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'activity',
-      activityIds:
-        'client.android.yixiaotong.v3.ui.appcontrol.bath.BathDetailActivity',
-      rules:
-        '@TextView[clickable=true][text=""] + View [text="广告"] <<n [id="client.android.yixiaotong:id/ksad_container"]',
-      snapshotUrls: 'https://i.gkd.li/i/13448963',
     },
   ],
 });
