@@ -14,6 +14,7 @@ export default defineAppConfig({
         'com.zhihu.android.app.ui.activity.HostActivity',
         'com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity',
         'com.zhihu.android.ContentActivity',
+        'com.zhihu.android.app.ui.activity.MainActivity',
       ],
       rules: [
         {
@@ -51,11 +52,20 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/i/14192451',
         },
         {
-          key: 90,
-          preKeys: [0, 1, 2, 3],
+          key: 4,
           quickFind: true,
-          matches: '@[clickable=true] >3 [text="内容不感兴趣"]',
-          snapshotUrls: 'https://i.gkd.li/i/13849689',
+          matches: '@ImageView < FrameLayout - LinearLayout > [text*="广告"]',
+          snapshotUrls: 'https://i.gkd.li/i/14468130',
+        },
+        {
+          key: 90,
+          preKeys: [0, 1, 2, 3, 4],
+          quickFind: true,
+          matches: '@[clickable=true] >3 [text*="不感兴趣"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13849689',
+            'https://i.gkd.li/i/14468129',
+          ],
         },
       ],
     },
