@@ -1,6 +1,6 @@
 # OPPO软件商店
 
-存在 2 规则组 - [com.heytap.market](/src/apps/com.heytap.market.ts)
+存在 3 规则组 - [com.heytap.market](/src/apps/com.heytap.market.ts)
 
 ## 开屏广告
 
@@ -10,8 +10,14 @@
 
 - [快照-0](https://i.gkd.li/i/14120100)
 
-## 版本更新
+## 更新提示
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/i/13455965)
+
+## 局部广告-首页-右下角浮窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/i/14469932)
