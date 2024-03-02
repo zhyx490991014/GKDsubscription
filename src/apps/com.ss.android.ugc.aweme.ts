@@ -13,9 +13,7 @@ export default defineAppConfig({
       rules: [
         {
           quickFind: true,
-          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
-          matches:
-            '[text="体验一下"] + [text="关闭"][clickable=true][text.length=2]',
+          matches: '[text="体验一下"] + [text="关闭"][clickable=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/d2b6ee77-ae06-4873-a106-db4ce2324777',
           snapshotUrls: 'https://i.gkd.li/i/14321107',
