@@ -131,5 +131,13 @@ export default defineAppConfig({
         'https://i.gkd.li/i/14292587', // 点击显示释义后
       ],
     },
+    {
+      key: 9,
+      name: '局部广告-右下角买1得12浮窗',
+      quickFind: true,
+      activityIds: 'com.youdao.dict.activity.MainActivity',
+      rules: '[vid="vip_activity_layout"] > [vid="aivClose"]',
+      snapshotUrls: 'https://i.gkd.li/i/14469006',
+    },
   ],
 });
