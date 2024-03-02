@@ -97,7 +97,7 @@ export default defineAppConfig({
       rules: '@[text="取消"] +2 [text="五星好评"]',
       snapshotUrls: 'https://i.gkd.li/i/13053628',
       exampleUrls:
-        'https://github.com/gkd-kit/inspect/assets/38517192/4554c785-39e0-4eac-9cfb-f1b1c2976008',
+        'https://m.gkd.li/101449500/8225f12c-adcf-4385-a1ca-670e62906cd2',
     },
     {
       key: 7,
