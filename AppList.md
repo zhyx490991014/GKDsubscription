@@ -177,6 +177,7 @@
 | 懂球帝                 | [com.dongqiudi.news](/docs/com.dongqiudi.news.md)                                                                                                                 | 5      |
 | 豆瓣                   | [com.douban.frodo](/docs/com.douban.frodo.md)                                                                                                                     | 9      |
 | 抖音                   | [com.ss.android.ugc.aweme](/docs/com.ss.android.ugc.aweme.md)                                                                                                     | 16     |
+| 抖音                   | [com.ss.android.ugc.aweme.mobile](/docs/com.ss.android.ugc.aweme.mobile.md)                                                                                       | 1      |
 | 抖音极速版             | [com.ss.android.ugc.aweme.lite](/docs/com.ss.android.ugc.aweme.lite.md)                                                                                           | 3      |
 | 斗鱼                   | [air.tv.douyu.android](/docs/air.tv.douyu.android.md)                                                                                                             | 1      |
 | 毒霸姬                 | [com.cf.dubaji](/docs/com.cf.dubaji.md)                                                                                                                           | 1      |
@@ -289,7 +290,7 @@
 | 乐橙含光               | [com.mm.android.lchg](/docs/com.mm.android.lchg.md)                                                                                                               | 1      |
 | 乐康守护               | [com.ecellsz.watch.guard](/docs/com.ecellsz.watch.guard.md)                                                                                                       | 1      |
 | 乐看视频               | [com.zhl.bmi](/docs/com.zhl.bmi.md)                                                                                                                               | 1      |
-| 乐校通                 | [client.android.yixiaotong](/docs/client.android.yixiaotong.md)                                                                                                   | 3      |
+| 乐校通                 | [client.android.yixiaotong](/docs/client.android.yixiaotong.md)                                                                                                   | 2      |
 | 两步路户外助手         | [com.lolaage.tbulu.tools](/docs/com.lolaage.tbulu.tools.md)                                                                                                       | 2      |
 | 链工宝                 | [com.hxak.liangongbao](/docs/com.hxak.liangongbao.md)                                                                                                             | 1      |
 | 联通智家               | [com.woapp.hebei](/docs/com.woapp.hebei.md)                                                                                                                       | 1      |
@@ -455,7 +456,7 @@
 | 网易蜗牛读书           | [com.netease.snailread](/docs/com.netease.snailread.md)                                                                                                           | 1      |
 | 网易新闻               | [com.netease.newsreader.activity](/docs/com.netease.newsreader.activity.md)                                                                                       | 4      |
 | 网易严选               | [com.netease.yanxuan](/docs/com.netease.yanxuan.md)                                                                                                               | 1      |
-| 网易有道词典           | [com.youdao.dict](/docs/com.youdao.dict.md)                                                                                                                       | 7      |
+| 网易有道词典           | [com.youdao.dict](/docs/com.youdao.dict.md)                                                                                                                       | 8      |
 | 网易邮箱               | [com.netease.mobimail](/docs/com.netease.mobimail.md)                                                                                                             | 3      |
 | 网易邮箱大师           | [com.netease.mail](/docs/com.netease.mail.md)                                                                                                                     | 3      |
 | 网易云音乐             | [com.netease.cloudmusic](/docs/com.netease.cloudmusic.md)                                                                                                         | 11     |
@@ -497,7 +498,7 @@
 | 小米浏览器             | [com.android.browser](/docs/com.android.browser.md)                                                                                                               | 2      |
 | 小米商城               | [com.xiaomi.shop](/docs/com.xiaomi.shop.md)                                                                                                                       | 1      |
 | 小米社区               | [com.xiaomi.vipaccount](/docs/com.xiaomi.vipaccount.md)                                                                                                           | 4      |
-| 小米手机管家           | [com.miui.securitycenter](/docs/com.miui.securitycenter.md)                                                                                                       | 3      |
+| 小米手机管家           | [com.miui.securitycenter](/docs/com.miui.securitycenter.md)                                                                                                       | 4      |
 | 小米应用商店           | [com.xiaomi.market](/docs/com.xiaomi.market.md)                                                                                                                   | 5      |
 | 小米音乐               | [com.miui.player](/docs/com.miui.player.md)                                                                                                                       | 8      |
 | 小米有品               | [com.xiaomi.youpin](/docs/com.xiaomi.youpin.md)                                                                                                                   | 2      |
@@ -555,7 +556,7 @@
 | 影视工场               | [com.flttrade.flt1064trade.gong](/docs/com.flttrade.flt1064trade.gong.md)                                                                                         | 1      |
 | 萤石云视频             | [com.videogo](/docs/com.videogo.md)                                                                                                                               | 3      |
 | 应用安装器             | [com.oplus.appdetail](/docs/com.oplus.appdetail.md)                                                                                                               | 1      |
-| 应用包管理组件         | [com.miui.packageinstaller](/docs/com.miui.packageinstaller.md)                                                                                                   | 4      |
+| 应用包管理组件         | [com.miui.packageinstaller](/docs/com.miui.packageinstaller.md)                                                                                                   | 5      |
 | 应用汇                 | [com.yingyonghui.market](/docs/com.yingyonghui.market.md)                                                                                                         | 1      |
 | 一起来涂色             | [com.xingluo.allcolor](/docs/com.xingluo.allcolor.md)                                                                                                             | 1      |
 | 一淘                   | [com.taobao.etao](/docs/com.taobao.etao.md)                                                                                                                       | 2      |

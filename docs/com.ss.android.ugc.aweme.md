@@ -43,7 +43,7 @@
 
 默认禁用 - 点击[取消]
 
-- [示例-0](https://github.com/gkd-kit/inspect/assets/38517192/4554c785-39e0-4eac-9cfb-f1b1c2976008)
+- [示例-0](https://m.gkd.li/101449500/8225f12c-adcf-4385-a1ca-670e62906cd2)
 
 - [快照-0](https://i.gkd.li/i/13053628)
 
