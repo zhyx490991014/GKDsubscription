@@ -6,6 +6,17 @@ export default defineAppConfig({
   deprecatedKeys: [1],
   groups: [
     {
+      key: 2,
+      name: '局部广告-信息流广告',
+      desc: '伪装正常内容广告',
+      activityIds: 'com.sup.android.base.MainActivity',
+      quickFind: true,
+      rules: '@[text="关闭广告"] + RelativeLayout > [text="立即下载"]',
+      exampleUrls:
+        'https://m.gkd.li/101449500/dc714565-6636-415c-80a2-8df0e0a8935e',
+      snapshotUrls: 'https://i.gkd.li/i/14471889',
+    },
+    {
       key: 5,
       name: '请求开启通知权限弹窗',
       quickFind: true,
