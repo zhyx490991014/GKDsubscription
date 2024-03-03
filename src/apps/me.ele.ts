@@ -9,10 +9,8 @@ export default defineAppConfig({
       key: 1,
       name: '版本更新',
       quickFind: true,
-      // matchTime: 10000, 部分更新提示不在10s内
       actionMaximum: 1,
       resetMatch: 'app',
-      // matchDelay: 3000, 想不起来为啥加的了，先删掉
       rules:
         '[text*="更新应用版本"] < ScrollView + [text="取消"][focusable=true]',
       snapshotUrls: [
@@ -154,6 +152,21 @@ export default defineAppConfig({
           matches:
             '@View[visibleToUser=true] < * <2 [id="me.ele:id/frame_bottom_bg"]',
           snapshotUrls: 'https://i.gkd.li/i/13931205',
+        },
+      ],
+    },
+    {
+      key: 10,
+      name: '全屏广告-吃货卡低价专享弹窗',
+      desc: '点击x',
+      rules: [
+        {
+          activityIds: 'me.ele.application.ui.Launcher.LauncherActivity',
+          matches:
+            '[vid="layoutFloat"] >3 [vid="id_magex_mist_view"] >3 ViewGroup[index=2][clickable=true]',
+          exampleUrls:
+            'https://m.gkd.li/101449500/4efc22d1-508e-4b7a-a1c0-efd4e1637277',
+          snapshotUrls: 'https://i.gkd.li/i/14473000',
         },
       ],
     },
