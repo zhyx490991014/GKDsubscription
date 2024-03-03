@@ -20,6 +20,7 @@ export default defineAppConfig({
           activityIds: [
             'com.android.packageinstaller.NewInstallInstalling',
             'com.android.packageinstaller.InstallSuccess',
+            'com.android.packageinstaller.oplus.InstallAppProgress', //一加
           ],
           matches: '[text="完成"]',
           snapshotUrls: [
@@ -27,6 +28,7 @@ export default defineAppConfig({
             'https://i.gkd.li/i/13206476',
             'https://i.gkd.li/i/13766420',
             'https://i.gkd.li/i/13962438',
+            'https://i.gkd.li/i/14471881', //一加
           ],
         },
       ],
