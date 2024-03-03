@@ -112,20 +112,23 @@ export default defineAppConfig({
     {
       enable: false,
       key: 7,
-      name: '请求定位弹窗',
+      name: '定位提示',
       desc: '首页/外卖界面-【打开位置开关弹窗】-点击右侧x关闭',
       activityIds: [
         'com.meituan.android.pt.homepage.activity.MainActivity',
         'com.sankuai.waimai.business.page.homepage.TakeoutActivity',
+        'com.sankuai.meituan.MPMainActivity',
       ],
       rules: [
         '[id ="com.sankuai.meituan:id/location_close"]',
         '[id ="com.sankuai.meituan:id/location_layer_close"]',
+        '[text="定位服务尚未开启"] +3 TextView',
       ],
       snapshotUrls: [
         'https://i.gkd.li/i/12874657',
         'https://i.gkd.li/i/12910210',
         'https://i.gkd.li/i/12910211',
+        'https://i.gkd.li/i/14473024',
       ],
     },
     {
