@@ -186,7 +186,7 @@
 | 多看                   | [com.duokan.reader](/docs/com.duokan.reader.md)                                                                                                                   | 4      |
 | 多系统工具箱           | [com.example.ourom](/docs/com.example.ourom.md)                                                                                                                   | 1      |
 | e高速                  | [com.sdhs.easy.high.road](/docs/com.sdhs.easy.high.road.md)                                                                                                       | 1      |
-| 饿了么                 | [me.ele](/docs/me.ele.md)                                                                                                                                         | 8      |
+| 饿了么                 | [me.ele](/docs/me.ele.md)                                                                                                                                         | 9      |
 | 二柄                   | [com.diershoubing.erbing](/docs/com.diershoubing.erbing.md)                                                                                                       | 2      |
 | 返利                   | [com.fanli.android.apps](/docs/com.fanli.android.apps.md)                                                                                                         | 1      |
 | 番茄免费小说           | [com.dragon.read](/docs/com.dragon.read.md)                                                                                                                       | 11     |
@@ -258,7 +258,7 @@
 | 交通银行               | [com.bankcomm.Bankcomm](/docs/com.bankcomm.Bankcomm.md)                                                                                                           | 2      |
 | 交易猫                 | [com.jym.mall](/docs/com.jym.mall.md)                                                                                                                             | 1      |
 | 驾校一点通             | [com.jxedt](/docs/com.jxedt.md)                                                                                                                                   | 2      |
-| 解压专家               | [com.fileunzip.zxwknight](/docs/com.fileunzip.zxwknight.md)                                                                                                       | 2      |
+| 解压专家               | [com.fileunzip.zxwknight](/docs/com.fileunzip.zxwknight.md)                                                                                                       | 3      |
 | 京东                   | [com.jingdong.app.mall](/docs/com.jingdong.app.mall.md)                                                                                                           | 10     |
 | 京东到家               | [com.jingdong.pdj](/docs/com.jingdong.pdj.md)                                                                                                                     | 2      |
 | 京东读书               | [com.jd.app.reader](/docs/com.jd.app.reader.md)                                                                                                                   | 2      |
@@ -345,7 +345,7 @@
 | 平安口袋银行           | [com.pingan.paces.ccms](/docs/com.pingan.paces.ccms.md)                                                                                                           | 1      |
 | 皮皮搞笑               | [cn.xiaochuankeji.zuiyouLite](/docs/cn.xiaochuankeji.zuiyouLite.md)                                                                                               | 1      |
 | 皮皮喵                 | [com.gentle.ppcat](/docs/com.gentle.ppcat.md)                                                                                                                     | 1      |
-| 皮皮虾                 | [com.sup.android.superb](/docs/com.sup.android.superb.md)                                                                                                         | 3      |
+| 皮皮虾                 | [com.sup.android.superb](/docs/com.sup.android.superb.md)                                                                                                         | 4      |
 | 浦发银行               | [cn.com.spdb.mobilebank.per](/docs/cn.com.spdb.mobilebank.per.md)                                                                                                 | 1      |
 | 普益基金               | [com.pywm.fund](/docs/com.pywm.fund.md)                                                                                                                           | 1      |
 | 钱包                   | [com.vivo.wallet](/docs/com.vivo.wallet.md)                                                                                                                       | 1      |
@@ -413,7 +413,7 @@
 | 随手记                 | [com.mymoney](/docs/com.mymoney.md)                                                                                                                               | 1      |
 | 钛马星                 | [com.tima.carnet.m.main](/docs/com.tima.carnet.m.main.md)                                                                                                         | 2      |
 | 糖心Vlog               | [com.flutter3.ctangxin.vf0egg](/docs/com.flutter3.ctangxin.vf0egg.md)                                                                                             | 4      |
-| 淘宝                   | [com.taobao.taobao](/docs/com.taobao.taobao.md)                                                                                                                   | 14     |
+| 淘宝                   | [com.taobao.taobao](/docs/com.taobao.taobao.md)                                                                                                                   | 15     |
 | 淘粉吧                 | [com.leixun.taofen8](/docs/com.leixun.taofen8.md)                                                                                                                 | 1      |
 | 淘特                   | [com.taobao.litetao](/docs/com.taobao.litetao.md)                                                                                                                 | 2      |
 | 特狗APP                | [com.yunxiang.wuyu](/docs/com.yunxiang.wuyu.md)                                                                                                                   | 2      |

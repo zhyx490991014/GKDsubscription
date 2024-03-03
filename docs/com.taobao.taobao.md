@@ -1,6 +1,6 @@
 # 淘宝
 
-存在 14 规则组 - [com.taobao.taobao](/src/apps/com.taobao.taobao.ts)
+存在 15 规则组 - [com.taobao.taobao](/src/apps/com.taobao.taobao.ts)
 
 ## 开屏广告
 
@@ -28,6 +28,14 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/i/13521702)
+
+## 功能类-关闭小额免密支付开关
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/101449500/a9e21a7d-ab16-4ba4-b678-9fe8dcbb6c72)
+
+- [快照-0](https://i.gkd.li/i/14471660)
 
 ## 权限提示-通知权限
 
