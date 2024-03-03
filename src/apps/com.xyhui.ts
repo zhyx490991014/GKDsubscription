@@ -7,63 +7,23 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '弹窗广告',
-
+      name: '全屏广告-弹窗广告',
       rules: [
         {
           key: 1,
-          name: '腾讯广告-1',
-          activityIds: 'com.xyhui.start.PUMainActivity',
-          matches:
-            'ImageView - FrameLayout > FrameLayout[childCount=1] > ImageView[childCount=0]',
-          snapshotUrls: [
-            'https://i.gkd.li/i/12643276',
-            'https://i.gkd.li/i/12868503',
-            'https://i.gkd.li/i/12646420',
-            'https://i.gkd.li/i/13259194',
-          ],
-        },
-        {
-          key: 2,
-          name: '腾讯广告-2',
+          name: '腾讯广告',
           activityIds: [
             'com.xyhui.start.PUMainActivity',
             'com.xyhui.start.LoadingActivity',
             'com.huawei.permissioncontroller.hwcust.appjump.AppJumpActivity',
           ],
           matches:
-            'ImageView - FrameLayout > FrameLayout > FrameLayout[childCount=1] > ImageView[childCount=0]',
+            '[id="android:id/content"] >n FrameLayout[index=1] > ImageView',
           snapshotUrls: [
-            'https://i.gkd.li/i/12642482',
-            'https://i.gkd.li/i/12646519',
-            'https://i.gkd.li/i/12868369',
+            'https://i.gkd.li/i/12643276',
+            'https://i.gkd.li/i/12868503',
             'https://i.gkd.li/i/12646541', // 华为手机的快照，activityId = 'com.huawei.permissioncontroller.hwcust.appjump.AppJumpActivity'
-            'https://i.gkd.li/i/13695488',
-          ],
-        },
-        {
-          key: 3,
-          name: '腾讯广告-3',
-          activityIds: 'com.xyhui.start.PUMainActivity',
-          matches:
-            'ImageView - LinearLayout - FrameLayout > FrameLayout[childCount=1] > ImageView[childCount=0]',
-          snapshotUrls: 'https://i.gkd.li/i/12793180',
-        },
-        {
-          key: 4,
-          name: '腾讯广告-4',
-          activityIds: [
-            'com.xyhui.start.PUMainActivity',
-            'com.xyhui.start.LoadingActivity',
-          ],
-          matches:
-            'ImageView - LinearLayout - FrameLayout > FrameLayout > FrameLayout[childCount=1] > ImageView[childCount=0]',
-          snapshotUrls: [
-            'https://i.gkd.li/i/12646347',
-            'https://i.gkd.li/i/12793157',
-            'https://i.gkd.li/i/12793177',
-            'https://i.gkd.li/i/12868157', // com.xyhui.start.LoadingActivity
-            'https://i.gkd.li/i/13348807', // com.bbk.launcher2.Launcher
+            'https://i.gkd.li/i/13259194',
           ],
         },
         {
@@ -99,7 +59,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页-右侧浮窗广告',
+      name: '局部广告-首页-右侧浮窗广告',
       quickFind: true,
       activityIds: [
         'com.xyhui.start.PUMainActivity',
@@ -114,7 +74,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 3,
-      name: '升级提示',
+      name: '更新提示',
       quickFind: true,
       activityIds: [
         'com.xyhui.start.PUMainActivity',
