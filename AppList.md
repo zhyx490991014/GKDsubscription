@@ -558,6 +558,7 @@
 | 应用安装器             | [com.oplus.appdetail](/docs/com.oplus.appdetail.md)                                                                                                               | 1      |
 | 应用包管理组件         | [com.miui.packageinstaller](/docs/com.miui.packageinstaller.md)                                                                                                   | 5      |
 | 应用汇                 | [com.yingyonghui.market](/docs/com.yingyonghui.market.md)                                                                                                         | 1      |
+| 应用商店               | [com.sec.android.app.samsungapps](/docs/com.sec.android.app.samsungapps.md)                                                                                       | 1      |
 | 一起来涂色             | [com.xingluo.allcolor](/docs/com.xingluo.allcolor.md)                                                                                                             | 1      |
 | 一淘                   | [com.taobao.etao](/docs/com.taobao.etao.md)                                                                                                                       | 2      |
 | 翼支付                 | [com.chinatelecom.bestpayclient](/docs/com.chinatelecom.bestpayclient.md)                                                                                         | 4      |
