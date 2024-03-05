@@ -14,6 +14,13 @@ const diabledAppIds = [
   'com.android.soundrecorder', // 录音机
   'com.android.server.telecom', // 来电拒接短信服务
 
+  // 排除软件包安装程序
+  'com.android.packageinstaller',
+  'com.google.android.packageinstaller', // Google Play
+  'com.miui.packageinstaller', // 小米系
+  'com.samsung.android.packageinstaller', // 三星系
+  'com.oplus.appdetail', // 一加系
+
   // 在一些常见的应用中禁用
   'com.tencent.mm', // 微信
   'com.eg.android.AlipayGphone', // 支付宝
@@ -26,7 +33,6 @@ const diabledAppIds = [
   'com.miui.aod', // miui 锁屏界面
   'miui.systemui.plugin', // miui 状态栏界面
   'com.miui.securityadd', // 系统服务组件
-  'com.miui.packageinstaller', // 应用包管理组件
 
   // 华为系
   'com.huawei.android.launcher', // 桌面
