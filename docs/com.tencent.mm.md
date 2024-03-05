@@ -1,24 +1,26 @@
 # 微信
 
-存在 22 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 24 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 分段广告-朋友圈广告
 
 默认禁用 - 点击广告卡片右上角,直接关闭/出现菜单,确认关闭
 
 - [示例-0](https://github.com/gkd-kit/subscription/assets/38517192/c9ae4bba-a748-4755-b5e4-c7ad3d489a79)
+- [示例-1](https://m.gkd.li/57941037/829e1b0b-9fa2-4a31-9c36-542ad6bd7b6e)
 
-- [快照-0](https://i.gkd.li/i/13000395)
-- [快照-1](https://i.gkd.li/i/12905837)
-- [快照-2](https://i.gkd.li/i/13791200)
-- [快照-3](https://i.gkd.li/i/12907642)
-- [快照-4](https://i.gkd.li/i/13926578)
-- [快照-5](https://i.gkd.li/i/14207480)
-- [快照-6](https://i.gkd.li/i/13791202)
-- [快照-7](https://i.gkd.li/i/12642584)
-- [快照-8](https://i.gkd.li/i/12663984)
-- [快照-9](https://i.gkd.li/i/12905838)
-- [快照-10](https://i.gkd.li/i/12905846)
+- [快照-0](https://i.gkd.li/i/14476135)
+- [快照-1](https://i.gkd.li/i/13000395)
+- [快照-2](https://i.gkd.li/i/12905837)
+- [快照-3](https://i.gkd.li/i/13791200)
+- [快照-4](https://i.gkd.li/i/12907642)
+- [快照-5](https://i.gkd.li/i/13926578)
+- [快照-6](https://i.gkd.li/i/14207480)
+- [快照-7](https://i.gkd.li/i/13791202)
+- [快照-8](https://i.gkd.li/i/12642584)
+- [快照-9](https://i.gkd.li/i/12663984)
+- [快照-10](https://i.gkd.li/i/12905838)
+- [快照-11](https://i.gkd.li/i/12905846)
 
 ## 功能类-电脑微信快捷自动登录
 
@@ -199,3 +201,18 @@
 默认禁用 - 点击【完成】
 
 - [快照-0](https://i.gkd.li/i/14076149)
+
+## 功能类-解锁 Windows 微信
+
+默认禁用 - 点击[解锁]
+
+- [示例-0](https://m.gkd.li/57941037/85bb6dcd-0d04-46c1-af14-6e4b57ff4dca)
+
+- [快照-0](https://i.gkd.li/i/14490116)
+
+## 功能类-自动语音转文字
+
+默认禁用 - 只转换对方语音。仅测试私聊，群聊未测试
+
+- [快照-0](https://i.gkd.li/i/14497630)
+- [快照-1](https://i.gkd.li/i/14497389)

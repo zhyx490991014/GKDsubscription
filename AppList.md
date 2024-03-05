@@ -65,6 +65,7 @@
 | 360摄像机              | [com.qihoo.camera](/docs/com.qihoo.camera.md)                                                                                                                     | 1      |
 | 365时政                | [cn.net.shizheng.study](/docs/cn.net.shizheng.study.md)                                                                                                           | 1      |
 | 4399游戏盒             | [com.m4399.gamecenter](/docs/com.m4399.gamecenter.md)                                                                                                             | 1      |
+| 777影视                | [com.changyou.app.qi](/docs/com.changyou.app.qi.md)                                                                                                               | 1      |
 | 7天澳門統考            | [com.daysko.safp](/docs/com.daysko.safp.md)                                                                                                                       | 3      |
 | 99手游加速器           | [com.excean.na](/docs/com.excean.na.md)                                                                                                                           | 2      |
 | AC匿名版               | [com.dfsly.bbs](/docs/com.dfsly.bbs.md)                                                                                                                           | 2      |
@@ -79,6 +80,7 @@
 | Fa米家                 | [com.x2era.xcloud.app](/docs/com.x2era.xcloud.app.md)                                                                                                             | 1      |
 | GPS工具箱              | [com.leduoworks.gpstoolbox](/docs/com.leduoworks.gpstoolbox.md)                                                                                                   | 1      |
 | GoFun出行              | [com.gvsoft.gofun](/docs/com.gvsoft.gofun.md)                                                                                                                     | 1      |
+| Google Play 服务       | [com.google.android.gms](/docs/com.google.android.gms.md)                                                                                                         | 1      |
 | Google Play 商店       | [com.android.vending](/docs/com.android.vending.md)                                                                                                               | 1      |
 | Google翻译             | [com.google.android.apps.translate](/docs/com.google.android.apps.translate.md)                                                                                   | 1      |
 | IT之家                 | [com.ruanmei.ithome](/docs/com.ruanmei.ithome.md)                                                                                                                 | 1      |
@@ -469,7 +471,7 @@
 | 微店                   | [com.koudai.weidian.buyer](/docs/com.koudai.weidian.buyer.md)                                                                                                     | 1      |
 | 维护大师               | [com.example.maintenancemaster](/docs/com.example.maintenancemaster.md)                                                                                           | 1      |
 | 微拾                   | [com.pleasure.trace_wechat](/docs/com.pleasure.trace_wechat.md)                                                                                                   | 2      |
-| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 22     |
+| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 24     |
 | 微信读书               | [com.tencent.weread](/docs/com.tencent.weread.md)                                                                                                                 | 2      |
 | 微音乐                 | [com.zhouyu.music](/docs/com.zhouyu.music.md)                                                                                                                     | 2      |
 | 微音乐                 | [com.wzsykj.wei](/docs/com.wzsykj.wei.md)                                                                                                                         | 1      |

@@ -16,17 +16,17 @@ Adpro-Team维护的GKD订阅 仅启用 `开屏广告` 一类规则, 其它所有
 https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 ```
 
-当前版本: v35
+当前版本: v36
 
-当前订阅文件已适配 624 个 APP, 共有 1412 规则组
+当前订阅文件已适配 626 个 APP, 共有 1416 规则组
 
 查看 [适配 APP 列表](./AppList.md)
 
-查看 [第三方订阅规则汇总](https://github.com/Adpro-Team/GKD_THS_List) By [@adproqwq - Adpro-Team](https://github.com/adproqwq)
+查看 [第三方订阅规则汇总](https://github.com/Adpro-Team/GKD_THS_List) By [@adproqwq(Adpro-Team)](https://github.com/adproqwq)
 
 查看 [GKD基础使用、规则编写教程](https://github.com/Snoopy1866/blogs/blob/main/software/gkd/gkd-rule-tutorial/gkd-rule-tutorial.md) By [@Snoopy1866](https://github.com/Snoopy1866)
 
-查看 [李跳跳规则转GKD规则工具](https://github.com/Adpro-Team/LTT2GKD) By [@adproqwq - Adpro-Team](https://github.com/adproqwq)
+查看 [李跳跳规则转GKD规则工具](https://github.com/Adpro-Team/LTT2GKD) By [@adproqwq(Adpro-Team)](https://github.com/adproqwq)
 
 查看 [订阅规则管理工具](https://rules.adproqwq.xyz) By [@adproqwq](https://github.com/adproqwq)
 
@@ -42,7 +42,7 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 ### 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=35)
+![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=36)
 
 ---
 
