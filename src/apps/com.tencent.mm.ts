@@ -634,5 +634,26 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 27,
+      name: '功能类-自动语音转文字',
+      desc: '只转换对方语音。仅测试私聊，群聊未测试',
+      activityIds: 'com.tencent.mm.ui.LauncherUI',
+      quickFind: true,
+      rules: [
+        {
+          key: 0,
+          matches:
+            'RecyclerView >2 RelativeLayout[childCount=2] > RelativeLayout >3 @TextView + [text$="\\""]',
+          snapshotUrls: 'https://i.gkd.li/i/14497630',
+        },
+        {
+          key: 1,
+          preKeys: 0,
+          matches: '@LinearLayout > [text="转文字"]',
+          snapshotUrls: 'https://i.gkd.li/i/14497389',
+        },
+      ],
+    },
   ],
 });
