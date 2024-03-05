@@ -603,5 +603,20 @@ export default defineAppConfig({
         '[desc="支付成功"] < ViewGroup + ViewGroup >n [vid="kinda_button_impl_wrapper"][desc="完成"]',
       snapshotUrls: 'https://i.gkd.li/i/14076149',
     },
+    {
+      key: 26,
+      name: '功能类-解锁 Windows 微信',
+      desc: '点击[解锁]',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.tencent.mm.plugin.webwx.ui.WebWXUnlockUI',
+          matches: '[text="解锁"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/85bb6dcd-0d04-46c1-af14-6e4b57ff4dca',
+          snapshotUrls: 'https://i.gkd.li/i/14490116',
+        },
+      ],
+    },
   ],
 });
