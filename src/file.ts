@@ -3,7 +3,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import type PkgT from '../package.json';
 import { parseSelector } from './selector';
-import type { RawApp, RawAppGroup, IArray, RawSubscription } from './types';
+import type { RawAppAddProp } from './types';
+import type { RawAppGroup, IArray, RawSubscription } from '@gkd-kit/api';
 import JSON5 from 'json5';
 
 const iArrayToArray = <T>(array: IArray<T> = []): T[] => {
@@ -182,7 +183,7 @@ export const checkConfig = (newConfig: RawSubscription) => {
 
   // check duplicated group key
   const apps = newConfig.apps || [];
-  apps.forEach((app) => {
+  apps.forEach((app: RawAppAddProp) => {
     const deprecatedKeys = app.deprecatedKeys || [];
     const keys = new Set<number>();
     const oldGroups = oldConfig.apps?.find((a) => a.id == app.id)?.groups || [];
@@ -317,7 +318,7 @@ export const checkConfig = (newConfig: RawSubscription) => {
   }
 };
 
-export const updateAppMd = async (app: RawApp) => {
+export const updateAppMd = async (app: RawAppAddProp) => {
   const appHeadMdText = [
     `# ${app.name}`,
     `存在 ${app.groups?.length || 0} 规则组 - [${app.id}](/src/apps/${
@@ -409,7 +410,7 @@ const getAppDiffLog = (
 };
 
 type AppDiff = {
-  app: RawApp;
+  app: RawAppAddProp;
   addGroups: RawAppGroup[];
   changeGroups: RawAppGroup[];
   removeGroups: RawAppGroup[];

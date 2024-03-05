@@ -1,7 +1,7 @@
 {
   "name": "@adpro-team/gkd_subscription",
   "type": "module",
-  "version": "1.35.0",
+  "version": "1.36.0",
   "main": "./dist/Adpro_gkd.json5",
   "unpkg": "./dist/Adpro_gkd.json5",
   "jsdelivr": "./dist/Adpro_gkd.json5",
@@ -69,5 +69,8 @@
     "*.{js,ts,jsx,tsx}": [
       "eslint --cache --fix"
     ]
+  },
+  "dependencies": {
+    "@gkd-kit/api": "^0.0.2"
   }
 }
