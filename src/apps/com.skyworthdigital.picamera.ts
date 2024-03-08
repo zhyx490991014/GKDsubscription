@@ -10,7 +10,6 @@ export default defineAppConfig({
       rules: [
         {
           key: 0,
-          quickFind: true,
           matches: '[vid="splash_container"] >4 View[clickable=true]',
           exampleUrls:
             'https://m.gkd.li/101449500/576447d9-56ce-476d-9d2f-4de479c82f96',
