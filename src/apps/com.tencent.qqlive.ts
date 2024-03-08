@@ -14,6 +14,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       rules: [
         {
+          action: 'clickCenter',
           matches: 'TextView[text*="跳过"][text.length<=10]',
           snapshotUrls: [
             'https://i.gkd.li/i/12700227',
