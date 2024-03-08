@@ -185,5 +185,16 @@ export default defineAppConfig({
       rules: '@ImageView[clickable=true] +3 * > [text="五星好评"]',
       snapshotUrls: 'https://i.gkd.li/i/14395088',
     },
+    {
+      key: 17,
+      name: '全屏广告-VIP免费领弹窗',
+      desc: '点击x',
+      quickFind: true,
+      activityIds: 'com.dragon.read.pages.main.MainFragmentActivity',
+      rules: '@UIImage[clickable=true] + [text="番茄VIP免费领"]',
+      exampleUrls:
+        'https://m.gkd.li/101449500/0c6e8831-9cde-47f1-8e4b-25ecfa5b2881',
+      snapshotUrls: 'https://i.gkd.li/i/14539504',
+    },
   ],
 });
