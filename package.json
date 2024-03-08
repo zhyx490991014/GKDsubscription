@@ -24,10 +24,10 @@
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
     "@commitlint/types": "^19.0.3",
-    "@gkd-kit/api": "^0.0.2",
+    "@gkd-kit/api": "^0.0.4",
     "@gkd-kit/selector": "0.0.21",
     "@types/lodash": "^4.14.202",
-    "@types/node": "^20.11.24",
+    "@types/node": "^20.11.25",
     "@typescript-eslint/eslint-plugin": "7.1.1",
     "@typescript-eslint/parser": "7.1.1",
     "dayjs": "^1.11.10",
@@ -42,7 +42,7 @@
     "pinyin-pro": "3.19.6",
     "prettier": "^3.2.5",
     "tsx": "^4.7.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "author": "Adpro",
   "license": "MIT",

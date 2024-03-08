@@ -42,7 +42,6 @@ export default defineAppConfig({
         {
           key: 3,
           name: 'GKD1.7.0可用',
-          action: 'clickCenter',
           position: {
             right: 'width*0.1014',
             top: 'width*0.1598',
