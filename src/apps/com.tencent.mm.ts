@@ -638,8 +638,11 @@ export default defineAppConfig({
       rules: [
         {
           key: 0,
-          matches: '@LinearLayout > [text="转文字"]',
-          snapshotUrls: 'https://i.gkd.li/i/14497389',
+          matches: '@* > [text="转文字"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14497389', // 长按转文字
+            'https://i.gkd.li/i/14538322', // 语音条侧快捷转文字
+          ],
         },
       ],
     },
