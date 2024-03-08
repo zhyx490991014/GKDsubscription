@@ -190,6 +190,8 @@ export default defineAppConfig({
       name: '全屏广告-VIP免费领弹窗',
       desc: '点击x',
       quickFind: true,
+      actionMaximum: 1,
+      resetMatch: 'app',
       activityIds: 'com.dragon.read.pages.main.MainFragmentActivity',
       rules: '@UIImage[clickable=true] + [text="番茄VIP免费领"]',
       exampleUrls:
