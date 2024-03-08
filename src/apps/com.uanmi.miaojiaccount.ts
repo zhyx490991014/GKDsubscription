@@ -17,12 +17,12 @@ export default defineAppConfig({
         },
         // 补充全局规则
         {
-          key: 0,
+          key: 1,
           quickFind: true,
           matches: '[text*="跳过"][text.length<10][visibleToUser=true]',
         },
         {
-          key: -1,
+          key: 2,
           matches:
             '[childCount=0][visibleToUser=true][(text.length<10 && (text*="跳过" || text*="跳過" || text*="skip" || text*="Skip")) || id$="tt_splash_skip_btn" || vid*="skip" || vid*="Skip" || desc*="跳过" || desc*="skip" || (vid*="count" && vid*="down" && vid!*="countdown" && vid!*="load" && vid!*="add" && vid!*="ead")]',
         },
