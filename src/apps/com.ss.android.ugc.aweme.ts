@@ -109,7 +109,7 @@ export default defineAppConfig({
     {
       key: 7,
       name: '功能类-设置无声进入抖音',
-      enable: false,
+
       quickFind: true,
       desc: '点击[拒绝]',
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
@@ -117,7 +117,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13256087',
     },
     {
-      enable: false,
       key: 10,
       name: '权限提示-通知权限',
       desc: '自动点击“暂不”',
@@ -140,7 +139,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 11,
       name: '功能类-自动勾选原图',
       desc: '聊天发送图片时自动勾选原图',
@@ -154,7 +152,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 12,
       name: '功能类-休息提醒',
       quickFind: true,

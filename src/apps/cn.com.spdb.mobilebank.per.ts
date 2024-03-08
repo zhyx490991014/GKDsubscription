@@ -9,7 +9,7 @@ export default defineAppConfig({
       key: 1,
       name: '消息中心-系统通知请求',
       desc: '自动点击关闭。',
-      enable: false,
+
       activityIds:
         'cn.com.spdb.mobilebank.per.activity.web.stage.StageCommonWebActivity',
       rules: '[text="去开启"] + View > Image[text.length=0]',

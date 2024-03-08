@@ -48,7 +48,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '请求通知权限弹窗',
       activityIds: 'com.tencent.news.activity.SplashActivity',

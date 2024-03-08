@@ -5,7 +5,6 @@ export default defineAppConfig({
   name: '挖财记账',
   groups: [
     {
-      enable: false,
       key: 1,
       name: '更新提示',
       quickFind: true,
@@ -22,7 +21,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 2,
       name: '全屏广告-弹窗广告',
       quickFind: true,

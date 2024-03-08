@@ -88,7 +88,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13251085',
     },
     {
-      enable: false,
       key: 10,
       quickFind: true,
       matchTime: 10000,

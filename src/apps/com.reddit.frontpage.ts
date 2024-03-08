@@ -8,7 +8,7 @@ export default defineAppConfig({
       key: 3,
       name: '社区消息-更新提示',
       quickFind: true,
-      enable: false,
+
       rules: [
         {
           activityIds: 'com.reddit.launch.main.MainActivity',
@@ -22,7 +22,7 @@ export default defineAppConfig({
       name: 'NSFW 内容提示',
       desc: '自动点击 continue',
       quickFind: true,
-      enable: false,
+
       rules: [
         {
           activityIds: 'com.reddit.launch.main.MainActivity',

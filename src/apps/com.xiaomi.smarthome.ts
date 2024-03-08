@@ -17,7 +17,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 1,
       name: '设备固件升级提示弹窗',
       activityIds: 'com.xiaomi.smarthome.framework.plugin.rn.PluginRNActivity',

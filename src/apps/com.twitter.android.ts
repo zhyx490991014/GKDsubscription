@@ -144,7 +144,7 @@ export default defineAppConfig({
       name: '评价弹窗',
       quickFind: true,
       matchTime: 10000,
-      enable: false,
+
       rules: [
         {
           activityIds: 'com.twitter.app.main.MainActivity',

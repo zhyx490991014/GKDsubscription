@@ -30,7 +30,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12642307',
     },
     {
-      enable: false,
       key: 3,
       name: '美食大礼包弹窗',
       quickFind: true,
@@ -39,7 +38,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12642310',
     },
     {
-      enable: false,
       key: 4,
       name: '酒店提前订弹窗',
       quickFind: true,
@@ -48,7 +46,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12642319',
     },
     {
-      enable: false,
       key: 5,
       name: '请求定位弹窗',
       quickFind: true,
@@ -75,7 +72,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 6,
       name: '打车界面-弹窗广告',
       quickFind: true,
@@ -91,18 +87,16 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 7,
-      name: '升级更新弹窗',
+      name: '更新提示',
       quickFind: true,
       activityIds: 'com.baidu.baidumaps.MapsActivity',
       rules: 'ImageView[id="com.baidu.BaiduMap:id/cancel_update"]',
       snapshotUrls: 'https://i.gkd.li/i/12909385',
     },
     {
-      enable: false,
       key: 8,
-      name: '打开通知权限',
+      name: '权限提示-通知权限',
       quickFind: true,
       activityIds: 'com.baidu.baidumaps.MapsActivity',
       rules:
@@ -110,7 +104,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13258995',
     },
     {
-      enable: false,
       key: 9,
       name: '通勤卡-添加至桌面',
       desc: '点击取消',

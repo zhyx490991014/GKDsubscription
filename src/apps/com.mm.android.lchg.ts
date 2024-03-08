@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 0,
-      enable: false,
+
       name: '升级弹窗',
       activityIds: 'com.lc.mine.view.activity.AboutActivity',
       matchTime: 10000,

@@ -56,7 +56,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 3,
       name: '信息流广告',
       desc: '长按【赞助】/【广告】标识的卡片-点【不感兴趣】',

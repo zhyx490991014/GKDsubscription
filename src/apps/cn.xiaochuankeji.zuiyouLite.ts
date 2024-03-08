@@ -6,7 +6,6 @@ export default defineAppConfig({
   deprecatedKeys: [0, 1],
   groups: [
     {
-      enable: false,
       key: 2,
       name: '信息流广告',
       quickFind: true,

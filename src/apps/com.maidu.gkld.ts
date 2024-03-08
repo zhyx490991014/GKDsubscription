@@ -14,7 +14,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12715291',
     },
     {
-      enable: false,
       key: 10,
       name: '请求通知权限弹窗',
       activityIds: 'com.maidu.gkld.ui.main.MainActivity',

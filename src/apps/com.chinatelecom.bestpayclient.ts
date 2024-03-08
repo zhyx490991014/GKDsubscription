@@ -72,7 +72,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 4,
       name: '悬浮窗小广告',
       actionMaximum: 1,

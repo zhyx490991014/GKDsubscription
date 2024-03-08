@@ -5,7 +5,6 @@ export default defineAppConfig({
   name: '不厌书法',
   groups: [
     {
-      enable: false,
       key: 3,
       name: '功能介绍',
       quickFind: true,

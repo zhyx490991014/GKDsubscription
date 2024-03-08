@@ -49,7 +49,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '应用评价弹窗',
       activityIds: 'com.huawei.android.launcher.unihome.UniHomeLauncher',

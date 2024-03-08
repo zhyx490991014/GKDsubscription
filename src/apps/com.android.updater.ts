@@ -5,7 +5,6 @@ export default defineAppConfig({
   name: '系统更新',
   groups: [
     {
-      enable: false,
       key: 0,
       name: 'MIUI更新弹窗',
       activityIds: [

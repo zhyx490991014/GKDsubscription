@@ -7,7 +7,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      enable: false,
+
       name: '加速页-分享抽奖浮窗',
       activityIds: 'cn.ccspeed.app.MainActivity',
       quickFind: true,

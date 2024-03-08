@@ -5,7 +5,6 @@ export default defineAppConfig({
   name: '网易云音乐',
   groups: [
     {
-      enable: false,
       key: 1,
       name: '分段广告',
       desc: '有二次确认弹窗',
@@ -121,7 +120,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 5,
       name: 'VIP 弹窗',
       quickFind: true,
@@ -195,7 +193,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 7,
       name: '播放界面广告',
       desc: '右上角VIP小悬浮、巨幅卡片式广告',

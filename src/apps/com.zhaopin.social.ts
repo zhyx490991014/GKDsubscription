@@ -24,7 +24,7 @@ export default defineAppConfig({
       key: 4,
       name: '消息-开启消息通知',
       desc: '自动点击关闭',
-      enable: false,
+
       quickFind: true,
       activityIds: ['com.zhaopin.social.homepage.ZSC_MainTabActivity'],
       rules: '[id="com.zhaopin.social:id/message_pushlayout_close"]',

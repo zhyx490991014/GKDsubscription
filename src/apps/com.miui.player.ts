@@ -53,7 +53,6 @@ export default defineAppConfig({
       snapshotUrls: ['https://i.gkd.li/i/13623503'],
     },
     {
-      enable: false,
       key: 10,
       name: '会员过期续费弹窗',
       activityIds: 'com.tencent.qqmusiccommon.hybrid.HybridViewActivity',
@@ -61,7 +60,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12700955',
     },
     {
-      enable: false,
       key: 11,
       name: '我的页面-顶部 banner 广告',
       activityIds: 'com.tencent.qqmusiclite.activity.MainActivity',
@@ -70,7 +68,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12700984',
     },
     {
-      enable: false,
       key: 12,
       name: '看广告视频领VIP',
       desc: '等待15s自动点击【退出】',

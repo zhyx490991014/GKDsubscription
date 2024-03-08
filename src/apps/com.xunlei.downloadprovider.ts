@@ -83,7 +83,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 3,
       name: '应用内广告弹窗',
       desc: '⚠ 此规则容易误触，因此默认关闭。',
@@ -196,7 +195,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 4,
       name: '【下载页】广告卡片',
       desc: '需选二次弹窗关闭原因',

@@ -6,7 +6,6 @@ export default defineAppConfig({
   deprecatedKeys: [4],
   groups: [
     {
-      enable: false,
       key: 1,
       name: '首页-推送通知',
       quickFind: true,
@@ -110,7 +109,7 @@ export default defineAppConfig({
     {
       key: 5,
       name: '升级弹窗',
-      enable: false,
+
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -128,7 +127,7 @@ export default defineAppConfig({
     {
       key: 6,
       name: '申请开启推送通知弹窗',
-      enable: false,
+
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,

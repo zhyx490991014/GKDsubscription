@@ -8,7 +8,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '用户引导',
-      enable: false,
+
       quickFind: true,
       activityIds: 'com.ct.client.activity.UserGuideActivity',
       rules: '[id="com.ct.client:id/tvSkip"]',

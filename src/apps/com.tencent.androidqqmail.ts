@@ -52,7 +52,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '开启通知提醒',
-      enable: false,
+
       quickFind: true,
       activityIds: 'com.tencent.qqmail.fragment.base.MailFragmentActivity',
       rules: [

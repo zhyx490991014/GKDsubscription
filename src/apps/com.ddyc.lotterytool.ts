@@ -5,7 +5,6 @@ export default defineAppConfig({
   name: '彩虹多多',
   groups: [
     {
-      enable: false,
       key: 1,
       name: '广告弹窗',
       quickFind: true,
@@ -18,7 +17,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13324555',
     },
     {
-      enable: false,
       key: 2,
       name: '请求推送通知弹窗',
 

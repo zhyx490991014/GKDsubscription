@@ -5,7 +5,6 @@ export default defineAppConfig({
   name: '京东',
   groups: [
     {
-      enable: false,
       key: 1,
       name: '购物车界面-砸金蛋',
       activityIds: 'com.jingdong.app.mall.MainFrameActivity',
@@ -13,7 +12,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12642266',
     },
     {
-      enable: false,
       key: 2,
       name: '我的界面-悬浮广告',
       activityIds: 'com.jingdong.app.mall.MainFrameActivity',
@@ -38,7 +36,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 3,
       name: '首页-右侧浮层广告',
       activityIds: 'com.jingdong.app.mall.MainFrameActivity',
@@ -51,7 +48,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 4,
       name: '通知提示-请求打开通知',
       activityIds: [
@@ -116,7 +112,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 6,
       name: '首页-底部横幅广告',
       activityIds: 'com.jingdong.app.mall.MainFrameActivity',
@@ -128,7 +123,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 7,
       name: '首页弹窗-打开通知',
       desc: '自动点击正下方的【x】',
@@ -142,7 +136,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '京东账号登录授权',
       desc: '自动点击【确认登录】',
@@ -151,7 +144,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12901734',
     },
     {
-      enable: false,
       key: 11,
       name: '支付界面-产品推荐',
       desc: '自动点击右上角【x】',
@@ -161,7 +153,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13191146',
     },
     {
-      enable: false,
       key: 12,
       name: '购物车界面-支付成功广告弹窗',
       desc: '自动点击正下方的【x】',

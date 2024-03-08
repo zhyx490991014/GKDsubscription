@@ -50,7 +50,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 3,
       name: '升级提示',
       activityIds: [
@@ -62,7 +61,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12882371',
     },
     {
-      enable: false,
       key: 4,
       name: '开启WPS云服务',
       desc: '自动点击不开启',

@@ -7,7 +7,7 @@ export default defineAppConfig({
     {
       name: '新闻页面摇一摇广告',
       key: 1,
-      enable: false,
+
       activityIds: 'com.romielf.mrsc.MainActivity',
       desc: '点击准确率灵敏度不太高',
       rules: [

@@ -8,7 +8,7 @@ export default defineAppConfig({
       key: 1,
       name: '通知权限授权弹窗',
       activityIds: 'com.vivo.wallet.bookkeep.activity.BookKeepMainActivity',
-      enable: false,
+
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,

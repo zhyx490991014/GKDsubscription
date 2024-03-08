@@ -53,7 +53,6 @@ export default defineAppConfig({
     },
     // key = 3已弃用
     {
-      enable: false,
       key: 4,
       name: '视频底部与评论区中间卡片式广告',
       desc: '需点击二次弹窗 屏蔽原因',
@@ -147,7 +146,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13200549',
     },
     {
-      enable: false,
       key: 9,
       name: '请求通知权限弹窗',
       quickFind: true,

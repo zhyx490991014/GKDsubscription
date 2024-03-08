@@ -114,7 +114,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/14156887', //规则2，规则1快照缺失
     },
     {
-      enable: false,
       key: 10,
       name: '通知提示-推送通知弹窗',
       desc: '点击x按钮',
@@ -133,7 +132,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 11,
       name: '全屏广告-会员页面月卡红包',
       desc: '点击关闭',
@@ -202,7 +200,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 101, // 不属于广告，序号往后排
       name: '功能类-问题回答-自动展开',
       activityIds:

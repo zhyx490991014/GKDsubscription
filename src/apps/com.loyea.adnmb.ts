@@ -7,7 +7,7 @@ export default defineAppConfig({
     {
       key: 5,
       name: '通知弹窗',
-      enable: false,
+
       quickFind: true,
       activityIds: 'com.loyea.adnmb.activity.MainActivity',
       rules: 'LinearLayout > Button[text="确定"]',

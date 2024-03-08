@@ -52,7 +52,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13634882',
     },
     {
-      enable: false,
       key: 11,
       name: '定位提示-访问位置请求弹窗',
       desc: '自动点击"不允许"',
@@ -70,7 +69,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 12,
       name: '开启消息通知弹窗',
       desc: '默认关闭，请手动开启',

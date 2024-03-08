@@ -6,7 +6,6 @@ export default defineAppConfig({
   deprecatedKeys: [12, 13, 20],
   groups: [
     {
-      enable: false,
       key: 0,
       name: '分段广告-朋友圈广告',
       desc: '点击广告卡片右上角,直接关闭/出现菜单,确认关闭',
@@ -108,7 +107,7 @@ export default defineAppConfig({
     },
     {
       // Key1,2,3,4,11 均为授权类的规则
-      enable: false,
+
       key: 1,
       name: '功能类-电脑微信快捷自动登录',
       quickFind: true,
@@ -126,7 +125,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 2,
       name: '功能类-浏览器扫码微信登录自动授权',
       desc: '自动允许使用头像昵称等',
@@ -142,7 +140,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13065462', //com.tencent.mm.ui.LauncherUI
     },
     {
-      enable: false,
       key: 3,
       name: '功能类-第三方APP申请使用授权弹窗',
       desc: '自动点击允许,但由于此界面可以额外新建昵称头像,默认不启用',
@@ -155,7 +152,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12663602',
     },
     {
-      enable: false,
       key: 4,
       name: '功能类-微信读书网页版扫码登录自动授权',
       quickFind: true,
@@ -178,7 +174,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 5,
       name: '功能类-微信红包自动领取',
       desc: '自动领取私聊红包,群聊红包',
@@ -223,7 +218,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 6,
       name: '分段广告-订阅号文章广告',
       desc: '⚠ 此规则有概率误触。自动点击关闭按钮，必须同时启用【订阅号文章广告反馈】规则',
@@ -259,7 +253,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 7,
       name: '功能类-自动选中发送原图',
       desc: '图片和视频选择器-自动选中底部中间的发送原图',
@@ -282,7 +275,7 @@ export default defineAppConfig({
     },
     {
       key: 25,
-      enable: false,
+
       name: '分段广告-订阅号文章列表广告',
       desc: 'GKD1.7.0可用，来自AIsouler',
       activityIds:
@@ -348,7 +341,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 8,
       name: '分段广告-订阅号文章广告反馈',
       desc: '⚠ 此规则有概率误触。自动点击反馈理由，配合【订阅号文章广告】规则使用',
@@ -384,7 +376,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 9,
       name: '功能类-自动查看原图',
       desc: '自动点击底部左侧[查看原图（*M）]按钮',
@@ -424,7 +415,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 11,
       name: '功能类-网页版文件传输助手扫码自动授权',
       quickFind: true,
@@ -456,7 +446,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 14,
       name: '分段广告-小程序-内部广告',
       activityIds: ['com.tencent.mm.plugin.appbrand.ui.AppBrandUI'],
@@ -502,7 +491,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 16,
       name: '全屏广告-小程序-京东购物',
       desc: '低价包邮广告',

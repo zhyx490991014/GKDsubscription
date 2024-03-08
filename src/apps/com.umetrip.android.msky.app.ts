@@ -5,7 +5,6 @@ export default defineAppConfig({
   name: '航旅纵横',
   groups: [
     {
-      enable: false,
       key: 8,
       name: '酒店-弹窗广告',
       quickFind: true,
@@ -15,7 +14,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12909632',
     },
     {
-      enable: false,
       key: 9,
       name: '首页-升级提示',
       quickFind: true,
@@ -31,7 +29,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '进入飞行模式-提示弹窗',
       quickFind: true,

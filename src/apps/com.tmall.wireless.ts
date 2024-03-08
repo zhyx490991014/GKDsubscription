@@ -21,7 +21,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 2,
       name: '弹窗广告',
       activityIds: [

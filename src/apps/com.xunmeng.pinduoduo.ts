@@ -125,7 +125,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 5,
       name: '全屏广告-多多买菜抽奖弹窗',
       activityIds: ['com.xunmeng.pinduoduo.activity.NewPageActivity'],
@@ -145,7 +144,6 @@ export default defineAppConfig({
       snapshotUrls: ['https://i.gkd.li/i/12642058'],
     },
     {
-      enable: false,
       key: 7,
       name: '多多视频每日签到弹窗',
       activityIds: ['com.xunmeng.pinduoduo.ui.activity.HomeActivity'],
@@ -159,7 +157,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 8,
       name: '商品详情页视频讲解窗口',
       activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
@@ -167,7 +164,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/13178326',
     },
     {
-      enable: false,
       key: 9,
       name: '多多视频每日自动签到',
       quickFind: true,
@@ -197,7 +193,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '局部广告-多多视频-划到广告自动跳过',
       desc: '点击返回自动刷新，从而跳过广告',

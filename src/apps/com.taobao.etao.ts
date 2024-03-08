@@ -25,7 +25,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '请求打开系统通知提示信息',
       desc: '自动点击提示信息的x按钮',

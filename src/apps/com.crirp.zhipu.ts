@@ -23,7 +23,7 @@ export default defineAppConfig({
       name: '首页-今日要闻-不再提示',
       key: 2,
       desc: '【首页-今日要闻-不再提示】和【首页-今日要闻-关闭】只开启一个即可',
-      enable: false,
+
       quickFind: true,
       activityIds: 'com.ruipeng.zipu.ui.main.uniauto.UniautoHomeActivity',
       rules: [
@@ -37,7 +37,7 @@ export default defineAppConfig({
       name: '首页-今日要闻-关闭',
       key: 3,
       desc: '【首页-今日要闻-不再提示】和【首页-今日要闻-关闭】只开启一个即可',
-      enable: false,
+
       quickFind: true,
       activityIds: 'com.ruipeng.zipu.ui.main.uniauto.UniautoHomeActivity',
       rules: [

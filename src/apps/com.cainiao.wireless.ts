@@ -42,7 +42,7 @@ export default defineAppConfig({
     {
       key: 4,
       name: '升级提示',
-      enable: false,
+
       quickFind: true,
       activityIds: [
         'com.cainiao.wireless.homepage.view.activity.HomePageActivity',
@@ -54,7 +54,7 @@ export default defineAppConfig({
       key: 5,
       name: '开启消息弹窗',
       desc: '自动点击关闭。',
-      enable: false,
+
       quickFind: true,
       activityIds: [
         'com.cainiao.wireless.homepage.view.activity.HomePageActivity',

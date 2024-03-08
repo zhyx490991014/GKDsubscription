@@ -87,7 +87,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '起点中文网登录自动确认',
       desc: '自动点击【登录】',
@@ -96,7 +95,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12903081',
     },
     {
-      enable: false,
       key: 11,
       name: '信息流广告',
       desc: '自动点击【x】',

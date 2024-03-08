@@ -104,7 +104,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '权限提示-通知权限',
       desc: '自动点击【取消】',
@@ -120,7 +119,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 11,
       name: '功能类-签到成功弹窗',
       desc: '自动点击x按钮',

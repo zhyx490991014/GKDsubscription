@@ -14,7 +14,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12708756',
     },
     {
-      enable: false,
       key: 10,
       name: '请求定位权限弹窗',
       activityIds: 'com.dep.biguo.mvp.ui.activity.MainActivity',

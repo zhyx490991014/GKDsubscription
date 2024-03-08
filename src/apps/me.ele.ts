@@ -124,7 +124,7 @@ export default defineAppConfig({
       key: 8,
       name: '开启定位提醒',
       desc: '自动点击X',
-      enable: false,
+
       quickFind: true,
       rules: [
         {

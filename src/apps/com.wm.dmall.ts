@@ -42,7 +42,7 @@ export default defineAppConfig({
     {
       key: 4,
       name: '优惠劵提示',
-      enable: false,
+
       quickFind: true,
 
       rules: {

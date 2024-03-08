@@ -6,7 +6,6 @@ export default defineAppConfig({
   deprecatedKeys: [1],
   groups: [
     {
-      enable: false,
       key: 10,
       name: '请求开启通知权限提示信息',
       desc: '自动点击x按钮',

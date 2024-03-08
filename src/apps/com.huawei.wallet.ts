@@ -7,7 +7,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '服务提示',
-      enable: false,
+
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',

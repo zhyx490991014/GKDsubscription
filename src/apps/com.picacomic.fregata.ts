@@ -61,7 +61,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 4,
       name: '签到',
       desc: '切换到个人页面时自动签到，并确定',
@@ -90,7 +89,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 5,
       name: '流量提醒弹窗',
       desc: '弹出流量提醒弹窗时自动点击“确定”',

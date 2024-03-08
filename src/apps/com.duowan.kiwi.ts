@@ -45,7 +45,7 @@ export default defineAppConfig({
     {
       key: 3,
       name: '更新提示',
-      enable: false,
+
       activityIds: 'com.duowan.kiwi.homepage.Homepage',
       quickFind: true,
       matchTime: 10000,
@@ -72,7 +72,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 5,
       name: 'root提示',
       desc: '您的设备已经被ROOT',

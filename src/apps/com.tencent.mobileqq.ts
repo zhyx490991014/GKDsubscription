@@ -30,7 +30,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 1,
       name: '消息页面-顶部广告',
       desc: '规则误触,待修复,需要快照准确定位', // 当从聊天界面点击链接进入网页时会误触
@@ -63,7 +62,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 2,
       name: '分段广告-好友动态-广告卡片',
       rules: [
@@ -158,7 +156,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 4,
       name: '顶部SVIP广告',
       desc: '消息界面-搜索框和消息记录之间的广告卡片,点击关闭右侧x',
@@ -174,7 +171,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 5,
       name: '好友热播',
       desc: '好友动态中的好友热播，自动选择“减少好友热播” - 默认关闭',
@@ -236,7 +232,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 8,
       name: '消息页面顶部-无法接收新消息通知',
       desc: '消息界面-搜索框和消息记录之间的通知卡片,点击关闭右侧x',
@@ -253,7 +248,6 @@ export default defineAppConfig({
       snapshotUrls: 'https://i.gkd.li/i/12914734',
     },
     {
-      enable: false,
       key: 10,
       name: '自动勾选原图',
       desc: '发送图片时自动勾选原图',
@@ -271,7 +265,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 11,
       name: '自动查看原图',
       desc: '查看图片时自动点击原图',
@@ -283,7 +276,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 12,
       name: 'QQ小世界评论区广告',
       desc: '点击广告-弹出原因框-关闭此条广告',
@@ -337,7 +329,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 15,
       name: '好友动态-为你推荐',
       quickFind: true,
@@ -380,7 +371,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 18,
       name: '更新提示-消息页面-顶部',
       rules: [
@@ -400,7 +390,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 19,
       name: '内测邀请弹窗',
       quickFind: true,
@@ -414,7 +403,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 20,
       name: '分段广告-钱包页卡片广告',
       quickFind: true,

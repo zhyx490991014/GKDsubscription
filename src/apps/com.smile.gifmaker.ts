@@ -6,7 +6,6 @@ export default defineAppConfig({
   deprecatedKeys: [0],
   groups: [
     {
-      enable: false,
       key: 10,
       name: '全屏广告-首页-红包弹窗',
       desc: '自动点击x按钮',
@@ -30,7 +29,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 11,
       name: '功能类-首页-左侧红包悬浮控件',
       desc: '自动点击x按钮',
@@ -47,7 +45,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 12,
       name: '功能类-你可能感兴趣的人',
       desc: '自动点击【关闭】',

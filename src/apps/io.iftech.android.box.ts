@@ -62,7 +62,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 10,
       name: '会员限时优惠弹窗',
       activityIds: 'io.iftech.android.box.main.HomeActivity',

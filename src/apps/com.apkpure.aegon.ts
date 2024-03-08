@@ -19,7 +19,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 2,
       name: '更新与已安装界面-查看更多',
       desc: '在更新界面自动点击查看更多按钮，展开所有应用',
@@ -37,7 +36,6 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
       key: 3,
       name: '更新界面-软件推荐',
       activityIds: [
