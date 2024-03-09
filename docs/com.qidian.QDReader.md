@@ -1,21 +1,6 @@
 # 起点读书
 
-存在 9 规则组 - [com.qidian.QDReader](/src/apps/com.qidian.QDReader.ts)
-
-## 更新提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/i/12641026)
-- [快照-1](https://i.gkd.li/i/13116821)
-
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/i/12640241)
-- [快照-1](https://i.gkd.li/i/12709168)
-- [快照-2](https://i.gkd.li/i/12905817)
+存在 7 规则组 - [com.qidian.QDReader](/src/apps/com.qidian.QDReader.ts)
 
 ## 活动弹窗
 

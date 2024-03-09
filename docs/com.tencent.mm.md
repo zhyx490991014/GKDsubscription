@@ -1,6 +1,6 @@
 # 微信
 
-存在 24 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 25 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 分段广告-朋友圈广告
 
@@ -81,20 +81,20 @@
 - [快照-1](https://i.gkd.li/i/12840865)
 - [快照-2](https://i.gkd.li/i/12686640)
 
-## 分段广告-订阅号文章列表广告
+## 分段广告-订阅号消息页面广告
 
-默认禁用 - GKD1.7.0可用，来自AIsouler
+默认禁用 - 点击[广告]-点击[不感兴趣]-点击[与我无关]-点击[确定]。来自AIsouler
 
-- [示例-0](https://m.gkd.li/57941037/efe1849c-3333-4004-9eb1-abe93a3256b6)
-- [示例-1](https://m.gkd.li/57941037/147a847a-e556-403d-8da0-2ba7233caaec)
-- [示例-2](https://m.gkd.li/57941037/489ecd00-5aa1-421e-bcf5-c1b73601f8df)
-- [示例-3](https://m.gkd.li/57941037/2c3ce057-dd99-493b-9486-3a056b74223d)
+- [示例-0](https://m.gkd.li/57941037/9fc6137e-b615-46cf-b22e-20c62e398f45)
+- [示例-1](https://m.gkd.li/57941037/e69e887e-5093-4f2a-ad2e-15b3f0a92481)
+- [示例-2](https://m.gkd.li/57941037/ffc05f2d-e8ab-4f0d-a937-23c71f92e8b8)
+- [示例-3](https://m.gkd.li/57941037/c49a8bd0-c947-48b5-9381-d56f13257061)
 
-- [快照-0](https://i.gkd.li/i/14434907)
-- [快照-1](https://i.gkd.li/i/14434906)
-- [快照-2](https://i.gkd.li/i/14434903)
-- [快照-3](https://i.gkd.li/i/14436385)
-- [快照-4](https://i.gkd.li/i/14434902)
+- [快照-0](https://i.gkd.li/i/14544716)
+- [快照-1](https://i.gkd.li/i/14545735)
+- [快照-2](https://i.gkd.li/i/14544688)
+- [快照-3](https://i.gkd.li/i/14544684)
+- [快照-4](https://i.gkd.li/i/14544683)
 
 ## 分段广告-订阅号文章广告反馈
 
@@ -174,6 +174,16 @@
 
 - [快照-0](https://i.gkd.li/i/14113750)
 - [快照-1](https://i.gkd.li/i/14157089)
+
+## 功能类-小程序-马上充-放弃安全保证金
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/101449500/d2e07a1e-bdb9-4526-8c71-9afdab338f69)
+- [示例-1](https://m.gkd.li/101449500/17b90917-64d2-414f-82a6-74f2e12cd636)
+
+- [快照-0](https://i.gkd.li/i/14545003)
+- [快照-1](https://i.gkd.li/i/14545005)
 
 ## 青少年模式
 
