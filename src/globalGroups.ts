@@ -1,6 +1,6 @@
 import apps from './rawApps';
-import type { RawGlobalGroup } from '@gkd-kit/api';
-import type { RawAppAddProp, RawAppGroupAddProp } from './types';
+import { RawGlobalGroup } from '@gkd-kit/api';
+import { RawApp, RawAppGroup } from './types';
 import * as utils from './utils';
 
 const diabledAppIds = [
@@ -68,15 +68,12 @@ const diabledAppIds = [
 ];
 
 // 如果应用规则已有全局规则中的某一类的规则, 则在对应全局规则禁用此应用
-function filterAppsByGroup(
-  apps: RawAppAddProp[],
-  groupNamePrefix: string,
-): string[] {
+function filterAppsByGroup(apps: RawApp[], groupNamePrefix: string): string[] {
   return apps
     .filter(
       (a) =>
         a.groups.filter(
-          (g: RawAppGroupAddProp) =>
+          (g: RawAppGroup) =>
             g.name.startsWith(groupNamePrefix) && g.global !== true,
         ).length > 0,
     )

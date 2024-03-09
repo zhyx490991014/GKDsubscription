@@ -1,11 +1,11 @@
 import categories from './categories';
 import globalGroups from './globalGroups';
 import apps from './rawApps';
-import type { RawSubscription } from '@gkd-kit/api';
-import type { RawAppGroupAddProp } from './types';
+import { RawSubscription } from '@gkd-kit/api';
+import { RawAppGroup } from './types';
 
 apps.forEach((a) => {
-  a.groups.forEach((g: RawAppGroupAddProp) => {
+  a.groups.forEach((g: RawAppGroup) => {
     delete g.global;
   });
 });
