@@ -275,9 +275,8 @@ export default defineAppConfig({
     },
     {
       key: 25,
-
-      name: '分段广告-订阅号文章列表广告',
-      desc: 'GKD1.7.0可用，来自AIsouler',
+      name: '分段广告-订阅号消息页面广告',
+      desc: '点击[广告]-点击[不感兴趣]-点击[与我无关]-点击[确定]。来自AIsouler',
       activityIds:
         'com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity',
       rules: [
@@ -291,10 +290,13 @@ export default defineAppConfig({
           },
           excludeMatches: '[desc="订阅号消息"] +(2, 3) View[clickable=true]',
           matches:
-            'View[visibleToUser=true] - View > [desc="广告"][visibleToUser=true]',
+            'View[visibleToUser=true] - View > [desc="广告"||desc=null][visibleToUser=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/9fc6137e-b615-46cf-b22e-20c62e398f45',
-          snapshotUrls: 'https://i.gkd.li/i/14544716',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14544716',
+            'https://i.gkd.li/i/14545735',
+          ],
         },
         {
           preKeys: 0,
