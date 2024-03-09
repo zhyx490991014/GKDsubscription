@@ -30,9 +30,10 @@ export default defineAppConfig({
       ],
     },
     {
+      enable: false,
       key: 1,
-      name: '消息页面-顶部广告',
-      desc: '规则误触,待修复,需要快照准确定位', // 当从聊天界面点击链接进入网页时会误触
+      name: '局部广告-消息页面顶部横幅广告',
+      desc: '点击关闭',
       activityIds: 'com.tencent.mobileqq.activity.SplashActivity',
       rules: [
         {
@@ -49,8 +50,9 @@ export default defineAppConfig({
         {
           key: 1,
           name: '消息页面-顶部惊喜礼包',
+          quickFind: true,
           matches:
-            '[text*="惊喜礼包"] + FrameLayout + ImageView[clickable=true]',
+            '@ImageView[childCount=0][visibleToUser=true] - FrameLayout - [text*="惊喜礼包"]',
           snapshotUrls: 'https://i.gkd.li/i/13426912',
         },
         {
@@ -58,6 +60,18 @@ export default defineAppConfig({
           matches:
             'ImageView + RelativeLayout[childCount=2] > TextView[text!=null] + ImageView',
           snapshotUrls: 'https://i.gkd.li/i/13476400',
+        },
+        {
+          key: 3,
+          name: '稀有龙鹅卡掉落/瓜分现金',
+          matches:
+            'RelativeLayout[childCount=2] > ImageView + RelativeLayout[childCount=2] > ImageView',
+          exampleUrls:
+            'https://m.gkd.li/57941037/3922e10b-ed7e-41c0-955c-88189876548d',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14155603',
+            'https://i.gkd.li/i/14217033',
+          ],
         },
       ],
     },

@@ -39,7 +39,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页优惠弹窗',
+      name: '全屏广告-首页优惠弹窗',
       rules: [
         {
           key: 0,
@@ -52,7 +52,7 @@ export default defineAppConfig({
         {
           key: 1,
           name: '首页优惠弹窗2',
-          activityIds: [], // 暂时用[]，后续补充activityIds
+          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches:
             'View[id=null] > TextView + View > View +(4) View[clickable=true] > Image[id=null]',
           snapshotUrls: 'https://i.gkd.li/i/12642019',
@@ -62,7 +62,7 @@ export default defineAppConfig({
           name: '首页优惠弹窗3',
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches:
-            '@ImageView < ViewGroup[clickable=true][visibleToUser=true] < ViewGroup + ViewGroup >n [text="开心收下"]',
+            'ImageView < @ViewGroup[clickable=true][visibleToUser=true] < ViewGroup + ViewGroup >7 [text="开心收下"]',
           snapshotUrls: 'https://i.gkd.li/i/13761182',
         },
       ],
