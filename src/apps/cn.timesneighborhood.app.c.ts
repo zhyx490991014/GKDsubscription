@@ -6,22 +6,6 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '更新提示',
-      actionMaximum: 1,
-      resetMatch: 'app',
-      matchTime: 10000,
-      quickFind: true,
-      rules: [
-        {
-          matches: '[text="在线升级"] - [text="取消"]',
-          exampleUrls:
-            'https://m.gkd.li/101449500/ab0d9ff9-3df2-450f-b779-dc2ba35c7d11',
-          snapshotUrls: 'https://i.gkd.li/i/14544998',
-        },
-      ],
-    },
-    {
-      key: 2,
       name: '功能类-自动点击签到',
       actionMaximum: 1,
       resetMatch: 'app',
