@@ -192,5 +192,29 @@ export default defineAppConfig({
         '[text="拼多多 推荐你"] <n FrameLayout +2 FrameLayout > [text="关闭"]',
       snapshotUrls: 'https://i.gkd.li/i/13832300',
     },
+    {
+      key: 15,
+      name: '分段广告-扫码成功底部卡片广告',
+      activityIds:
+        'com.alipay.android.phone.wallet.aptrip.ui.activity.result.ResultPageActivityV2',
+      rules: [
+        {
+          key: 0,
+          matches: '@[desc="展开更多选项"] > ImageView',
+          exampleUrls:
+            'https://m.gkd.li/101449500/251acfea-4c83-46b9-a016-e718dacaa75b',
+          snapshotUrls: 'https://i.gkd.li/i/14546044',
+        },
+        {
+          key: 1,
+          preKeys: 0,
+          quickFind: true,
+          matches: '@RelativeLayout >2 [text="对该内容不感兴趣"]',
+          exampleUrls:
+            'https://m.gkd.li/101449500/22b353c4-fc2a-4461-b0b5-6e5cd7253893',
+          snapshotUrls: 'https://i.gkd.li/i/14546047',
+        },
+      ],
+    },
   ],
 });
