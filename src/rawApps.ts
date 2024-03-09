@@ -32,7 +32,6 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
     } else {
       g.order = OPEN_AD_ORDER;
     }
-    delete g.global;
   });
   rawApps.push(appConfig);
 }

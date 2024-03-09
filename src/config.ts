@@ -2,6 +2,13 @@ import categories from './categories';
 import globalGroups from './globalGroups';
 import apps from './rawApps';
 import type { RawSubscription } from '@gkd-kit/api';
+import type { RawAppGroupAddProp } from './types';
+
+apps.forEach((a) => {
+  a.groups.forEach((g: RawAppGroupAddProp) => {
+    delete g.global;
+  });
+});
 
 const subsConfig: RawSubscription = {
   id: 825,

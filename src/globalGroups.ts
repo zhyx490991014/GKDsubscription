@@ -1,6 +1,6 @@
 import apps from './rawApps';
 import type { RawGlobalGroup } from '@gkd-kit/api';
-import type { RawAppGroupAddProp } from './types';
+import type { RawAppAddProp, RawAppGroupAddProp } from './types';
 import * as utils from './utils';
 
 const diabledAppIds = [
@@ -62,21 +62,35 @@ const diabledAppIds = [
   'com.mycompany.app.soulbrowser', // soul浏览器
 ];
 
-// 如果应用规则已有开屏广告一类的规则, 则在全局规则禁用此应用
-diabledAppIds.push(
-  ...apps
-    .filter((a) =>
-      a.groups.some(
-        (g: RawAppGroupAddProp) =>
-          (g.name.startsWith('开屏广告') ||
-            g.name.startsWith('更新提示') ||
-            g.name.startsWith('青少年模式')) &&
-          g.enable !== false &&
-          g.global !== true,
-      ),
+// 如果应用规则已有全局规则中的某一类的规则, 则在对应全局规则禁用此应用
+function filterAppsByGroup(
+  apps: RawAppAddProp[],
+  groupNamePrefix: string,
+): string[] {
+  return apps
+    .filter(
+      (a) =>
+        a.groups.filter(
+          (g: RawAppGroupAddProp) =>
+            g.name.startsWith(groupNamePrefix) && g.global !== true,
+        ).length > 0,
     )
-    .map((a) => a.id),
-);
+    .map((a) => a.id);
+}
+
+// 设置单独禁用
+const openDiabledAppIds = new Set([
+  ...diabledAppIds,
+  ...filterAppsByGroup(apps, '开屏广告'),
+]);
+const updateDiabledAppIds = new Set([
+  ...diabledAppIds,
+  ...filterAppsByGroup(apps, '更新提示'),
+]);
+const youngDiabledAppIds = new Set([
+  ...diabledAppIds,
+  ...filterAppsByGroup(apps, '青少年模式'),
+]);
 
 const globalGroups: RawGlobalGroup[] = [
   {
@@ -100,7 +114,7 @@ const globalGroups: RawGlobalGroup[] = [
           '[childCount=0][visibleToUser=true][(text.length<10 && (text*="跳过" || text*="跳過" || text*="skip" || text*="Skip")) || id$="tt_splash_skip_btn" || vid*="skip" || vid*="Skip" || desc*="跳过" || desc*="skip" || (vid*="count" && vid*="down" && vid!*="countdown" && vid!*="load" && vid!*="add" && vid!*="ead")]',
       },
     ],
-    apps: diabledAppIds.map((id) => ({ id, enable: false })),
+    apps: [...openDiabledAppIds].map((id) => ({ id, enable: false })),
   },
   {
     key: 1,
@@ -122,7 +136,7 @@ const globalGroups: RawGlobalGroup[] = [
           '[name!$=".CheckBox"][childCount=0][visibleToUser=true][desc$="新版本" || desc$="更新" || desc$="升级" || desc$="体验" || desc$="升級" || desc$="體驗" || desc$="Update" || desc$="Upgrade" || desc$="Experience"] <n * > [name!$=".CheckBox"][childCount=0][visibleToUser=true][desc^="不再" || desc$="再说" || desc$="拒绝" || desc$="再想想" || desc^="忽略" || desc^="暂不" || desc^="放弃" || desc^="取消" || desc$="不要" || desc$="再說" || desc$="暫不" || desc$="拒絕" || desc$="Later" || desc^="Ignore" || desc^="Not now" || desc^="Cancel"]',
       },
     ],
-    apps: diabledAppIds.map((id) => ({ id, enable: false })),
+    apps: [...updateDiabledAppIds].map((id) => ({ id, enable: false })),
   },
   {
     key: 2,
@@ -141,6 +155,7 @@ const globalGroups: RawGlobalGroup[] = [
         ],
       },
     ],
+    apps: [...youngDiabledAppIds].map((id) => ({ id, enable: false })),
   },
 ];
 export default globalGroups;
