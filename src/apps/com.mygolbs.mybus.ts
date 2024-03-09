@@ -5,6 +5,25 @@ export default defineAppConfig({
   name: '掌上公交',
   groups: [
     {
+      key: 0,
+      name: '开屏广告',
+      global: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      actionMaximumKey: 0,
+      rules: [
+        {
+          key: 1,
+          matches:
+            'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView',
+          exampleUrls:
+            'https://m.gkd.li/57941037/8b0c3f96-ae36-4799-87c2-1ea37c3d2d4c',
+          snapshotUrls: 'https://i.gkd.li/i/14546388',
+        },
+      ],
+    },
+    {
       key: 1,
       name: '局部广告-广告卡片',
       activityIds: [
@@ -75,19 +94,31 @@ export default defineAppConfig({
     {
       key: 2,
       name: '全屏广告-广告弹窗',
-      activityIds: [
-        'com.mygolbs.mybus.mapsearch.poisearch.PoiSearchActivity',
-        'com.mygolbs.mybus.NewHomePageActivity',
-      ],
       rules: [
         {
-          name: '点击右上角x关闭图标',
+          key: 0,
+          name: '点击右上角 x 关闭图标',
+          activityIds: [
+            'com.mygolbs.mybus.mapsearch.poisearch.PoiSearchActivity',
+            'com.mygolbs.mybus.NewHomePageActivity',
+          ],
           matches:
-            '[id="android:id/content"] >(3,4) FrameLayout[childCount<=6][index=0] > FrameLayout[childCount=1][index=1] > ImageView[id=null]',
+            'FrameLayout[childCount=2] > FrameLayout[childCount>4] > FrameLayout[index=1][visibleToUser=true]',
           snapshotUrls: [
             'https://i.gkd.li/i/12790762',
-            'https://i.gkd.li/i/14222978',
+            'https://i.gkd.li/i/14219270',
           ],
+        },
+        {
+          key: 1,
+          quickFind: true,
+          activityIds:
+            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+          matches:
+            'ImageView[childCount=0] < LinearLayout < @LinearLayout[clickable=true] - * > [text="反馈"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/ec768f05-5431-4684-af40-a7987dff2ec6',
+          snapshotUrls: 'https://i.gkd.li/i/14546373',
         },
       ],
     },
