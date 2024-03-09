@@ -14,7 +14,7 @@ export default defineAppConfig({
       global: true,
       rules: [
         {
-          key: 0,
+          key: 1,
           name: '穿山甲SDK',
           matches: '[vid="ad_content"] >n View[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/14076262',

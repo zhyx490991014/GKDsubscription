@@ -17,6 +17,8 @@ export interface RawAppGroup extends api.RawAppGroup {
    * 当全局规则有效，但需要在该应用追加同类规则时，可以使用该属性
    *
    * @default false
+   *
+   * 注意：使用该字段时，rules必须使用IArray<RawAppRule>格式，且需要空出全局规则使用的key！
    */
   global?: boolean;
 }

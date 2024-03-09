@@ -25,7 +25,7 @@ export default defineAppConfig({
       global: true,
       rules: [
         {
-          key: 0,
+          key: 1,
           quickFind: true,
           matches:
             'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView <<n [id="com.mfcloudcalculate.networkdisk:id/frame_ad_splash_container"]',

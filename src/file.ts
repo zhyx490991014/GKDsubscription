@@ -13,7 +13,7 @@ import {
 import JSON5 from 'json5';
 
 // 定义一个将 IArray<T> 类型转换为 T[] 类型的函数
-const iArrayToArray = <T>(array: IArray<T> = []): T[] => {
+export const iArrayToArray = <T>(array: IArray<T> = []): T[] => {
   return Array<T>().concat(array);
 };
 

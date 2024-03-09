@@ -72,10 +72,8 @@ function filterAppsByGroup(apps: RawApp[], groupNamePrefix: string): string[] {
   return apps
     .filter(
       (a) =>
-        a.groups.filter(
-          (g: RawAppGroup) =>
-            g.name.startsWith(groupNamePrefix) && g.global !== true,
-        ).length > 0,
+        a.groups.filter((g: RawAppGroup) => g.name.startsWith(groupNamePrefix))
+          .length > 0,
     )
     .map((a) => a.id);
 }
@@ -158,4 +156,5 @@ const globalGroups: RawGlobalGroup[] = [
     apps: [...youngDiabledAppIds].map((id) => ({ id, enable: false })),
   },
 ];
+
 export default globalGroups;

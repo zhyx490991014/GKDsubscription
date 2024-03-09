@@ -5,7 +5,7 @@ import picocolors from 'picocolors';
 import { pinyin } from 'pinyin-pro';
 import { walk } from './file';
 import { RawApp, RawAppGroup } from './types';
-import { OPEN_AD_ORDER } from './utils';
+import * as utils from './utils';
 
 const rawApps: RawApp[] = [];
 for await (const tsFp of walk(process.cwd() + '/src/apps')) {
@@ -28,7 +28,19 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
     if (!g.name.startsWith('开屏广告')) {
       g.enable = false;
     } else {
-      g.order = OPEN_AD_ORDER;
+      g.order = utils.OPEN_AD_ORDER;
+    }
+
+    if (!g.name.startsWith('青少年模式')) {
+      g.enable = false;
+    } else {
+      g.order = utils.YOUNG_ORDER;
+    }
+
+    if (!g.name.startsWith('更新提示')) {
+      g.enable = false;
+    } else {
+      g.order = utils.UPDATE_ORDER;
     }
   });
   rawApps.push(appConfig);

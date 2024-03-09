@@ -10,7 +10,7 @@ export default defineAppConfig({
       global: true,
       rules: [
         {
-          key: 0,
+          key: 1,
           matches: '[vid="rl_splash"] >3 View[clickable=true]',
           exampleUrls:
             'https://m.gkd.li/101449500/9c0991ab-cb0e-4174-b822-504cf43f55a2',

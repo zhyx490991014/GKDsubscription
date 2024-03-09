@@ -3,39 +3,8 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.qidian.QDReader',
   name: '起点读书',
+  deprecatedKeys: [1, 2],
   groups: [
-    {
-      key: 1,
-      name: '更新提示',
-      quickFind: true,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules: [
-        {
-          matches:
-            '[text$="新版本"] +2 * >2 [id="com.qidian.QDReader:id/cancel"]',
-          snapshotUrls: ['https://i.gkd.li/i/12641026'],
-        },
-        {
-          matches: '[id="com.qidian.QDReader:id/upgrade_dialog_close_btn"]',
-          snapshotUrls: ['https://i.gkd.li/i/13116821'],
-        },
-      ],
-    },
-    {
-      key: 2,
-      name: '青少年模式弹窗',
-      quickFind: true,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      rules:
-        '[id="com.qidian.QDReader:id/btnEnterTeen"] + [id="com.qidian.QDReader:id/btnCancel"]',
-      snapshotUrls: [
-        'https://i.gkd.li/i/12640241',
-        'https://i.gkd.li/i/12709168',
-        'https://i.gkd.li/i/12905817',
-      ],
-    },
     {
       key: 3,
       name: '活动弹窗',
