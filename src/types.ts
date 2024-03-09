@@ -18,7 +18,7 @@ export interface RawAppGroup extends api.RawAppGroup {
    *
    * @default false
    *
-   * 注意：使用该字段时，rules必须使用IArray<RawAppRule>格式，且需要空出全局规则使用的key！
+   * 注意：使用该字段时，rules必须使用IArray<RawAppRule>格式，且需要空出全局规则使用的rule key！
    */
   global?: boolean;
 }

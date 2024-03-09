@@ -1,7 +1,7 @@
 import categories from './categories';
 import globalGroups from './globalGroups';
 import apps from './rawApps';
-import { RawSubscription, IArray, RawAppRule } from '@gkd-kit/api';
+import { RawSubscription } from '@gkd-kit/api';
 import { iArrayToArray } from './file';
 
 apps.forEach((a) => {
