@@ -4,7 +4,21 @@ export type RawAppAddProp = api.RawApp & {
   /**
    * 某些规则组被移除不使用时, 为了避免 key 在后续被复用, 需要将已经删除的规则组的 key 填入此数组做校验使用
    */
-  deprecatedKeys?: number[];
+  deprecatedKeys?: api.Integer[];
+
+  /**
+   * 此应用的规则组列表
+   */
+  groups: RawAppGroupAddProp[];
+};
+
+export type RawAppGroupAddProp = api.RawAppGroup & {
+  /**
+   * 当全局规则有效，但需要在该应用追加同类规则时，可以使用该属性
+   *
+   * @default false
+   */
+  global?: boolean;
 };
 
 export const defineSubsConfig = (config: api.RawSubscription) => {

@@ -4,7 +4,7 @@ import url from 'node:url';
 import picocolors from 'picocolors';
 import { pinyin } from 'pinyin-pro';
 import { walk } from './file';
-import type { RawAppAddProp } from './types';
+import type { RawAppAddProp, RawAppGroupAddProp } from './types';
 import { OPEN_AD_ORDER } from './utils';
 
 const rawApps: RawAppAddProp[] = [];
@@ -26,12 +26,13 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
     );
   }
   delete appConfig.deprecatedKeys;
-  appConfig.groups?.forEach((g) => {
+  appConfig.groups?.forEach((g: RawAppGroupAddProp) => {
     if (!g.name.startsWith('开屏广告')) {
       g.enable = false;
     } else {
       g.order = OPEN_AD_ORDER;
     }
+    delete g.global;
   });
   rawApps.push(appConfig);
 }

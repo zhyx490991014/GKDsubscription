@@ -8,6 +8,7 @@ export default defineAppConfig({
       key: 0,
       name: '开屏广告',
       quickFind: true,
+      global: true,
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -18,14 +19,6 @@ export default defineAppConfig({
           matches:
             '@View[clickable=true] <3 * <2 * < FrameLayout[id="com.mymoney:id/external_ad_content"]',
           snapshotUrls: 'https://i.gkd.li/i/13855760',
-        },
-        {
-          key: 1, //全局规则将该应用排除
-          matches: '[text*="跳过"][text.length<=10]',
-          snapshotUrls: [
-            'https://i.gkd.li/i/13939216',
-            'https://i.gkd.li/i/13939163',
-          ],
         },
       ],
     },

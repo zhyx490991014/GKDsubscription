@@ -1,5 +1,6 @@
 import apps from './rawApps';
 import type { RawGlobalGroup } from '@gkd-kit/api';
+import type { RawAppGroupAddProp } from './types';
 import * as utils from './utils';
 
 const diabledAppIds = [
@@ -66,11 +67,12 @@ diabledAppIds.push(
   ...apps
     .filter((a) =>
       a.groups.some(
-        (g) =>
+        (g: RawAppGroupAddProp) =>
           (g.name.startsWith('开屏广告') ||
             g.name.startsWith('更新提示') ||
             g.name.startsWith('青少年模式')) &&
-          g.enable !== false,
+          g.enable !== false &&
+          g.global !== true,
       ),
     )
     .map((a) => a.id),
