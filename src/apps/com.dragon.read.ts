@@ -7,17 +7,13 @@ export default defineAppConfig({
   groups: [
     {
       key: 0,
-      name: '局部广告-阅读界面-底部广告',
+      name: '局部广告-阅读页面底部广告',
       activityIds: [
         'com.dragon.read.ad.banner.ui',
         'com.dragon.read.reader.ReaderActivity',
         'com.dragon.read.reader.ui.ReaderActivity',
       ],
       rules: [
-        {
-          key: 0,
-          matches: '@[clickable=true] TextView[text="关闭此条广告"]',
-        },
         {
           key: 1,
           matches: '@ImageView - LinearLayout TextView[text="广告"]',
@@ -26,18 +22,22 @@ export default defineAppConfig({
         {
           key: 2,
           matches:
-            'FrameLayout > FrameLayout > ViewGroup[childCount=4] > @FrameLayout[clickable=true][visibleToUser=true] > ImageView',
+            'HorizontalAndVerticalScrollView > FrameLayout[childCount=14] > [index=9] >5 ImageView[clickable=true]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/d2f7c62c-be88-4668-b276-68bb53edfaad',
           snapshotUrls: [
-            'https://i.gkd.li/i/12716444',
-            'https://i.gkd.li/i/13062909', // 误触
+            'https://i.gkd.li/i/14193836',
+            'https://i.gkd.li/i/13520314',
+            'https://i.gkd.li/i/12908734',
           ],
         },
         {
           key: 3,
           quickFind: true,
-          matches:
-            '[id="com.dragon.read:id/layout_banner_ad_bg"] > [id="com.dragon.read:id/close_button"]',
-          snapshotUrls: 'https://i.gkd.li/i/13520314',
+          matches: '[text="关闭此条广告"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/cf9d0574-dc89-4f03-ba01-eb9bcc97925f',
+          snapshotUrls: 'https://i.gkd.li/i/14540281',
         },
       ],
     },
