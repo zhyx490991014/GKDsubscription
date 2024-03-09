@@ -529,6 +529,29 @@ export default defineAppConfig({
       ],
     },
     {
+      key: 28,
+      name: '功能类-小程序-马上充-放弃安全保证金',
+      activityIds: 'com.tencent.mm.plugin.appbrand.ui.AppBrandUI',
+      rules: [
+        {
+          key: 0,
+          matches: '[text^="安全保证金"] +2 [text="不需要"]',
+          exampleUrls:
+            'https://m.gkd.li/101449500/d2e07a1e-bdb9-4526-8c71-9afdab338f69',
+          snapshotUrls: 'https://i.gkd.li/i/14545003',
+        },
+        {
+          preKeys: 0,
+          key: 1,
+          quickFind: true,
+          matches: '[text="不需要"]',
+          exampleUrls:
+            'https://m.gkd.li/101449500/17b90917-64d2-414f-82a6-74f2e12cd636',
+          snapshotUrls: 'https://i.gkd.li/i/14545005',
+        },
+      ],
+    },
+    {
       key: 17,
       name: '青少年模式',
       quickFind: true,
