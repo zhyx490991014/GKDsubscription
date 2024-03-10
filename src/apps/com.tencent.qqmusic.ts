@@ -63,5 +63,20 @@ export default defineAppConfig({
       rules: '[text="流量够用"]',
       snapshotUrls: 'https://i.gkd.li/i/13197868',
     },
+    {
+      key: 5,
+      name: '全屏广告-播放页-推荐开启高音质弹窗',
+      activityIds: 'com.tencent.qqmusic.activity.TranslucentWebViewActivity',
+      rules: [
+        {
+          key: 0,
+          matches: [
+            '[text^="推荐您开启"]',
+            '[desc="关闭"][clickable=true][visibleToUser=true]',
+          ],
+          snapshotUrls: 'https://i.gkd.li/i/14550144',
+        },
+      ],
+    },
   ],
 });
