@@ -16,15 +16,21 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '弹窗广告',
+      name: '全屏广告-弹窗广告',
       rules: [
         {
           key: 0,
-          activityIds: 'com.chinamobile.mcloud.client.ui.MenuActivity',
+          activityIds: [
+            'com.chinamobile.mcloud.client.ui.MenuActivity',
+            'com.chinamobile.mcloud.client.ui.CustomScanActivity',
+          ],
           quickFind: true,
           matches:
             '[id="com.chinamobile.mcloud:id/rl_container"] + [id="com.chinamobile.mcloud:id/iv_close"]',
-          snapshotUrls: 'https://i.gkd.li/i/13627826',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13627826',
+            'https://i.gkd.li/i/14549477',
+          ],
         },
         {
           key: 1,
