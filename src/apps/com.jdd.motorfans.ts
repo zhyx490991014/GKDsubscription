@@ -6,13 +6,15 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '弹窗广告',
-      activityIds: [],
+      name: '全屏广告-弹窗广告',
       rules: [
         {
           key: 0,
+          quickFind: true,
           matches:
             '[id="com.jdd.motorfans:id/ad_content"] >n [id="com.jdd.motorfans:id/iv_close"]',
+          exampleUrls:
+            'https://user-images.githubusercontent.com/44717382/270852019-b0296eaa-a378-49b3-877b-acefca2a7d58.gif',
           snapshotUrls: [
             'https://i.gkd.li/i/12733646', // com.jdd.motorfans.MTMainActivity
             'https://i.gkd.li/i/12798654', // com.jdd.motorfans.modules.detail.DetailActivity2
@@ -22,19 +24,17 @@ export default defineAppConfig({
             'https://i.gkd.li/i/12840710', // com.miui.home.launcher.Launcher
             'https://i.gkd.li/i/13188928', // com.tencent.mm.ui.LauncherUI
           ],
-          exampleUrls:
-            'https://user-images.githubusercontent.com/44717382/270852019-b0296eaa-a378-49b3-877b-acefca2a7d58.gif',
         },
         {
           key: 1,
-          matches: '@ImageView -n RelativeLayout > TextView[text*="广告"]',
+          matches: '@ImageView - RelativeLayout > TextView[text="广告"]',
           snapshotUrls: 'https://i.gkd.li/i/12826288',
         },
       ],
     },
     {
       key: 2,
-      name: '信息流广告',
+      name: '分段广告-信息流广告',
       activityIds: ['com.jdd.motorfans.MTMainActivity'],
       rules: [
         {
@@ -56,7 +56,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '文章内容弹窗',
+      name: '全屏广告-文章内容弹窗',
       activityIds: [
         'com.jdd.motorfans.modules.zone.search.ZoneInsideSearchActivity',
       ],
