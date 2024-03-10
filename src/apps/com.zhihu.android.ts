@@ -92,7 +92,12 @@ export default defineAppConfig({
           matches: 'TextView[text$="的广告"] +3 ImageView',
           snapshotUrls: 'https://i.gkd.li/i/14178922',
         },
-        // 预留12~99
+        {
+          key: 12,
+          matches: 'TextView[text$="的广告"] - Image',
+          snapshotUrls: 'https://i.gkd.li/i/14548763',
+        },
+        // 预留13~99
         {
           preKeys: [10],
           key: 100,
