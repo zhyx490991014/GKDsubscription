@@ -72,3 +72,19 @@ jobs:
           asset_path: ./dist/Adpro_gkd.json5
           asset_name: Adpro_gkd_${{ steps.version.outputs.version }}.json5
           asset_content_type: application/json
+
+      - name: Publish package
+        if: ${{ steps.commit.outcome == 'success' }}
+        run: |
+          pnpm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
+          pnpm publish --publish-branch=main
+
+      - name: sync npmmirror
+        if: ${{ steps.commit.outcome == 'success' }}
+        run: curl -X PUT 'https://registry-direct.npmmirror.com/@Adpro-Team/GKD_subscription/sync'
+
+      - name: sync jsDelivr
+        if: ${{ steps.commit.outcome == 'success' }}
+        run: |
+          curl -X PUT 'https://purge.jsdelivr.net/gh/Adpro-Team/GKD_subscription@main/dist/Adpro_gkd.json5'
+          curl -X PUT 'https://purge.jsdelivr.net/gh/Adpro-Team/GKD_subscription@main/dist/Adpro_gkd.version.json'
