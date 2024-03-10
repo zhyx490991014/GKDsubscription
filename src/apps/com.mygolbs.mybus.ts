@@ -120,6 +120,15 @@ export default defineAppConfig({
             'https://m.gkd.li/57941037/ec768f05-5431-4684-af40-a7987dff2ec6',
           snapshotUrls: 'https://i.gkd.li/i/14546373',
         },
+        {
+          key: 2,
+          activityIds:
+            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+          matches: '[text="反馈"] -4 @View > Image',
+          exampleUrls:
+            'https://m.gkd.li/101449500/ccc2be4d-41d6-4b25-81fa-3827ad7ae3c0',
+          snapshotUrls: 'https://i.gkd.li/i/14548109',
+        },
       ],
     },
     {
