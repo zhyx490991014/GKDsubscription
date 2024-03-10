@@ -70,10 +70,8 @@ export default defineAppConfig({
       rules: [
         {
           key: 0,
-          matches: [
-            '[text^="推荐您开启"]',
-            '[desc="关闭"][clickable=true][visibleToUser=true]',
-          ],
+          matches:
+            '[text^="推荐您开启"] -3 [desc="关闭"][clickable=true][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/i/14550144',
         },
       ],
