@@ -1,5 +1,5 @@
 {
-  "name": "@adpro-team/gkd_subscription",
+  "name": "@adpro/gkd_subscription",
   "type": "module",
   "version": "1.41.0",
   "main": "./dist/Adpro_gkd.json5",
@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Adpro-Team/GKD_subscription.git"
+    "url": "https://github.com/Adpro-Team/GKD_subscription.git"
   },
   "volta": {
     "node": "20.9.0"
