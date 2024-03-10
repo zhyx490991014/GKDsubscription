@@ -350,7 +350,7 @@ export default defineAppConfig({
           key: 0,
           matches: [
             '[desc="订阅号消息"]',
-            'View > Button > View[desc$="推​荐​"] > ImageView[index=1][clickable=true]',
+            'View > Button > View[desc$="推​荐​"] > ImageView[index=1][clickable=true][visibleToUser=true]',
           ],
           exampleUrls:
             'https://m.gkd.li/101449500/5b815528-1ca2-4016-930e-a3cfb4e5e7ea',
