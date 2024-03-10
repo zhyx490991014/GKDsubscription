@@ -197,5 +197,15 @@ export default defineAppConfig({
         'https://m.gkd.li/101449500/0c6e8831-9cde-47f1-8e4b-25ecfa5b2881',
       snapshotUrls: 'https://i.gkd.li/i/14539504',
     },
+    {
+      key: 18,
+      name: '局部广告-阅读页面-章末广告卡片',
+      activityIds: 'com.dragon.read.reader.ui.ReaderActivity',
+      rules:
+        'HorizontalAndVerticalScrollView > FrameLayout[childCount=13] >8 @FrameLayout[index=2][clickable=true] > ImageView',
+      exampleUrls:
+        'https://m.gkd.li/101449500/a8477c6e-433d-4903-9206-78391dad1d4c',
+      snapshotUrls: 'https://i.gkd.li/i/14548657',
+    },
   ],
 });
