@@ -3,11 +3,11 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.dragon.read',
   name: '番茄免费小说',
-  deprecatedKeys: [-1, 1, 11],
+  deprecatedKeys: [-1, 1, 11, 18],
   groups: [
     {
       key: 0,
-      name: '局部广告-阅读页面底部广告',
+      name: '局部广告-阅读页面广告',
       activityIds: [
         'com.dragon.read.ad.banner.ui',
         'com.dragon.read.reader.ReaderActivity',
@@ -38,6 +38,14 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/57941037/cf9d0574-dc89-4f03-ba01-eb9bcc97925f',
           snapshotUrls: 'https://i.gkd.li/i/14540281',
+        },
+        {
+          key: 4,
+          matches:
+            'HorizontalAndVerticalScrollView > FrameLayout[childCount=13] >8 @FrameLayout[index=2][clickable=true] > ImageView',
+          exampleUrls:
+            'https://m.gkd.li/101449500/a8477c6e-433d-4903-9206-78391dad1d4c',
+          snapshotUrls: 'https://i.gkd.li/i/14548657',
         },
       ],
     },
@@ -196,16 +204,6 @@ export default defineAppConfig({
       exampleUrls:
         'https://m.gkd.li/101449500/0c6e8831-9cde-47f1-8e4b-25ecfa5b2881',
       snapshotUrls: 'https://i.gkd.li/i/14539504',
-    },
-    {
-      key: 18,
-      name: '局部广告-阅读页面-章末广告卡片',
-      activityIds: 'com.dragon.read.reader.ui.ReaderActivity',
-      rules:
-        'HorizontalAndVerticalScrollView > FrameLayout[childCount=13] >8 @FrameLayout[index=2][clickable=true] > ImageView',
-      exampleUrls:
-        'https://m.gkd.li/101449500/a8477c6e-433d-4903-9206-78391dad1d4c',
-      snapshotUrls: 'https://i.gkd.li/i/14548657',
     },
   ],
 });
