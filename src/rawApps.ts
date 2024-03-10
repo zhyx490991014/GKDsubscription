@@ -25,23 +25,12 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
   }
   delete appConfig.deprecatedKeys;
   appConfig.groups?.forEach((g: RawAppGroup) => {
-    if (!g.name.startsWith('开屏广告')) {
-      g.enable = false;
-    } else {
-      g.order = utils.OPEN_AD_ORDER;
-    }
+    if (!g.name.startsWith('开屏广告')) g.enable = false;
+    else g.order = utils.OPEN_AD_ORDER;
 
-    if (!g.name.startsWith('青少年模式')) {
-      g.enable = false;
-    } else {
-      g.order = utils.YOUNG_ORDER;
-    }
+    if (g.name.startsWith('青少年模式')) g.order = utils.YOUNG_ORDER;
 
-    if (!g.name.startsWith('更新提示')) {
-      g.enable = false;
-    } else {
-      g.order = utils.UPDATE_ORDER;
-    }
+    if (g.name.startsWith('更新提示')) g.order = utils.UPDATE_ORDER;
   });
   rawApps.push(appConfig);
 }
