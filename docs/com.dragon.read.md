@@ -1,6 +1,6 @@
 # 番茄免费小说
 
-存在 12 规则组 - [com.dragon.read](/src/apps/com.dragon.read.ts)
+存在 13 规则组 - [com.dragon.read](/src/apps/com.dragon.read.ts)
 
 ## 局部广告-阅读页面底部广告
 
@@ -90,3 +90,11 @@
 - [示例-0](https://m.gkd.li/101449500/0c6e8831-9cde-47f1-8e4b-25ecfa5b2881)
 
 - [快照-0](https://i.gkd.li/i/14539504)
+
+## 局部广告-阅读页面-章末广告卡片
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/101449500/a8477c6e-433d-4903-9206-78391dad1d4c)
+
+- [快照-0](https://i.gkd.li/i/14548657)
