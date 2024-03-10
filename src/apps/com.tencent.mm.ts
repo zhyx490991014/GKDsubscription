@@ -340,6 +340,24 @@ export default defineAppConfig({
       ],
     },
     {
+      key: 29,
+      name: '局部广告-订阅号消息页面-推荐阅读',
+      activityIds:
+        'com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity',
+      rules: [
+        {
+          key: 0,
+          matches: [
+            '[desc="订阅号消息"]',
+            'View > Button > View[desc$="推​荐​"] > ImageView[index=1][clickable=true]',
+          ],
+          exampleUrls:
+            'https://m.gkd.li/101449500/5b815528-1ca2-4016-930e-a3cfb4e5e7ea',
+          snapshotUrls: 'https://i.gkd.li/i/14548701',
+        },
+      ],
+    },
+    {
       key: 8,
       name: '分段广告-订阅号文章广告反馈',
       desc: '⚠ 此规则有概率误触。自动点击反馈理由，配合【订阅号文章广告】规则使用',
