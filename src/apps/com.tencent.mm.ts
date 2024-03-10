@@ -675,5 +675,33 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 30,
+      name: '分段广告-视频号-评论区广告',
+      desc: 'GKD1.7.0可用',
+      activityIds: 'com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI',
+      quickFind: true,
+      rules: [
+        {
+          key: 0,
+          matches: '@FrameLayout >2 [text="广告"]',
+          exampleUrls:
+            'https://m.gkd.li/101449500/341ffb52-0aeb-4c35-aa72-8c96930e6d23',
+          snapshotUrls: 'https://i.gkd.li/i/14549072',
+        },
+        {
+          key: 1,
+          preKeys: 0,
+          position: {
+            left: 'width*0.8125',
+            top: 'width*0.1875',
+          },
+          matches: '@ViewGroup >3 [text="广告"]',
+          exampleUrls:
+            'https://m.gkd.li/101449500/f2dcd634-96e3-4532-9b24-7c750ffd0263',
+          snapshotUrls: 'https://i.gkd.li/i/14549071',
+        },
+      ],
+    },
   ],
 });
