@@ -29,11 +29,13 @@ export default defineAppConfig({
       activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
       rules: [
         {
-          matches: 'ViewGroup[vid="pdd"] >n @ImageView[clickable=true]',
-          excludeMatches: '[text="最近搜索"]',
+          matches: 'ViewGroup[vid="pdd"] >4 @ImageView[clickable=true]',
           exampleUrls:
             'https://m.gkd.li/101449500/ec8e953e-06d3-4883-9c9a-11410f1b1336',
-          snapshotUrls: 'https://i.gkd.li/i/14109435',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14109435',
+            'https://i.gkd.li/i/14549408', // 限定>4防止误触
+          ],
         },
       ],
     },
