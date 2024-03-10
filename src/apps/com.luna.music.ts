@@ -5,8 +5,18 @@ export default defineAppConfig({
   name: '汽水音乐',
   groups: [
     {
+      key: 0,
+      name: '开屏广告',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules:
+        'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView',
+      snapshotUrls: 'https://i.gkd.li/i/14232395',
+    },
+    {
       key: 2,
-      name: 'VIP弹窗',
+      name: '全屏广告-VIP弹窗',
       desc: '直接关闭所有底部半屏弹窗',
       quickFind: true,
       actionMaximum: 1,
@@ -39,7 +49,7 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '看广告视频拿VIP',
+      name: '功能类-看广告视频拿VIP',
       desc: '30s广告后点击【跳过】',
       activityIds: [
         'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
