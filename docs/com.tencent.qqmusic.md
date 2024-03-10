@@ -1,6 +1,6 @@
 # QQ音乐
 
-存在 4 规则组 - [com.tencent.qqmusic](/src/apps/com.tencent.qqmusic.ts)
+存在 5 规则组 - [com.tencent.qqmusic](/src/apps/com.tencent.qqmusic.ts)
 
 ## 局部广告-广告卡片
 
@@ -29,3 +29,9 @@
 默认禁用 - 点击[流量够用]
 
 - [快照-0](https://i.gkd.li/i/13197868)
+
+## 全屏广告-播放页-推荐开启高音质弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/i/14550144)

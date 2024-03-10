@@ -1,19 +1,21 @@
 # 番茄免费小说
 
-存在 13 规则组 - [com.dragon.read](/src/apps/com.dragon.read.ts)
+存在 12 规则组 - [com.dragon.read](/src/apps/com.dragon.read.ts)
 
-## 局部广告-阅读页面底部广告
+## 局部广告-阅读页面广告
 
 默认禁用
 
 - [示例-0](https://m.gkd.li/57941037/d2f7c62c-be88-4668-b276-68bb53edfaad)
 - [示例-1](https://m.gkd.li/57941037/cf9d0574-dc89-4f03-ba01-eb9bcc97925f)
+- [示例-2](https://m.gkd.li/101449500/a8477c6e-433d-4903-9206-78391dad1d4c)
 
 - [快照-0](https://i.gkd.li/i/12908734)
 - [快照-1](https://i.gkd.li/i/14193836)
 - [快照-2](https://i.gkd.li/i/13520314)
 - [快照-3](https://i.gkd.li/i/12908734)
 - [快照-4](https://i.gkd.li/i/14540281)
+- [快照-5](https://i.gkd.li/i/14548657)
 
 ## 局部广告-首页右侧悬浮广告
 
@@ -90,11 +92,3 @@
 - [示例-0](https://m.gkd.li/101449500/0c6e8831-9cde-47f1-8e4b-25ecfa5b2881)
 
 - [快照-0](https://i.gkd.li/i/14539504)
-
-## 局部广告-阅读页面-章末广告卡片
-
-默认禁用
-
-- [示例-0](https://m.gkd.li/101449500/a8477c6e-433d-4903-9206-78391dad1d4c)
-
-- [快照-0](https://i.gkd.li/i/14548657)

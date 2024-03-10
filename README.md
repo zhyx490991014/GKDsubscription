@@ -6,6 +6,16 @@
 
 ---
 
+## 使用前须知
+
+1. 本仓库仅为本人学习研究的成果。
+
+2. 使用第三方订阅需要执行以下操作之一（**请公众号、B站等分享第三方订阅的文章、视频作者务必说明**）：
+
+- 关闭（或删除）默认订阅
+
+- 将**所有**第三方订阅长按拖动到默认订阅之前
+
 ## 说明
 
 Adpro-Team维护的GKD订阅 仅启用 `开屏广告` 一类规则, 其它所有规则均需用户手动打开
@@ -16,9 +26,9 @@ Adpro-Team维护的GKD订阅 仅启用 `开屏广告` 一类规则, 其它所有
 https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 ```
 
-当前版本: v40
+当前版本: v41
 
-当前订阅文件已适配 630 个 APP, 共有 1423 规则组
+当前订阅文件已适配 630 个 APP, 共有 1428 规则组
 
 查看 [适配 APP 列表](./AppList.md)
 
@@ -42,7 +52,7 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 ### 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=40)
+![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=41)
 
 ---
 
