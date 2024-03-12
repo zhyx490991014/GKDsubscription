@@ -105,5 +105,53 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 2,
+      name: '更新提示',
+      desc: '点击"暂不"',
+      matchTime: 10000,
+      quickFind: true,
+      resetMatch: 'app',
+      actionMaximum: 1,
+      rules: [
+        {
+          matches: '[id="com.paokeji.yiqu:id/btnCancel"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/2ce54292-bfc6-41c6-b2e5-e7d8302fc522',
+          snapshotUrls: 'https://i.gkd.li/i/14140265',
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: '全屏广告-广告弹窗',
+      rules: [
+        {
+          key: 0,
+          activityIds:
+            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+          matches: '[text="反馈"] + View[childCount=2][text=""]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/6f12fd12-b956-474a-834c-8ebba00efbff',
+          snapshotUrls: 'https://i.gkd.li/i/14362119',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: '功能类-漫画页链接断开提示',
+      desc: '点击[点我重试]',
+      actionMaximum: 3,
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.aster.comic.app.view.reader.ReaderActivity',
+          matches: '@[clickable=true] > [text="点我重试"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/d71c73bb-289f-4205-a253-fcd8bd32f196',
+          snapshotUrls: 'https://i.gkd.li/i/14572053',
+        },
+      ],
+    },
   ],
 });
