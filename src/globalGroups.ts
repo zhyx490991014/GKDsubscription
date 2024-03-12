@@ -55,7 +55,6 @@ const diabledAppIds = [
   'app.eleven.com.fastfiletransfer', // 文件闪传
   'com.idaodan.clean.master', // 雪豹速清
   'com.samsung.agc.gcam84', // 相机
-  'xxx.pornhub.fuck', // JavDB
   'com.wsw.cospa', // 异次元
   'app.mihon', // Mihon
 
@@ -89,6 +88,7 @@ const updateDiabledAppIds = new Set([
 ]);
 const youngDiabledAppIds = new Set([
   ...diabledAppIds,
+  'xxx.pornhub.fuck', // JavDB
   ...filterAppsByGroup(apps, '青少年模式'),
 ]);
 
