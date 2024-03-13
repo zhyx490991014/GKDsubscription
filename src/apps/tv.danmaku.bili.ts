@@ -18,7 +18,7 @@ export default defineAppConfig({
     },
     {
       key: 0,
-      name: '评论区顶部公告横幅',
+      name: '局部广告-评论区顶部公告横幅',
       quickFind: true,
       excludeActivityIds: [
         'com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3', // 直播间
@@ -33,7 +33,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '动态推荐广告卡片',
+      name: '局部广告-动态推荐广告卡片',
       desc: '点击卡片右上角[广告]按钮-点击不感兴趣',
       quickFind: true,
       matchDelay: 5000,
@@ -54,7 +54,7 @@ export default defineAppConfig({
     // key = 3已弃用
     {
       key: 4,
-      name: '视频底部与评论区中间卡片式广告',
+      name: '分段广告-视频底部与评论区中间卡片式广告',
       desc: '需点击二次弹窗 屏蔽原因',
       quickFind: true,
       activityIds: [
@@ -115,7 +115,7 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '视频悬浮广告',
+      name: '局部广告-视频悬浮广告',
       desc: '领取大会员月卡,B站免流星卡',
       quickFind: true,
       matchTime: 10000,
@@ -124,19 +124,18 @@ export default defineAppConfig({
         'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
         'com.bilibili.video.videodetail.VideoDetailsActivity',
       ],
-      rules: ['[id="tv.danmaku.bili:id/toast_x"]'],
+      rules: '[id="tv.danmaku.bili:id/toast_x"]',
       snapshotUrls: [
         'https://i.gkd.li/i/12892611',
         'https://i.gkd.li/i/13308344',
         'https://i.gkd.li/i/13538048', // activityIds: 'com.bilibili.video.videodetail.VideoDetailsActivity',
       ],
-      exampleUrls: [
+      exampleUrls:
         'https://github.com/gkd-kit/inspect/assets/38517192/110db806-3f8b-4cd2-a445-06c5f5eb21eb',
-      ],
     },
     {
       key: 8,
-      name: '直播间卡片广告',
+      name: '局部广告-直播间卡片广告',
       desc: '直播间底部售卖卡片-点击右上角x',
       quickFind: true,
       matchTime: 10000,
@@ -147,7 +146,7 @@ export default defineAppConfig({
     },
     {
       key: 9,
-      name: '请求通知权限弹窗',
+      name: '权限提示-通知权限',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -169,10 +168,9 @@ export default defineAppConfig({
       activityIds: 'tv.danmaku.bili.MainActivityV2',
       rules: [
         {
-          key: 3,
+          key: 0,
           matches:
             '[desc^="广告"] >(1,2) ViewGroup[childCount=3] > FrameLayout[vid="more"][index=2]',
-          actionCd: 500,
           actionMaximum: 1,
           snapshotUrls: [
             'https://i.gkd.li/i/14083540',
@@ -182,7 +180,7 @@ export default defineAppConfig({
         {
           name: '点击[不感兴趣]',
           key: 1,
-          preKeys: [3],
+          preKeys: [0],
           order: 1,
           matches: '@* > [text="不感兴趣"]',
           snapshotUrls: [
@@ -194,8 +192,8 @@ export default defineAppConfig({
         },
         {
           name: '点击[相似内容过多]',
-          key: 4,
-          preKeys: [3],
+          key: 2,
+          preKeys: [0],
           order: 2,
           matches: '@* > [text="相似内容过多"]',
           snapshotUrls: [
@@ -208,8 +206,8 @@ export default defineAppConfig({
         },
         {
           name: '点击[up主不感兴趣]',
-          key: 5,
-          preKeys: [3],
+          key: 3,
+          preKeys: [0],
           order: 3,
           matches: '@* > [text="up主不感兴趣"]',
           snapshotUrls: 'https://i.gkd.li/i/13625309',
@@ -220,7 +218,7 @@ export default defineAppConfig({
     },
     {
       key: 11,
-      name: '个性化内容推荐弹窗',
+      name: '局部广告-个性化内容推荐弹窗',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
