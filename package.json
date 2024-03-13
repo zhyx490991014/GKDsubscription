@@ -2,15 +2,16 @@
   "name": "@adpro/gkd_subscription",
   "type": "module",
   "version": "1.43.0",
-  "main": "./dist/Adpro_gkd.json5",
-  "unpkg": "./dist/Adpro_gkd.json5",
-  "jsdelivr": "./dist/Adpro_gkd.json5",
+  "main": "./src/config.ts",
+  "unpkg": "./src/config.ts",
+  "jsdelivr": "./src/config.ts",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "files": [
-    "./dist"
+    "./dist",
+    "./src/config.ts"
   ],
   "scripts": {
     "prepare": "husky install",
