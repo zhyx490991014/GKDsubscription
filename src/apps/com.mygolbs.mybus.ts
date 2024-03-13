@@ -102,6 +102,7 @@ export default defineAppConfig({
             'com.mygolbs.mybus.mapsearch.poisearch.PoiSearchActivity',
             'com.mygolbs.mybus.NewHomePageActivity',
             'com.mygolbs.mybus.RTimeActivity',
+            'com.mygolbs.mybus.LoginActivity',
           ],
           matches:
             'FrameLayout[childCount=2] > FrameLayout[childCount>4] > FrameLayout[index=1][visibleToUser=true]',
@@ -109,6 +110,7 @@ export default defineAppConfig({
             'https://i.gkd.li/i/12790762',
             'https://i.gkd.li/i/14219270',
             'https://i.gkd.li/i/14572506',
+            'https://i.gkd.li/i/14587392',
           ],
         },
         {
@@ -124,19 +126,20 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          activityIds:
-            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
-          matches: '[text="反馈"] -4 @View > Image',
+          quickFind: true,
+          activityIds: 'com.qq.e.ads.ADActivity',
+          matches:
+            '@ImageView[clickable=true][visibleToUser=true] - [text="国货大牌 新年必囤"]',
           exampleUrls:
-            'https://m.gkd.li/101449500/ccc2be4d-41d6-4b25-81fa-3827ad7ae3c0',
-          snapshotUrls: 'https://i.gkd.li/i/14548109',
+            'https://m.gkd.li/57941037/f7dc0b47-b37f-409a-aebe-4aaa844aa897',
+          snapshotUrls: 'https://i.gkd.li/i/14587397',
         },
       ],
     },
     {
       key: 3,
       name: '局部广告-顶栏小广告',
-      activityIds: ['com.mygolbs.mybus.RTimeActivity'],
+      activityIds: 'com.mygolbs.mybus.RTimeActivity',
       rules: [
         {
           name: '点击右侧x关闭按钮',
