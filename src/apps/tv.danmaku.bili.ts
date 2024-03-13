@@ -180,7 +180,7 @@ export default defineAppConfig({
         {
           key: 3,
           matches: [
-            'ViewGroup[desc^="广告"] >2 ViewGroup[childCount=3] > FrameLayout[index=2]',
+            'ViewGroup[desc^="广告"] >(1,2) ViewGroup[childCount=3] > FrameLayout[index=2]',
           ],
           actionCd: 500,
           actionMaximum: 1,
