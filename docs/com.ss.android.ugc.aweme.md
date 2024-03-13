@@ -1,6 +1,6 @@
 # 抖音
 
-存在 16 规则组 - [com.ss.android.ugc.aweme](/src/apps/com.ss.android.ugc.aweme.ts)
+存在 17 规则组 - [com.ss.android.ugc.aweme](/src/apps/com.ss.android.ugc.aweme.ts)
 
 ## 青少年模式
 
@@ -116,3 +116,11 @@
 默认禁用 - 点击【不感兴趣】
 
 - [快照-0](https://i.gkd.li/i/14157498)
+
+## 全屏广告-低价秒杀券弹窗
+
+默认禁用 - 点击关闭
+
+- [示例-0](https://m.gkd.li/57941037/ef703cd7-99af-4e10-8345-9860ed160b8b)
+
+- [快照-0](https://i.gkd.li/i/14585377)
