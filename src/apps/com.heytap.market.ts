@@ -24,14 +24,19 @@ export default defineAppConfig({
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      activityIds:
+      activityIds: [
         'com.heytap.cdo.client.cards.page.main.maintab.MainTabActivity',
+        'com.heytap.upgrade.ui.UpgradeActivity',
+      ],
       rules: [
         {
           action: 'back',
           matches:
             '[id="com.heytap.market:id/tv_titile"][text="发现软件商店新版本"]',
-          snapshotUrls: 'https://i.gkd.li/i/13455965',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13455965',
+            'https://i.gkd.li/i/14583583',
+          ],
         },
       ],
     },
