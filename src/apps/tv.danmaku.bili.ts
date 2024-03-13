@@ -165,33 +165,26 @@ export default defineAppConfig({
     {
       name: '分段广告-首页-推荐视频卡片广告',
       key: 10,
+      quickFind: true,
       activityIds: 'tv.danmaku.bili.MainActivityV2',
       rules: [
         {
-          name: '点击广告卡片右下角菜单按钮',
-          key: 0,
-          matches: [
-            'RelativeLayout[desc^="广告"] > ViewGroup[childCount=3] > FrameLayout[index=2]',
-          ],
-          actionCd: 500,
-          actionMaximum: 1,
-          snapshotUrls: ['https://i.gkd.li/i/14083540'],
-        },
-        {
           key: 3,
-          matches: [
-            'ViewGroup[desc^="广告"] >(1,2) ViewGroup[childCount=3] > FrameLayout[index=2]',
-          ],
+          matches:
+            '[desc^="广告"] >(1,2) ViewGroup[childCount=3] > FrameLayout[vid="more"][index=2]',
           actionCd: 500,
           actionMaximum: 1,
-          snapshotUrls: ['https://i.gkd.li/i/14059876'],
+          snapshotUrls: [
+            'https://i.gkd.li/i/14083540',
+            'https://i.gkd.li/i/14059876',
+          ],
         },
         {
           name: '点击[不感兴趣]',
           key: 1,
-          preKeys: [0],
-          matches: ['@* > [text="不感兴趣"]'],
-          quickFind: true,
+          preKeys: [3],
+          order: 1,
+          matches: '@* > [text="不感兴趣"]',
           snapshotUrls: [
             'https://i.gkd.li/i/13742257',
             'https://i.gkd.li/i/13256605',
@@ -202,29 +195,26 @@ export default defineAppConfig({
         {
           name: '点击[相似内容过多]',
           key: 4,
-          preKeys: [0, 3],
-          matches: ['@* > [text="相似内容过多"]'],
-          quickFind: true,
+          preKeys: [3],
+          order: 2,
+          matches: '@* > [text="相似内容过多"]',
           snapshotUrls: [
             'https://i.gkd.li/i/13945597',
             'https://i.gkd.li/i/14155272',
             'https://i.gkd.li/i/14059882',
           ],
-          exampleUrls: [
+          exampleUrls:
             'https://m.gkd.li/57941037/acd89b46-45fc-459f-8d17-3913d98dcbad',
-          ],
         },
         {
           name: '点击[up主不感兴趣]',
           key: 5,
-          preKeys: [0],
-          matches: ['@* > [text="up主不感兴趣"]'],
-          quickFind: true,
-          snapshotUrls: ['https://i.gkd.li/i/13625309'],
-          exampleUrls: [
+          preKeys: [3],
+          order: 3,
+          matches: '@* > [text="up主不感兴趣"]',
+          snapshotUrls: 'https://i.gkd.li/i/13625309',
+          exampleUrls:
             'https://m.gkd.li/57941037/9c2f42d7-c262-4e06-b3c6-40f0908e7a94',
-          ],
-          activityIds: ['tv.danmaku.bili.MainActivityV2'],
         },
       ],
     },
