@@ -33,7 +33,7 @@ export default defineAppConfig({
           activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
           quickFind: true,
           matches:
-            '@Image[clickable=true][text!=null] < View[childCount=2] <<n FrameLayout[id="com.chinatelecom.bestpayclient:id/h5_pc_container"]',
+            '[text="甜橙信用卡"] >2 View[childCount=2] > @Image[clickable=true][text!=null] <<n [id="com.chinatelecom.bestpayclient:id/h5_pc_container"]',
           snapshotUrls: 'https://i.gkd.li/i/13626324',
         },
         {
@@ -51,7 +51,7 @@ export default defineAppConfig({
           quickFind: true,
           activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
           matches:
-            '*[childCount=0] -2 @*[clickable=true] <n View[childCount=3] <<n [vid="h5_pc_container"]',
+            '[childCount=0] -2 @[clickable=true] <n View[childCount=3] <<n [vid="h5_pc_container"]',
           snapshotUrls: 'https://i.gkd.li/i/14603126',
         },
       ],
