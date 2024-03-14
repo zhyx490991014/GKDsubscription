@@ -12,12 +12,22 @@ export default defineAppConfig({
       resetMatch: 'app',
       rules: [
         {
+          key: 0,
           matches: '[desc="跳过"||desc="GdtCountDownView"]',
           snapshotUrls: [
             'https://i.gkd.li/i/12775410',
             'https://i.gkd.li/i/13426030',
             'https://i.gkd.li/i/13468987',
           ],
+        },
+        {
+          key: 1,
+          matches: '[desc="createSkipView"]',
+          position: {
+            left: 'width * 0.6794',
+            top: 'width * 0.3822',
+          },
+          snapshotUrls: 'https://i.gkd.li/i/14606816',
         },
       ],
     },
