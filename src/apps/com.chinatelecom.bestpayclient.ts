@@ -3,24 +3,11 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.chinatelecom.bestpayclient',
   name: '翼支付',
-  deprecatedKeys: [0],
+  deprecatedKeys: [0, 1],
   groups: [
     {
-      key: 1,
-      name: '版本更新',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'app',
-      activityIds: 'com.chinatelecom.bestpayclient.ui.MainActivity',
-      rules: '[id="com.chinatelecom.bestpayclient:id/bupdate_tv_bottom_tip"]',
-      snapshotUrls: 'https://i.gkd.li/i/13391544',
-    },
-    {
       key: 3,
-      name: '弹窗广告',
-      actionMaximum: 1,
-      resetMatch: 'activity',
+      name: '全屏广告-弹窗广告',
       rules: [
         {
           key: 0,
@@ -61,13 +48,11 @@ export default defineAppConfig({
         {
           key: 4,
           name: '信用卡页面',
+          quickFind: true,
           activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
           matches:
-            '[id="com.chinatelecom.bestpayclient:id/h5_pc_container"] >n View[childCount=3] > @*[clickable=true] + * + *[childCount=0]',
-          snapshotUrls: [
-            'https://i.gkd.li/i/13696322',
-            'https://i.gkd.li/i/13696323',
-          ],
+            '*[childCount=0] -2 @*[clickable=true] <n View[childCount=3] <<n [vid="h5_pc_container"]',
+          snapshotUrls: 'https://i.gkd.li/i/14603126',
         },
       ],
     },
