@@ -3,9 +3,26 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.baidu.netdisk.samsung',
   name: '百度网盘-三星版本',
-
   deprecatedKeys: [0],
   groups: [
+    {
+      key: -1,
+      name: '开屏广告',
+      global: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      actionMaximumKey: 0,
+      rules: [
+        {
+          key: 1,
+          matches: '[id="com.byted.pangle:id/tt_splash_skip_btn"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/7f1babd6-7da3-4733-aca9-80ddf3c0a84e',
+          snapshotUrls: 'https://i.gkd.li/i/14596658',
+        },
+      ],
+    },
     {
       key: 1,
       name: '弹窗广告',
