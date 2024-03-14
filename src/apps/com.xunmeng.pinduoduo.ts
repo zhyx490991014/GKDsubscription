@@ -78,7 +78,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '活动弹窗',
+      name: '全屏广告-活动弹窗',
       rules: [
         {
           key: 0,
@@ -98,16 +98,17 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          name: '下单后追加订单',
+          name: '抽免单活动3',
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
-          matches: '@[text="关闭弹窗"][clickable=true] + [text$="下单成功"]',
-          snapshotUrls: 'https://i.gkd.li/i/13308175',
+          matches:
+            '[text="多多免单"] >5 View[childCount=2] > Image[index=0][clickable=true][visibleToUser=true]',
+          snapshotUrls: 'https://i.gkd.li/i/14310581',
         },
       ],
     },
     {
       key: 4,
-      name: '红包弹窗',
+      name: '全屏广告-红包弹窗',
       rules: [
         {
           key: 0,
@@ -131,20 +132,48 @@ export default defineAppConfig({
             '[text="百亿补贴"] > View > View > @View[clickable=true] +n [text^="立即领取"]',
           snapshotUrls: 'https://i.gkd.li/i/13669963',
         },
+        {
+          key: 3,
+          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
+          matches:
+            '[id="com.xunmeng.pinduoduo:id/pdd"] View[childCount=3][clickable=false] > Image[index=0]',
+          snapshotUrls: 'https://i.gkd.li/i/13944160',
+        },
+        {
+          key: 4,
+          name: '刮奖弹窗',
+          quickFind: true,
+          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
+          matches: '@ImageView[clickable=true] + * >4 [text="去刮奖"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/f9f73d28-a124-41ba-9781-261a3af281c6',
+          snapshotUrls: 'https://i.gkd.li/i/14456101',
+        },
       ],
     },
     {
       key: 5,
-      name: '全屏广告-多多买菜抽奖弹窗',
+      name: '全屏广告-多多买菜弹窗',
       desc: '点击关闭',
       rules: [
         {
+          key: 0,
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
           matches:
             'View[childCount=1] > Button[id=null][text="关闭弹窗"][clickable=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/b6b638d0-9e99-4e4a-89ea-f2539a46cf56',
           snapshotUrls: 'https://i.gkd.li/i/12642053',
+        },
+        {
+          key: 1,
+          quickFind: true,
+          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
+          matches:
+            '@ViewGroup[clickable=true][visibleToUser=true] - * > [index=2] >2 [text="连领 7 天 今日可领"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/059c82cd-cc70-4611-b3ab-c3c6c7e35f22',
+          snapshotUrls: 'https://i.gkd.li/i/14596990',
         },
       ],
     },
