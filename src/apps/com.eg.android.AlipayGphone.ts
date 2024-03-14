@@ -177,12 +177,20 @@ export default defineAppConfig({
     {
       key: 13,
       name: '全屏广告-小程序-哈啰-专属额度到账弹窗',
+      desc: '点击关闭',
       activityIds: 'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity',
-      rules:
-        '[id="com.alipay.mobile.nebula:id/h5_pc_container"] >n View[childCount=1] > View[childCount=2] > View + Image[text=""]',
-      snapshotUrls: [
-        'https://i.gkd.li/i/14112224',
-        'https://i.gkd.li/i/14176001', //不加text=""误触
+      rules: [
+        {
+          matches:
+            '[id="com.alipay.mobile.nebula:id/h5_pc_container"] View[childCount=1] > View[childCount=2] > View > Image < View + Image[text=""]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/bfc87673-cba3-4a5b-ba77-210de8244604',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14112224',
+            'https://i.gkd.li/i/14176001', //不加text=""误触
+            'https://i.gkd.li/i/14602610', // 使用 View > Image < View 防止误触
+          ],
+        },
       ],
     },
     {
