@@ -15,7 +15,7 @@
 | Clousx6                | [com.example.robortx.clousx6F](/docs/com.example.robortx.clousx6F.md)                                                                                             | 1      |
 | ClrvAI                 | [com.panaceasoft.pswallpaper](/docs/com.panaceasoft.pswallpaper.md)                                                                                               | 1      |
 | ECOVACS HOME           | [com.eco.global.app](/docs/com.eco.global.app.md)                                                                                                                 | 1      |
-| Edge                   | [com.microsoft.emmx](/docs/com.microsoft.emmx.md)                                                                                                                 | 1      |
+| Edge                   | [com.microsoft.emmx](/docs/com.microsoft.emmx.md)                                                                                                                 | 4      |
 | Gmail                  | [com.google.android.gm](/docs/com.google.android.gm.md)                                                                                                           | 1      |
 | Gspace                 | [com.gspace.android](/docs/com.gspace.android.md)                                                                                                                 | 2      |
 | HMS Core               | [com.huawei.hwid](/docs/com.huawei.hwid.md)                                                                                                                       | 1      |
@@ -52,6 +52,7 @@
 | Voice                  | [com.google.android.apps.googlevoice](/docs/com.google.android.apps.googlevoice.md)                                                                               | 1      |
 | WPS Office             | [cn.wps.moffice_eng](/docs/cn.wps.moffice_eng.md)                                                                                                                 | 6      |
 | WeiboBig               | [com.sina.weibocare](/docs/com.sina.weibocare.md)                                                                                                                 | 1      |
+| X(Twitter)             | [com.twitter.android](/docs/com.twitter.android.md)                                                                                                               | 7      |
 | YouTube                | [com.google.android.youtube](/docs/com.google.android.youtube.md)                                                                                                 | 5      |
 | YouTube Music          | [com.google.android.apps.youtube.music](/docs/com.google.android.apps.youtube.music.md)                                                                           | 1      |
 | Zepp Life              | [com.xiaomi.hm.health](/docs/com.xiaomi.hm.health.md)                                                                                                             | 1      |
@@ -107,7 +108,6 @@
 | WiFi万能钥匙           | [com.wifitutu](/docs/com.wifitutu.md)                                                                                                                             | 1      |
 | WiFi万能钥匙           | [com.snda.wifilocating](/docs/com.snda.wifilocating.md)                                                                                                           | 1      |
 | WiFi智能钥匙           | [com.bjsk.intelligent](/docs/com.bjsk.intelligent.md)                                                                                                             | 1      |
-| X(推特)                | [com.twitter.android](/docs/com.twitter.android.md)                                                                                                               | 7      |
 | 爱企查                 | [com.baidu.xin.aiqicha](/docs/com.baidu.xin.aiqicha.md)                                                                                                           | 2      |
 | 爱奇艺                 | [com.qiyi.video](/docs/com.qiyi.video.md)                                                                                                                         | 6      |
 | 爱奇艺极速版           | [com.qiyi.video.lite](/docs/com.qiyi.video.lite.md)                                                                                                               | 1      |
@@ -183,8 +183,8 @@
 | 动漫之家社区           | [com.dmzjsq.manhua](/docs/com.dmzjsq.manhua.md)                                                                                                                   | 1      |
 | 懂球帝                 | [com.dongqiudi.news](/docs/com.dongqiudi.news.md)                                                                                                                 | 5      |
 | 豆瓣                   | [com.douban.frodo](/docs/com.douban.frodo.md)                                                                                                                     | 9      |
-| 抖音                   | [com.ss.android.ugc.aweme](/docs/com.ss.android.ugc.aweme.md)                                                                                                     | 17     |
-| 抖音                   | [com.ss.android.ugc.aweme.mobile](/docs/com.ss.android.ugc.aweme.mobile.md)                                                                                       | 1      |
+| 抖音                   | [com.ss.android.ugc.aweme](/docs/com.ss.android.ugc.aweme.md)                                                                                                     | 16     |
+| 抖音                   | [com.ss.android.ugc.aweme.mobile](/docs/com.ss.android.ugc.aweme.mobile.md)                                                                                       | 2      |
 | 抖音极速版             | [com.ss.android.ugc.aweme.lite](/docs/com.ss.android.ugc.aweme.lite.md)                                                                                           | 3      |
 | 斗鱼                   | [air.tv.douyu.android](/docs/air.tv.douyu.android.md)                                                                                                             | 1      |
 | 毒霸姬                 | [com.cf.dubaji](/docs/com.cf.dubaji.md)                                                                                                                           | 1      |
@@ -495,6 +495,7 @@
 | 无忧行                 | [com.cmi.jegotrip](/docs/com.cmi.jegotrip.md)                                                                                                                     | 2      |
 | 下厨房                 | [com.xiachufang](/docs/com.xiachufang.md)                                                                                                                         | 2      |
 | 相册                   | [com.coloros.gallery3d](/docs/com.coloros.gallery3d.md)                                                                                                           | 1      |
+| 相机                   | [com.sec.android.app.camera](/docs/com.sec.android.app.camera.md)                                                                                                 | 1      |
 | 向日葵远程控制         | [com.oray.sunlogin](/docs/com.oray.sunlogin.md)                                                                                                                   | 3      |
 | 湘潭出行               | [com.whpe.qrcode.hunan_xiangtan](/docs/com.whpe.qrcode.hunan_xiangtan.md)                                                                                         | 1      |
 | 闲鱼                   | [com.taobao.idlefish](/docs/com.taobao.idlefish.md)                                                                                                               | 3      |

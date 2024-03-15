@@ -1,4 +1,4 @@
-# X(推特)
+# X(Twitter)
 
 存在 7 规则组 - [com.twitter.android](/src/apps/com.twitter.android.ts)
 
@@ -49,11 +49,12 @@
 
 - [快照-0](https://i.gkd.li/i/13930126)
 
-## 功能类-自动翻译帖子
+## 功能类-自动翻译
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/i/14189895)
+- [快照-1](https://i.gkd.li/i/14615911)
 
 ## 功能类-自动显示更多帖子
 
