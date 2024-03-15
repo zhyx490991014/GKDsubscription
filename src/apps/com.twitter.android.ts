@@ -2,7 +2,7 @@ import { defineAppConfig } from '../types';
 
 export default defineAppConfig({
   id: 'com.twitter.android',
-  name: 'X(推特)',
+  name: 'X(Twitter)',
   groups: [
     {
       key: 1,
@@ -169,11 +169,14 @@ export default defineAppConfig({
     },
     {
       key: 6,
-      name: '功能类-自动翻译帖子',
+      name: '功能类-自动翻译',
       quickFind: true,
       activityIds: 'com.twitter.tweetdetail.TweetDetailActivity',
-      rules: '[text="翻译帖子"][vid="translation_link"]',
-      snapshotUrls: 'https://i.gkd.li/i/14189895',
+      rules: '[text^="翻译"][vid="translation_link"]',
+      snapshotUrls: [
+        'https://i.gkd.li/i/14189895',
+        'https://i.gkd.li/i/14615911',
+      ],
     },
     {
       key: 7,
