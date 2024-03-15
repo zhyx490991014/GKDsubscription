@@ -7,11 +7,20 @@ export default defineAppConfig({
     {
       key: 0,
       name: '开屏广告',
+      desc: '需配合设置-高级模式里开启[Shizuku-模拟点击]使用，否则无效',
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules: '[id="cn.damai:id/homepage_advert_pb"]',
-      snapshotUrls: 'https://i.gkd.li/i/12472623',
+      quickFind: true,
+      rules: [
+        {
+          action: 'clickCenter',
+          matches: '[vid="homepage_advert_pb"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/6680a0b8-0796-4165-88fc-1f16cd6c67dd',
+          snapshotUrls: 'https://i.gkd.li/i/14585402',
+        },
+      ],
     },
     {
       key: 1,
