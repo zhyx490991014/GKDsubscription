@@ -106,6 +106,7 @@ const openEnabledAppIds = new Set([
   'com.bbk.theme', // i 主题
   'com.sec.android.app.samsungapps', // 三星应用商店
   'com.bbk.appstore', // vivo应用商店
+  'com.coloros.alarmclock', // OPPO时钟 测试用
 ]);
 const updateEnabledAppIds = new Set([...enabledAppIds]);
 const youngEnabledAppIds = new Set([...enabledAppIds]);
