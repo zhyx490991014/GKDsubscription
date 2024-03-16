@@ -662,7 +662,7 @@ export const updateReadMeMd = async (
   if (changeCount > 0) {
     const appListText =
       [
-        '## 应用规则\n\n| 名称 | ID | 规则组 |\n| - | - | - |\n' +
+        `## 应用规则(共 ${newConfig.apps!.length.toString()} 组)\n\n| 名称 | ID | 规则组 |\n| - | - | - |\n` +
           newConfig
             .apps!.map((app) => {
               const groups = app.groups || [];
@@ -670,7 +670,7 @@ export const updateReadMeMd = async (
             })
             .join('\n') +
           '\n\n---\n\n' +
-          '## 全局规则\n\n| 全局规则 | 名称 | 规则组 |\n| - | - | - |\n' +
+          `## 全局规则(共 ${newConfig.globalGroups!.length.toString()} 组)\n\n| 全局规则 | 名称 | 规则组 |\n| - | - | - |\n` +
           newConfig
             .globalGroups!.map((a) => {
               return `| 全局规则 | ${a.name} | ${a.rules.length} |`;
@@ -695,6 +695,12 @@ export const updateReadMeMd = async (
       '--GROUP_SIZE--',
       newConfig
         .apps!.reduce((p, c) => p + (c.groups?.length || 0), 0)
+        .toString(),
+    )
+    .replaceAll(
+      '--GLOBALGROUP_SIZE--',
+      newConfig
+        .globalGroups!.reduce((p, c) => p + (c.rules?.length || 0), 0)
         .toString(),
     )
     .replaceAll('--VERSION--', (newConfig.version || 0).toString());
