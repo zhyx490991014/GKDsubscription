@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '卡片式广告',
+      name: '局部广告-卡片式广告',
       rules: [
         {
           key: 0,
@@ -24,8 +24,12 @@ export default defineAppConfig({
           name: '正文底部卡片广告',
           activityIds:
             'com.gamersky.common.activity.LibDetailContentDetailActivity',
-          matches: 'View[childCount=2] > [text="广告"] + View[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/i/13451258',
+          matches:
+            'WebView >2 View[childCount=2] > View[index=1] > View[clickable=true][visibleToUser=true]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13451258',
+            'https://i.gkd.li/i/14622935',
+          ],
         },
         {
           key: 2,
