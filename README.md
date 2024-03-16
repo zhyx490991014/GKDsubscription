@@ -26,11 +26,11 @@ Adpro-Team维护的GKD订阅 仅启用 `开屏广告` 一类规则, 其它所有
 https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 ```
 
-当前版本: v45
+当前版本: v46
 
-当前订阅文件已适配 636 个 APP, 共有 1444 规则组
+当前订阅文件已适配 639 个 APP, 含 1450 应用规则组， 3 全局规则组。
 
-查看 [适配 APP 列表](./AppList.md)
+查看 [适配规则列表](./AppList.md)
 
 查看 [第三方订阅规则汇总](https://github.com/Adpro-Team/GKD_THS_List) By [@adproqwq(Adpro-Team)](https://github.com/adproqwq)
 
@@ -54,7 +54,7 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 ### 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=45)
+![img](https://contrib.rocks/image?repo=Adpro-Team/GKD_subscription&_v=46)
 
 ---
 
