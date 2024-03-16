@@ -58,6 +58,15 @@ const diabledAppIds: string[] = [
   'com.wsw.cospa', // 异次元
   'app.mihon', // Mihon
 
+  // 系统自带非系统应用
+  // 小米
+  'com.miui.huanji', // 小米换机
+  'com.miui.weather2', // 小米天气
+  'com.miui.calculator', // 小米计算器
+  'com.android.soundrecorder', // 小米录音机
+  'com.android.email', // 小米电子邮件
+  'com.miui.screenrecorder', // 小米屏幕录制
+
   // https://github.com/gkd-kit/gkd/issues/560
   'com.android.deskclock', // 时钟
 
