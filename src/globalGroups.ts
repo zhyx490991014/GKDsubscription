@@ -58,6 +58,9 @@ const diabledAppIds: string[] = [
   'com.wsw.cospa', // 异次元
   'app.mihon', // Mihon
 
+  // https://github.com/gkd-kit/gkd/issues/560
+  'com.android.deskclock', // 时钟
+
   // https://github.com/gkd-kit/gkd/issues/451
   'mark.via', // via浏览器
   'mark.via.gp', // via浏览器Google Play版
