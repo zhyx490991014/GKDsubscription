@@ -3,7 +3,7 @@ import { RawGlobalGroup } from '@gkd-kit/api';
 import { RawApp, RawAppGroup } from './types';
 import * as utils from './utils';
 
-const diabledAppIds = [
+const diabledAppIds: string[] = [
   // 在一些非系统应用中禁用
   'com.tencent.mm', // 微信
   'li.songe.gkd', // GKD
@@ -66,6 +66,11 @@ const diabledAppIds = [
   'com.mycompany.app.soulbrowser', // soul浏览器
 ];
 
+// 系统软件全局启用
+const enabledAppIds: string[] = [
+  // 在一些系统软件中启用
+];
+
 // 如果应用规则已有全局规则中的某一类的规则, 则在对应全局规则禁用此应用
 function filterAppsByGroup(apps: RawApp[], groupNamePrefix: string): string[] {
   return apps
@@ -92,6 +97,16 @@ const youngDiabledAppIds = new Set([
   ...filterAppsByGroup(apps, '青少年模式'),
 ]);
 
+// 设置系统软件单独启用
+const openEnabledAppIds = new Set([
+  ...enabledAppIds,
+  'com.bbk.theme', // i 主题
+  'com.sec.android.app.samsungapps', // 三星应用商店
+  'com.bbk.appstore', // vivo应用商店
+]);
+const updateEnabledAppIds = new Set([...enabledAppIds]);
+const youngEnabledAppIds = new Set([...enabledAppIds]);
+
 const globalGroups: RawGlobalGroup[] = [
   {
     key: 0,
@@ -114,7 +129,9 @@ const globalGroups: RawGlobalGroup[] = [
           '[childCount=0][visibleToUser=true][(text.length<10 && (text*="跳过" || text*="跳過" || text*="skip" || text*="Skip")) || id$="tt_splash_skip_btn" || vid*="skip" || vid*="Skip" || desc*="跳过" || desc*="skip" || (vid*="count" && vid*="down" && vid!*="countdown" && vid!*="load" && vid!*="add" && vid!*="ead" && vid!*="time")]',
       },
     ],
-    apps: [...openDiabledAppIds].map((id) => ({ id, enable: false })),
+    apps: [...openDiabledAppIds]
+      .map((id) => ({ id, enable: false }))
+      .concat([...openEnabledAppIds].map((id) => ({ id, enable: true }))),
   },
   {
     key: 1,
@@ -134,7 +151,9 @@ const globalGroups: RawGlobalGroup[] = [
         ],
       },
     ],
-    apps: [...updateDiabledAppIds].map((id) => ({ id, enable: false })),
+    apps: [...updateDiabledAppIds]
+      .map((id) => ({ id, enable: false }))
+      .concat([...updateEnabledAppIds].map((id) => ({ id, enable: true }))),
   },
   {
     key: 2,
@@ -153,7 +172,9 @@ const globalGroups: RawGlobalGroup[] = [
         ],
       },
     ],
-    apps: [...youngDiabledAppIds].map((id) => ({ id, enable: false })),
+    apps: [...youngDiabledAppIds]
+      .map((id) => ({ id, enable: false }))
+      .concat([...youngEnabledAppIds].map((id) => ({ id, enable: true }))),
   },
 ];
 
