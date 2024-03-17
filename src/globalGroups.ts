@@ -36,6 +36,7 @@ const openEnabledAppIds = new Set([
   'com.bbk.theme', // i 主题
   'com.sec.android.app.samsungapps', // 三星应用商店
   'com.bbk.appstore', // vivo应用商店
+  'com.miui.systemAdSolution', // 小米智能服务
 ]);
 const updateEnabledAppIds = new Set([...systemAppWhiteList]);
 const youngEnabledAppIds = new Set([...systemAppWhiteList]);

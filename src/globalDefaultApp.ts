@@ -56,14 +56,20 @@ export const commonAppBlackList: string[] = [
   // 系统自带非系统应用
   // 小米
   'com.miui.huanji', // 小米换机
-  'com.miui.weather2', // 小米天气
-  'com.miui.calculator', // 小米计算器
-  'com.android.soundrecorder', // 小米录音机
-  'com.android.email', // 小米电子邮件
-  'com.miui.screenrecorder', // 小米屏幕录制
-
-  // https://github.com/gkd-kit/gkd/issues/560
-  'com.android.deskclock', // 时钟
+  'com.miui.weather2', // 天气
+  'com.miui.calculator', // 计算器
+  'com.android.soundrecorder', // 录音机
+  'com.android.email', // 电子邮件
+  'com.miui.screenrecorder', // 屏幕录制
+  'com.android.deskclock', // 时钟 https://github.com/gkd-kit/gkd/issues/560
+  'com.miui.newmidrive', // 小米云盘
+  'cn.wps.moffice_eng.xiaomi.lite', // 小米文档查看器
+  'com.miui.mediaeditor', // 小米相册-编辑
+  'com.miui.notes', // 笔记
+  'com.miui.cleanmaster', // 垃圾清理
+  'com.miui.compass', // 指南针
+  'com.duokan.phone.remotecontroller', // 万能遥控
+  'com.mfashiongallery.emag', // 小米画报
 
   // https://github.com/gkd-kit/gkd/issues/451
   'mark.via', // via浏览器
@@ -75,5 +81,4 @@ export const commonAppBlackList: string[] = [
 
 export const systemAppWhiteList: string[] = [
   // 在一些系统软件中启用
-  'com.miui.systemAdSolution', // 小米智能服务
 ];
