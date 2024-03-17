@@ -81,7 +81,7 @@ export default defineAppConfig({
       quickFind: true,
       activityIds: 'com.alipay.android.msp.ui.views.MspContainerActivity',
       rules:
-        '@CheckBox[checked=true][checked=true] < * - [text="开通淘宝小额免密支付"]',
+        '@CheckBox[checked=true][checked=true] < * - [text~="开通(.*)免密支付"]',
       exampleUrls:
         'https://m.gkd.li/101449500/a9e21a7d-ab16-4ba4-b678-9fe8dcbb6c72',
       snapshotUrls: 'https://i.gkd.li/i/14471660',

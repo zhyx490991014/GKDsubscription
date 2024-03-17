@@ -224,5 +224,15 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 16,
+      name: '功能类-关闭小额免密支付开关',
+      actionMaximum: 1,
+      quickFind: true,
+      activityIds: 'com.alipay.android.msp.ui.views.MspContainerActivity',
+      rules:
+        '@CheckBox[checked=true][checked=true] < * - [text~="开通(.*)免密支付"]',
+      snapshotUrls: 'https://i.gkd.li/i/14627775',
+    },
   ],
 });
