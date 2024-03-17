@@ -75,4 +75,5 @@ export const commonAppBlackList: string[] = [
 
 export const systemAppWhiteList: string[] = [
   // 在一些系统软件中启用
+  'com.miui.systemAdSolution', // 小米智能服务
 ];
