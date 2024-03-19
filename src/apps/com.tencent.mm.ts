@@ -714,5 +714,38 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 31,
+      name: '全屏广告-文档页面-腾讯文档 APP 弹窗',
+      desc: '点击关闭',
+      rules: [
+        {
+          activityIds: 'com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI',
+          matches:
+            '@TextView[clickable=true] + * > [text="腾讯文档"] + [text^="使用 APP"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/2228f99e-e0a1-4915-864f-d60e3d8580a6',
+          snapshotUrls: 'https://i.gkd.li/i/14533286',
+        },
+      ],
+    },
+    {
+      key: 32,
+      name: '权限提示-权限申请弹窗',
+      desc: '点击取消',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.tencent.mm.pluginsdk.permission.PermissionActivity',
+          matches: '@[text="取消"] < * < * - * >3 [text="权限申请"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/43632b72-d389-4fe7-9708-dac78e900679',
+          snapshotUrls: 'https://i.gkd.li/i/14645385',
+        },
+      ],
+    },
   ],
 });
