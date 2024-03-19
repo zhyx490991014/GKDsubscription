@@ -73,7 +73,6 @@ const globalGroups: RawGlobalGroup[] = [
     order: utils.UPDATE_ORDER,
     actionMaximum: 1,
     matchTime: 10000,
-    actionCdKey: 0,
     resetMatch: 'app',
     rules: [
       {
