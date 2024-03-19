@@ -52,6 +52,8 @@ export const commonAppBlackList: string[] = [
   'com.samsung.agc.gcam84', // 相机
   'com.wsw.cospa', // 异次元
   'app.mihon', // Mihon
+  'com.rosan.dhizuku', // Dhizuku
+  'com.rosan.accounts', // Accounts
 
   // 系统自带非系统应用
   // 小米
