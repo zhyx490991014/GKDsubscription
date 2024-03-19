@@ -266,7 +266,6 @@ export default defineAppConfig({
       key: 7,
       name: '功能类-自动选中发送原图',
       desc: '图片和视频选择器-自动选中底部中间的发送原图',
-      quickFind: true,
       activityIds: [
         'com.tencent.mm.plugin.gallery.ui.AlbumPreviewUI',
         'com.tencent.mm.plugin.gallery.ui.ImagePreviewUI',
@@ -279,6 +278,7 @@ export default defineAppConfig({
             'https://i.gkd.li/i/12686641', // 未选中
             'https://i.gkd.li/i/12840865', // 未选中
             'https://i.gkd.li/i/12686640', // 已选中
+            'https://i.gkd.li/i/14654129', // 不能对text使用quickFind
           ],
         },
       ],
@@ -421,10 +421,12 @@ export default defineAppConfig({
       key: 9,
       name: '功能类-自动查看原图',
       desc: '自动点击底部左侧[查看原图（*M）]按钮',
-      quickFind: true,
       activityIds: 'com.tencent.mm.ui.chatting.gallery.ImageGalleryUI',
       rules: 'Button[text^="查看原图"][clickable=true]',
-      snapshotUrls: 'https://i.gkd.li/i/13523031',
+      snapshotUrls: [
+        'https://i.gkd.li/i/13523031',
+        'https://i.gkd.li/i/14654029', // 不能对text使用quickFind
+      ],
     },
     {
       key: 10,
