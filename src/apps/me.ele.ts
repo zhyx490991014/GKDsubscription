@@ -7,7 +7,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '版本更新',
+      name: '权限提示-更新权限',
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -122,9 +122,8 @@ export default defineAppConfig({
     },
     {
       key: 8,
-      name: '开启定位提醒',
+      name: '定位提示',
       desc: '自动点击X',
-
       quickFind: true,
       rules: [
         {
@@ -169,6 +168,16 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/i/14473000',
         },
       ],
+    },
+    {
+      key: 11,
+      name: '评价提示-底部调研浮窗',
+      quickFind: true,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      activityIds: 'me.ele.foodchannel.page.WMChannelNativeActivity',
+      rules: '[text*="小调研"] - [vid="iv_cancel"][clickable=true]',
+      snapshotUrls: 'https://i.gkd.li/i/14630370',
     },
   ],
 });
