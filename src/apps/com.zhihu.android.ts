@@ -178,29 +178,119 @@ export default defineAppConfig({
       key: 14,
       name: '局部广告-信息流广告',
       desc: '点击关闭',
-      activityIds: [
-        'com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity',
-      ],
       rules: [
         {
           key: 0,
+          activityIds:
+            'com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity',
           matches:
-            '[text*="广告"] +(2,3) ImageView[clickable=true][visibleToUser=true]',
+            'ViewGroup > TextView[text!=""][index=1] +(2,3) ImageView[clickable=true][visibleToUser=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/0443d5cb-aa24-4447-afd7-58c5a09af835',
           snapshotUrls: [
             'https://i.gkd.li/i/14178980',
             'https://i.gkd.li/i/14206949',
+            'https://i.gkd.li/i/14232195', // text="创作者小助手"
+            'https://i.gkd.li/i/14235024', // text="知乎游戏"
           ],
         },
         {
           key: 1,
           quickFind: true,
+          activityIds:
+            'com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity',
           matches:
             '@ImageView[clickable=true][visibleToUser=true] + * > [text*="广告"]',
           exampleUrls:
             'https://m.gkd.li/45487685/c7d89c48-91d1-4658-b22e-d2626117be8b',
           snapshotUrls: 'https://i.gkd.li/i/14206988',
+        },
+        {
+          key: 2,
+          activityIds: [
+            'com.zhihu.android.mix.activity.ContentMixProfileActivity',
+            'com.zhihu.android.mixshortcontainer.MixShortContainerActivity',
+          ],
+          matches: '[text*="广告"] +(1,2) [text="×"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14220104',
+            'https://i.gkd.li/i/14421277',
+          ],
+        },
+        {
+          key: 3,
+          activityIds: 'com.zhihu.android.app.ui.activity.MainActivity',
+          quickFind: true,
+          matches: '@[vid="menu"][visibleToUser=true] < * - * > [text^="广告"]',
+          snapshotUrls: 'https://i.gkd.li/i/14296163',
+        },
+        {
+          key: 4,
+          activityIds: 'com.zhihu.android.app.ui.activity.MainActivity',
+          quickFind: true,
+          matches: '@ViewGroup[clickable=true] <3 * < * -2 * >2 [text$="广告"]',
+          snapshotUrls: 'https://i.gkd.li/i/14332161',
+        },
+        {
+          key: 5,
+          activityIds:
+            'com.zhihu.android.mixshortcontainer.MixShortContainerActivity',
+          matches:
+            'View[childCount=3] > @Image[index=1][clickable=true][visibleToUser=true] + [text$="广告"]',
+          snapshotUrls: 'https://i.gkd.li/i/14391614',
+        },
+      ],
+    },
+    {
+      key: 15,
+      name: '局部广告-悬浮小广告',
+      rules: [
+        {
+          key: 0,
+          name: '发现页面-右侧年卡折扣悬浮窗',
+          quickFind: true,
+          activityIds: 'com.zhihu.android.app.ui.activity.MainActivity',
+          matches: '@[vid="activity_close"] + * > [vid="activity_img"]',
+          snapshotUrls: 'https://i.gkd.li/i/14296251',
+        },
+        {
+          key: 1,
+          name: '首页-右侧悬浮窗广告',
+          quickFind: true,
+          activityIds: 'com.zhihu.android.app.ui.activity.MainActivity',
+          matches:
+            '@ImageView[clickable=true][visibleToUser=true] + * >2 [text="广告"]',
+          snapshotUrls: 'https://i.gkd.li/i/14635636',
+        },
+      ],
+    },
+    {
+      key: 16,
+      name: '更新提示',
+      matchTime: 10000,
+      quickFind: true,
+      resetMatch: 'app',
+      actionMaximum: 1,
+      rules: [
+        {
+          key: 0,
+          name: '勾选[不再提醒]',
+          matches: 'CheckBox[text="不再提醒"][checked=false][clickable=true]', // checked=false 区别勾选前后
+          exampleUrls:
+            'https://m.gkd.li/57941037/728ea1cd-ca19-4de9-9e7e-eb2a3513f965',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14445502', // 勾选前
+            'https://i.gkd.li/i/14445815', // 勾选后
+          ],
+        },
+        {
+          preKeys: 0,
+          key: 1,
+          name: '点击[取消]',
+          matches: '@[text="取消"] + [text="去应用市场"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/728ea1cd-ca19-4de9-9e7e-eb2a3513f965',
+          snapshotUrls: 'https://i.gkd.li/i/14445502',
         },
       ],
     },
