@@ -302,6 +302,7 @@ export default defineAppConfig({
         {
           key: 0,
           name: '点击[广告]',
+          forcedTime: 3000,
           actionCd: 3000,
           position: {
             left: 'width * 0.8805',
@@ -323,6 +324,7 @@ export default defineAppConfig({
           preKeys: 0,
           key: 1,
           name: '点击[不感兴趣]',
+          forcedTime: 3000,
           position: {
             left: 'width * 0.5271',
             top: 'width * 0.3419',
@@ -336,6 +338,7 @@ export default defineAppConfig({
           preKeys: 1,
           key: 2,
           name: '点击[与我无关]',
+          forcedTime: 3000,
           position: {
             left: 'width * 0.1864',
             top: 'width * 0.3419',
@@ -349,6 +352,7 @@ export default defineAppConfig({
           preKeys: 2,
           key: 3,
           name: '点击[确定]',
+          forcedTime: 3000,
           position: {
             left: 'width * 0.8641',
             top: 'width * 0.1209',
