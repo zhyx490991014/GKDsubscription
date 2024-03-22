@@ -14,12 +14,8 @@ export default defineAppConfig({
       matchTime: 10000,
       actionMaximum: 1,
       quickFind: true,
-      rules:
-        '[text*="关闭"][vid^="tv_ad_free_" && (vid$="close" || vid$="colse")]', // 但凡123云盘程序员检查下拼写
-      snapshotUrls: [
-        'https://i.gkd.li/i/13546173',
-        'https://i.gkd.li/i/14696860',
-      ],
+      rules: '[vid="iv_ad_free_gif"] + * > [text="关闭"]',
+      snapshotUrls: 'https://i.gkd.li/i/14696860',
     },
     {
       key: 2,
