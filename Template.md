@@ -44,6 +44,14 @@ https://raw.gitmirror.com/Adpro-Team/GKD_subscription/main/dist/Adpro_gkd.json5
 
 如何编写订阅/贡献此项目 -> [CONTRIBUTING.md](./CONTRIBUTING.md)
 
+## 更新策略
+
+此后以同步AIsouler订阅更新为主，夹带个人规则更新。
+
+同时随时面临停更风险（若停更，停更至多半年）。
+
+更新时间不固定。
+
 ---
 
 ## 致谢
