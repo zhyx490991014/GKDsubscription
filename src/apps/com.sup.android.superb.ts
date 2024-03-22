@@ -6,6 +6,21 @@ export default defineAppConfig({
   deprecatedKeys: [1],
   groups: [
     {
+      key: 0,
+      name: '开屏广告',
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          quickFind: true,
+          matches:
+            'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView <<n [id="android:id/content"]',
+          snapshotUrls: 'https://i.gkd.li/i/14667409',
+        },
+      ],
+    },
+    {
       key: 2,
       name: '局部广告-信息流广告',
       desc: '伪装正常内容广告',
