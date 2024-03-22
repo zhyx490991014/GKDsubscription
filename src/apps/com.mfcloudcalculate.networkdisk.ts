@@ -7,14 +7,19 @@ export default defineAppConfig({
     {
       key: 1,
       name: '全屏广告-应用内广告弹窗',
-      activityIds: 'com.mfcloudcalculate.networkdisk.activity.AdFreeActivity',
+      activityIds: [
+        'com.mfcloudcalculate.networkdisk.activity.AdFreeActivity',
+        'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+      ],
       matchTime: 10000,
       actionMaximum: 1,
-      resetMatch: 'activity',
       quickFind: true,
       rules:
-        '[text*="关闭"][id="com.mfcloudcalculate.networkdisk:id/tv_ad_free_colse"]',
-      snapshotUrls: 'https://i.gkd.li/i/13546173',
+        '[text*="关闭"][vid^="tv_ad_free_" && (vid$="close" || vid$="colse")]', // 但凡123云盘程序员检查下拼写
+      snapshotUrls: [
+        'https://i.gkd.li/i/13546173',
+        'https://i.gkd.li/i/14696860',
+      ],
     },
     {
       key: 2,
