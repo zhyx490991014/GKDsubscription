@@ -29,6 +29,13 @@ export default defineAppConfig({
       ],
     },
     {
+      key: 2,
+      name: '局部广告-首页-打车广告',
+      activityIds: 'com.autonavi.map.activity.NewMapActivity',
+      rules: '[desc="关闭"]',
+      snapshotUrls: 'https://i.gkd.li/i/14715295',
+    },
+    {
       key: 4,
       name: '功能类-截屏分享',
       desc: '关闭截屏时app弹出的分享弹窗',
