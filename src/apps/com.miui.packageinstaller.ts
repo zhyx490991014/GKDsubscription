@@ -254,6 +254,7 @@ export default defineAppConfig({
         {
           key: 4,
           preKeys: 3,
+          forcedTime: 5000,
           name: '授权本次安装',
           activityIds: 'com.miui.packageInstaller.NewInstallerPrepareActivity',
           matches: '[text="单次授权安装"]',
