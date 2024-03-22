@@ -10,35 +10,60 @@ export default defineAppConfig({
       name: '功能类-关闭用户推荐',
       rules: [
         {
+          key: 0,
+          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+          matches:
+            '[text="换一个"] - FrameLayout[clickable=true] > ImageView[clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/12520943',
+        },
+        {
+          preKeys: 0,
+          key: 1,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[id="com.ss.android.ugc.aweme:id/desc"][text="减少此类推荐"]',
           snapshotUrls: 'https://i.gkd.li/i/12520962',
         },
         {
-          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
-          matches:
-            '[text="换一个"] - FrameLayout[clickable=true] > ImageView[clickable=true]',
-          snapshotUrls: ['https://i.gkd.li/i/12520943'],
-        },
-
-        {
+          key: 2,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches:
             '[text="你可能感兴趣"] < LinearLayout + [text="隐藏"][clickable=true]',
-          snapshotUrls: ['https://i.gkd.li/i/12675396'],
+          snapshotUrls: 'https://i.gkd.li/i/12675396',
         },
         {
+          key: 3,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '[text="朋友推荐"] +(2) @FrameLayout > [desc="不感兴趣"]',
           snapshotUrls: 'https://i.gkd.li/i/12675129',
         },
         {
+          key: 4,
           activityIds:
             'com.ss.android.ugc.aweme.friends.ui.RawAddFriendsActivity',
           matches:
             '[text="朋友推荐"] < LinearLayout + FrameLayout > [desc="关闭"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/12675245',
+        },
+        {
+          key: 5,
+          activityIds: [
+            'com.ss.android.ugc.aweme.main.MainActivity',
+            'com.miui.home.launcher.Launcher',
+          ],
+          matches:
+            '[text="朋友推荐"] +2 [id="com.ss.android.ugc.aweme:id/close"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/12525387',
+            'https://i.gkd.li/i/12525389',
+          ],
+        },
+        {
+          key: 6,
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+          matches: '@[text="不感兴趣"] - * [text*="也关注了"]',
+          snapshotUrls: 'https://i.gkd.li/i/14661956',
         },
       ],
     },
