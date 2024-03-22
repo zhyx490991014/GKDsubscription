@@ -375,13 +375,29 @@ export default defineAppConfig({
     {
       key: 17,
       name: '更新提示',
+      matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      rules: '@[desc="关闭"] - ViewGroup > [text="立即体验"||text="立即升级"]',
-      snapshotUrls: [
-        'https://i.gkd.li/i/13188721',
-        'https://i.gkd.li/i/13386719',
-        'https://i.gkd.li/i/13459507',
+      actionMaximumKey: 0,
+      rules: [
+        {
+          key: 0,
+          matches:
+            '@[desc="关闭"] - ViewGroup > [text="立即体验"||text="立即升级"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/13188721',
+            'https://i.gkd.li/i/13386719',
+            'https://i.gkd.li/i/13459507',
+          ],
+        },
+        {
+          key: 1,
+          quickFind: true,
+          matches: '@[text="稍后处理"] +2 [text="立即升级"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/9deea40b-338d-4290-9098-3d1431d585ff',
+          snapshotUrls: 'https://i.gkd.li/i/14724108',
+        },
       ],
     },
     {
