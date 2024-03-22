@@ -36,5 +36,28 @@ export default defineAppConfig({
       rules: '[id="com.youku.phone:id/closeView"][desc="关闭弹层"]',
       snapshotUrls: 'https://i.gkd.li/i/12701029',
     },
+    {
+      key: 4,
+      name: '局部广告-卡片广告',
+      desc: '点击关闭',
+      rules: [
+        {
+          key: 0,
+          name: '历史记录/搜索页面广告',
+          quickFind: true,
+          activityIds: [
+            'com.youku.android.youkuhistory.activity.HistoryActivity',
+            'com.soku.searchsdk.activity.SearchActivity',
+          ],
+          matches: '[vid="novel_banner_ad_close"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/7a160f41-b101-40dc-b875-533623228406',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14670383',
+            'https://i.gkd.li/i/14680702',
+          ],
+        },
+      ],
+    },
   ],
 });
