@@ -28,20 +28,20 @@ export default defineAppConfig({
       ],
     },
     {
-      key: 13,
-      name: '通知提示',
+      key: 17,
+      name: '权限提示-通知权限',
       actionMaximum: 1,
       resetMatch: 'app',
-      activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
       rules: [
         {
           matches:
-            'FrameLayout > ViewGroup[vid="pdd"] > ViewGroup > ViewGroup > ViewGroup[childCount=3 || childCount=2] >(1,2) ImageView[clickable=true][visibleToUser=true]',
+            'FrameLayout > ViewGroup[vid="pdd"] > ViewGroup > ViewGroup[childCount<3] > ViewGroup[childCount=3 || childCount=2] >(1,2) ImageView[clickable=true][visibleToUser=true]',
           exampleUrls:
             'https://m.gkd.li/57941037/8f376a1e-750f-4677-af82-473f3522b67c',
           snapshotUrls: [
             'https://i.gkd.li/i/14109435',
             'https://i.gkd.li/i/14549423',
+            'https://i.gkd.li/i/14662202', // 避免在此页面误触
           ],
         },
       ],
