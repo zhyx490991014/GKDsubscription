@@ -30,10 +30,21 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '局部广告-首页-打车广告',
+      name: '局部广告-首页-广告卡片',
+      desc: '关闭首页的所有可关闭的广告卡片',
       activityIds: 'com.autonavi.map.activity.NewMapActivity',
-      rules: '[desc="关闭"]',
-      snapshotUrls: 'https://i.gkd.li/i/14715295',
+      rules:
+        'View[text!="" && text!=null] <(1,2) ViewGroup[childCount=2 || childCount=3] <<n ViewGroup >(1,2) @ViewGroup[index!=0][childCount=1][visibleToUser=true][clickable=true] > ImageView',
+      exampleUrls: [
+        'https://m.gkd.li/101449500/9a0ef511-4acc-4a7e-9c25-e9384662b3d1',
+        'https://m.gkd.li/101449500/57d378eb-334c-4552-81f7-f7393a92412b',
+        'https://m.gkd.li/101449500/4c78d23e-10b2-40cb-a156-83237d237a6c',
+      ],
+      snapshotUrls: [
+        'https://i.gkd.li/i/14715295',
+        'https://i.gkd.li/i/14730914',
+        'https://i.gkd.li/i/14730915',
+      ],
     },
     {
       key: 4,
