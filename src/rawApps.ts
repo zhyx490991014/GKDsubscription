@@ -4,7 +4,8 @@ import url from 'node:url';
 import picocolors from 'picocolors';
 import { pinyin } from 'pinyin-pro';
 import { walk } from './file';
-import { RawApp, RawAppGroup } from './types';
+import { RawApp } from './types';
+import { RawAppGroup } from '@gkd-kit/api';
 import * as utils from './utils';
 
 const rawApps: RawApp[] = [];

@@ -1,6 +1,6 @@
 import apps from './rawApps';
-import { RawGlobalGroup } from '@gkd-kit/api';
-import { RawApp, RawAppGroup } from './types';
+import { RawGlobalGroup, RawAppGroup } from '@gkd-kit/api';
+import { RawApp } from './types';
 import * as utils from './utils';
 import { commonAppBlackList, systemAppWhiteList } from './globalDefaultApp';
 
