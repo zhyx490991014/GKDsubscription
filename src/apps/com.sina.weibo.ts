@@ -238,21 +238,60 @@ export default defineAppConfig({
     {
       key: 17,
       quickFind: true,
-      name: '分段广告-评论区信息流广告',
-      desc: '点击X-点击不感兴趣',
+      name: '分段广告-信息流广告',
+      desc: '点击X-点击"不感兴趣 "/" 不想看到此类内容"',
+      activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
       rules: [
         {
           key: 0,
-          activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
+          name: '点击关闭',
           matches: '[text="广告"] + [id="com.sina.weibo:id/iv_close_icon"]',
           snapshotUrls: 'https://i.gkd.li/i/13852321',
         },
         {
-          preKeys: 0,
           key: 1,
           activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
+          matches: '[vid="corner_marker_view"] >2 [vid="right_top_tag"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/12673051',
+            'https://i.gkd.li/i/14210775',
+          ],
+        },
+        {
+          key: 2,
+          position: {
+            left: 'width * 0.9537',
+            top: 'width * 0.0611',
+          },
+          activityIds: 'com.sina.weibo.MainTabActivity',
+          matches:
+            'LinearLayout[visibleToUser=true][childCount=6] > @ViewGroup > ViewGroup > FrameLayout > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/14729705',
+        },
+
+        // 预留 key
+        {
+          preKeys: 0,
+          key: 90,
+          name: '点击"不感兴趣"',
           matches: '[text="不感兴趣"][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/13852322',
+        },
+        {
+          preKeys: [0, 1],
+          key: 91,
+          name: '点击"不想看到此类内容"',
+          matches:
+            '@LinearLayout[index=1][clickable=true] >2 [text="不想看到此类内容"]',
+          snapshotUrls: 'https://i.gkd.li/i/13958782',
+        },
+        {
+          preKeys: [2],
+          key: 92,
+          quickFind: true,
+          activityIds: 'com.sina.weibo.MainTabActivity',
+          matches: '@[clickable=true] >2 [text="不感兴趣"]',
+          snapshotUrls: 'https://i.gkd.li/i/14730274',
         },
       ],
     },
