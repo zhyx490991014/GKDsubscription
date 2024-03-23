@@ -17,7 +17,7 @@ body:
           required: true
         - label: 确保提供正确的快照, 否则我同意维护者直接关闭问题
           required: true
-        - label: 确保已阅读#72，并确认需适配的 APP 没有与#72的精神相违背
+        - label: 确保已阅读[#72](https://github.com/Adpro-Team/GKD_subscription/discussions/72)，并确认需适配的 APP 没有与其精神相违背
           required: true
   - type: textarea
     id: feature-description
