@@ -147,29 +147,72 @@ export default defineAppConfig({
     },
     {
       key: 9,
-      name: '订单完成后的红包弹窗',
-      desc: '直接关闭整个模块',
+      name: '全屏广告-订单完成后的红包弹窗',
+      desc: '点击关闭',
       quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
       rules: [
         {
-          action: 'back',
           activityIds:
             'com.sankuai.waimai.bussiness.order.detail.WMOrderDetailActivity',
-          matches: '[id="com.sankuai.meituan:id/module_container"]',
+          matches: '@ImageView[clickable=true] - * >3 [text="开心收下"]',
           snapshotUrls: 'https://i.gkd.li/i/13695703',
         },
       ],
     },
     {
       key: 10,
-      name: '新人返场特惠',
+      name: '全屏广告-新人返场特惠',
       desc: '点击右上角返回',
       activityIds: 'com.meituan.android.base.knb.KNBWebViewActivity',
       matchTime: 10000,
       rules: '[id="shareNav"] > [text=""]',
       snapshotUrls: 'https://i.gkd.li/i/13800691',
+    },
+    {
+      key: 11,
+      name: '全屏广告-视频页广告弹窗',
+      desc: '点击X',
+      rules: [
+        {
+          key: 0,
+          name: '签到弹窗',
+          activityIds: 'com.meituan.android.pt.homepage.activity.MainActivity',
+          matches: 'ViewGroup[childCount=17] > ImageView[index=5]',
+          snapshotUrls: 'https://i.gkd.li/i/14033982',
+        },
+        {
+          key: 1,
+          name: '看视频领现金弹窗',
+          activityIds: 'com.meituan.android.pt.homepage.activity.MainActivity',
+          matches:
+            '@ImageView[visibleToUser=true] - ViewGroup[childCount=3] [text="看视频继续领现金"]',
+          snapshotUrls: 'https://i.gkd.li/i/14034073',
+        },
+      ],
+    },
+    {
+      key: 12,
+      name: '功能类-付款后自动点击完成',
+      rules: [
+        {
+          key: 0,
+          quickFind: true,
+          activityIds:
+            'com.sankuai.waimai.platform.machpro.container.WMMPActivity',
+          matches:
+            '[vid="mach_pro_root"] ViewGroup[childCount=3] > [text="完成"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/257a3a0d-966b-4c16-89d9-abf9acaef9a9',
+          snapshotUrls: 'https://i.gkd.li/i/14163717',
+        },
+        {
+          key: 1,
+          activityIds:
+            'com.meituan.android.hybridcashier.HybridCashierActivity',
+          matches: '[text="支付成功"] >n [text="完成"][clickable=true]',
+          snapshotUrls: 'https://i.gkd.li/i/14392284',
+        },
+      ],
     },
   ],
 });
