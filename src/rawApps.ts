@@ -6,7 +6,8 @@ import { pinyin } from 'pinyin-pro';
 import { walk } from './file';
 import { RawApp } from './types';
 import { RawAppGroup } from '@gkd-kit/api';
-import * as utils from './utils';
+import categories from './categories';
+import { orderList } from './utils';
 
 const rawApps: RawApp[] = [];
 for await (const tsFp of walk(process.cwd() + '/src/apps')) {
@@ -26,12 +27,21 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
   }
   delete appConfig.deprecatedKeys;
   appConfig.groups?.forEach((g: RawAppGroup) => {
-    if (!g.name.startsWith('开屏广告')) g.enable = false;
-    else g.order = utils.OPEN_AD_ORDER;
+    for (let i of categories) {
+      if (g.name.startsWith(i.name)) {
+        if (!g.name.startsWith(categories[0].name)) g.enable = false;
+        else g.order = orderList[categories[0].key];
 
-    if (g.name.startsWith('青少年模式')) g.order = utils.YOUNG_ORDER;
+        if (g.name.startsWith(categories[1].name))
+          g.order = orderList[categories[1].key];
 
-    if (g.name.startsWith('更新提示')) g.order = utils.UPDATE_ORDER;
+        if (g.name.startsWith(categories[2].name))
+          g.order = orderList[categories[2].key];
+
+        return;
+      }
+    }
+    g.name = `${categories[12].name}-${g.name}`;
   });
   rawApps.push(appConfig);
 }

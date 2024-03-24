@@ -1,7 +1,7 @@
 import apps from './rawApps';
 import { RawGlobalGroup, RawAppGroup } from '@gkd-kit/api';
 import { RawApp } from './types';
-import * as utils from './utils';
+import { orderList } from './utils';
 import { commonAppBlackList, systemAppWhiteList } from './globalDefaultApp';
 
 // 如果应用规则已有全局规则中的某一类的规则, 则在对应全局规则禁用此应用
@@ -48,7 +48,7 @@ const globalGroups: RawGlobalGroup[] = [
   {
     key: 0,
     name: '开屏广告',
-    order: utils.OPEN_AD_ORDER,
+    order: orderList[0],
     actionMaximum: 2,
     matchTime: 10000,
     resetMatch: 'app',
@@ -73,7 +73,7 @@ const globalGroups: RawGlobalGroup[] = [
   {
     key: 1,
     name: '更新提示',
-    order: utils.UPDATE_ORDER,
+    order: orderList[2],
     actionMaximum: 1,
     matchTime: 10000,
     resetMatch: 'app',
@@ -94,7 +94,7 @@ const globalGroups: RawGlobalGroup[] = [
   {
     key: 2,
     name: '青少年模式',
-    order: utils.YOUNG_ORDER,
+    order: orderList[1],
     actionMaximum: 1,
     matchTime: 10000,
     resetMatch: 'app',
