@@ -77,7 +77,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '分段广告-好友动态-广告卡片',
+      name: '综合广告-好友动态-广告卡片',
       rules: [
         {
           key: 0,
@@ -140,11 +140,25 @@ export default defineAppConfig({
             'https://i.gkd.li/i/13627967',
           ],
         },
+        {
+          key: 5,
+          quickFind: true,
+          position: {
+            left: 'width * 0.9534',
+            top: 'width * 0.0805',
+          },
+          activityIds: 'com.tencent.mobileqq.activity.SplashActivity',
+          matches:
+            '@View[clickable=false] <<3 LinearLayout <<n LinearLayout[childCount=4] <<3 FrameLayout + * >2 [text="动态"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/940f4965-0058-4101-ab62-20d131e9c1d1',
+          snapshotUrls: 'https://i.gkd.li/i/14732983',
+        },
       ],
     },
     {
       key: 3,
-      name: '频道页面广告',
+      name: '全屏广告-频道页面广告',
       rules: [
         {
           name: '弹窗广告',
@@ -186,7 +200,7 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '好友热播',
+      name: '分段广告-动态页-好友热播',
       desc: '好友动态中的好友热播，自动选择“减少好友热播” - 默认关闭',
       activityIds: [
         'com.qzone.reborn.feedx.activity.QZoneFriendFeedXActivity',
@@ -291,7 +305,7 @@ export default defineAppConfig({
     },
     {
       key: 12,
-      name: 'QQ小世界评论区广告',
+      name: '分段广告-小世界评论区广告',
       desc: '点击广告-弹出原因框-关闭此条广告',
       activityIds: [
         'com.tencent.mobileqq.activity.SplashActivity',
@@ -344,7 +358,7 @@ export default defineAppConfig({
     },
     {
       key: 15,
-      name: '好友动态-为你推荐',
+      name: '分段广告-好友动态-为你推荐',
       quickFind: true,
 
       activityIds: [
