@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '权限申请',
+      name: '权限提示',
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -17,7 +17,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '版本更新',
+      name: '更新提示',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -28,11 +28,12 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '弹窗广告',
+      name: '全屏广告-弹窗广告',
       rules: [
         {
           key: 0,
           name: '首页弹窗',
+          forcedTime: 10000,
           activityIds: 'com.sinovatech.unicom.basic.ui.activity.MainActivity',
           matches:
             '[text="首页弹窗"] >n View + TextView + Image[clickable=true]',
