@@ -3,7 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.coolapk.market',
   name: '酷安',
-  deprecatedKeys: [2],
+  deprecatedKeys: [1, 2],
   groups: [
     {
       key: -1,
@@ -96,7 +96,7 @@ export default defineAppConfig({
           preKeys: [1, 2],
           key: 3,
           name: '选择关闭原因-点击不感兴趣',
-          matches: ['@LinearLayout > TextView[text="不感兴趣"]'],
+          matches: '@LinearLayout > TextView[text="不感兴趣"]',
           snapshotUrls: [
             'https://i.gkd.li/i/12472633',
             'https://i.gkd.li/i/12655713',
@@ -108,17 +108,9 @@ export default defineAppConfig({
       ],
     },
     {
-      key: 1,
-      quickFind: true,
-      name: '关闭升级弹窗',
-      activityIds: 'com.coolapk.market.view.main.MainActivity',
-      snapshotUrls: 'https://i.gkd.li/i/12503762',
-      rules: '[text=`立即更新`] - [text=`取消`]',
-    },
-    {
       key: 3,
       quickFind: true,
-      name: '关闭推送通知',
+      name: '权限提示-通知提示',
       activityIds: 'com.coolapk.market.view.main.MainActivity',
       rules: '[text="去开启"] - [text="以后再说"]',
       snapshotUrls: 'https://i.gkd.li/i/13296465',
