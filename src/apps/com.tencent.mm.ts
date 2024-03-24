@@ -768,5 +768,13 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 33,
+      name: '青少年模式-视频号-青少年模式弹窗',
+      quickFind: true,
+      activityIds: 'com.tencent.mm.plugin.finder.ui.FinderMultiTaskRouterUI',
+      rules: '[text*="青少年模式"] +3 [text="我知道了"]',
+      snapshotUrls: 'https://i.gkd.li/i/14735456',
+    },
   ],
 });
