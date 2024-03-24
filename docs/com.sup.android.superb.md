@@ -1,6 +1,10 @@
 # 皮皮虾
 
-存在 4 规则组 - [com.sup.android.superb](/src/apps/com.sup.android.superb.ts)
+存在 5 规则组 - [com.sup.android.superb](/src/apps/com.sup.android.superb.ts)
+
+## 开屏广告
+
+- [快照-0](https://i.gkd.li/i/14667409)
 
 ## 局部广告-信息流广告
 

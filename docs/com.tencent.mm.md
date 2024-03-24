@@ -8,22 +8,21 @@
 
 - [示例-0](https://github.com/gkd-kit/subscription/assets/38517192/c9ae4bba-a748-4755-b5e4-c7ad3d489a79)
 
-- [快照-0](https://i.gkd.li/i/14476135)
-- [快照-1](https://i.gkd.li/i/13000395)
-- [快照-2](https://i.gkd.li/i/12905837)
-- [快照-3](https://i.gkd.li/i/13791200)
-- [快照-4](https://i.gkd.li/i/14647413)
-- [快照-5](https://i.gkd.li/i/12907642)
-- [快照-6](https://i.gkd.li/i/13926578)
-- [快照-7](https://i.gkd.li/i/14207480)
-- [快照-8](https://i.gkd.li/i/13791202)
-- [快照-9](https://i.gkd.li/i/12642584)
-- [快照-10](https://i.gkd.li/i/14647839)
-- [快照-11](https://i.gkd.li/i/12905838)
-- [快照-12](https://i.gkd.li/i/12663984)
-- [快照-13](https://i.gkd.li/i/14647940)
-- [快照-14](https://i.gkd.li/i/12905846)
-- [快照-15](https://i.gkd.li/i/14647940)
+- [快照-0](https://i.gkd.li/i/13000395)
+- [快照-1](https://i.gkd.li/i/12905837)
+- [快照-2](https://i.gkd.li/i/13791200)
+- [快照-3](https://i.gkd.li/i/14647413)
+- [快照-4](https://i.gkd.li/i/12907642)
+- [快照-5](https://i.gkd.li/i/13926578)
+- [快照-6](https://i.gkd.li/i/14207480)
+- [快照-7](https://i.gkd.li/i/13791202)
+- [快照-8](https://i.gkd.li/i/12642584)
+- [快照-9](https://i.gkd.li/i/14647839)
+- [快照-10](https://i.gkd.li/i/12905838)
+- [快照-11](https://i.gkd.li/i/12663984)
+- [快照-12](https://i.gkd.li/i/14647940)
+- [快照-13](https://i.gkd.li/i/12905846)
+- [快照-14](https://i.gkd.li/i/14647940)
 
 ## 功能类-电脑微信快捷自动登录
 
@@ -224,11 +223,15 @@
 - [快照-0](https://i.gkd.li/i/13790550)
 - [快照-1](https://i.gkd.li/i/13790949)
 
-## 功能类-支付成功自动点击【完成】
+## 功能类-付款后自动点击完成/返回商家
 
-默认禁用 - 点击【完成】
+默认禁用
 
-- [快照-0](https://i.gkd.li/i/14076149)
+- [示例-0](https://m.gkd.li/57941037/a5177d9d-6745-443f-baf5-af57153430d8)
+
+- [快照-0](https://i.gkd.li/i/14399355)
+- [快照-1](https://i.gkd.li/i/14662147)
+- [快照-2](https://i.gkd.li/i/14532946)
 
 ## 功能类-解锁 Windows 微信
 

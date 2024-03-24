@@ -1,6 +1,6 @@
 # 支付宝
 
-存在 11 规则组 - [com.eg.android.AlipayGphone](/src/apps/com.eg.android.AlipayGphone.ts)
+存在 12 规则组 - [com.eg.android.AlipayGphone](/src/apps/com.eg.android.AlipayGphone.ts)
 
 ## 更新提示-关闭花呗升级弹窗
 
@@ -85,3 +85,9 @@
 
 - [快照-0](https://i.gkd.li/i/14546044)
 - [快照-1](https://i.gkd.li/i/14546047)
+
+## 功能类-关闭小额免密支付开关
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/i/14627775)
