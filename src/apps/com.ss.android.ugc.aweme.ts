@@ -271,5 +271,16 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 20,
+      name: '权限提示-通讯录权限',
+      desc: '点击【拒绝】',
+      actionMaximum: 1,
+      resetMatch: 'app',
+      quickFind: true,
+      activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+      rules: '[text$="通讯录"] +2 FrameLayout >2 [text="拒绝"]',
+      snapshotUrls: 'https://i.gkd.li/i/14735284',
+    },
   ],
 });
