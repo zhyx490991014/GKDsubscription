@@ -551,13 +551,20 @@ export default defineAppConfig({
       key: 24,
       name: '局部广告-聊天页-顶部活动浮窗',
       activityIds: 'com.tencent.mobileqq.activity.SplashActivity',
-      rules:
-        'FrameLayout[childCount=2] >4 FrameLayout[childCount=2] > FrameLayout[index=1] > RelativeLayout[childCount=4] > TextView[index=1][text!*="正在语音通话"] +2 ImageView',
-      exampleUrls:
-        'https://m.gkd.li/57941037/3bf709fc-eefc-4d66-9a00-475738934cd7',
-      snapshotUrls: [
-        'https://i.gkd.li/i/14178667',
-        'https://i.gkd.li/i/14193973', // 误触界面
+      rules: [
+        {
+          key: 0,
+          excludeMatches: ['[text*="正在语音通话"]', '[text*="正在一起听歌"]'],
+          matches:
+            'FrameLayout[childCount=2] >4 FrameLayout[childCount=2] > FrameLayout[index=1] > RelativeLayout[childCount=4] > TextView[index=1] +2 ImageView',
+          exampleUrls:
+            'https://m.gkd.li/57941037/3bf709fc-eefc-4d66-9a00-475738934cd7',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14178667',
+            'https://i.gkd.li/i/14193973', // 误触
+            'https://i.gkd.li/i/14734790', // 误触
+          ],
+        },
       ],
     },
   ],
