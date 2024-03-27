@@ -21,6 +21,16 @@ export default defineAppConfig({
           matches: '[text="广告"] <2 View +3 View > TextView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/i/14732000',
         },
+        {
+          key: 2,
+          quickFind: true,
+          activityIds: 'com.yupao.entry.MainActivity',
+          matches:
+            'ImageView < @FrameLayout <3 FrameLayout <2 FrameLayout - FrameLayout >2 [text="摇动或点击了解更多"]',
+          exampleUrls:
+            'https://m.gkd.li/57941037/c79e700b-74ef-40bf-93e5-222d5e2a8a26',
+          snapshotUrls: 'https://i.gkd.li/i/14743452',
+        },
       ],
     },
     {
