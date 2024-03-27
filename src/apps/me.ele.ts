@@ -179,5 +179,14 @@ export default defineAppConfig({
       rules: '[text*="小调研"] - [vid="iv_cancel"][clickable=true]',
       snapshotUrls: 'https://i.gkd.li/i/14630370',
     },
+    {
+      key: 12,
+      name: '全屏广告-券包限量抢弹窗',
+      activityIds: 'me.ele.pha.shell.ui.ElePhaActivity',
+      rules: 'View >2 View[childCount=2] > @View[clickable=true] > Image',
+      exampleUrls:
+        'https://m.gkd.li/101449500/a7264d48-cdf6-4f6c-851c-3b6f94f71405',
+      snapshotUrls: 'https://i.gkd.li/i/14740515',
+    },
   ],
 });
