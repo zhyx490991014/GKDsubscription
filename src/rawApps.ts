@@ -41,6 +41,7 @@ for await (const tsFp of walk(process.cwd() + '/src/apps')) {
         return;
       }
     }
+    g.enable = false;
     g.name = `${categories[12].name}-${g.name}`;
   });
   rawApps.push(appConfig);
