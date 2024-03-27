@@ -2,7 +2,7 @@ import apps from './rawApps';
 import { RawGlobalGroup, RawAppGroup } from '@gkd-kit/api';
 import { RawApp } from './types';
 import { orderList } from './utils';
-import { commonAppBlackList, systemAppWhiteList } from './globalDefaultApp';
+import { commonAppBlackList, systemAppWhiteList } from './globalDefaultApps';
 
 // 如果应用规则已有全局规则中的某一类的规则, 则在对应全局规则禁用此应用
 function filterAppsByGroup(apps: RawApp[], groupNamePrefix: string): string[] {
