@@ -2,15 +2,11 @@
 
 存在 2 规则组 - [tool.seagull.v](/src/apps/tool.seagull.v.ts)
 
-## 卡片式广告
-
-默认禁用
+## 未分类-卡片式广告
 
 - [快照-0](https://i.gkd.li/i/13413556)
 
-## 谷歌广告
-
-默认禁用
+## 未分类-谷歌广告
 
 - [快照-0](https://i.gkd.li/i/13426255)
 - [快照-1](https://i.gkd.li/i/13459399)

@@ -2,6 +2,4 @@
 
 存在 1 规则组 - [com.bjsk.intelligent](/src/apps/com.bjsk.intelligent.ts)
 
-## 内部启动广告
-
-默认禁用
+## 未分类-内部启动广告

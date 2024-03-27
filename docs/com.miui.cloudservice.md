@@ -2,8 +2,6 @@
 
 存在 1 规则组 - [com.miui.cloudservice](/src/apps/com.miui.cloudservice.ts)
 
-## 相册-云存储空间不足
-
-默认禁用
+## 未分类-相册-云存储空间不足
 
 - [快照-0](https://i.gkd.li/i/12847374)

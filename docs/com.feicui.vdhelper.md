@@ -2,9 +2,7 @@
 
 存在 1 规则组 - [com.feicui.vdhelper](/src/apps/com.feicui.vdhelper.ts)
 
-## 首页广告弹窗
-
-默认禁用
+## 未分类-首页广告弹窗
 
 - [快照-0](https://i.gkd.li/i/12700749)
 - [快照-1](https://i.gkd.li/i/12700759)

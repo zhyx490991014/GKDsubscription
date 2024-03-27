@@ -2,9 +2,7 @@
 
 存在 1 规则组 - [org.gushiwen.gushiwen](/src/apps/org.gushiwen.gushiwen.ts)
 
-## 应用内广告弹窗
-
-默认禁用
+## 未分类-应用内广告弹窗
 
 - [快照-0](https://i.gkd.li/i/12813618)
 - [快照-1](https://i.gkd.li/i/12903835)

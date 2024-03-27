@@ -2,18 +2,14 @@
 
 存在 2 规则组 - [com.tima.carnet.m.main](/src/apps/com.tima.carnet.m.main.ts)
 
-## 每日弹窗广告
-
-默认禁用
+## 未分类-每日弹窗广告
 
 - [快照-0](https://i.gkd.li/i/12654432)
 - [快照-1](https://i.gkd.li/i/13507746)
 - [快照-2](https://i.gkd.li/i/13508074)
 - [快照-3](https://i.gkd.li/i/13508041)
 
-## 设备界面顶部广告
-
-默认禁用
+## 未分类-设备界面顶部广告
 
 - [快照-0](https://i.gkd.li/i/13508030)
 - [快照-1](https://i.gkd.li/i/13508115)

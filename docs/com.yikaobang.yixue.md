@@ -2,8 +2,6 @@
 
 存在 1 规则组 - [com.yikaobang.yixue](/src/apps/com.yikaobang.yixue.ts)
 
-## 应用内会员活动弹窗
-
-默认禁用
+## 未分类-应用内会员活动弹窗
 
 - [快照-0](https://i.gkd.li/i/13425853)

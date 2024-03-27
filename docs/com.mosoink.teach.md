@@ -2,9 +2,7 @@
 
 存在 1 规则组 - [com.mosoink.teach](/src/apps/com.mosoink.teach.ts)
 
-## 首页-班课列表广告
-
-默认禁用
+## 未分类-首页-班课列表广告
 
 - [示例-0](https://m.gkd.li/64072399/4f7366d4-77eb-4a11-8e08-26afc29f29ed)
 - [示例-1](https://m.gkd.li/64072399/ab4a196f-725d-4e03-aabf-fb0eb6018f51)

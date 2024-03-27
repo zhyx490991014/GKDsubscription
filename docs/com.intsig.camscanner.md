@@ -2,12 +2,8 @@
 
 存在 2 规则组 - [com.intsig.camscanner](/src/apps/com.intsig.camscanner.ts)
 
-## 开屏vip提示
+## 未分类-开屏vip提示
 
-默认禁用
-
-## 主页面上方广告
-
-默认禁用
+## 未分类-主页面上方广告
 
 - [快照-0](https://i.gkd.li/i/12668813)

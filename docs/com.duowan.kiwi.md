@@ -2,9 +2,7 @@
 
 存在 4 规则组 - [com.duowan.kiwi](/src/apps/com.duowan.kiwi.ts)
 
-## 直播间悬浮广告
-
-默认禁用
+## 未分类-直播间悬浮广告
 
 - [快照-0](https://i.gkd.li/i/12901045)
 - [快照-1](https://i.gkd.li/i/12901044)
@@ -19,14 +17,12 @@
 
 - [快照-0](https://i.gkd.li/i/13440833)
 
-## 弹窗广告
-
-默认禁用
+## 未分类-弹窗广告
 
 - [快照-0](https://i.gkd.li/i/13625453)
 
-## root提示
+## 未分类-root提示
 
-默认禁用 - 您的设备已经被ROOT
+您的设备已经被ROOT
 
 - [快照-0](https://i.gkd.li/i/13536744)

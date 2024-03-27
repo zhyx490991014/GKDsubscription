@@ -2,9 +2,7 @@
 
 存在 2 规则组 - [com.zhizhou.days](/src/apps/com.zhizhou.days.ts)
 
-## 第三方 SDK 广告弹窗
-
-默认禁用
+## 未分类-第三方 SDK 广告弹窗
 
 - [快照-0](https://i.gkd.li/i/12727499)
 - [快照-1](https://i.gkd.li/i/12739678)
@@ -12,8 +10,6 @@
 - [快照-3](https://i.gkd.li/i/12739703)
 - [快照-4](https://i.gkd.li/i/12727546)
 
-## 应用评价弹窗
-
-默认禁用
+## 未分类-应用评价弹窗
 
 - [快照-0](https://i.gkd.li/i/12744951)

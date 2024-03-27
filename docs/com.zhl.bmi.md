@@ -2,9 +2,9 @@
 
 存在 1 规则组 - [com.zhl.bmi](/src/apps/com.zhl.bmi.ts)
 
-## 广告弹窗
+## 未分类-广告弹窗
 
-默认禁用 - 点击右上角x
+点击右上角x
 
 - [快照-0](https://i.gkd.li/i/13255787)
 - [快照-1](https://i.gkd.li/i/13255786)

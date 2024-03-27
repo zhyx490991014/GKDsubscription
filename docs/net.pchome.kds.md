@@ -2,9 +2,7 @@
 
 存在 1 规则组 - [net.pchome.kds](/src/apps/net.pchome.kds.ts)
 
-## 应用内广告卡片
-
-默认禁用
+## 未分类-应用内广告卡片
 
 - [快照-0](https://i.gkd.li/i/13043221)
 - [快照-1](https://i.gkd.li/i/13049609)

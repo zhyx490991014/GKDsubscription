@@ -2,9 +2,9 @@
 
 存在 1 规则组 - [com.samsung.android.packageinstaller](/src/apps/com.samsung.android.packageinstaller.ts)
 
-## 跳过安全使用协议
+## 未分类-跳过安全使用协议
 
-默认禁用 - 自动点击略过并关闭反恶意软件协议
+自动点击略过并关闭反恶意软件协议
 
 - [快照-0](https://i.gkd.li/i/13255641)
 - [快照-1](https://i.gkd.li/i/13233686)

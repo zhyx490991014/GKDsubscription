@@ -2,14 +2,12 @@
 
 存在 2 规则组 - [com.yek.android.uniqlo](/src/apps/com.yek.android.uniqlo.ts)
 
-## 弹窗广告
-
-默认禁用
+## 未分类-弹窗广告
 
 - [快照-0](https://i.gkd.li/i/13212320)
 
-## 新版本弹窗
+## 未分类-新版本弹窗
 
-默认禁用 - 点击取消
+点击取消
 
 - [快照-0](https://i.gkd.li/i/13446421)

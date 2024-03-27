@@ -2,16 +2,12 @@
 
 存在 3 规则组 - [com.fileunzip.zxwknight](/src/apps/com.fileunzip.zxwknight.ts)
 
-## 弹窗广告
-
-默认禁用
+## 未分类-弹窗广告
 
 - [快照-0](https://i.gkd.li/i/13328194)
 - [快照-1](https://i.gkd.li/i/13391833)
 
-## 升级专业版弹窗
-
-默认禁用
+## 未分类-升级专业版弹窗
 
 - [快照-0](https://i.gkd.li/i/13328212)
 

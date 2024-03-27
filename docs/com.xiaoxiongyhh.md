@@ -2,8 +2,6 @@
 
 存在 1 规则组 - [com.xiaoxiongyhh](/src/apps/com.xiaoxiongyhh.ts)
 
-## 弹窗广告
-
-默认禁用
+## 未分类-弹窗广告
 
 - [快照-0](https://i.gkd.li/i/13401975)

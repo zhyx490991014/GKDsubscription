@@ -1,9 +1,10 @@
 # 适配 APP 列表
 
-## 应用规则(共 645 组)
+## 应用规则(共 648 组)
 
 | 名称                   | ID                                                                                                                                                                | 规则组 |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 115                    | [com.ylmf.androidclient](/docs/com.ylmf.androidclient.md)                                                                                                         | 2      |
 | 5EPlay                 | [com.fiveplay](/docs/com.fiveplay.md)                                                                                                                             | 1      |
 | APKPure                | [com.apkpure.aegon](/docs/com.apkpure.aegon.md)                                                                                                                   | 4      |
 | AppShare               | [info.muge.appshare](/docs/info.muge.appshare.md)                                                                                                                 | 4      |
@@ -103,6 +104,7 @@
 | QQ浏览器               | [com.tencent.mtt](/docs/com.tencent.mtt.md)                                                                                                                       | 3      |
 | QQ音乐                 | [com.tencent.qqmusic](/docs/com.tencent.qqmusic.md)                                                                                                               | 5      |
 | QQ邮箱                 | [com.tencent.androidqqmail](/docs/com.tencent.androidqqmail.md)                                                                                                   | 3      |
+| QQ阅读                 | [com.qq.reader](/docs/com.qq.reader.md)                                                                                                                           | 2      |
 | UC浏览器               | [com.UCMobile](/docs/com.UCMobile.md)                                                                                                                             | 4      |
 | UPUPOO动态壁纸         | [com.upupoo.apu.mobile](/docs/com.upupoo.apu.mobile.md)                                                                                                           | 1      |
 | U净                    | [com.midea.vm.washer](/docs/com.midea.vm.washer.md)                                                                                                               | 1      |
@@ -196,7 +198,7 @@
 | 多看                   | [com.duokan.reader](/docs/com.duokan.reader.md)                                                                                                                   | 4      |
 | 多系统工具箱           | [com.example.ourom](/docs/com.example.ourom.md)                                                                                                                   | 1      |
 | e高速                  | [com.sdhs.easy.high.road](/docs/com.sdhs.easy.high.road.md)                                                                                                       | 1      |
-| 饿了么                 | [me.ele](/docs/me.ele.md)                                                                                                                                         | 10     |
+| 饿了么                 | [me.ele](/docs/me.ele.md)                                                                                                                                         | 11     |
 | 二柄                   | [com.diershoubing.erbing](/docs/com.diershoubing.erbing.md)                                                                                                       | 2      |
 | 返利                   | [com.fanli.android.apps](/docs/com.fanli.android.apps.md)                                                                                                         | 1      |
 | 番茄免费小说           | [com.dragon.read](/docs/com.dragon.read.md)                                                                                                                       | 12     |
@@ -377,7 +379,7 @@
 | 蜻蜓FM                 | [fm.qingting.qtradio](/docs/fm.qingting.qtradio.md)                                                                                                               | 1      |
 | 蜻蜓点金               | [zhongxinjiantou.szkingdom.android.newphone](/docs/zhongxinjiantou.szkingdom.android.newphone.md)                                                                 | 1      |
 | 亲邻开门               | [com.qinlin.edoor](/docs/com.qinlin.edoor.md)                                                                                                                     | 5      |
-| 汽水音乐               | [com.luna.music](/docs/com.luna.music.md)                                                                                                                         | 6      |
+| 汽水音乐               | [com.luna.music](/docs/com.luna.music.md)                                                                                                                         | 7      |
 | 企业微信               | [com.tencent.wework](/docs/com.tencent.wework.md)                                                                                                                 | 1      |
 | 企查查                 | [com.android.icredit](/docs/com.android.icredit.md)                                                                                                               | 1      |
 | 全民K歌                | [com.tencent.karaoke](/docs/com.tencent.karaoke.md)                                                                                                               | 2      |
@@ -508,6 +510,7 @@
 | 湘潭出行               | [com.whpe.qrcode.hunan_xiangtan](/docs/com.whpe.qrcode.hunan_xiangtan.md)                                                                                         | 1      |
 | 闲鱼                   | [com.taobao.idlefish](/docs/com.taobao.idlefish.md)                                                                                                               | 4      |
 | 小爱音箱               | [com.xiaomi.mico](/docs/com.xiaomi.mico.md)                                                                                                                       | 1      |
+| 小白学习打印           | [com.xbxxhz.box](/docs/com.xbxxhz.box.md)                                                                                                                         | 1      |
 | 小步点                 | [run.xbud.android](/docs/run.xbud.android.md)                                                                                                                     | 1      |
 | 小蚕霸王餐             | [com.realtech.xiaocan](/docs/com.realtech.xiaocan.md)                                                                                                             | 5      |
 | 小度                   | [com.baidu.duer.superapp](/docs/com.baidu.duer.superapp.md)                                                                                                       | 1      |
@@ -590,7 +593,7 @@
 | 有道翻译官             | [com.youdao.translator](/docs/com.youdao.translator.md)                                                                                                           | 1      |
 | 有道云笔记             | [com.youdao.note](/docs/com.youdao.note.md)                                                                                                                       | 1      |
 | 优酷视频               | [com.youku.phone](/docs/com.youku.phone.md)                                                                                                                       | 3      |
-| 游民星空               | [com.gamersky](/docs/com.gamersky.md)                                                                                                                             | 1      |
+| 游民星空               | [com.gamersky](/docs/com.gamersky.md)                                                                                                                             | 2      |
 | 优衣库                 | [com.yek.android.uniqlo](/docs/com.yek.android.uniqlo.md)                                                                                                         | 2      |
 | 阅读                   | [com.heytap.reader](/docs/com.heytap.reader.md)                                                                                                                   | 3      |
 | 越牛新闻               | [com.cmstop.shaoxing](/docs/com.cmstop.shaoxing.md)                                                                                                               | 1      |

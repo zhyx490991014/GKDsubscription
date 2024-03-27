@@ -2,9 +2,7 @@
 
 存在 1 规则组 - [com.oplus.appdetail](/src/apps/com.oplus.appdetail.ts)
 
-## 自动安装应用
-
-默认禁用
+## 未分类-自动安装应用
 
 - [快照-0](https://i.gkd.li/i/13038560)
 - [快照-1](https://i.gkd.li/i/13054204)

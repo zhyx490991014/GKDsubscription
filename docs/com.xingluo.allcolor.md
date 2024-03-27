@@ -2,9 +2,9 @@
 
 存在 1 规则组 - [com.xingluo.allcolor](/src/apps/com.xingluo.allcolor.ts)
 
-## 底部穿山甲广告
+## 未分类-底部穿山甲广告
 
-默认禁用 - 点击广告卡片x关闭按钮-关闭反馈理由弹窗
+点击广告卡片x关闭按钮-关闭反馈理由弹窗
 
 - [快照-0](https://i.gkd.li/i/12640358)
 - [快照-1](https://i.gkd.li/i/12640359)

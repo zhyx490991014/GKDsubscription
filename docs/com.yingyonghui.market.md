@@ -2,8 +2,6 @@
 
 存在 1 规则组 - [com.yingyonghui.market](/src/apps/com.yingyonghui.market.ts)
 
-## 弹窗广告
-
-默认禁用
+## 未分类-弹窗广告
 
 - [快照-0](https://i.gkd.li/i/13538316)

@@ -2,9 +2,9 @@
 
 存在 4 规则组 - [com.duitang.main](/src/apps/com.duitang.main.ts)
 
-## 首页-推荐浏览广告
+## 未分类-首页-推荐浏览广告
 
-默认禁用 - 关闭推荐浏览页面广告
+关闭推荐浏览页面广告
 
 - [快照-0](https://i.gkd.li/i/13202725)
 

@@ -1,6 +1,6 @@
 # 美团
 
-存在 8 规则组 - [com.sankuai.meituan](/src/apps/com.sankuai.meituan.ts)
+存在 10 规则组 - [com.sankuai.meituan](/src/apps/com.sankuai.meituan.ts)
 
 ## 更新提示
 
@@ -43,14 +43,30 @@
 
 - [快照-0](https://i.gkd.li/i/13439134)
 
-## 未分类-订单完成后的红包弹窗
+## 全屏广告-订单完成后的红包弹窗
 
-直接关闭整个模块
+默认禁用 - 点击关闭
 
 - [快照-0](https://i.gkd.li/i/13695703)
 
-## 未分类-新人返场特惠
+## 全屏广告-新人返场特惠
 
-点击右上角返回
+默认禁用 - 点击右上角返回
 
 - [快照-0](https://i.gkd.li/i/13800691)
+
+## 全屏广告-视频页广告弹窗
+
+默认禁用 - 点击X
+
+- [快照-0](https://i.gkd.li/i/14033982)
+- [快照-1](https://i.gkd.li/i/14034073)
+
+## 功能类-付款后自动点击完成
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/57941037/257a3a0d-966b-4c16-89d9-abf9acaef9a9)
+
+- [快照-0](https://i.gkd.li/i/14163717)
+- [快照-1](https://i.gkd.li/i/14392284)

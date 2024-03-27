@@ -2,8 +2,6 @@
 
 存在 1 规则组 - [com.mxtech.videoplayer.ad](/src/apps/com.mxtech.videoplayer.ad.ts)
 
-## 谷歌广告
-
-默认禁用
+## 未分类-谷歌广告
 
 - [快照-0](https://i.gkd.li/i/12642204)
