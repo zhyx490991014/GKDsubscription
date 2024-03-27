@@ -11,9 +11,9 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.1.1
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.0.2
         with:
           node-version: 20
 
@@ -38,7 +38,7 @@ jobs:
         continue-on-error: true
 
       - name: Git push
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
         if: ${{ steps.commit.outcome == 'success' }}
         with:
           branch: ${{ github.ref }}
