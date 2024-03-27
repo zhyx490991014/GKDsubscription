@@ -7,12 +7,27 @@ export default defineAppConfig({
     {
       key: 0,
       name: '开屏广告',
-      matchTime: 10000,
       quickFind: true,
+      matchTime: 10000,
       resetMatch: 'app',
       actionMaximum: 1,
-      rules: '@View[clickable=true] <<n [vid="lyContainer"]',
-      snapshotUrls: 'https://i.gkd.li/i/14031922',
+      actionMaximumKey: 0,
+      rules: [
+        {
+          key: 0,
+          matches: '[text="跳过"][visibleToUser=true]',
+          snapshotUrls: 'https://i.gkd.li/i/14753912',
+        },
+        {
+          key: 1,
+          matches:
+            'FrameLayout > FrameLayout[childCount>2] > @View[clickable=true] + TextView <<n [id="android:id/content"]',
+          snapshotUrls: [
+            'https://i.gkd.li/i/14031922',
+            'https://i.gkd.li/i/14322264',
+          ],
+        },
+      ],
     },
     {
       key: 1,
