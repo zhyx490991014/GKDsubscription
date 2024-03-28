@@ -10,9 +10,8 @@ export default defineAppConfig({
       desc: '点击[使用流量进行游戏]',
       quickFind: true,
       activityIds: 'com.mihoyo.cloudgame.main.MiHoYoCloudMainActivity',
-      rules:
-        'TextView[id="com.miHoYo.cloudgames.hkrpg:id/cancelTv"][text="使用流量进行游戏"][visibleToUser=true]',
-      snapshotUrls: ['https://i.gkd.li/i/14784161'],
+      rules: '[text="使用流量进行游戏"]',
+      snapshotUrls: 'https://i.gkd.li/i/14784161',
     },
   ],
 });
