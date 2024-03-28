@@ -236,8 +236,7 @@ export default defineAppConfig({
       actionMaximum: 1,
       resetMatch: 'app',
       activityIds: 'com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3',
-      rules:
-        '[vid="up_avatar"] + [id="tv.danmaku.bili:id/close"][vid="close"]',
+      rules: '[vid="up_avatar"] + [id="tv.danmaku.bili:id/close"][vid="close"]',
       snapshotUrls: 'https://i.gkd.li/i/14782965',
     },
   ],
