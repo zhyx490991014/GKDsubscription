@@ -11,9 +11,7 @@ export default defineAppConfig({
       activityIds: 'com.mihoyo.cloudgame.main.MiHoYoCloudMainActivity',
       rules:
         'TextView[id="com.miHoYo.cloudgames.ys:id/cancelTv"][text="使用流量进行游戏"][visibleToUser=true]',
-      snapshotUrls: [
-        'https://i.gkd.li/i/14783168',
-      ],
+      snapshotUrls: ['https://i.gkd.li/i/14783168'],
     },
   ],
 });
