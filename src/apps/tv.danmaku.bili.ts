@@ -227,5 +227,18 @@ export default defineAppConfig({
         '[text="开启个性化内容推荐"] +3 [id="tv.danmaku.bili:id/close_button"]',
       snapshotUrls: 'https://i.gkd.li/i/13448905',
     },
+    {
+      key: 12,
+      name: '局部广告-直播间关注卡片',
+      desc: '直播间关注UP主卡片弹窗-点击右上角x',
+      quickFind: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      activityIds: 'com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3',
+      rules:
+        '[vid="up_avatar"] + [id="tv.danmaku.bili:id/close"][vid="close"]',
+      snapshotUrls: 'https://i.gkd.li/i/14782965',
+    },
   ],
 });
